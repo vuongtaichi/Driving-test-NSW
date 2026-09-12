@@ -575,6 +575,10 @@
   // The back arrow returns to wherever this run was launched from: a section's
   // question list if it has one, otherwise straight home.
   $('btn-home').addEventListener('click', function () {
+    // Already looking at a section's question list? Its "back" always means Home —
+    // don't fall through to a stale run's parentSection from an earlier quiz, or the
+    // arrow just reopens the same section and looks like it did nothing.
+    if (!$('view-section').hidden) { renderHome(); show('home'); return; }
     if (run && run.parentSection) openSection(run.parentSection);
     else { renderHome(); show('home'); }
   });

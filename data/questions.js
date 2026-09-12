@@ -12,7 +12,8 @@ window.QUESTIONS = [
                         "The far left-hand lane."
                     ],
         "answer":  0,
-        "explain":  "When travelling on a laned roadway, right turns must be made from the right-hand lane unless there are right-turning arrows in other lanes."
+        "explain":  "When travelling on a laned roadway, right turns must be made from the right-hand lane unless there are right-turning arrows in other lanes.",
+        "short":  "Correct lane for right turns"
     },
     {
         "id":  2,
@@ -26,7 +27,8 @@ window.QUESTIONS = [
                         "Vehicle L."
                     ],
         "answer":  0,
-        "explain":  "At intersections where the road turns, watch to see who has the give way or stop sign to determine who has right-of-way. In the example below, the car at J must wait for the other cars."
+        "explain":  "At intersections where the road turns, watch to see who has the give way or stop sign to determine who has right-of-way. In the example below, the car at J must wait for the other cars.",
+        "short":  "Which vehicle must give way"
     },
     {
         "id":  3,
@@ -40,7 +42,8 @@ window.QUESTIONS = [
                         "Only when arrows are marked on the roadway."
                     ],
         "answer":  0,
-        "explain":  "Turning left should be treated the same way as turning right. Always indicate. Be careful if you are overtaking a cyclist and want to turn left immediately after. Always check over your shoulder."
+        "explain":  "Turning left should be treated the same way as turning right. Always indicate. Be careful if you are overtaking a cyclist and want to turn left immediately after. Always check over your shoulder.",
+        "short":  "When to use your left indicator for a turn"
     },
     {
         "id":  4,
@@ -54,7 +57,8 @@ window.QUESTIONS = [
                         "Slowly move through the intersection turning left."
                     ],
         "answer":  1,
-        "explain":  "Vehicles turning into that street must give way to pedestrians already crossing."
+        "explain":  "Vehicles turning into that street must give way to pedestrians already crossing.",
+        "short":  "Turning left with flashing red pedestrian lights"
     },
     {
         "id":  5,
@@ -68,7 +72,8 @@ window.QUESTIONS = [
                         "Pedestrians are not allowed in this area at this time."
                     ],
         "answer":  1,
-        "explain":  "Pedestrians must not start to cross when the red man or \u0027Don\u0027t Walk\u0027 is shown, and they must not start to cross when the red man or \u0027Don\u0027t Walk\u0027 starts to flash."
+        "explain":  "Pedestrians must not start to cross when the red man or \u0027Don\u0027t Walk\u0027 is shown, and they must not start to cross when the red man or \u0027Don\u0027t Walk\u0027 starts to flash.",
+        "short":  "Meaning of these flashing lights"
     },
     {
         "id":  6,
@@ -82,7 +87,8 @@ window.QUESTIONS = [
                         "Slow down and only give way to traffic on your right."
                     ],
         "answer":  0,
-        "explain":  "Give way signs are placed at intersections where you can usually see far enough up the road to judge approaching traffic, as opposed to stop signs which are placed at intersections which have reduced visibility. You must still be prepared to stop, though."
+        "explain":  "Give way signs are placed at intersections where you can usually see far enough up the road to judge approaching traffic, as opposed to stop signs which are placed at intersections which have reduced visibility. You must still be prepared to stop, though.",
+        "short":  "Meaning of a GIVE WAY sign"
     },
     {
         "id":  7,
@@ -96,7 +102,8 @@ window.QUESTIONS = [
                         "You must leave the roundabout in the same lane as you entered."
                     ],
         "answer":  2,
-        "explain":  "When going straight ahead, approach the roundabout in any lane marked for going straight ahead and don\u0027t indicate. Only indicate left as you pass the exit before the one you want to take. Leave the roundabout in the same lane as the one you entered in."
+        "explain":  "When going straight ahead, approach the roundabout in any lane marked for going straight ahead and don\u0027t indicate. Only indicate left as you pass the exit before the one you want to take. Leave the roundabout in the same lane as the one you entered in.",
+        "short":  "Going straight ahead at this roundabout"
     },
     {
         "id":  8,
@@ -110,7 +117,8 @@ window.QUESTIONS = [
                         "Continue across at normal speed, do not slow down."
                     ],
         "answer":  1,
-        "explain":  "Always be ready to stop in these situations, just in case you haven\u0027t seen the train coming."
+        "explain":  "Always be ready to stop in these situations, just in case you haven\u0027t seen the train coming.",
+        "short":  "This sign at a level crossing"
     },
     {
         "id":  9,
@@ -124,7 +132,8 @@ window.QUESTIONS = [
                         "Left lane."
                     ],
         "answer":  2,
-        "explain":  "The left-hand lane can be used for turning left or going straight ahead, whereas the right-hand lane can be used for turning right and going straight ahead."
+        "explain":  "The left-hand lane can be used for turning left or going straight ahead, whereas the right-hand lane can be used for turning right and going straight ahead.",
+        "short":  "Correct lane to turn left at this roundabout"
     },
     {
         "id":  10,
@@ -138,7 +147,8 @@ window.QUESTIONS = [
                         "Change lanes before crossing the intersection."
                     ],
         "answer":  1,
-        "explain":  "If you come to an intersection with a Light Rail vehicle about to enter you must wait until the intersection is clear."
+        "explain":  "If you come to an intersection with a Light Rail vehicle about to enter you must wait until the intersection is clear.",
+        "short":  "Light Rail vehicle entering the intersection"
     },
     {
         "id":  11,
@@ -152,7 +162,8 @@ window.QUESTIONS = [
                         "No, not at any time."
                     ],
         "answer":  2,
-        "explain":  "No, the left-hand lane can only be used for turning left or going straight ahead."
+        "explain":  "No, the left-hand lane can only be used for turning left or going straight ahead.",
+        "short":  "Turning right on a two-lane roundabout"
     },
     {
         "id":  12,
@@ -166,7 +177,8 @@ window.QUESTIONS = [
                         "No, if the intersection is clear."
                     ],
         "answer":  0,
-        "explain":  "The diagram below shows a marked pedestrian crossing at an intersection. There is also a STOP sign at the intersection. Even if you have already stopped for a pedestrian you must stop again at the STOP line."
+        "explain":  "The diagram below shows a marked pedestrian crossing at an intersection. There is also a STOP sign at the intersection. Even if you have already stopped for a pedestrian you must stop again at the STOP line.",
+        "short":  "Stopped for a pedestrian, then a STOP line"
     },
     {
         "id":  13,
@@ -180,7 +192,8 @@ window.QUESTIONS = [
                         "Either side of the road."
                     ],
         "answer":  0,
-        "explain":  "You should leave room for other vehicles to pass on your right."
+        "explain":  "You should leave room for other vehicles to pass on your right.",
+        "short":  "Where to make a left turn, no arrows"
     },
     {
         "id":  14,
@@ -194,7 +207,8 @@ window.QUESTIONS = [
                         "Stop, only if a train is at the crossing."
                     ],
         "answer":  1,
-        "explain":  "When there\u0027s a STOP sign it is compulsory to stop even if you think you can see the way is clear."
+        "explain":  "When there\u0027s a STOP sign it is compulsory to stop even if you think you can see the way is clear.",
+        "short":  "Approaching a STOP sign level crossing"
     },
     {
         "id":  15,
@@ -208,7 +222,8 @@ window.QUESTIONS = [
                         "Drive into the intersection and then turn left."
                     ],
         "answer":  1,
-        "explain":  "When you come to an intersection and the road beyond is choked with vehicles going in the same direction you must wait until there is room to completely cross the intersection, even if your traffic light turns green."
+        "explain":  "When you come to an intersection and the road beyond is choked with vehicles going in the same direction you must wait until there is room to completely cross the intersection, even if your traffic light turns green.",
+        "short":  "Green light but traffic ahead has stopped"
     },
     {
         "id":  16,
@@ -222,7 +237,8 @@ window.QUESTIONS = [
                         "Left from start to finish."
                     ],
         "answer":  2,
-        "explain":  "You should start indicating as you approach the roundabout and only stop indicating once you have made your turn."
+        "explain":  "You should start indicating as you approach the roundabout and only stop indicating once you have made your turn.",
+        "short":  "Indicator for turning left at a roundabout"
     },
     {
         "id":  17,
@@ -236,7 +252,8 @@ window.QUESTIONS = [
                         "Yes, only if turning right."
                     ],
         "answer":  0,
-        "explain":  "You must also give way if you are turning and they are crossing the road. You must also give way even if there is no marked crossing if you are in danger of colliding with them."
+        "explain":  "You must also give way if you are turning and they are crossing the road. You must also give way even if there is no marked crossing if you are in danger of colliding with them.",
+        "short":  "Giving way to pedestrians when turning"
     },
     {
         "id":  18,
@@ -250,7 +267,8 @@ window.QUESTIONS = [
                         "On the left-hand side of the street."
                     ],
         "answer":  0,
-        "explain":  "You should leave room for other vehicles to pass on your left."
+        "explain":  "You should leave room for other vehicles to pass on your left.",
+        "short":  "Right turn from a one-way street"
     },
     {
         "id":  19,
@@ -264,7 +282,8 @@ window.QUESTIONS = [
                         "No, you have right of way."
                     ],
         "answer":  0,
-        "explain":  "If you are turning right at a T-intersection from the bottom of the T, then you must give way to your left and right to vehicles crossing the top of the T."
+        "explain":  "If you are turning right at a T-intersection from the bottom of the T, then you must give way to your left and right to vehicles crossing the top of the T.",
+        "short":  "Give way both ways at a T-intersection"
     },
     {
         "id":  20,
@@ -278,7 +297,8 @@ window.QUESTIONS = [
                         "If you can safely go around the closed gate."
                     ],
         "answer":  1,
-        "explain":  "If there are boom gates down and flashing red lights then you must stop, and you must not cross the railway until the lights have stopped flashing and the boom gates have lifted."
+        "explain":  "If there are boom gates down and flashing red lights then you must stop, and you must not cross the railway until the lights have stopped flashing and the boom gates have lifted.",
+        "short":  "Boom gates down at a level crossing"
     },
     {
         "id":  21,
@@ -292,7 +312,8 @@ window.QUESTIONS = [
                         "Car B."
                     ],
         "answer":  2,
-        "explain":  "You have the right of way over cars entering from the left. Car B should give way."
+        "explain":  "You have the right of way over cars entering from the left. Car B should give way.",
+        "short":  "Give way going straight through an intersection"
     },
     {
         "id":  22,
@@ -306,7 +327,8 @@ window.QUESTIONS = [
                         "Stop completely at all times."
                     ],
         "answer":  1,
-        "explain":  "Always be ready to stop in these situations, just in case you haven\u0027t seen the train coming or the signal is not working."
+        "explain":  "Always be ready to stop in these situations, just in case you haven\u0027t seen the train coming or the signal is not working.",
+        "short":  "Railway signal not showing a train coming"
     },
     {
         "id":  23,
@@ -320,7 +342,8 @@ window.QUESTIONS = [
                         "Keep in the lane you entered the roundabout."
                     ],
         "answer":  2,
-        "explain":  "When going straight ahead, approach the roundabout in any lane marked for going straight ahead and don\u0027t indicate. Only indicate left as you pass the exit before the one you want to take. Leave the roundabout in the same lane as the one you entered in."
+        "explain":  "When going straight ahead, approach the roundabout in any lane marked for going straight ahead and don\u0027t indicate. Only indicate left as you pass the exit before the one you want to take. Leave the roundabout in the same lane as the one you entered in.",
+        "short":  "Path around a roundabout going straight ahead"
     },
     {
         "id":  24,
@@ -334,7 +357,8 @@ window.QUESTIONS = [
                         "It depends on who moves first."
                     ],
         "answer":  0,
-        "explain":  "When you are facing another vehicle at a crossroads, if you are turning right you must wait for any vehicles coming straight through or turning left. Therefore in the diagram, vehicle P has right of way over vehicle O."
+        "explain":  "When you are facing another vehicle at a crossroads, if you are turning right you must wait for any vehicles coming straight through or turning left. Therefore in the diagram, vehicle P has right of way over vehicle O.",
+        "short":  "Two give-way signs, who goes first"
     },
     {
         "id":  25,
@@ -348,7 +372,8 @@ window.QUESTIONS = [
                         "Both pass in front of each other."
                     ],
         "answer":  2,
-        "explain":  "If both vehicles are turning right then they don\u0027t need to cross each other\u0027s paths. They can pass in front of one another at the same time."
+        "explain":  "If both vehicles are turning right then they don\u0027t need to cross each other\u0027s paths. They can pass in front of one another at the same time.",
+        "short":  "Both cars turning right, facing each other"
     },
     {
         "id":  26,
@@ -362,7 +387,8 @@ window.QUESTIONS = [
                         "Only if there is danger of a collision with another vehicle."
                     ],
         "answer":  1,
-        "explain":  "When there\u0027s a STOP sign it is compulsory to stop even if you think you can see the way is clear."
+        "explain":  "When there\u0027s a STOP sign it is compulsory to stop even if you think you can see the way is clear.",
+        "short":  "Where you must stop"
     },
     {
         "id":  27,
@@ -376,7 +402,8 @@ window.QUESTIONS = [
                         "When the vehicle behind signals you to go."
                     ],
         "answer":  1,
-        "explain":  "When you come to an intersection and the road beyond is choked with vehicles going in the same direction you must wait until there is room to completely cross the intersection, even if your traffic light turns green."
+        "explain":  "When you come to an intersection and the road beyond is choked with vehicles going in the same direction you must wait until there is room to completely cross the intersection, even if your traffic light turns green.",
+        "short":  "Entering on green in busy traffic"
     },
     {
         "id":  28,
@@ -390,7 +417,8 @@ window.QUESTIONS = [
                         "May be leaving the roundabout."
                     ],
         "answer":  2,
-        "explain":  "The motorbike should be cautious about the car on the roundabout as it could be leaving the roundabout and therefore cut across in front of the motorcyclist."
+        "explain":  "The motorbike should be cautious about the car on the roundabout as it could be leaving the roundabout and therefore cut across in front of the motorcyclist.",
+        "short":  "Motorcyclist watching out for a car at a roundabout"
     },
     {
         "id":  29,
@@ -404,7 +432,8 @@ window.QUESTIONS = [
                         "Only when you approach a stop sign."
                     ],
         "answer":  0,
-        "explain":  "As you approach an intersection you should check for traffic on your left and right at all times. If it\u0027s a crossroads, look for traffic coming towards you that might turn right in front of you. Pay particular attention as cyclists and motorcyclists are more difficult to see at intersections because of their smaller profile. Look twice in case you missed something on your first glance."
+        "explain":  "As you approach an intersection you should check for traffic on your left and right at all times. If it\u0027s a crossroads, look for traffic coming towards you that might turn right in front of you. Pay particular attention as cyclists and motorcyclists are more difficult to see at intersections because of their smaller profile. Look twice in case you missed something on your first glance.",
+        "short":  "Checking left and right at an intersection"
     },
     {
         "id":  30,
@@ -418,7 +447,8 @@ window.QUESTIONS = [
                         "At the point where you can see clearly in both directions."
                     ],
         "answer":  1,
-        "explain":  "You should stop as close to the intersection as possible."
+        "explain":  "You should stop as close to the intersection as possible.",
+        "short":  "Stop sign with no painted line"
     },
     {
         "id":  31,
@@ -432,7 +462,8 @@ window.QUESTIONS = [
                         "Red light cameras take photographs of vehicles that cross intersections when the lights are yellow."
                     ],
         "answer":  1,
-        "explain":  "The camera only takes a photo if you cross the stop line more than 0.3 seconds after the light has gone red. This means that if you have already entered the intersection on a yellow light, it won\u0027t trigger the camera."
+        "explain":  "The camera only takes a photo if you cross the stop line more than 0.3 seconds after the light has gone red. This means that if you have already entered the intersection on a yellow light, it won\u0027t trigger the camera.",
+        "short":  "Correct give-way statement"
     },
     {
         "id":  32,
@@ -446,7 +477,8 @@ window.QUESTIONS = [
                         "Brake immediately to a stop."
                     ],
         "answer":  1,
-        "explain":  "As the lights have only just turned yellow there should be enough time for you to make it through the intersection before the lights turn green for other traffic."
+        "explain":  "As the lights have only just turned yellow there should be enough time for you to make it through the intersection before the lights turn green for other traffic.",
+        "short":  "Lights turn yellow as you enter"
     },
     {
         "id":  33,
@@ -460,7 +492,8 @@ window.QUESTIONS = [
                         "Stay in the right lane all the way round."
                     ],
         "answer":  2,
-        "explain":  "If you want to travel completely around the roundabout it\u0027s like an extended right-hand turn. Simply keep the right signal on until you\u0027ve passed the exit before you want to exit the roundabout, then exit into the right-hand lane, like in this diagram."
+        "explain":  "If you want to travel completely around the roundabout it\u0027s like an extended right-hand turn. Simply keep the right signal on until you\u0027ve passed the exit before you want to exit the roundabout, then exit into the right-hand lane, like in this diagram.",
+        "short":  "Turning back the way you came at a roundabout"
     },
     {
         "id":  34,
@@ -474,7 +507,8 @@ window.QUESTIONS = [
                         "No, you only need to give way to the vehicle on your right."
                     ],
         "answer":  0,
-        "explain":  "If a STOP or GIVE WAY sign has been knocked down, for example, as the result of an accident, the line marked across the road indicates the meaning of the sign, and must be obeyed."
+        "explain":  "If a STOP or GIVE WAY sign has been knocked down, for example, as the result of an accident, the line marked across the road indicates the meaning of the sign, and must be obeyed.",
+        "short":  "Knocked-down stop or give way sign"
     },
     {
         "id":  35,
@@ -488,7 +522,8 @@ window.QUESTIONS = [
                         "At point O."
                     ],
         "answer":  2,
-        "explain":  "If you want to go straight ahead at the roundabout you would signal left as you pass point O."
+        "explain":  "If you want to go straight ahead at the roundabout you would signal left as you pass point O.",
+        "short":  "When to signal left exiting a roundabout"
     },
     {
         "id":  36,
@@ -502,7 +537,8 @@ window.QUESTIONS = [
                         "All vehicles must give way to vehicle O."
                     ],
         "answer":  0,
-        "explain":  "Vehicle at a STOP sign have the lowest priority of all other signs at an intersection. In the example below, vehicle O must wait for all other vehicles to complete their manoeuvres."
+        "explain":  "Vehicle at a STOP sign have the lowest priority of all other signs at an intersection. In the example below, vehicle O must wait for all other vehicles to complete their manoeuvres.",
+        "short":  "Vehicle stopped at a STOP sign"
     },
     {
         "id":  37,
@@ -516,7 +552,8 @@ window.QUESTIONS = [
                         "Whoever arrives at the intersection first."
                     ],
         "answer":  1,
-        "explain":  "If both opposing vehicles have the same class of sign, e.g. two stop signs or two give way signs, then the give way rules apply. The vehicle turning left has right of way."
+        "explain":  "If both opposing vehicles have the same class of sign, e.g. two stop signs or two give way signs, then the give way rules apply. The vehicle turning left has right of way.",
+        "short":  "Two stop signs, one turning right one left"
     },
     {
         "id":  38,
@@ -530,7 +567,8 @@ window.QUESTIONS = [
                         "In the left lane."
                     ],
         "answer":  2,
-        "explain":  "When turning left, approach the roundabout in the left lane indicating left and continue indicating while you make the turn. Exit the roundabout in the left lane."
+        "explain":  "When turning left, approach the roundabout in the left lane indicating left and continue indicating while you make the turn. Exit the roundabout in the left lane.",
+        "short":  "Path through a roundabout turning left"
     },
     {
         "id":  39,
@@ -544,7 +582,8 @@ window.QUESTIONS = [
                         "Always follow any instruction they give you."
                     ],
         "answer":  2,
-        "explain":  "Instructions from a police officer override signs and lights at an intersection. If there is a traffic controller in the intersection you must obey what they tell you."
+        "explain":  "Instructions from a police officer override signs and lights at an intersection. If there is a traffic controller in the intersection you must obey what they tell you.",
+        "short":  "Police officer directing traffic"
     },
     {
         "id":  40,
@@ -558,7 +597,8 @@ window.QUESTIONS = [
                         "As soon as you get to the intersection."
                     ],
         "answer":  1,
-        "explain":  "When you are turning, you give way to vehicles coming from straight ahead."
+        "explain":  "When you are turning, you give way to vehicles coming from straight ahead.",
+        "short":  "Turning right with no signs or lights"
     },
     {
         "id":  41,
@@ -572,7 +612,8 @@ window.QUESTIONS = [
                         "Travel into the intersection and wait until traffic ahead moves."
                     ],
         "answer":  0,
-        "explain":  "When you come to an intersection and the road beyond is choked with vehicles going in the same direction you must wait until there is room to completely cross the intersection, even if your traffic light turns green."
+        "explain":  "When you come to an intersection and the road beyond is choked with vehicles going in the same direction you must wait until there is room to completely cross the intersection, even if your traffic light turns green.",
+        "short":  "Road ahead choked with traffic"
     },
     {
         "id":  42,
@@ -586,7 +627,8 @@ window.QUESTIONS = [
                         "Give way to the pedestrian."
                     ],
         "answer":  2,
-        "explain":  "Vehicles turning into that street must give way to pedestrians already crossing."
+        "explain":  "Vehicles turning into that street must give way to pedestrians already crossing.",
+        "short":  "Pedestrian crossing the street you\u0027re turning into"
     },
     {
         "id":  43,
@@ -600,7 +642,8 @@ window.QUESTIONS = [
                         "Sound the horn to warn the other driver."
                     ],
         "answer":  1,
-        "explain":  "If you are turning left at a T-intersection from the bottom of the T, then you must give way to your right to vehicles crossing the top of the T."
+        "explain":  "If you are turning left at a T-intersection from the bottom of the T, then you must give way to your right to vehicles crossing the top of the T.",
+        "short":  "Turning left with no signs or lights"
     },
     {
         "id":  44,
@@ -614,7 +657,8 @@ window.QUESTIONS = [
                         "Only pedestrians."
                     ],
         "answer":  0,
-        "explain":  "If you are at an unmarked crossroads and you are turning right then you must give way to any vehicle coming from straight ahead and turning left, and any vehicle coming from the right that\u0027s going straight ahead or turning right."
+        "explain":  "If you are at an unmarked crossroads and you are turning right then you must give way to any vehicle coming from straight ahead and turning left, and any vehicle coming from the right that\u0027s going straight ahead or turning right.",
+        "short":  "Give way when turning right at this intersection"
     },
     {
         "id":  45,
@@ -628,7 +672,8 @@ window.QUESTIONS = [
                         "Lane A."
                     ],
         "answer":  2,
-        "explain":  "When turning left, approach the roundabout in the left lane indicating left and continue indicating while you make the turn. Exit the roundabout in the left lane."
+        "explain":  "When turning left, approach the roundabout in the left lane indicating left and continue indicating while you make the turn. Exit the roundabout in the left lane.",
+        "short":  "Correct lane to turn left at a roundabout"
     },
     {
         "id":  46,
@@ -642,7 +687,8 @@ window.QUESTIONS = [
                         "Neither vehicle."
                     ],
         "answer":  0,
-        "explain":  "When travelling on a laned roadway, right turns must be made from the right-hand lane unless there are right-turning arrows in other lanes. The left-hand lane traffic can also turn right. Any vehicle wanting to turn into the road at X would use the left hand lane."
+        "explain":  "When travelling on a laned roadway, right turns must be made from the right-hand lane unless there are right-turning arrows in other lanes. The left-hand lane traffic can also turn right. Any vehicle wanting to turn into the road at X would use the left hand lane.",
+        "short":  "Best-positioned vehicle for a right turn"
     },
     {
         "id":  47,
@@ -656,7 +702,8 @@ window.QUESTIONS = [
                         "You do not hold up the traffic behind you."
                     ],
         "answer":  1,
-        "explain":  "When you come to an intersection and the road beyond is choked with vehicles going in the same direction you must wait until there is room to completely cross the intersection, even if your traffic light turns green."
+        "explain":  "When you come to an intersection and the road beyond is choked with vehicles going in the same direction you must wait until there is room to completely cross the intersection, even if your traffic light turns green.",
+        "short":  "Green light in slow busy traffic"
     },
     {
         "id":  48,
@@ -670,7 +717,8 @@ window.QUESTIONS = [
                         "Follow the directions of the controller."
                     ],
         "answer":  2,
-        "explain":  "Instructions from a traffic controller override signs and lights at an intersection. If there is a traffic controller in the intersection you must obey what they tell you."
+        "explain":  "Instructions from a traffic controller override signs and lights at an intersection. If there is a traffic controller in the intersection you must obey what they tell you.",
+        "short":  "Entering an intersection with a traffic controller"
     },
     {
         "id":  49,
@@ -684,7 +732,8 @@ window.QUESTIONS = [
                         "Either lane."
                     ],
         "answer":  2,
-        "explain":  "When going straight ahead, approach the roundabout in any lane marked for going straight ahead."
+        "explain":  "When going straight ahead, approach the roundabout in any lane marked for going straight ahead.",
+        "short":  "Straight-ahead lane on a two-lane roundabout"
     },
     {
         "id":  50,
@@ -698,7 +747,8 @@ window.QUESTIONS = [
                         "Continually looking ahead, to the sides and using all mirrors when driving."
                     ],
         "answer":  2,
-        "explain":  "Continually scanning in all directions keeps you aware of the situation all around you and gives you a better chance of reacting to emergency situations."
+        "explain":  "Continually scanning in all directions keeps you aware of the situation all around you and gives you a better chance of reacting to emergency situations.",
+        "short":  "Scanning: mirrors and surroundings"
     },
     {
         "id":  51,
@@ -712,7 +762,8 @@ window.QUESTIONS = [
                         "3 seconds."
                     ],
         "answer":  2,
-        "explain":  "Three seconds is a safe distance that gives you time to react and stop in an emergency situation."
+        "explain":  "Three seconds is a safe distance that gives you time to react and stop in an emergency situation.",
+        "short":  "3-second following distance"
     },
     {
         "id":  52,
@@ -726,7 +777,8 @@ window.QUESTIONS = [
                         "Start driving in daylight where it is not too busy and only drive in busier traffic as your driving gets better."
                     ],
         "answer":  2,
-        "explain":  "Driving and riding experience is gained over time. Build up your skills on familiar roads in daylight and light traffic. Progress to heavier traffic and unfamiliar roads once you are confident in your driving ability."
+        "explain":  "Driving and riding experience is gained over time. Build up your skills on familiar roads in daylight and light traffic. Progress to heavier traffic and unfamiliar roads once you are confident in your driving ability.",
+        "short":  "Build driving experience gradually"
     },
     {
         "id":  53,
@@ -740,7 +792,8 @@ window.QUESTIONS = [
                         "A gap of about 4 seconds as it is easy to misjudge distances at night."
                     ],
         "answer":  2,
-        "explain":  "At night it is more difficult to judge distances and speeds so you should leave a longer gap behind the vehicle in front."
+        "explain":  "At night it is more difficult to judge distances and speeds so you should leave a longer gap behind the vehicle in front.",
+        "short":  "Longer following gap at night"
     },
     {
         "id":  54,
@@ -754,7 +807,8 @@ window.QUESTIONS = [
                         "Close your eyes for a short time until they recover."
                     ],
         "answer":  0,
-        "explain":  "If you are dazzled, look at the left of the road, slow down and stop if necessary until your eyes recover."
+        "explain":  "If you are dazzled, look at the left of the road, slow down and stop if necessary until your eyes recover.",
+        "short":  "Slow down if dazzled by lights"
     },
     {
         "id":  55,
@@ -768,7 +822,8 @@ window.QUESTIONS = [
                         "Follow closer to other vehicles."
                     ],
         "answer":  1,
-        "explain":  "Fog is worse to drive in if you have your headlights on high beam, so slow down and use your low beam headlights."
+        "explain":  "Fog is worse to drive in if you have your headlights on high beam, so slow down and use your low beam headlights.",
+        "short":  "Low beam and slow down in fog"
     },
     {
         "id":  56,
@@ -782,7 +837,8 @@ window.QUESTIONS = [
                         "Stay one second behind the vehicle in front of you."
                     ],
         "answer":  0,
-        "explain":  "Staying three seconds or more behind the vehicle in front will give you time to react in an emergency. If the conditions are wet, then you should increase this distance."
+        "explain":  "Staying three seconds or more behind the vehicle in front will give you time to react in an emergency. If the conditions are wet, then you should increase this distance.",
+        "short":  "Keep a 3-second following gap"
     },
     {
         "id":  57,
@@ -796,7 +852,8 @@ window.QUESTIONS = [
                         "You might wet pedestrians walking along the footpath."
                     ],
         "answer":  1,
-        "explain":  "When you are driving on wet surfaces you have less grip overall and your vehicle may skid under heavy braking. Once you are skidding you are out of control."
+        "explain":  "When you are driving on wet surfaces you have less grip overall and your vehicle may skid under heavy braking. Once you are skidding you are out of control.",
+        "short":  "Heavy braking can cause a skid"
     },
     {
         "id":  58,
@@ -810,7 +867,8 @@ window.QUESTIONS = [
                         "Handle better, so you can go faster."
                     ],
         "answer":  0,
-        "explain":  "If it starts to rain the roads can become very slippery as the layer of grime and oil on the surface will mix with water, therefore you should allow for longer stopping distances."
+        "explain":  "If it starts to rain the roads can become very slippery as the layer of grime and oil on the surface will mix with water, therefore you should allow for longer stopping distances.",
+        "short":  "Wet roads increase stopping distance"
     },
     {
         "id":  59,
@@ -824,7 +882,8 @@ window.QUESTIONS = [
                         "Stay calm and in control of your vehicle at all times."
                     ],
         "answer":  2,
-        "explain":  "Remember that you are the one in control of the car, not your passengers, and you have a responsibility to be safe on the roads. Don\u0027t give in to peer pressure."
+        "explain":  "Remember that you are the one in control of the car, not your passengers, and you have a responsibility to be safe on the roads. Don\u0027t give in to peer pressure.",
+        "short":  "Stay calm around aggressive drivers"
     },
     {
         "id":  60,
@@ -838,7 +897,8 @@ window.QUESTIONS = [
                         "Sound your horn before moving away from the kerb to warn people of your intentions."
                     ],
         "answer":  1,
-        "explain":  "Check your mirrors and look over your shoulder to see if a vehicle or a cyclist is coming."
+        "explain":  "Check your mirrors and look over your shoulder to see if a vehicle or a cyclist is coming.",
+        "short":  "Check mirrors before moving off"
     },
     {
         "id":  61,
@@ -852,7 +912,8 @@ window.QUESTIONS = [
                         "Be easier to steer and handle."
                     ],
         "answer":  0,
-        "explain":  "There is less friction on the road when it is wet, therefore you should allow for longer stopping distances."
+        "explain":  "There is less friction on the road when it is wet, therefore you should allow for longer stopping distances.",
+        "short":  "Longer stopping distance when slippery"
     },
     {
         "id":  62,
@@ -866,7 +927,8 @@ window.QUESTIONS = [
                         "Put your lights on high beam, to make your vehicle more easily seen."
                     ],
         "answer":  1,
-        "explain":  "Avoid looking at the headlights of oncoming vehicles because it will cause your pupils to contract and make you less able to see hazards. Looking at the left of the road will allow you to judge where you are without being dazzled by the oncoming vehicle\u0027s lights."
+        "explain":  "Avoid looking at the headlights of oncoming vehicles because it will cause your pupils to contract and make you less able to see hazards. Looking at the left of the road will allow you to judge where you are without being dazzled by the oncoming vehicle\u0027s lights.",
+        "short":  "Avoid oncoming headlights at night"
     },
     {
         "id":  63,
@@ -880,7 +942,8 @@ window.QUESTIONS = [
                         "Drive closer to the vehicle in front so they can see you better."
                     ],
         "answer":  1,
-        "explain":  "At night it is more difficult to judge distances and speeds so you should leave a longer gap behind the vehicle in front."
+        "explain":  "At night it is more difficult to judge distances and speeds so you should leave a longer gap behind the vehicle in front.",
+        "short":  "Leave a longer gap at night"
     },
     {
         "id":  64,
@@ -894,7 +957,8 @@ window.QUESTIONS = [
                         "Put your hazard warning lights on and increase your speed to avoid the rain."
                     ],
         "answer":  0,
-        "explain":  "Be especially careful when braking as oil and rain create a very slippery surface. Slow down to give yourself time to react, and also to allow for safe cornering and stopping."
+        "explain":  "Be especially careful when braking as oil and rain create a very slippery surface. Slow down to give yourself time to react, and also to allow for safe cornering and stopping.",
+        "short":  "Brake gently in the rain"
     },
     {
         "id":  65,
@@ -908,7 +972,8 @@ window.QUESTIONS = [
                         "Drive mainly on streets that you know well."
                     ],
         "answer":  2,
-        "explain":  "At night it is more difficult to judge distances and speeds. Build up your skills on familiar roads when you start driving at night."
+        "explain":  "At night it is more difficult to judge distances and speeds. Build up your skills on familiar roads when you start driving at night.",
+        "short":  "Start night driving on familiar roads"
     },
     {
         "id":  66,
@@ -922,7 +987,8 @@ window.QUESTIONS = [
                         "Pull off the road, stop and rest until you no longer feel tired."
                     ],
         "answer":  2,
-        "explain":  "Find a suitable place to pull up, take a break and just sleep for 10-15 minutes. Wait for another 10 minutes before setting off driving again, and take a short walk to get your blood flowing. If you have another driver, let them drive and then you can take a nap in the passenger seat."
+        "explain":  "Find a suitable place to pull up, take a break and just sleep for 10-15 minutes. Wait for another 10 minutes before setting off driving again, and take a short walk to get your blood flowing. If you have another driver, let them drive and then you can take a nap in the passenger seat.",
+        "short":  "Pull over and rest if tired"
     },
     {
         "id":  67,
@@ -936,7 +1002,8 @@ window.QUESTIONS = [
                         "Drive during the day, take plenty of breaks and share driving if possible."
                     ],
         "answer":  2,
-        "explain":  "Take regular breaks and swap drivers is possible."
+        "explain":  "Take regular breaks and swap drivers is possible.",
+        "short":  "Share driving on long trips"
     },
     {
         "id":  68,
@@ -950,7 +1017,8 @@ window.QUESTIONS = [
                         "Put on your seat belt."
                     ],
         "answer":  1,
-        "explain":  "The last thing you should do is check in your blind spot over your right shoulder in case another vehicle or a cyclist is coming."
+        "explain":  "The last thing you should do is check in your blind spot over your right shoulder in case another vehicle or a cyclist is coming.",
+        "short":  "Check blind spot before pulling out"
     },
     {
         "id":  69,
@@ -964,7 +1032,8 @@ window.QUESTIONS = [
                         "Crashing or not crashing is a matter of luck."
                     ],
         "answer":  1,
-        "explain":  "Remember that you are the one in control of the car. You are the responsible person for your driving and the safety of others as a result of your driving."
+        "explain":  "Remember that you are the one in control of the car. You are the responsible person for your driving and the safety of others as a result of your driving.",
+        "short":  "Taking responsibility for your safety"
     },
     {
         "id":  70,
@@ -978,7 +1047,8 @@ window.QUESTIONS = [
                         "Have a good meal before driving."
                     ],
         "answer":  1,
-        "explain":  "The only way to be not tired when you are driving is to have a good rest beforehand, or to have a short nap by taking a break, finding a suitable place to pull up and just sleeping for 10-15 minutes."
+        "explain":  "The only way to be not tired when you are driving is to have a good rest beforehand, or to have a short nap by taking a break, finding a suitable place to pull up and just sleeping for 10-15 minutes.",
+        "short":  "Rest well before a long trip"
     },
     {
         "id":  71,
@@ -992,7 +1062,8 @@ window.QUESTIONS = [
                         "Turn on the air conditioning or open the windows."
                     ],
         "answer":  0,
-        "explain":  "Turning up the radio and opening the windows have negligible effect on tiredness. Stopping and resting until you are not tired, or changing drivers is the best solution."
+        "explain":  "Turning up the radio and opening the windows have negligible effect on tiredness. Stopping and resting until you are not tired, or changing drivers is the best solution.",
+        "short":  "Stop and rest if sleepy"
     },
     {
         "id":  72,
@@ -1006,7 +1077,8 @@ window.QUESTIONS = [
                         "Choose a safe speed and say you will not go any faster."
                     ],
         "answer":  2,
-        "explain":  "Remember that you are the one in control of the car, not your passengers, and you have a responsibility to be safe on the roads. Don\u0027t give in to peer pressure."
+        "explain":  "Remember that you are the one in control of the car, not your passengers, and you have a responsibility to be safe on the roads. Don\u0027t give in to peer pressure.",
+        "short":  "Resisting pressure to speed up"
     },
     {
         "id":  73,
@@ -1020,7 +1092,8 @@ window.QUESTIONS = [
                         "Flash your headlights to warn other drivers."
                     ],
         "answer":  0,
-        "explain":  "Your stopping distances will increase in the wet, and if visibility is impaired it may take you longer to react to an emergency situation. Other vehicles will not be able to see you as easily, therefore headlights are important."
+        "explain":  "Your stopping distances will increase in the wet, and if visibility is impaired it may take you longer to react to an emergency situation. Other vehicles will not be able to see you as easily, therefore headlights are important.",
+        "short":  "Headlights and slow down in rain"
     },
     {
         "id":  74,
@@ -1034,7 +1107,8 @@ window.QUESTIONS = [
                         "Your ability to react to emergencies will improve."
                     ],
         "answer":  0,
-        "explain":  "Consuming alcohol alongside medications can lead to an increased risk of drowsiness and other side effects. You should also check with your doctor that it is safe to drive when taking a specific medication."
+        "explain":  "Consuming alcohol alongside medications can lead to an increased risk of drowsiness and other side effects. You should also check with your doctor that it is safe to drive when taking a specific medication.",
+        "short":  "Medicine plus alcohol is risky"
     },
     {
         "id":  75,
@@ -1048,7 +1122,8 @@ window.QUESTIONS = [
                         "No, if you are a learner driver."
                     ],
         "answer":  0,
-        "explain":  "It\u0027s always an offence to refuse a police breath test. If you are convicted of driving with a blood alcohol level above the limit you will be fined, you will lose your licence and you could be sent to prison."
+        "explain":  "It\u0027s always an offence to refuse a police breath test. If you are convicted of driving with a blood alcohol level above the limit you will be fined, you will lose your licence and you could be sent to prison.",
+        "short":  "Refusing a breath test is an offence"
     },
     {
         "id":  76,
@@ -1062,7 +1137,8 @@ window.QUESTIONS = [
                         "Wait for one hour after your last drink before you drive home."
                     ],
         "answer":  1,
-        "explain":  "Organise a taxi, a dedicated driver that doesn\u0027t drink, or take public transport to get home."
+        "explain":  "Organise a taxi, a dedicated driver that doesn\u0027t drink, or take public transport to get home.",
+        "short":  "Organise a ride home beforehand"
     },
     {
         "id":  77,
@@ -1076,7 +1152,8 @@ window.QUESTIONS = [
                         "Drive carefully around your local streets to see if you are affected."
                     ],
         "answer":  1,
-        "explain":  "Prescription drugs need the advice of a doctor or pharmacist before you take them, and they may have unwanted side effects that affect your ability to control a vehicle."
+        "explain":  "Prescription drugs need the advice of a doctor or pharmacist before you take them, and they may have unwanted side effects that affect your ability to control a vehicle.",
+        "short":  "Ask a doctor about drug interactions"
     },
     {
         "id":  78,
@@ -1090,7 +1167,8 @@ window.QUESTIONS = [
                         "Know what the effects of the drug are."
                     ],
         "answer":  2,
-        "explain":  "Your doctor or pharmacist will advise you of any potential side effects of your medication."
+        "explain":  "Your doctor or pharmacist will advise you of any potential side effects of your medication.",
+        "short":  "Know a drug\u0027s side effects first"
     },
     {
         "id":  79,
@@ -1104,7 +1182,8 @@ window.QUESTIONS = [
                         "0.08"
                     ],
         "answer":  0,
-        "explain":  "The level is 0.02 for drivers of vehicles with a GVM greater than 13.9 tonnes, or carrying dangerous goods, or carrying paying passengers. This means there is 0.02 grams of alcohol in every 100ml of blood."
+        "explain":  "The level is 0.02 for drivers of vehicles with a GVM greater than 13.9 tonnes, or carrying dangerous goods, or carrying paying passengers. This means there is 0.02 grams of alcohol in every 100ml of blood.",
+        "short":  "0.02 BAC for heavy or paid vehicles"
     },
     {
         "id":  80,
@@ -1118,7 +1197,8 @@ window.QUESTIONS = [
                         "Has no effect on your driving ability."
                     ],
         "answer":  1,
-        "explain":  "It is always safest to not have a drink at all before you drive as any amount of alcohol impairs your ability to drive."
+        "explain":  "It is always safest to not have a drink at all before you drive as any amount of alcohol impairs your ability to drive.",
+        "short":  "Any alcohol affects your driving"
     },
     {
         "id":  81,
@@ -1132,7 +1212,8 @@ window.QUESTIONS = [
                         "You must have a passenger to help you drive."
                     ],
         "answer":  1,
-        "explain":  "Medications can make you drowsy and less able to judge situations on the road. Do not drive if you feel affected."
+        "explain":  "Medications can make you drowsy and less able to judge situations on the road. Do not drive if you feel affected.",
+        "short":  "Don\u0027t drive if medicine affects you"
     },
     {
         "id":  82,
@@ -1146,7 +1227,8 @@ window.QUESTIONS = [
                         "It makes you calm down and think more clearly."
                     ],
         "answer":  1,
-        "explain":  "Alcohol is a depressant which means it slows down your ability for your brain to work. Alcohol will slow down your reaction times."
+        "explain":  "Alcohol is a depressant which means it slows down your ability for your brain to work. Alcohol will slow down your reaction times.",
+        "short":  "Alcohol slows the brain down"
     },
     {
         "id":  83,
@@ -1160,7 +1242,8 @@ window.QUESTIONS = [
                         "Not drinking any alcohol."
                     ],
         "answer":  2,
-        "explain":  "It is always safest to not have a drink at all before you drive as any amount of alcohol impairs your ability to drive."
+        "explain":  "It is always safest to not have a drink at all before you drive as any amount of alcohol impairs your ability to drive.",
+        "short":  "Not drinking is safest"
     },
     {
         "id":  84,
@@ -1174,7 +1257,8 @@ window.QUESTIONS = [
                         "Be able to pay close attention to details in the traffic."
                     ],
         "answer":  1,
-        "explain":  "Alcohol will slow down your reaction times. It gives you more confidence, but less ability. It makes it easier for you to misjudge other drivers\u0027 speed and direction, and for you to judge what speed you are approaching obstacles on the road."
+        "explain":  "Alcohol will slow down your reaction times. It gives you more confidence, but less ability. It makes it easier for you to misjudge other drivers\u0027 speed and direction, and for you to judge what speed you are approaching obstacles on the road.",
+        "short":  "Alcohol impairs judging speed"
     },
     {
         "id":  85,
@@ -1188,7 +1272,8 @@ window.QUESTIONS = [
                         "More serious."
                     ],
         "answer":  2,
-        "explain":  "Your likelihood of having an accident increases because your control over your vehicle decreases the more you drink, and the more drunk you are the more likely you are to engage in riskier driving such as speeding."
+        "explain":  "Your likelihood of having an accident increases because your control over your vehicle decreases the more you drink, and the more drunk you are the more likely you are to engage in riskier driving such as speeding.",
+        "short":  "Alcohol-related crashes are more serious"
     },
     {
         "id":  86,
@@ -1202,7 +1287,8 @@ window.QUESTIONS = [
                         "May drive only in light traffic."
                     ],
         "answer":  0,
-        "explain":  "All illegal drugs have dangerous effects on your body and affect your ability to concentrate or make rational decisions. Do not drive if you have used illegal drugs."
+        "explain":  "All illegal drugs have dangerous effects on your body and affect your ability to concentrate or make rational decisions. Do not drive if you have used illegal drugs.",
+        "short":  "Never drive after illegal drugs"
     },
     {
         "id":  87,
@@ -1216,7 +1302,8 @@ window.QUESTIONS = [
                         "About 50%."
                     ],
         "answer":  2,
-        "explain":  "On Thursday, Friday and Saturday nights the proportion of serious injury crashes involving alcohol rises to about 50% - it\u0027s the leading cause of serious vehicle accidents."
+        "explain":  "On Thursday, Friday and Saturday nights the proportion of serious injury crashes involving alcohol rises to about 50% - it\u0027s the leading cause of serious vehicle accidents.",
+        "short":  "Alcohol in weekend night crashes"
     },
     {
         "id":  88,
@@ -1230,7 +1317,8 @@ window.QUESTIONS = [
                         "Find out from your doctor or chemist whether the medicine or drug will affect your driving and act accordingly."
                     ],
         "answer":  2,
-        "explain":  "Your doctor will be able to tell you which medications will affect your driving and, if driving is necessary for you, they might be able to change your diet or exercise regime to reduce your need for a specific medication (e.g. for blood pressure), adjust the dose, adjust when you take your medication, or change the medicine to one that has different effects that don\u0027t effect your driving."
+        "explain":  "Your doctor will be able to tell you which medications will affect your driving and, if driving is necessary for you, they might be able to change your diet or exercise regime to reduce your need for a specific medication (e.g. for blood pressure), adjust the dose, adjust when you take your medication, or change the medicine to one that has different effects that don\u0027t effect your driving.",
+        "short":  "Check medicine\u0027s effect on driving"
     },
     {
         "id":  89,
@@ -1244,7 +1332,8 @@ window.QUESTIONS = [
                         "Drink 1 middy (285 ml) of light (low alcohol) beer."
                     ],
         "answer":  0,
-        "explain":  "It is always safest to not have a drink at all before you drive as any amount of alcohol impairs your ability to drive. Alcohol is a depressant which means it slows down your ability for your brain to work."
+        "explain":  "It is always safest to not have a drink at all before you drive as any amount of alcohol impairs your ability to drive. Alcohol is a depressant which means it slows down your ability for your brain to work.",
+        "short":  "Safest to not drink at all"
     },
     {
         "id":  90,
@@ -1258,7 +1347,8 @@ window.QUESTIONS = [
                         "The left lane unless you are overtaking"
                     ],
         "answer":  2,
-        "explain":  "Unless you are overtaking another vehicle you should drive in the left hand lane to ensure the best traffic flow."
+        "explain":  "Unless you are overtaking another vehicle you should drive in the left hand lane to ensure the best traffic flow.",
+        "short":  "Choosing a lane on a two-lane freeway"
     },
     {
         "id":  91,
@@ -1272,7 +1362,8 @@ window.QUESTIONS = [
                         "Continue at your normal speed as the bus does not have priority"
                     ],
         "answer":  1,
-        "explain":  "You must allow the bus to move into your lane. Also, be aware that passengers (especially children) may be trying to cross the road, so be prepared to stop."
+        "explain":  "You must allow the bus to move into your lane. Also, be aware that passengers (especially children) may be trying to cross the road, so be prepared to stop.",
+        "short":  "Bus signalling to pull out"
     },
     {
         "id":  92,
@@ -1286,7 +1377,8 @@ window.QUESTIONS = [
                         "Yes, but for no more than 30 minutes"
                     ],
         "answer":  0,
-        "explain":  "The median strip is only to be used to allow vehicles to safely turn into a side road without impeding the flow of traffic, or to enter traffic flow safely from a side road."
+        "explain":  "The median strip is only to be used to allow vehicles to safely turn into a side road without impeding the flow of traffic, or to enter traffic flow safely from a side road.",
+        "short":  "No parking on a median strip"
     },
     {
         "id":  93,
@@ -1300,7 +1392,8 @@ window.QUESTIONS = [
                         "Stop and let the fire truck overtake you"
                     ],
         "answer":  2,
-        "explain":  "Stop and allow the fire truck to negotiate its way around you, minimising the chance of an accident. Be careful as there could be multiple emergency vehicles."
+        "explain":  "Stop and allow the fire truck to negotiate its way around you, minimising the chance of an accident. Be careful as there could be multiple emergency vehicles.",
+        "short":  "Fire truck overtaking at a green light"
     },
     {
         "id":  94,
@@ -1314,7 +1407,8 @@ window.QUESTIONS = [
                         "Zero."
                     ],
         "answer":  2,
-        "explain":  "You must not drink any alcohol and drive on a learner or provisional licence. This is because alcohol affects reaction times and learner and P-plate drivers already have to cope with many situations they may not be familiar or comfortable with, and that take their entire concentration."
+        "explain":  "You must not drink any alcohol and drive on a learner or provisional licence. This is because alcohol affects reaction times and learner and P-plate drivers already have to cope with many situations they may not be familiar or comfortable with, and that take their entire concentration.",
+        "short":  "Zero BAC for L and P plates"
     },
     {
         "id":  95,
@@ -1328,7 +1422,8 @@ window.QUESTIONS = [
                         "Be careful, there may be children about"
                     ],
         "answer":  2,
-        "explain":  "It\u0027s compulsory to drive no faster than 40 km/h past this because it\u0027s a school bus dropping off or picking up children. They keep flashing for about 30 seconds after the door closes and continue even after the bus moves off. This is to warn you that children might be crossing."
+        "explain":  "It\u0027s compulsory to drive no faster than 40 km/h past this because it\u0027s a school bus dropping off or picking up children. They keep flashing for about 30 seconds after the door closes and continue even after the bus moves off. This is to warn you that children might be crossing.",
+        "short":  "Headlights flashing on front of a bus"
     },
     {
         "id":  96,
@@ -1342,7 +1437,8 @@ window.QUESTIONS = [
                         "Do not overtake a vehicle travelling in the same direction"
                     ],
         "answer":  0,
-        "explain":  "When you approach a narrow bridge or a narrow road with a \u0027Give way\u0027 sign, you must slow down and prepare to stop. You must give way to vehicles approaching from the opposite direction as the road may not be wide enough for two vehicles."
+        "explain":  "When you approach a narrow bridge or a narrow road with a \u0027Give way\u0027 sign, you must slow down and prepare to stop. You must give way to vehicles approaching from the opposite direction as the road may not be wide enough for two vehicles.",
+        "short":  "Sign meaning near a bridge"
     },
     {
         "id":  97,
@@ -1356,7 +1452,8 @@ window.QUESTIONS = [
                         "At least 20 metres"
                     ],
         "answer":  2,
-        "explain":  "You must not park on a railway level crossing or within 20m before and 20m after it and within 20m before and 10m after a bus stop."
+        "explain":  "You must not park on a railway level crossing or within 20m before and 20m after it and within 20m before and 10m after a bus stop.",
+        "short":  "Distance from a bus stop or crossing"
     },
     {
         "id":  98,
@@ -1370,7 +1467,8 @@ window.QUESTIONS = [
                         "No"
                     ],
         "answer":  2,
-        "explain":  "It is illegal to use a hand-held phone while you are driving. Heavy fines apply."
+        "explain":  "It is illegal to use a hand-held phone while you are driving. Heavy fines apply.",
+        "short":  "Using a hand-held mobile while driving"
     },
     {
         "id":  99,
@@ -1384,7 +1482,8 @@ window.QUESTIONS = [
                         "Pick a visible position or leave the parking or hazard lights on"
                     ],
         "answer":  2,
-        "explain":  "When parking at night you should ensure that your vehicle is as visible as possible. If you think that visibility isn\u0027t that good, put your hazard warning lights on."
+        "explain":  "When parking at night you should ensure that your vehicle is as visible as possible. If you think that visibility isn\u0027t that good, put your hazard warning lights on.",
+        "short":  "Parking briefly at night"
     },
     {
         "id":  100,
@@ -1398,7 +1497,8 @@ window.QUESTIONS = [
                         "Yes, provided L and P1 or P2 plates are displayed"
                     ],
         "answer":  0,
-        "explain":  "P1 and P2 drivers are not yet experienced enough behind the wheel to legally instruct a learner driver. To supervise a learner, you must hold a current full Australian driver licence. Both a supervisor and a learner driver can be fined if the supervisor does not have a full Australian licence."
+        "explain":  "P1 and P2 drivers are not yet experienced enough behind the wheel to legally instruct a learner driver. To supervise a learner, you must hold a current full Australian driver licence. Both a supervisor and a learner driver can be fined if the supervisor does not have a full Australian licence.",
+        "short":  "P1/P2 supervising a learner driver"
     },
     {
         "id":  101,
@@ -1412,7 +1512,8 @@ window.QUESTIONS = [
                         "Move into the left lane"
                     ],
         "answer":  2,
-        "explain":  "Pull over to the left to give the emergency vehicle as much space as possible to overtake you. Don\u0027t brake heavily. Emergency services drivers are trained not to pressure a driver into doing something dangerous and will find a way through."
+        "explain":  "Pull over to the left to give the emergency vehicle as much space as possible to overtake you. Don\u0027t brake heavily. Emergency services drivers are trained not to pressure a driver into doing something dangerous and will find a way through.",
+        "short":  "Ambulance siren from behind"
     },
     {
         "id":  102,
@@ -1426,7 +1527,8 @@ window.QUESTIONS = [
                         "Yes, at any time"
                     ],
         "answer":  2,
-        "explain":  "It is an offence for drivers and registered operators of vehicles if its number plates are not fitted properly, obscured, defaced or otherwise not legible. You need auxiliary plates if the caravan, trailer, bike rack or vehicle you\u0027re towing covers your rear number plate."
+        "explain":  "It is an offence for drivers and registered operators of vehicles if its number plates are not fitted properly, obscured, defaced or otherwise not legible. You need auxiliary plates if the caravan, trailer, bike rack or vehicle you\u0027re towing covers your rear number plate.",
+        "short":  "Obstructing your number plate view"
     },
     {
         "id":  103,
@@ -1440,7 +1542,8 @@ window.QUESTIONS = [
                         "Continually scan the road, looking ahead, to the sides, checking side and rear mirrors and anticipate what may happen"
                     ],
         "answer":  2,
-        "explain":  "Scanning is where you look ahead, to the sides and in your mirrors so that you build a picture of where other vehicles are, what hazards are ahead and where your potential exit routes are if you need to take evasive action."
+        "explain":  "Scanning is where you look ahead, to the sides and in your mirrors so that you build a picture of where other vehicles are, what hazards are ahead and where your potential exit routes are if you need to take evasive action.",
+        "short":  "Concentrating and monitoring the road"
     },
     {
         "id":  104,
@@ -1454,7 +1557,8 @@ window.QUESTIONS = [
                         "Yes, provided you have held a licence for two years"
                     ],
         "answer":  0,
-        "explain":  "Cars are not designed to cope with pulling multiple trailers, and loss of control could occur."
+        "explain":  "Cars are not designed to cope with pulling multiple trailers, and loss of control could occur.",
+        "short":  "Towing more than one trailer"
     },
     {
         "id":  105,
@@ -1468,7 +1572,8 @@ window.QUESTIONS = [
                         "Report the accident to Police within seven days"
                     ],
         "answer":  1,
-        "explain":  "The first priority is to help injured people. If you\u0027re involved in a crash that causes death or injury and you do not stop and help, you can get a fine and be sent to prison."
+        "explain":  "The first priority is to help injured people. If you\u0027re involved in a crash that causes death or injury and you do not stop and help, you can get a fine and be sent to prison.",
+        "short":  "Duty after an injury accident"
     },
     {
         "id":  106,
@@ -1482,7 +1587,8 @@ window.QUESTIONS = [
                         "Tell your doctor and let him or her notify the TfNSW"
                     ],
         "answer":  1,
-        "explain":  "You must notify Transport for NSW of a medical condition or recent surgery affecting your ability to drive safely. Your doctor is not responsible for notifying them."
+        "explain":  "You must notify Transport for NSW of a medical condition or recent surgery affecting your ability to drive safely. Your doctor is not responsible for notifying them.",
+        "short":  "Reporting a serious medical condition"
     },
     {
         "id":  107,
@@ -1496,7 +1602,8 @@ window.QUESTIONS = [
                         "One metre from the dividing lines"
                     ],
         "answer":  1,
-        "explain":  "You are not allowed to park within three metres of any double centre lines."
+        "explain":  "You are not allowed to park within three metres of any double centre lines.",
+        "short":  "Parking at double dividing lines"
     },
     {
         "id":  108,
@@ -1510,7 +1617,8 @@ window.QUESTIONS = [
                         "Ask an older person sitting nearby to watch the child"
                     ],
         "answer":  1,
-        "explain":  "Parked cars can get dangerously hot even on cool days. Never leave children or animals unattended in a car."
+        "explain":  "Parked cars can get dangerously hot even on cool days. Never leave children or animals unattended in a car.",
+        "short":  "Leaving a child in the car briefly"
     },
     {
         "id":  109,
@@ -1524,7 +1632,8 @@ window.QUESTIONS = [
                         "Yes, but only in daylight hours"
                     ],
         "answer":  1,
-        "explain":  "You are not allowed to park on a motorway."
+        "explain":  "You are not allowed to park on a motorway.",
+        "short":  "Parking after passing this sign"
     },
     {
         "id":  110,
@@ -1538,7 +1647,8 @@ window.QUESTIONS = [
                         "Yes, if not obstructing traffic"
                     ],
         "answer":  0,
-        "explain":  "Double parking obstructs the road way and causes a hazard for other road users. Where there is parallel kerbside parking, you are not allowed to double-park alongside a parked vehicle."
+        "explain":  "Double parking obstructs the road way and causes a hazard for other road users. Where there is parallel kerbside parking, you are not allowed to double-park alongside a parked vehicle.",
+        "short":  "Double-parking beside kerbside parking"
     },
     {
         "id":  111,
@@ -1552,7 +1662,8 @@ window.QUESTIONS = [
                         "Only need to report the accident to the Police if someone was injured"
                     ],
         "answer":  1,
-        "explain":  "If police do not attend the crash scene, you must report the crash as soon as possible (within 24 hours)."
+        "explain":  "If police do not attend the crash scene, you must report the crash as soon as possible (within 24 hours).",
+        "short":  "Accident needing a tow, no Police"
     },
     {
         "id":  112,
@@ -1566,7 +1677,8 @@ window.QUESTIONS = [
                         "Merge to the right and give way to other traffic"
                     ],
         "answer":  2,
-        "explain":  "Prepare to move to the right and to merge right like a zip (alternate vehicles). If traffic is heavy then it\u0027s likely that it will either be backed up, or it will be starting to back up, so check that traffic ahead of you hasn\u0027t stopped suddenly."
+        "explain":  "Prepare to move to the right and to merge right like a zip (alternate vehicles). If traffic is heavy then it\u0027s likely that it will either be backed up, or it will be starting to back up, so check that traffic ahead of you hasn\u0027t stopped suddenly.",
+        "short":  "Sign seen in a road work zone lane"
     },
     {
         "id":  113,
@@ -1580,7 +1692,8 @@ window.QUESTIONS = [
                         "Increase your speed and drive back on the road"
                     ],
         "answer":  0,
-        "explain":  "Gentle inputs to the throttle and steering will minimise your chances of losing control."
+        "explain":  "Gentle inputs to the throttle and steering will minimise your chances of losing control.",
+        "short":  "Wheels running off the road edge"
     },
     {
         "id":  114,
@@ -1594,7 +1707,8 @@ window.QUESTIONS = [
                         "For the next 5 kilometres you must not exceed 60 km/h unless you pass an end farm animals speed limit sign"
                     ],
         "answer":  1,
-        "explain":  "If you come across farm animals on the road and a farmer is present, slow down, be prepared to stop. Animals are unpredictable and can cross the road at anytime."
+        "explain":  "If you come across farm animals on the road and a farmer is present, slow down, be prepared to stop. Animals are unpredictable and can cross the road at anytime.",
+        "short":  "Unrestricted licence passing this sign"
     },
     {
         "id":  115,
@@ -1608,7 +1722,8 @@ window.QUESTIONS = [
                         "Along the middle of the road"
                     ],
         "answer":  0,
-        "explain":  "When driving on any road that does not have marked lanes you must keep your vehicle as near as practicable to the far left side of the road but be careful you\u0027re not driving on loose stones or debris that could puncture your tyre."
+        "explain":  "When driving on any road that does not have marked lanes you must keep your vehicle as near as practicable to the far left side of the road but be careful you\u0027re not driving on loose stones or debris that could puncture your tyre.",
+        "short":  "Driving position with no lane markings"
     },
     {
         "id":  116,
@@ -1622,7 +1737,8 @@ window.QUESTIONS = [
                         "Go to the TfNSW and ask them to renew your registration and tell them you will soon get the car fixed"
                     ],
         "answer":  1,
-        "explain":  "It is an offence to drive an unregistered vehicle on the road. You are only allowed to drive an unregistered vehicle for getting repairs, insurance or registration using the most direct route."
+        "explain":  "It is an offence to drive an unregistered vehicle on the road. You are only allowed to drive an unregistered vehicle for getting repairs, insurance or registration using the most direct route.",
+        "short":  "Car fails registration inspection"
     },
     {
         "id":  117,
@@ -1636,7 +1752,8 @@ window.QUESTIONS = [
                         "Yes, if the tyre is correctly inflated and the side walls of the tyre are in good condition"
                     ],
         "answer":  1,
-        "explain":  "Smooth tyres have very little grip when the roads are wet and are dangerous to drive with, even if it\u0027s a spare tyre."
+        "explain":  "Smooth tyres have very little grip when the roads are wet and are dangerous to drive with, even if it\u0027s a spare tyre.",
+        "short":  "Driving with a smooth spare tyre"
     },
     {
         "id":  118,
@@ -1650,7 +1767,8 @@ window.QUESTIONS = [
                         "Check your mirrors and blind spots for pedestrians, bicycles or other vehicles"
                     ],
         "answer":  2,
-        "explain":  "Opening a vehicle door presents a significant danger to cyclists, as well as other vehicle users. Always check your mirrors and over your shoulder before opening your door."
+        "explain":  "Opening a vehicle door presents a significant danger to cyclists, as well as other vehicle users. Always check your mirrors and over your shoulder before opening your door.",
+        "short":  "Before getting out of your vehicle"
     },
     {
         "id":  119,
@@ -1664,7 +1782,8 @@ window.QUESTIONS = [
                         "You must leave at least 3 metres front and back"
                     ],
         "answer":  0,
-        "explain":  "When you park parallel to the kerb you must leave at least one metre front and back for other vehicles to be able to exit their park safely. Where there is kerbside parallel parking you are not allowed to double-park alongside a parked vehicle as you will be obstructing the roadway."
+        "explain":  "When you park parallel to the kerb you must leave at least one metre front and back for other vehicles to be able to exit their park safely. Where there is kerbside parallel parking you are not allowed to double-park alongside a parked vehicle as you will be obstructing the roadway.",
+        "short":  "Gap when parking parallel to the kerb"
     },
     {
         "id":  120,
@@ -1678,7 +1797,8 @@ window.QUESTIONS = [
                         "Never, you are allowed to drive with your lights on high beam at all times"
                     ],
         "answer":  0,
-        "explain":  "Headlights on high-beam enable you to see further. However, headlights on high-beam may dazzle an oncoming driver so you must \u0027dip\u0027 them to low-beam when another vehicle is within 200 metres. You must also dip your high-beam headlights when driving within 200 metres behind another vehicle."
+        "explain":  "Headlights on high-beam enable you to see further. However, headlights on high-beam may dazzle an oncoming driver so you must \u0027dip\u0027 them to low-beam when another vehicle is within 200 metres. You must also dip your high-beam headlights when driving within 200 metres behind another vehicle.",
+        "short":  "When to dip high beam headlights"
     },
     {
         "id":  121,
@@ -1692,7 +1812,8 @@ window.QUESTIONS = [
                         "Turn on your hazard warning lights"
                     ],
         "answer":  0,
-        "explain":  "Turning on your lights will make you more visible to other road users. However, keep them on low beam so you do not dazzle other drivers."
+        "explain":  "Turning on your lights will make you more visible to other road users. However, keep them on low beam so you do not dazzle other drivers.",
+        "short":  "Driving at sunset or dawn"
     },
     {
         "id":  122,
@@ -1706,7 +1827,8 @@ window.QUESTIONS = [
                         "Yes"
                     ],
         "answer":  2,
-        "explain":  "Bicycle riders have the same rights and responsibilities as drivers and motorcycle riders. Drivers must watch out for bicycle riders, as they are smaller than cars and harder to see. Also, they do not have the protection that drivers in cars, vans and trucks have."
+        "explain":  "Bicycle riders have the same rights and responsibilities as drivers and motorcycle riders. Drivers must watch out for bicycle riders, as they are smaller than cars and harder to see. Also, they do not have the protection that drivers in cars, vans and trucks have.",
+        "short":  "Cyclists\u0027 rights and responsibilities"
     },
     {
         "id":  123,
@@ -1720,7 +1842,8 @@ window.QUESTIONS = [
                         "No, not at any time"
                     ],
         "answer":  2,
-        "explain":  "You must not stop in the direction of the arrow or arrows on the sign, unless driving a taxi. Some taxi zones have times shown. You can stop or park your vehicle outside those times."
+        "explain":  "You must not stop in the direction of the arrow or arrows on the sign, unless driving a taxi. Some taxi zones have times shown. You can stop or park your vehicle outside those times.",
+        "short":  "Parking against an arrow\u0027s direction"
     },
     {
         "id":  124,
@@ -1734,7 +1857,8 @@ window.QUESTIONS = [
                         "Bicycle riders must ride along the yellow line"
                     ],
         "answer":  1,
-        "explain":  "Clearways are designed to help traffic flow smoothly in busier times."
+        "explain":  "Clearways are designed to help traffic flow smoothly in busier times.",
+        "short":  "Meaning of a broken yellow line at the kerb"
     },
     {
         "id":  125,
@@ -1748,7 +1872,8 @@ window.QUESTIONS = [
                         "On any road, even if there are street lights"
                     ],
         "answer":  2,
-        "explain":  "You can use your full beam headlights even if there are streetlights, but be courteous to road users other than cars, such as cyclists and pedestrians."
+        "explain":  "You can use your full beam headlights even if there are streetlights, but be courteous to road users other than cars, such as cyclists and pedestrians.",
+        "short":  "Using high beam at night"
     },
     {
         "id":  126,
@@ -1762,7 +1887,8 @@ window.QUESTIONS = [
                         "Yes, N is best but M and O are quite legal"
                     ],
         "answer":  1,
-        "explain":  "If there are no lines marked on the road (and assuming you are allowed to park there), then parallel parking applies, not angle parking."
+        "explain":  "If there are no lines marked on the road (and assuming you are allowed to park there), then parallel parking applies, not angle parking.",
+        "short":  "Choosing a parking method with no signs"
     },
     {
         "id":  127,
@@ -1776,7 +1902,8 @@ window.QUESTIONS = [
                         "No, never"
                     ],
         "answer":  2,
-        "explain":  "Double parking obstructs the road way and causes a hazard for other road users. Where there is parallel kerbside parking, you are not allowed to double-park alongside a parked vehicle."
+        "explain":  "Double parking obstructs the road way and causes a hazard for other road users. Where there is parallel kerbside parking, you are not allowed to double-park alongside a parked vehicle.",
+        "short":  "Double parking a vehicle"
     },
     {
         "id":  128,
@@ -1790,7 +1917,8 @@ window.QUESTIONS = [
                         "A small bus licence"
                     ],
         "answer":  1,
-        "explain":  "You can drive a van that will carry up to 12 people including the driver on a car licence."
+        "explain":  "You can drive a van that will carry up to 12 people including the driver on a car licence.",
+        "short":  "Licence needed for a 10-seat van"
     },
     {
         "id":  129,
@@ -1804,7 +1932,8 @@ window.QUESTIONS = [
                         "The building blocks a good view of the side street"
                     ],
         "answer":  2,
-        "explain":  "Buildings or trees can restrict your view of intersections. Slow down and pay extra attention."
+        "explain":  "Buildings or trees can restrict your view of intersections. Slow down and pay extra attention.",
+        "short":  "Extra care at this intersection"
     },
     {
         "id":  130,
@@ -1818,7 +1947,8 @@ window.QUESTIONS = [
                         "Take something to calm your nerves before driving"
                     ],
         "answer":  0,
-        "explain":  "Before driving on a freeway, make sure your vehicle has enough fuel, oil and water and the correct tyre pressure. It is important to have the correct tyre pressure because freeway speeds are high and incorrect tyre pressure can affect handling and increase the risk of a tyre blowout."
+        "explain":  "Before driving on a freeway, make sure your vehicle has enough fuel, oil and water and the correct tyre pressure. It is important to have the correct tyre pressure because freeway speeds are high and incorrect tyre pressure can affect handling and increase the risk of a tyre blowout.",
+        "short":  "Before driving on a freeway"
     },
     {
         "id":  131,
@@ -1832,7 +1962,8 @@ window.QUESTIONS = [
                         "Stop and check the traffic behind you on the entrance"
                     ],
         "answer":  1,
-        "explain":  "Match your speed and merge into a gap in the traffic. Trying to merge into freeway traffic too slowly causes a dangerous situation for other drivers who may have to brake heavily."
+        "explain":  "Match your speed and merge into a gap in the traffic. Trying to merge into freeway traffic too slowly causes a dangerous situation for other drivers who may have to brake heavily.",
+        "short":  "Merging onto a freeway"
     },
     {
         "id":  132,
@@ -1846,7 +1977,8 @@ window.QUESTIONS = [
                         "On the front and back of the exterior of the vehicle"
                     ],
         "answer":  2,
-        "explain":  "The plates must be displayed on the front and back of the exterior of the vehicle and not be obscured."
+        "explain":  "The plates must be displayed on the front and back of the exterior of the vehicle and not be obscured.",
+        "short":  "Where to display L/P plates"
     },
     {
         "id":  133,
@@ -1860,7 +1992,8 @@ window.QUESTIONS = [
                         "No, if arrows are marked on the roadway"
                     ],
         "answer":  0,
-        "explain":  "Even if there are arrows marking a left turn, you must signal to avoid ambiguity for other drivers."
+        "explain":  "Even if there are arrows marking a left turn, you must signal to avoid ambiguity for other drivers.",
+        "short":  "Signal required before turning left"
     },
     {
         "id":  134,
@@ -1874,7 +2007,8 @@ window.QUESTIONS = [
                         "You are about to stop"
                     ],
         "answer":  1,
-        "explain":  "Get in the habit of using your indicator every time you make a manoeuvre as it tells other drivers what your intentions are, even if it\u0027s the only way you can turn."
+        "explain":  "Get in the habit of using your indicator every time you make a manoeuvre as it tells other drivers what your intentions are, even if it\u0027s the only way you can turn.",
+        "short":  "When to use the right indicator"
     },
     {
         "id":  135,
@@ -1888,7 +2022,8 @@ window.QUESTIONS = [
                         "Sound your horn to warn the other driver"
                     ],
         "answer":  0,
-        "explain":  "If you are driving towards a narrow bridge slow down especially if wider vehicles are coming."
+        "explain":  "If you are driving towards a narrow bridge slow down especially if wider vehicles are coming.",
+        "short":  "Narrow bridge fitting two vehicles"
     },
     {
         "id":  136,
@@ -1902,7 +2037,8 @@ window.QUESTIONS = [
                         "Have a large meal and a cup of coffee"
                     ],
         "answer":  0,
-        "explain":  "Before driving a long distance, it is important to have the correct tyre pressure because incorrect tyre pressure can affect handling and increase the risk of a tyre blowout."
+        "explain":  "Before driving a long distance, it is important to have the correct tyre pressure because incorrect tyre pressure can affect handling and increase the risk of a tyre blowout.",
+        "short":  "Preparing for a long fast drive"
     },
     {
         "id":  137,
@@ -1916,7 +2052,8 @@ window.QUESTIONS = [
                         "Resist the pressure, stay calm and overtake the cyclist when it is safe"
                     ],
         "answer":  2,
-        "explain":  "You are in control and other drivers\u0027 impatience should not influence your decisions to act safely. Only overtake when it is safe for the cyclist and yourself to do so."
+        "explain":  "You are in control and other drivers\u0027 impatience should not influence your decisions to act safely. Only overtake when it is safe for the cyclist and yourself to do so.",
+        "short":  "Pressured to overtake a cyclist"
     },
     {
         "id":  138,
@@ -1930,7 +2067,8 @@ window.QUESTIONS = [
                         "Car brakes often fail"
                     ],
         "answer":  1,
-        "explain":  "Stop signals at railway crossings should be obeyed because trains are fast and heavy and cannot stop quickly or deviate from the tracks. Check for trains even if the lights are not flashing."
+        "explain":  "Stop signals at railway crossings should be obeyed because trains are fast and heavy and cannot stop quickly or deviate from the tracks. Check for trains even if the lights are not flashing.",
+        "short":  "Why obey railway crossing signals"
     },
     {
         "id":  139,
@@ -1944,7 +2082,8 @@ window.QUESTIONS = [
                         "Sound your horn to warn other drivers"
                     ],
         "answer":  0,
-        "explain":  "Always check your mirrors and over your shoulder before reversing. It\u0027s more difficult to control your vehicle when reversing than driving forwards, so you should never reverse for any more distance than is necessary."
+        "explain":  "Always check your mirrors and over your shoulder before reversing. It\u0027s more difficult to control your vehicle when reversing than driving forwards, so you should never reverse for any more distance than is necessary.",
+        "short":  "How to reverse safely"
     },
     {
         "id":  140,
@@ -1958,7 +2097,8 @@ window.QUESTIONS = [
                         "Maintain the same speed"
                     ],
         "answer":  1,
-        "explain":  "When approaching roadworks, slow down for the safety of workers, look out for any hazards and be prepared to stop if instructed to."
+        "explain":  "When approaching roadworks, slow down for the safety of workers, look out for any hazards and be prepared to stop if instructed to.",
+        "short":  "Seeing a road repairs sign"
     },
     {
         "id":  141,
@@ -1972,7 +2112,8 @@ window.QUESTIONS = [
                         "Drive onto the wrong side of the road and hope the other vehicle does not do the same"
                     ],
         "answer":  1,
-        "explain":  "The more speed you can scrub off, and the further you are to your left, the more chance you have of avoiding an accident, or at least minimising its effects. Never try to dodge by pulling right. They may suddenly realise the predicament and instinctively swerve back into the proper lane, colliding with you."
+        "explain":  "The more speed you can scrub off, and the further you are to your left, the more chance you have of avoiding an accident, or at least minimising its effects. Never try to dodge by pulling right. They may suddenly realise the predicament and instinctively swerve back into the proper lane, colliding with you.",
+        "short":  "Oncoming vehicle crossing the centre line"
     },
     {
         "id":  142,
@@ -1986,7 +2127,8 @@ window.QUESTIONS = [
                         "Move to the left and make way for the ambulance"
                     ],
         "answer":  2,
-        "explain":  "Pull over to the left to give the emergency vehicle as much space as possible to overtake you. Don\u0027t brake heavily. Emergency services drivers are trained not to pressure a driver into doing something dangerous and will find a way through."
+        "explain":  "Pull over to the left to give the emergency vehicle as much space as possible to overtake you. Don\u0027t brake heavily. Emergency services drivers are trained not to pressure a driver into doing something dangerous and will find a way through.",
+        "short":  "Ambulance siren behind you"
     },
     {
         "id":  143,
@@ -2000,7 +2142,8 @@ window.QUESTIONS = [
                         "You must obey the signs that are displayed at all times"
                     ],
         "answer":  2,
-        "explain":  "When approaching roadworks, slow down, look out for any hazards and be prepared to stop. You must obey the regulatory signs and traffic lights at roadworks. Look out for road workers on the road and obey signals from traffic controllers."
+        "explain":  "When approaching roadworks, slow down, look out for any hazards and be prepared to stop. You must obey the regulatory signs and traffic lights at roadworks. Look out for road workers on the road and obey signals from traffic controllers.",
+        "short":  "Approaching roadworks"
     },
     {
         "id":  144,
@@ -2014,7 +2157,8 @@ window.QUESTIONS = [
                         "All of the letter L or P"
                     ],
         "answer":  2,
-        "explain":  "The plates must be displayed on the front and back of the exterior of the vehicle and not be obscured. None of the letter must be hidden."
+        "explain":  "The plates must be displayed on the front and back of the exterior of the vehicle and not be obscured. None of the letter must be hidden.",
+        "short":  "Visibility rule for L/P plates"
     },
     {
         "id":  145,
@@ -2028,7 +2172,8 @@ window.QUESTIONS = [
                         "Yes, providing you use the gravel joining roads"
                     ],
         "answer":  1,
-        "explain":  "If you forgot something, continue driving and take the next exit. Make your way back to your desired exit on the other side of the freeway."
+        "explain":  "If you forgot something, continue driving and take the next exit. Make your way back to your desired exit on the other side of the freeway.",
+        "short":  "No U-turns on a freeway"
     },
     {
         "id":  146,
@@ -2042,7 +2187,8 @@ window.QUESTIONS = [
                         "Indicating in this situation is optional Give a right hand signal if you think it will help other road users"
                     ],
         "answer":  1,
-        "explain":  "Whenever you perform a right hand turn to change lanes or at an intersection you must use your right hand signal, even if that\u0027s the only way you can turn."
+        "explain":  "Whenever you perform a right hand turn to change lanes or at an intersection you must use your right hand signal, even if that\u0027s the only way you can turn.",
+        "short":  "Indicating from a dual right-turn lane"
     },
     {
         "id":  147,
@@ -2056,7 +2202,8 @@ window.QUESTIONS = [
                         "Stop immediately and let the faster vehicle overtake"
                     ],
         "answer":  0,
-        "explain":  "You should leave a gap of at least 60 metres, so other vehicles overtaking you can pull in safely after overtaking you, gradually leap-frogging the line of slower vehicles."
+        "explain":  "You should leave a gap of at least 60 metres, so other vehicles overtaking you can pull in safely after overtaking you, gradually leap-frogging the line of slower vehicles.",
+        "short":  "Help traffic overtake a towed caravan"
     },
     {
         "id":  148,
@@ -2070,7 +2217,8 @@ window.QUESTIONS = [
                         "A station is nearby"
                     ],
         "answer":  1,
-        "explain":  "If traffic is blocking the other side you may get stranded on the tracks. You must not drive onto a level crossing while a train is approaching or if the road on the other side of the crossing is blocked."
+        "explain":  "If traffic is blocking the other side you may get stranded on the tracks. You must not drive onto a level crossing while a train is approaching or if the road on the other side of the crossing is blocked.",
+        "short":  "When not to cross a railway crossing"
     },
     {
         "id":  149,
@@ -2084,7 +2232,8 @@ window.QUESTIONS = [
                         "Where the road is very wide"
                     ],
         "answer":  1,
-        "explain":  "If there are angle park markings, that is how you should park. If there are no lines marked on the road, then parallel parking applies."
+        "explain":  "If there are angle park markings, that is how you should park. If there are no lines marked on the road, then parallel parking applies.",
+        "short":  "How to angle park correctly"
     },
     {
         "id":  150,
@@ -2098,7 +2247,8 @@ window.QUESTIONS = [
                         "No, there is no regulation to cover this situation"
                     ],
         "answer":  0,
-        "explain":  "Opening a vehicle door presents a significant danger to cyclists, as well as other vehicle users. Always check your mirrors and over your shoulder before opening your door."
+        "explain":  "Opening a vehicle door presents a significant danger to cyclists, as well as other vehicle users. Always check your mirrors and over your shoulder before opening your door.",
+        "short":  "Check for traffic before opening a door"
     },
     {
         "id":  151,
@@ -2112,7 +2262,8 @@ window.QUESTIONS = [
                         "No, the car should enter the roundabout only from the right hand lane."
                     ],
         "answer":  2,
-        "explain":  "The red car is not in the right position to turn right at the roundabout because is in the left-hand lane."
+        "explain":  "The red car is not in the right position to turn right at the roundabout because is in the left-hand lane.",
+        "short":  "Correct lane to exit a roundabout right"
     },
     {
         "id":  152,
@@ -2126,7 +2277,8 @@ window.QUESTIONS = [
                         "Whichever vehicle got there last."
                     ],
         "answer":  0,
-        "explain":  "At an unmarked T-intersection, even if someone is turning in front of you, you must wait for them if you are on the bottom of the T."
+        "explain":  "At an unmarked T-intersection, even if someone is turning in front of you, you must wait for them if you are on the bottom of the T.",
+        "short":  "Give way at a T-intersection"
     },
     {
         "id":  153,
@@ -2140,7 +2292,8 @@ window.QUESTIONS = [
                         "Have a glass of water."
                     ],
         "answer":  0,
-        "explain":  "The only way to get your blood alcohol down is to wait. Adding other liquid does not affect your body\u0027s ability to eliminate the alcohol."
+        "explain":  "The only way to get your blood alcohol down is to wait. Adding other liquid does not affect your body\u0027s ability to eliminate the alcohol.",
+        "short":  "Only time reduces alcohol\u0027s effect"
     },
     {
         "id":  154,
@@ -2154,7 +2307,8 @@ window.QUESTIONS = [
                         "Drink a large glass of milk because this reduces the adverse effects of medicines and drugs."
                     ],
         "answer":  1,
-        "explain":  "Prescription drugs need the advice of a doctor or pharmacist before you take them, and they may have unwanted side effects that affect your ability to control a vehicle."
+        "explain":  "Prescription drugs need the advice of a doctor or pharmacist before you take them, and they may have unwanted side effects that affect your ability to control a vehicle.",
+        "short":  "Check medication before taking it"
     },
     {
         "id":  155,
@@ -2168,7 +2322,8 @@ window.QUESTIONS = [
                         "Organise a lift home with someone from the party."
                     ],
         "answer":  0,
-        "explain":  "If there is no dedicated driver that doesn\u0027t drink, organise a taxi, someone to pick you up, or take public transport to get home."
+        "explain":  "If there is no dedicated driver that doesn\u0027t drink, organise a taxi, someone to pick you up, or take public transport to get home.",
+        "short":  "Plan a ride home in advance"
     },
     {
         "id":  156,
@@ -2182,7 +2337,8 @@ window.QUESTIONS = [
                         "Spend more time than usual looking in the mirrors."
                     ],
         "answer":  1,
-        "explain":  "Any amount of alcohol impairs your ability to drive. Alcohol is a depressant which means it slows down your ability for your brain to work."
+        "explain":  "Any amount of alcohol impairs your ability to drive. Alcohol is a depressant which means it slows down your ability for your brain to work.",
+        "short":  "Alcohol impairs even if you feel fine"
     },
     {
         "id":  157,
@@ -2196,7 +2352,8 @@ window.QUESTIONS = [
                         "Turn the wheels away from the kerb"
                     ],
         "answer":  1,
-        "explain":  "In an automatic car you should put the gearbox in \u0027P\u0027 (park) and put the handbrake on. You can also turn your wheels towards the kerb for added security as if the car rolls it will turn itself towards the kerb."
+        "explain":  "In an automatic car you should put the gearbox in \u0027P\u0027 (park) and put the handbrake on. You can also turn your wheels towards the kerb for added security as if the car rolls it will turn itself towards the kerb.",
+        "short":  "Parking an automatic on a hill"
     },
     {
         "id":  158,
@@ -2210,7 +2367,8 @@ window.QUESTIONS = [
                         "Drive carefully at no more than 40 km/h"
                     ],
         "answer":  2,
-        "explain":  "It\u0027s compulsory to drive no faster than 40 km/h past this because it\u0027s a school bus dropping off or picking up children. They keep flashing for about 30 seconds after the door closes and continue even after the bus moves off. This is to warn you that children might be crossing."
+        "explain":  "It\u0027s compulsory to drive no faster than 40 km/h past this because it\u0027s a school bus dropping off or picking up children. They keep flashing for about 30 seconds after the door closes and continue even after the bus moves off. This is to warn you that children might be crossing.",
+        "short":  "Flashing lights on the back of a bus"
     },
     {
         "id":  159,
@@ -2224,7 +2382,8 @@ window.QUESTIONS = [
                         "24 months"
                     ],
         "answer":  0,
-        "explain":  "You have to hold a P1 licence (red Ps) for at least 12 months before you can attempt the Hazard Perception Test in order to proceed to your P2 licence (green Ps). Your P1 licence is valid for 18 months, if you don\u0027t apply for your green Ps during that time."
+        "explain":  "You have to hold a P1 licence (red Ps) for at least 12 months before you can attempt the Hazard Perception Test in order to proceed to your P2 licence (green Ps). Your P1 licence is valid for 18 months, if you don\u0027t apply for your green Ps during that time.",
+        "short":  "Minimum time on a P1 licence"
     },
     {
         "id":  160,
@@ -2238,7 +2397,8 @@ window.QUESTIONS = [
                         "They are harder to see in traffic and do not have the same protection as many drivers"
                     ],
         "answer":  2,
-        "explain":  "They are smaller and less visible. Also, they do not have the protection that drivers in cars, vans and trucks have."
+        "explain":  "They are smaller and less visible. Also, they do not have the protection that drivers in cars, vans and trucks have.",
+        "short":  "Why cyclists/motorcyclists are more at risk"
     },
     {
         "id":  161,
@@ -2252,7 +2412,8 @@ window.QUESTIONS = [
                         "Only your name and address details if a Police officer asks for them"
                     ],
         "answer":  1,
-        "explain":  "If you\u0027re involved in a crash you must give the other person or people involved your name and address, your vehicle registration number or the name and address of the owner of the vehicle, if you\u0027re not the owner."
+        "explain":  "If you\u0027re involved in a crash you must give the other person or people involved your name and address, your vehicle registration number or the name and address of the owner of the vehicle, if you\u0027re not the owner.",
+        "short":  "Details to give after any accident"
     },
     {
         "id":  162,
@@ -2266,7 +2427,8 @@ window.QUESTIONS = [
                         "Stop your vehicle and follow the directions of the traffic controller"
                     ],
         "answer":  2,
-        "explain":  "The traffic controller will let you know when it\u0027s safe to pass through the road works. There might be vehicles coming the other way, or workers or machinery blocking the lane."
+        "explain":  "The traffic controller will let you know when it\u0027s safe to pass through the road works. There might be vehicles coming the other way, or workers or machinery blocking the lane.",
+        "short":  "Traffic controller displays a stop sign"
     },
     {
         "id":  163,
@@ -2280,7 +2442,8 @@ window.QUESTIONS = [
                         "Yes"
                     ],
         "answer":  2,
-        "explain":  "You must carry your drivers licence with you at all times when you drive. If you are stopped by the police and you do not have your licence on you, you will be given an on-the-spot fine or summonsed to court."
+        "explain":  "You must carry your drivers licence with you at all times when you drive. If you are stopped by the police and you do not have your licence on you, you will be given an on-the-spot fine or summonsed to court.",
+        "short":  "Carrying your driver\u0027s licence"
     },
     {
         "id":  164,
@@ -2294,7 +2457,8 @@ window.QUESTIONS = [
                         "Slow down and stop if necessary to prevent getting in its way"
                     ],
         "answer":  2,
-        "explain":  "Wait at the intersection until the ambulance negotiates its way around you, minimising the chance of an accident. Be careful as there could be multiple emergency vehicles."
+        "explain":  "Wait at the intersection until the ambulance negotiates its way around you, minimising the chance of an accident. Be careful as there could be multiple emergency vehicles.",
+        "short":  "Ambulance approaching on red, you\u0027re on green"
     },
     {
         "id":  165,
@@ -2308,7 +2472,8 @@ window.QUESTIONS = [
                         "Slow down"
                     ],
         "answer":  2,
-        "explain":  "The gravel acts like ball bearings under your wheel. Slow down and avoid braking heavily."
+        "explain":  "The gravel acts like ball bearings under your wheel. Slow down and avoid braking heavily.",
+        "short":  "Loose gravel ahead at a corner"
     },
     {
         "id":  166,
@@ -2322,7 +2487,8 @@ window.QUESTIONS = [
                         "The right lane is reserved for overtaking"
                     ],
         "answer":  2,
-        "explain":  "The usual driving lane is the left-hand lane on a freeway. Only use the right hand lane and middle lane for overtaking."
+        "explain":  "The usual driving lane is the left-hand lane on a freeway. Only use the right hand lane and middle lane for overtaking.",
+        "short":  "Three lanes on a freeway"
     },
     {
         "id":  167,
@@ -2336,7 +2502,8 @@ window.QUESTIONS = [
                         "Yes, if the person(s) in the caravan are over 12 years of age"
                     ],
         "answer":  0,
-        "explain":  "Caravans are not designed to be crash-proof. A person in an accident in a caravan is likely to be seriously injured or worse."
+        "explain":  "Caravans are not designed to be crash-proof. A person in an accident in a caravan is likely to be seriously injured or worse.",
+        "short":  "Towing a caravan with a person inside"
     },
     {
         "id":  168,
@@ -2350,7 +2517,8 @@ window.QUESTIONS = [
                         "Windscreen wipers"
                     ],
         "answer":  0,
-        "explain":  "Travelling at freeway speeds is deceptive. If you are coming to an intersection, roundabout or zone with a lower speed limit, begin to slow down early and adjust your speed appropriately."
+        "explain":  "Travelling at freeway speeds is deceptive. If you are coming to an intersection, roundabout or zone with a lower speed limit, begin to slow down early and adjust your speed appropriately.",
+        "short":  "Checks when leaving a freeway"
     },
     {
         "id":  169,
@@ -2364,7 +2532,8 @@ window.QUESTIONS = [
                         "Mirror C"
                     ],
         "answer":  0,
-        "explain":  "Mirror A allows you to see back up the lane as far as possible and while minimising your blind spot."
+        "explain":  "Mirror A allows you to see back up the lane as far as possible and while minimising your blind spot.",
+        "short":  "Correctly adjusted side mirror"
     },
     {
         "id":  170,
@@ -2378,7 +2547,8 @@ window.QUESTIONS = [
                         "Only to overtake another vehicle"
                     ],
         "answer":  0,
-        "explain":  "Private vehicles can drive in bus lanes to avoid an obstruction or if there\u0027s a sign saying they can. They can also drive in a bus lane for a maximum of 100m to enter or leave the road."
+        "explain":  "Private vehicles can drive in bus lanes to avoid an obstruction or if there\u0027s a sign saying they can. They can also drive in a bus lane for a maximum of 100m to enter or leave the road.",
+        "short":  "When a private car may use this lane"
     },
     {
         "id":  171,
@@ -2392,7 +2562,8 @@ window.QUESTIONS = [
                         "Ask your friend for a cushion to place behind your back"
                     ],
         "answer":  1,
-        "explain":  "Put the seat in a position where you can reach the steering wheel with slightly bent arms and reach the pedals."
+        "explain":  "Put the seat in a position where you can reach the steering wheel with slightly bent arms and reach the pedals.",
+        "short":  "Adjusting a borrowed car\u0027s seat"
     },
     {
         "id":  172,
@@ -2406,7 +2577,8 @@ window.QUESTIONS = [
                         "Pull over to the left until the emergency vehicle passes"
                     ],
         "answer":  2,
-        "explain":  "Pull over to the left to give the emergency vehicle as much space as possible to overtake you. Don\u0027t brake heavily. Emergency services drivers are trained not to pressure a driver into doing something dangerous and will find a way through."
+        "explain":  "Pull over to the left to give the emergency vehicle as much space as possible to overtake you. Don\u0027t brake heavily. Emergency services drivers are trained not to pressure a driver into doing something dangerous and will find a way through.",
+        "short":  "Hearing an emergency vehicle\u0027s siren"
     },
     {
         "id":  173,
@@ -2420,7 +2592,8 @@ window.QUESTIONS = [
                         "Stop immediately and turn around"
                     ],
         "answer":  0,
-        "explain":  "If you miss your exit, continue driving and take the next exit. Make your way back to your desired exit on the other side of the freeway. Reversing on the freeway is dangerous and prohibited."
+        "explain":  "If you miss your exit, continue driving and take the next exit. Make your way back to your desired exit on the other side of the freeway. Reversing on the freeway is dangerous and prohibited.",
+        "short":  "Missing your freeway exit"
     },
     {
         "id":  174,
@@ -2434,7 +2607,8 @@ window.QUESTIONS = [
                         "Speed up to pass the horse"
                     ],
         "answer":  1,
-        "explain":  "If you\u0027re passing a horse, whether it\u0027s being ridden or led, or is pulling a vehicle, you should slow down and give them plenty of space. Horses can be frightened easily by traffic and can become unpredictable."
+        "explain":  "If you\u0027re passing a horse, whether it\u0027s being ridden or led, or is pulling a vehicle, you should slow down and give them plenty of space. Horses can be frightened easily by traffic and can become unpredictable.",
+        "short":  "Seeing a horse and rider on the road"
     },
     {
         "id":  175,
@@ -2448,7 +2622,8 @@ window.QUESTIONS = [
                         "Immediately pull over to the left and stop. Then wait until it is safe to continue in another lane."
                     ],
         "answer":  1,
-        "explain":  "As you only have two people in your vehicle you cannot travel in the T3 lane. T3 lane must have a driver and at least two other occupants."
+        "explain":  "As you only have two people in your vehicle you cannot travel in the T3 lane. T3 lane must have a driver and at least two other occupants.",
+        "short":  "Alone in a T3 transit lane"
     },
     {
         "id":  176,
@@ -2462,7 +2637,8 @@ window.QUESTIONS = [
                         "P only."
                     ],
         "answer":  0,
-        "explain":  "The road has a double line, but the purple car\u0027s side is a broken line therefore it\u0027s possible to overtake another vehicle as well as turn into a driveway or side street."
+        "explain":  "The road has a double line, but the purple car\u0027s side is a broken line therefore it\u0027s possible to overtake another vehicle as well as turn into a driveway or side street.",
+        "short":  "Legal movements for the purple car"
     },
     {
         "id":  177,
@@ -2476,7 +2652,8 @@ window.QUESTIONS = [
                         "Cross the line and overtake only if it is safe."
                     ],
         "answer":  1,
-        "explain":  "Wait until car B has completed its overtaking manoeuvre. Do not cross the unbroken single line."
+        "explain":  "Wait until car B has completed its overtaking manoeuvre. Do not cross the unbroken single line.",
+        "short":  "Overtaking car B from car A"
     },
     {
         "id":  178,
@@ -2490,7 +2667,8 @@ window.QUESTIONS = [
                         "O, P and Q."
                     ],
         "answer":  0,
-        "explain":  "The road in has a double unbroken dividing line therefore the purple car can only cross it to turn into a driveway (assuming it\u0027s safe to do so), not to overtake another vehicle. The line is broken where there is a side street so it can turn into it."
+        "explain":  "The road in has a double unbroken dividing line therefore the purple car can only cross it to turn into a driveway (assuming it\u0027s safe to do so), not to overtake another vehicle. The line is broken where there is a side street so it can turn into it.",
+        "short":  "Legal movements for the purple car"
     },
     {
         "id":  179,
@@ -2504,7 +2682,8 @@ window.QUESTIONS = [
                         "Drive through and sound your horn."
                     ],
         "answer":  1,
-        "explain":  "You should always stop when the lights turn yellow unless stopping abruptly would cause an accident."
+        "explain":  "You should always stop when the lights turn yellow unless stopping abruptly would cause an accident.",
+        "short":  "Lights change to yellow, no other traffic"
     },
     {
         "id":  180,
@@ -2518,7 +2697,8 @@ window.QUESTIONS = [
                         "The vehicle in the right-hand lane because it is overtaking."
                     ],
         "answer":  0,
-        "explain":  "When two roads merge into one road, the vehicle that has to cross the lane line must give way."
+        "explain":  "When two roads merge into one road, the vehicle that has to cross the lane line must give way.",
+        "short":  "Give way when two lanes merge into one"
     },
     {
         "id":  181,
@@ -2532,7 +2712,8 @@ window.QUESTIONS = [
                         "You must give way to oncoming traffic."
                     ],
         "answer":  0,
-        "explain":  "On some intersections you will find a red turning arrow which means you can turn on a red light if the turning arrow is green. You must wait if there are any pedestrians crossing the road."
+        "explain":  "On some intersections you will find a red turning arrow which means you can turn on a red light if the turning arrow is green. You must wait if there are any pedestrians crossing the road.",
+        "short":  "Meaning of these traffic lights"
     },
     {
         "id":  182,
@@ -2546,7 +2727,8 @@ window.QUESTIONS = [
                         "No, unless you are driving a hire car or a taxi."
                     ],
         "answer":  2,
-        "explain":  "You must not drive in a bus lane if it is only reserved for buses unless you are driving a taxi or hire car."
+        "explain":  "You must not drive in a bus lane if it is only reserved for buses unless you are driving a taxi or hire car.",
+        "short":  "Stopping in a bus lane to pick up"
     },
     {
         "id":  183,
@@ -2560,7 +2742,8 @@ window.QUESTIONS = [
                         "Yes, if there is no danger of colliding with another vehicle."
                     ],
         "answer":  0,
-        "explain":  "You must not make a u-turn at traffic lights unless there is a \u0027U-TURN PERMITTED\u0027 sign."
+        "explain":  "You must not make a u-turn at traffic lights unless there is a \u0027U-TURN PERMITTED\u0027 sign.",
+        "short":  "U-turns at traffic lights"
     },
     {
         "id":  184,
@@ -2574,7 +2757,8 @@ window.QUESTIONS = [
                         "Turn right if it is safe to do so."
                     ],
         "answer":  1,
-        "explain":  "Even if it\u0027s the middle of the night and there is no one coming, you must not go through a red light."
+        "explain":  "Even if it\u0027s the middle of the night and there is no one coming, you must not go through a red light.",
+        "short":  "Turning right at 3am with no traffic"
     },
     {
         "id":  185,
@@ -2588,7 +2772,8 @@ window.QUESTIONS = [
                         "Stop and wait for a green light."
                     ],
         "answer":  0,
-        "explain":  "At some intersections with lights a left turn is permitted after stopping. Stop and turn left only if it is safe."
+        "explain":  "At some intersections with lights a left turn is permitted after stopping. Stop and turn left only if it is safe.",
+        "short":  "Red light, this sign, turning left"
     },
     {
         "id":  186,
@@ -2602,7 +2787,8 @@ window.QUESTIONS = [
                         "Stop, then if you see it is safe turn left."
                     ],
         "answer":  2,
-        "explain":  "You must stop first and only turn left if it is safe to do so."
+        "explain":  "You must stop first and only turn left if it is safe to do so.",
+        "short":  "Red light, this sign, turning left"
     },
     {
         "id":  187,
@@ -2616,7 +2802,8 @@ window.QUESTIONS = [
                         "Wait until the traffic behind you makes you move."
                     ],
         "answer":  1,
-        "explain":  "You should check for traffic on your left and right at all times. Pay particular attention as cyclists and motorcyclists are more difficult to see at intersections because of their smaller profile."
+        "explain":  "You should check for traffic on your left and right at all times. Pay particular attention as cyclists and motorcyclists are more difficult to see at intersections because of their smaller profile.",
+        "short":  "Lights change from red to green"
     },
     {
         "id":  188,
@@ -2630,7 +2817,8 @@ window.QUESTIONS = [
                         "Yes, only if the way ahead is clear."
                     ],
         "answer":  1,
-        "explain":  "There are double unbroken dividing lines which you are not permitted to cross to overtake, unless you are overtaking a cyclist."
+        "explain":  "There are double unbroken dividing lines which you are not permitted to cross to overtake, unless you are overtaking a cyclist.",
+        "short":  "Crossing these lines to overtake"
     },
     {
         "id":  189,
@@ -2644,7 +2832,8 @@ window.QUESTIONS = [
                         "Stay behind the stop line until the green arrow shows."
                     ],
         "answer":  2,
-        "explain":  "You must not drive through a red light. Wait behind the line until the green arrow turns green."
+        "explain":  "You must not drive through a red light. Wait behind the line until the green arrow turns green.",
+        "short":  "Turning right at this traffic light"
     },
     {
         "id":  190,
@@ -2658,7 +2847,8 @@ window.QUESTIONS = [
                         "Provided you sound your horn to warn other drivers"
                     ],
         "answer":  0,
-        "explain":  "Before changing lanes you must first check your mirrors, then signal your intentions, then check your mirrors and blind spot, then make the manoeuvre. Even if you can\u0027t see any other road users around you must still indicate for at least five seconds because there could be a motorcyclist, cyclist or other road user you haven\u0027t seen."
+        "explain":  "Before changing lanes you must first check your mirrors, then signal your intentions, then check your mirrors and blind spot, then make the manoeuvre. Even if you can\u0027t see any other road users around you must still indicate for at least five seconds because there could be a motorcyclist, cyclist or other road user you haven\u0027t seen.",
+        "short":  "Changing lanes as shown in the diagram"
     },
     {
         "id":  191,
@@ -2672,7 +2862,8 @@ window.QUESTIONS = [
                         "Either vehicle, there is no rule on giving way when merging."
                     ],
         "answer":  1,
-        "explain":  "If two lanes merge into one without a lane line, the vehicle that is ahead has right of way."
+        "explain":  "If two lanes merge into one without a lane line, the vehicle that is ahead has right of way.",
+        "short":  "Which vehicle must give way"
     },
     {
         "id":  192,
@@ -2686,7 +2877,8 @@ window.QUESTIONS = [
                         "Keep overtaking and cut in in front of the other car as soon as possible."
                     ],
         "answer":  1,
-        "explain":  "If you see the dividing lines are double unbroken ones then you must not overtake."
+        "explain":  "If you see the dividing lines are double unbroken ones then you must not overtake.",
+        "short":  "Dividing lines change to double unbroken mid-overtake"
     },
     {
         "id":  193,
@@ -2700,7 +2892,8 @@ window.QUESTIONS = [
                         "You need to watch out for all large, long vehicles which are turning."
                     ],
         "answer":  2,
-        "explain":  "Large, long vehicles may unexpectedly turn across your path if you don\u0027t see their indicators."
+        "explain":  "Large, long vehicles may unexpectedly turn across your path if you don\u0027t see their indicators.",
+        "short":  "Correct statement about overtaking"
     },
     {
         "id":  194,
@@ -2714,7 +2907,8 @@ window.QUESTIONS = [
                         "Signal for at least two seconds and quickly change lanes."
                     ],
         "answer":  1,
-        "explain":  "If you don\u0027t signal in time other drivers may begin a manoeuvre which conflicts with yours, and if you don\u0027t look in your mirrors and over your shoulder you may not see a vehicle in your blind spot."
+        "explain":  "If you don\u0027t signal in time other drivers may begin a manoeuvre which conflicts with yours, and if you don\u0027t look in your mirrors and over your shoulder you may not see a vehicle in your blind spot.",
+        "short":  "Before changing lanes"
     },
     {
         "id":  195,
@@ -2728,7 +2922,8 @@ window.QUESTIONS = [
                         "Stop, then enter the traffic quickly."
                     ],
         "answer":  0,
-        "explain":  "Watch for a suitable gap in the traffic and adjust your speed so that you arrive at the correct time. If traffic is heavy, merge alternately (like a zip)."
+        "explain":  "Watch for a suitable gap in the traffic and adjust your speed so that you arrive at the correct time. If traffic is heavy, merge alternately (like a zip).",
+        "short":  "Merging onto a freeway"
     },
     {
         "id":  196,
@@ -2742,7 +2937,8 @@ window.QUESTIONS = [
                         "Can make a U turn provided it is safe to do so."
                     ],
         "answer":  1,
-        "explain":  "A green light means you can turn left (if there are no crossing pedestrians), go straight ahead, and turn right (if you give way to traffic coming towards you)."
+        "explain":  "A green light means you can turn left (if there are no crossing pedestrians), go straight ahead, and turn right (if you give way to traffic coming towards you).",
+        "short":  "Meaning of this light"
     },
     {
         "id":  197,
@@ -2756,7 +2952,8 @@ window.QUESTIONS = [
                         "Must be obeyed."
                     ],
         "answer":  2,
-        "explain":  "Temporary traffic lights are sometimes installed at roadworks and they should be treated as any other traffic light. The sign indicates where it is safe to stop."
+        "explain":  "Temporary traffic lights are sometimes installed at roadworks and they should be treated as any other traffic light. The sign indicates where it is safe to stop.",
+        "short":  "Temporary traffic lights at road works"
     },
     {
         "id":  198,
@@ -2770,7 +2967,8 @@ window.QUESTIONS = [
                         "Always required before turning or lane changing."
                     ],
         "answer":  2,
-        "explain":  "You must always signal when turning or changing lanes."
+        "explain":  "You must always signal when turning or changing lanes.",
+        "short":  "Purpose of signalling"
     },
     {
         "id":  199,
@@ -2784,7 +2982,8 @@ window.QUESTIONS = [
                         "Yes, you can remain in the transit lane, but only if you are turning left in 250 metres."
                     ],
         "answer":  1,
-        "explain":  "As long as there are two or more people in your vehicle you can travel in the T2 lane. They must be real people, not pets or mannequins."
+        "explain":  "As long as there are two or more people in your vehicle you can travel in the T2 lane. They must be real people, not pets or mannequins.",
+        "short":  "One passenger in a T2 transit lane"
     },
     {
         "id":  200,
@@ -2798,7 +2997,8 @@ window.QUESTIONS = [
                         "Cross them to make a U turn."
                     ],
         "answer":  0,
-        "explain":  "You can only cross a double unbroken dividing lines to turn into a driveway (assuming it\u0027s safe to do so)."
+        "explain":  "You can only cross a double unbroken dividing lines to turn into a driveway (assuming it\u0027s safe to do so).",
+        "short":  "Crossing double unbroken lines"
     },
     {
         "id":  201,
@@ -2812,7 +3012,8 @@ window.QUESTIONS = [
                         "O, P and Q."
                     ],
         "answer":  0,
-        "explain":  "The road has a double line but the purple car is still allowed to cross it to turn into a driveway. The line is broken where there is a side street so it can turn into it. The purple car\u0027s side is an unbroken line therefore it\u0027s not possible to overtake another vehicle."
+        "explain":  "The road has a double line but the purple car is still allowed to cross it to turn into a driveway. The line is broken where there is a side street so it can turn into it. The purple car\u0027s side is an unbroken line therefore it\u0027s not possible to overtake another vehicle.",
+        "short":  "Legal movements for the purple car"
     },
     {
         "id":  202,
@@ -2826,7 +3027,8 @@ window.QUESTIONS = [
                         "Can turn left only if a sign \"TURN LEFT AT ANY TIME WITH CARE\" is displayed."
                     ],
         "answer":  0,
-        "explain":  "Straight through traffic has a red light, therefore must stop. Traffic turning left can go if it\u0027s safe to do so."
+        "explain":  "Straight through traffic has a red light, therefore must stop. Traffic turning left can go if it\u0027s safe to do so.",
+        "short":  "Meaning of these lights"
     },
     {
         "id":  203,
@@ -2840,7 +3042,8 @@ window.QUESTIONS = [
                         "Watch for a gap and increase your speed to safely merge with the traffic."
                     ],
         "answer":  2,
-        "explain":  "It\u0027s very important that you match your speed when merging so that you do not cause other traffic to brake. The reason for having an on-ramp or slip road is to allow vehicles to do this."
+        "explain":  "It\u0027s very important that you match your speed when merging so that you do not cause other traffic to brake. The reason for having an on-ramp or slip road is to allow vehicles to do this.",
+        "short":  "Merging onto a motorway"
     },
     {
         "id":  204,
@@ -2854,7 +3057,8 @@ window.QUESTIONS = [
                         "The left lane unless overtaking."
                     ],
         "answer":  2,
-        "explain":  "You should always use the left lane unless overtaking or you are about to turn right."
+        "explain":  "You should always use the left lane unless overtaking or you are about to turn right.",
+        "short":  "Lane choice above 80 km/h"
     },
     {
         "id":  205,
@@ -2868,7 +3072,8 @@ window.QUESTIONS = [
                         "Increase your speed to avoid the vehicle."
                     ],
         "answer":  1,
-        "explain":  "Usually moving to the left will allow the emergency vehicle to pass, but check in your mirrors to see where it is approaching from. If you are waiting at an intersection the ambulance driver will find a way through. Don\u0027t emerge into the intersection unless the ambulance waits behind you, and only emerge on a green light, not a red light."
+        "explain":  "Usually moving to the left will allow the emergency vehicle to pass, but check in your mirrors to see where it is approaching from. If you are waiting at an intersection the ambulance driver will find a way through. Don\u0027t emerge into the intersection unless the ambulance waits behind you, and only emerge on a green light, not a red light.",
+        "short":  "Hearing an emergency vehicle\u0027s siren"
     },
     {
         "id":  206,
@@ -2882,7 +3087,8 @@ window.QUESTIONS = [
                         "Stop, make sure there is no traffic, then drive straight ahead."
                     ],
         "answer":  0,
-        "explain":  "At red traffic lights you must stop if it\u0027s safe to do so then wait behind the line until the light turns green."
+        "explain":  "At red traffic lights you must stop if it\u0027s safe to do so then wait behind the line until the light turns green.",
+        "short":  "Meaning of a red traffic light"
     },
     {
         "id":  207,
@@ -2896,7 +3102,8 @@ window.QUESTIONS = [
                         "Position R. As close as possible to the right side of the road."
                     ],
         "answer":  2,
-        "explain":  "If there are no lanes marked on a one-way street and you want to turn right, make the right turn from the right-hand side of the road, as shown in diagram R. Positioning your car on the right allows other drivers to pass to your left."
+        "explain":  "If there are no lanes marked on a one-way street and you want to turn right, make the right turn from the right-hand side of the road, as shown in diagram R. Positioning your car on the right allows other drivers to pass to your left.",
+        "short":  "Position for a right turn from a one-way street"
     },
     {
         "id":  208,
@@ -2925,7 +3132,8 @@ window.QUESTIONS = [
                         "Yes, only if you are in a taxi, hire car, bus or you live in that street."
                     ],
         "answer":  1,
-        "explain":  "You can cross an unbroken line to the left if it is to turn into an intersection."
+        "explain":  "You can cross an unbroken line to the left if it is to turn into an intersection.",
+        "short":  "Turning left across a continuing edge line"
     },
     {
         "id":  210,
@@ -2939,7 +3147,8 @@ window.QUESTIONS = [
                         "Stop, only if a red light camera is in use."
                     ],
         "answer":  0,
-        "explain":  "Traffic light phases are set so that, at the speed limit, vehicles should be able to pull up safely when the light turns yellow without having to drive through the intersection while the light is red or make a sudden or sharp braking might cause an accident."
+        "explain":  "Traffic light phases are set so that, at the speed limit, vehicles should be able to pull up safely when the light turns yellow without having to drive through the intersection while the light is red or make a sudden or sharp braking might cause an accident.",
+        "short":  "Approaching lights changing green to yellow"
     },
     {
         "id":  211,
@@ -2953,7 +3162,8 @@ window.QUESTIONS = [
                         "You may turn left only if a green arrow is shown."
                     ],
         "answer":  0,
-        "explain":  "At some intersections with lights a left turn is permitted. You must first stop, check it\u0027s safe to proceed, then make a left turn."
+        "explain":  "At some intersections with lights a left turn is permitted. You must first stop, check it\u0027s safe to proceed, then make a left turn.",
+        "short":  "Intersection lights with this sign displayed"
     },
     {
         "id":  212,
@@ -2967,7 +3177,8 @@ window.QUESTIONS = [
                         "Yes, but you must be prepared to slow down and stop."
                     ],
         "answer":  2,
-        "explain":  "You can enter the median strip, but be aware that the other vehicle must be able to complete its manoeuvre."
+        "explain":  "You can enter the median strip, but be aware that the other vehicle must be able to complete its manoeuvre.",
+        "short":  "Sharing a median turning lane with an oncoming car"
     },
     {
         "id":  213,
@@ -2981,7 +3192,8 @@ window.QUESTIONS = [
                         "When there is no traffic coming the other way."
                     ],
         "answer":  0,
-        "explain":  "You can only cross a double unbroken dividing lines to turn into a driveway (assuming it\u0027s safe to do so)."
+        "explain":  "You can only cross a double unbroken dividing lines to turn into a driveway (assuming it\u0027s safe to do so).",
+        "short":  "Crossing double unbroken dividing lines"
     },
     {
         "id":  214,
@@ -2995,7 +3207,8 @@ window.QUESTIONS = [
                         "Sound your horn and proceed through the red light."
                     ],
         "answer":  1,
-        "explain":  "At red traffic lights you must stop if it\u0027s safe to do so then wait behind the line until the light turns green. Red light cameras will trigger if you enter the intersection when the light is red."
+        "explain":  "At red traffic lights you must stop if it\u0027s safe to do so then wait behind the line until the light turns green. Red light cameras will trigger if you enter the intersection when the light is red.",
+        "short":  "Yellow light turns to red as you approach"
     },
     {
         "id":  215,
@@ -3009,7 +3222,8 @@ window.QUESTIONS = [
                         "Double parking."
                     ],
         "answer":  1,
-        "explain":  "You must use your indicators for all manoeuvres (pulling away from the kerb, overtaking a vehicle, merging, doing a u-turn, ...) and lane changes."
+        "explain":  "You must use your indicators for all manoeuvres (pulling away from the kerb, overtaking a vehicle, merging, doing a u-turn, ...) and lane changes.",
+        "short":  "When you must use your indicators"
     },
     {
         "id":  216,
@@ -3023,7 +3237,8 @@ window.QUESTIONS = [
                         "Wait behind the stop line until there is room for you to enter the new road."
                     ],
         "answer":  2,
-        "explain":  "When you come to an intersection and the road you want to go is choked with vehicles going in the same direction you must wait until there is room to completely cross the intersection, even if your traffic light turns green."
+        "explain":  "When you come to an intersection and the road you want to go is choked with vehicles going in the same direction you must wait until there is room to completely cross the intersection, even if your traffic light turns green.",
+        "short":  "Turning left on a green light"
     },
     {
         "id":  217,
@@ -3037,7 +3252,8 @@ window.QUESTIONS = [
                         "Stop before the lights, unless you are so close that sudden braking might cause an accident."
                     ],
         "answer":  2,
-        "explain":  "You must stop for a yellow light unless doing so would cause an accident."
+        "explain":  "You must stop for a yellow light unless doing so would cause an accident.",
+        "short":  "Lights change from green to yellow"
     },
     {
         "id":  218,
@@ -3051,7 +3267,8 @@ window.QUESTIONS = [
                         "Drive carefully at no more than 40 km/h"
                     ],
         "answer":  2,
-        "explain":  "It\u0027s compulsory to drive no faster than 40 km/h past this because it\u0027s a school bus dropping off or picking up children. They keep flashing for about 30 seconds after the door closes and continue even after the bus moves off. This is to warn you that children might be crossing."
+        "explain":  "It\u0027s compulsory to drive no faster than 40 km/h past this because it\u0027s a school bus dropping off or picking up children. They keep flashing for about 30 seconds after the door closes and continue even after the bus moves off. This is to warn you that children might be crossing.",
+        "short":  "Flashing lights on the back of a bus"
     },
     {
         "id":  219,
@@ -3065,7 +3282,8 @@ window.QUESTIONS = [
                         "At the \u0027Stop here on red signal\u0027 sign."
                     ],
         "answer":  2,
-        "explain":  "Temporary traffic lights are sometimes installed at roadworks and they should be treated as any other traffic light. The sign indicates where it is safe to stop. Also, some automated lights have a sensor for vehicles waiting at a red light so they know to turn the lights green again after a certain period of time. Parking forward of this sensor may mean the light does not change green."
+        "explain":  "Temporary traffic lights are sometimes installed at roadworks and they should be treated as any other traffic light. The sign indicates where it is safe to stop. Also, some automated lights have a sensor for vehicles waiting at a red light so they know to turn the lights green again after a certain period of time. Parking forward of this sensor may mean the light does not change green.",
+        "short":  "Where to stop at temporary traffic lights"
     },
     {
         "id":  220,
@@ -3079,7 +3297,8 @@ window.QUESTIONS = [
                         "Borrow the car but only drive on streets where the car will not be a danger to others"
                     ],
         "answer":  1,
-        "explain":  "A defect notice will be issued for a failed inspection and a vehicle will not pass a subsequent inspection until the necessary repairs specified on the defect notice have been fixed. In the case of a minor defect notice there will be a time period specified in which the defects must be fixed. For a major defect, the vehicle might be grounded."
+        "explain":  "A defect notice will be issued for a failed inspection and a vehicle will not pass a subsequent inspection until the necessary repairs specified on the defect notice have been fixed. In the case of a minor defect notice there will be a time period specified in which the defects must be fixed. For a major defect, the vehicle might be grounded.",
+        "short":  "Driving a car with a defect notice"
     },
     {
         "id":  221,
@@ -3093,7 +3312,8 @@ window.QUESTIONS = [
                         "Sound your horn to signal the driver ahead to slow down."
                     ],
         "answer":  0,
-        "explain":  "Always be sure that you have enough time and distance to complete your overtaking move. If you are not certain, wait for a better opportunity."
+        "explain":  "Always be sure that you have enough time and distance to complete your overtaking move. If you are not certain, wait for a better opportunity.",
+        "short":  "Unsure of distance to overtake safely"
     },
     {
         "id":  222,
@@ -3107,7 +3327,8 @@ window.QUESTIONS = [
                         "Closer you must get before starting to overtake."
                     ],
         "answer":  0,
-        "explain":  "You will cover more distance and need more time if the vehicle you are overtaking is going faster."
+        "explain":  "You will cover more distance and need more time if the vehicle you are overtaking is going faster.",
+        "short":  "Following distance and the vehicle ahead\u0027s speed"
     },
     {
         "id":  223,
@@ -3121,7 +3342,8 @@ window.QUESTIONS = [
                         "Take your vehicle from you and keep it stored for up to three months."
                     ],
         "answer":  2,
-        "explain":  "For a serious driving offence like street racing, NSW police have the power to immediately impound the vehicle or confiscate its number plates for three months."
+        "explain":  "For a serious driving offence like street racing, NSW police have the power to immediately impound the vehicle or confiscate its number plates for three months.",
+        "short":  "Police powers for suspected drag racing"
     },
     {
         "id":  224,
@@ -3135,7 +3357,8 @@ window.QUESTIONS = [
                         "Have a personal speed limit imposed on you."
                     ],
         "answer":  1,
-        "explain":  "Heavy fines apply for driving with excess blood alcohol. You also risk a disqualification and you may be sent to prison."
+        "explain":  "Heavy fines apply for driving with excess blood alcohol. You also risk a disqualification and you may be sent to prison.",
+        "short":  "Consequences of over-limit blood alcohol"
     },
     {
         "id":  225,
@@ -3149,7 +3372,8 @@ window.QUESTIONS = [
                         "Changed lanes unnecessarily."
                     ],
         "answer":  1,
-        "explain":  "You are not permitted to cross an unbroken line unless you are turning into a driveway."
+        "explain":  "You are not permitted to cross an unbroken line unless you are turning into a driveway.",
+        "short":  "Moving lanes to turn right without checking"
     },
     {
         "id":  226,
@@ -3163,7 +3387,8 @@ window.QUESTIONS = [
                         "Accelerate away from the other vehicle and keep driving in this lane."
                     ],
         "answer":  1,
-        "explain":  "Once you have finished your overtaking you should move back into the left lane. If the road you are on has a speed limit of 80kph or more, or you\u0027ve seen a keep left unless overtaking sign, you must drive in the left lane unless you\u0027re overtaking or want to turn right."
+        "explain":  "Once you have finished your overtaking you should move back into the left lane. If the road you are on has a speed limit of 80kph or more, or you\u0027ve seen a keep left unless overtaking sign, you must drive in the left lane unless you\u0027re overtaking or want to turn right.",
+        "short":  "After overtaking, returning to the left lane"
     },
     {
         "id":  227,
@@ -3177,7 +3402,8 @@ window.QUESTIONS = [
                         "Signal the driver to remain behind you if it is travelling too fast."
                     ],
         "answer":  0,
-        "explain":  "Make it easy for the other person to overtake you by keeping left."
+        "explain":  "Make it easy for the other person to overtake you by keeping left.",
+        "short":  "A driver behind signals to overtake you"
     },
     {
         "id":  228,
@@ -3191,7 +3417,8 @@ window.QUESTIONS = [
                         "Check your mirror and move back in behind the car."
                     ],
         "answer":  2,
-        "explain":  "Check your mirror so that you don\u0027t turn back in on another vehicle, then move back in behind the car."
+        "explain":  "Check your mirror so that you don\u0027t turn back in on another vehicle, then move back in behind the car.",
+        "short":  "Car ahead\u0027s right indicator flashes mid-overtake"
     },
     {
         "id":  229,
@@ -3205,7 +3432,8 @@ window.QUESTIONS = [
                         "The driver of the vehicle signals it is safe to do so."
                     ],
         "answer":  0,
-        "explain":  "Moving back into the left lane early may mean you hit the vehicle you are overtaking. It\u0027s particularly important if you are driving a longer vehicle to wait until you can see the overtaken vehicle clearly in your rear vision mirror."
+        "explain":  "Moving back into the left lane early may mean you hit the vehicle you are overtaking. It\u0027s particularly important if you are driving a longer vehicle to wait until you can see the overtaken vehicle clearly in your rear vision mirror.",
+        "short":  "When you may move back in front after overtaking"
     },
     {
         "id":  230,
@@ -3219,7 +3447,8 @@ window.QUESTIONS = [
                         "Give way to bicycles, vehicles and pedestrians."
                     ],
         "answer":  2,
-        "explain":  "When exiting a driveway you must give way to bicycles, vehicles and pedestrians."
+        "explain":  "When exiting a driveway you must give way to bicycles, vehicles and pedestrians.",
+        "short":  "Entering or leaving a driveway"
     },
     {
         "id":  231,
@@ -3233,7 +3462,8 @@ window.QUESTIONS = [
                         "Your vehicle may be taken away and sold."
                     ],
         "answer":  2,
-        "explain":  "For a second offence the vehicle could be confiscated permanently and sold or be used for crash testing by Transport for NSW (TfNSW). The maximum prison term is two years for a second or subsequent offence."
+        "explain":  "For a second offence the vehicle could be confiscated permanently and sold or be used for crash testing by Transport for NSW (TfNSW). The maximum prison term is two years for a second or subsequent offence.",
+        "short":  "Penalty for a second drag racing conviction"
     },
     {
         "id":  232,
@@ -3247,7 +3477,8 @@ window.QUESTIONS = [
                         "Sound your horn, move out and overtake."
                     ],
         "answer":  1,
-        "explain":  "An overtaking manoeuvre requires that you do several things: check it\u0027s safe to go, change gear if you are in a manual vehicle and will need the extra acceleration, and signal your intention for enough time. Be sure to check over your shoulder before you pull out to overtake in case a vehicle behind you has already started to overtake you."
+        "explain":  "An overtaking manoeuvre requires that you do several things: check it\u0027s safe to go, change gear if you are in a manual vehicle and will need the extra acceleration, and signal your intention for enough time. Be sure to check over your shoulder before you pull out to overtake in case a vehicle behind you has already started to overtake you.",
+        "short":  "Before beginning to overtake"
     },
     {
         "id":  233,
@@ -3261,7 +3492,8 @@ window.QUESTIONS = [
                         "May pass the truck because it cannot turn left from the middle lane."
                     ],
         "answer":  1,
-        "explain":  "Long vehicles may need to swing out wide to the right to make a left hand turn therefore you must not overtake it until it has made the turn."
+        "explain":  "Long vehicles may need to swing out wide to the right to make a left hand turn therefore you must not overtake it until it has made the turn.",
+        "short":  "Long vehicle signals DO NOT OVERTAKE TURNING"
     },
     {
         "id":  234,
@@ -3275,7 +3507,8 @@ window.QUESTIONS = [
                         "Increase your speed and sound your horn."
                     ],
         "answer":  0,
-        "explain":  "Keeping to the left gives other vehicles more room, and slowing down ensures that if you reach the crest and see a previously hidden obstacle on the other side you have more time to stop."
+        "explain":  "Keeping to the left gives other vehicles more room, and slowing down ensures that if you reach the crest and see a previously hidden obstacle on the other side you have more time to stop.",
+        "short":  "Approaching the crest of a hill"
     },
     {
         "id":  235,
@@ -3289,7 +3522,8 @@ window.QUESTIONS = [
                         "You could be given demerit points only."
                     ],
         "answer":  1,
-        "explain":  "You could lose your licence and you may be sent to prison. Around 50% of people that cause death through dangerous driving through excess speed end up in prison."
+        "explain":  "You could lose your licence and you may be sent to prison. Around 50% of people that cause death through dangerous driving through excess speed end up in prison.",
+        "short":  "Consequences of a dangerous driving conviction"
     },
     {
         "id":  236,
@@ -3303,7 +3537,8 @@ window.QUESTIONS = [
                         "Speed up while the other vehicle is on your right."
                     ],
         "answer":  2,
-        "explain":  "If someone is overtaking you, keep to the left and let them overtake, and leave a space in front of you for them to pull back in. It\u0027s an offence to deliberately speed up to prevent someone from overtaking you."
+        "explain":  "If someone is overtaking you, keep to the left and let them overtake, and leave a space in front of you for them to pull back in. It\u0027s an offence to deliberately speed up to prevent someone from overtaking you.",
+        "short":  "Offence while being overtaken on your right"
     },
     {
         "id":  237,
@@ -3317,7 +3552,8 @@ window.QUESTIONS = [
                         "The other vehicle is going slower than you."
                     ],
         "answer":  0,
-        "explain":  "You can overtake a vehicle on its left when it is waiting to turn right. You can also overtake on the left if you are travelling in marked lanes and the lane on the right is travelling slower than the lane on the left."
+        "explain":  "You can overtake a vehicle on its left when it is waiting to turn right. You can also overtake on the left if you are travelling in marked lanes and the lane on the right is travelling slower than the lane on the left.",
+        "short":  "Overtaking on a single-lane road"
     },
     {
         "id":  238,
@@ -3331,7 +3567,8 @@ window.QUESTIONS = [
                         "Sound your horn to warn the cyclist to get off the road."
                     ],
         "answer":  1,
-        "explain":  "Give the cyclist enough room when you overtake."
+        "explain":  "Give the cyclist enough room when you overtake.",
+        "short":  "How to overtake a pedal cyclist"
     },
     {
         "id":  239,
@@ -3345,7 +3582,8 @@ window.QUESTIONS = [
                         "Only when overtaking or turning right."
                     ],
         "answer":  2,
-        "explain":  "If the road you are on has a speed limit of 80kph or more, or you\u0027ve seen a keep left unless overtaking sign, you must drive in the left lane unless you\u0027re overtaking or want to turn right."
+        "explain":  "If the road you are on has a speed limit of 80kph or more, or you\u0027ve seen a keep left unless overtaking sign, you must drive in the left lane unless you\u0027re overtaking or want to turn right.",
+        "short":  "Using the right lane at 100 km/h"
     },
     {
         "id":  240,
@@ -3359,7 +3597,8 @@ window.QUESTIONS = [
                         "Sound your horn and flash your headlights to warn drivers not to pull out."
                     ],
         "answer":  0,
-        "explain":  "Parked vehicles maneouvring into traffic may not see you as they pull out. Children may also appear from behind parked vehicles. Be prepared to stop if required."
+        "explain":  "Parked vehicles maneouvring into traffic may not see you as they pull out. Children may also appear from behind parked vehicles. Be prepared to stop if required.",
+        "short":  "Driving near parked vehicles"
     },
     {
         "id":  241,
@@ -3373,7 +3612,8 @@ window.QUESTIONS = [
                         "If you cannot see clear road ahead for 75 metres."
                     ],
         "answer":  0,
-        "explain":  "Oncoming traffic could appear and you create the risk of a head-on collision."
+        "explain":  "Oncoming traffic could appear and you create the risk of a head-on collision.",
+        "short":  "No overtaking near a hill or curve"
     },
     {
         "id":  242,
@@ -3387,7 +3627,8 @@ window.QUESTIONS = [
                         "You will get three demerit points and a large fine."
                     ],
         "answer":  2,
-        "explain":  "If you are found guilty of street racing you will automatically lose your licence for 12 months, but it could be for an unlimited period. The maximum fine is $3,300 and three demerit points."
+        "explain":  "If you are found guilty of street racing you will automatically lose your licence for 12 months, but it could be for an unlimited period. The maximum fine is $3,300 and three demerit points.",
+        "short":  "Penalties for street or drag racing"
     },
     {
         "id":  243,
@@ -3401,7 +3642,8 @@ window.QUESTIONS = [
                         "Be liable for a speeding fine and loss of demerit points."
                     ],
         "answer":  2,
-        "explain":  "At roadworks there will be road workers working on the road. Speeding vehicles can throw up stones, and also there\u0027s always the risk of hitting someone working there. Speeding through a road work zone is dangerous and you will receive a fine and demerit points."
+        "explain":  "At roadworks there will be road workers working on the road. Speeding vehicles can throw up stones, and also there\u0027s always the risk of hitting someone working there. Speeding through a road work zone is dangerous and you will receive a fine and demerit points.",
+        "short":  "Speeding through a road work zone"
     },
     {
         "id":  244,
@@ -3415,7 +3657,8 @@ window.QUESTIONS = [
                         "Move to the left and stop."
                     ],
         "answer":  0,
-        "explain":  "Make it easy for the other person to overtake you, and leave space in front of you in case the overtaking vehicle needs to pull back into the line of traffic."
+        "explain":  "Make it easy for the other person to overtake you, and leave space in front of you in case the overtaking vehicle needs to pull back into the line of traffic.",
+        "short":  "Helping a vehicle overtake you"
     },
     {
         "id":  245,
@@ -3429,7 +3672,8 @@ window.QUESTIONS = [
                         "Slow down and look out for hazards."
                     ],
         "answer":  2,
-        "explain":  "Road work zones have additional hazards. Slow down and be prepared for gravel, uneven road surfaces, obstructions, closed lanes, road workers, and heavy machinery that may be blocking a lane."
+        "explain":  "Road work zones have additional hazards. Slow down and be prepared for gravel, uneven road surfaces, obstructions, closed lanes, road workers, and heavy machinery that may be blocking a lane.",
+        "short":  "Driving through temporary road work"
     },
     {
         "id":  246,
@@ -3443,7 +3687,8 @@ window.QUESTIONS = [
                         "Flash your lights at the overtaking vehicle."
                     ],
         "answer":  1,
-        "explain":  "An overtaking vehicle may need to move in front of you if there is traffic coming the other way. Prepare to slow down if needed to avoid an accident."
+        "explain":  "An overtaking vehicle may need to move in front of you if there is traffic coming the other way. Prepare to slow down if needed to avoid an accident.",
+        "short":  "Overtaking vehicle signals to move in ahead"
     },
     {
         "id":  247,
@@ -3457,7 +3702,8 @@ window.QUESTIONS = [
                         "Yes."
                     ],
         "answer":  2,
-        "explain":  "A P1 licence will be suspended for three months for any speeding offence."
+        "explain":  "A P1 licence will be suspended for three months for any speeding offence.",
+        "short":  "P1 licence suspension for speeding"
     },
     {
         "id":  248,
@@ -3471,7 +3717,8 @@ window.QUESTIONS = [
                         "Increase your speed."
                     ],
         "answer":  1,
-        "explain":  "You will need to make sure you have enough room to overtake, which is a function of the ability of your vehicle to get to the speed limit quickly, and how long it will take to pass the vehicle while doing the speed limit. You also need to check for solid lines on the road that mean no overtaking, and whether another vehicle has started to overtake you"
+        "explain":  "You will need to make sure you have enough room to overtake, which is a function of the ability of your vehicle to get to the speed limit quickly, and how long it will take to pass the vehicle while doing the speed limit. You also need to check for solid lines on the road that mean no overtaking, and whether another vehicle has started to overtake you",
+        "short":  "First step before overtaking"
     },
     {
         "id":  249,
@@ -3485,7 +3732,8 @@ window.QUESTIONS = [
                         "Overtaking on the kerb side."
                     ],
         "answer":  1,
-        "explain":  "The driver is cutting the corner and crossing the unbroken line. Even if the driver was signalling, this is still illegal because it\u0027s not for the purposes of turning into a driveway. Unbroken lines are there to warn drivers that the visibility of the road ahead is not sufficient to perform an overtaking manoeuvre."
+        "explain":  "The driver is cutting the corner and crossing the unbroken line. Even if the driver was signalling, this is still illegal because it\u0027s not for the purposes of turning into a driveway. Unbroken lines are there to warn drivers that the visibility of the road ahead is not sufficient to perform an overtaking manoeuvre.",
+        "short":  "Identifying negligent, illegal driving in the image"
     },
     {
         "id":  250,
@@ -3499,7 +3747,8 @@ window.QUESTIONS = [
                         "Be careful because the road ahead is slippery."
                     ],
         "answer":  1,
-        "explain":  "If there are zig-zag lines on the road before the crossing this means you\u0027re approaching a crossing with limited visibility, so take extra care."
+        "explain":  "If there are zig-zag lines on the road before the crossing this means you\u0027re approaching a crossing with limited visibility, so take extra care.",
+        "short":  "Meaning of zig-zag road markings"
     },
     {
         "id":  251,
@@ -3513,7 +3762,8 @@ window.QUESTIONS = [
                         "C"
                     ],
         "answer":  0,
-        "explain":  "If there are zig-zag lines on the road before the crossing this means you\u0027re approaching a crossing with limited visibility, so take extra care."
+        "explain":  "If there are zig-zag lines on the road before the crossing this means you\u0027re approaching a crossing with limited visibility, so take extra care.",
+        "short":  "Road marking warning of a pedestrian crossing"
     },
     {
         "id":  252,
@@ -3527,7 +3777,8 @@ window.QUESTIONS = [
                         "The green light is due. Do not proceed until the green light appears."
                     ],
         "answer":  1,
-        "explain":  "At a pedestrian crossing with traffic lights, when the amber light starts \u0027flashing\u0027 after the red stop signal, it means you may carefully drive through the crossing, if there is no risk of colliding with pedestrians."
+        "explain":  "At a pedestrian crossing with traffic lights, when the amber light starts \u0027flashing\u0027 after the red stop signal, it means you may carefully drive through the crossing, if there is no risk of colliding with pedestrians.",
+        "short":  "Amber light at a pedestrian crossing"
     },
     {
         "id":  253,
@@ -3541,7 +3792,8 @@ window.QUESTIONS = [
                         "When they are crossing from your left only."
                     ],
         "answer":  0,
-        "explain":  "Special markings on the road show where pedestrians have rights to cross and you must give way to them. You must also give way if you are turning and they are crossing the road. You must also give way even if there is no marked crossing if you are in danger of colliding with them."
+        "explain":  "Special markings on the road show where pedestrians have rights to cross and you must give way to them. You must also give way if you are turning and they are crossing the road. You must also give way even if there is no marked crossing if you are in danger of colliding with them.",
+        "short":  "Giving way at a marked pedestrian crossing"
     },
     {
         "id":  254,
@@ -3555,7 +3807,8 @@ window.QUESTIONS = [
                         "You must give way to pedestrians only at marked crossings."
                     ],
         "answer":  1,
-        "explain":  "You must also give way even if there is no marked crossing if you are in danger of colliding with them."
+        "explain":  "You must also give way even if there is no marked crossing if you are in danger of colliding with them.",
+        "short":  "Correct statement about pedestrians"
     },
     {
         "id":  255,
@@ -3569,7 +3822,8 @@ window.QUESTIONS = [
                         "Go faster, in case a pedestrian steps onto the crossing."
                     ],
         "answer":  0,
-        "explain":  "Be aware that pedestrians can be obscured by signage and other vehicles and may step out in front of you. Slow down and be ready to make a safe stop."
+        "explain":  "Be aware that pedestrians can be obscured by signage and other vehicles and may step out in front of you. Slow down and be ready to make a safe stop.",
+        "short":  "Approaching a crossing with no pedestrians in sight"
     },
     {
         "id":  256,
@@ -3583,7 +3837,8 @@ window.QUESTIONS = [
                         "Keep your eyes on the speedometer."
                     ],
         "answer":  1,
-        "explain":  "Always be on the lookout for pedestrians, especially children."
+        "explain":  "Always be on the lookout for pedestrians, especially children.",
+        "short":  "Near crossings and intersections, always"
     },
     {
         "id":  257,
@@ -3597,7 +3852,8 @@ window.QUESTIONS = [
                         "Slow down and take extra care because they may not see you until you are very close."
                     ],
         "answer":  2,
-        "explain":  "Older people may have impaired vision and hearing and this makes it more difficult for them to see your vehicle. Slow down and take extra care."
+        "explain":  "Older people may have impaired vision and hearing and this makes it more difficult for them to see your vehicle. Slow down and take extra care.",
+        "short":  "Seeing older people on or near the road"
     },
     {
         "id":  258,
@@ -3611,7 +3867,8 @@ window.QUESTIONS = [
                         "Stop, wait for pedestrians to cross and for the green light to come on."
                     ],
         "answer":  2,
-        "explain":  "Once the green light comes on you can go, as long as there is no danger of you colliding with a pedestrian."
+        "explain":  "Once the green light comes on you can go, as long as there is no danger of you colliding with a pedestrian.",
+        "short":  "Lights change to red at a pedestrian crossing"
     },
     {
         "id":  259,
@@ -3625,7 +3882,8 @@ window.QUESTIONS = [
                         "Are out of sight."
                     ],
         "answer":  0,
-        "explain":  "You must wait until the children are off the crossing and the hand-held sign is taken away."
+        "explain":  "You must wait until the children are off the crossing and the hand-held sign is taken away.",
+        "short":  "School Crossing Supervisor holding up a sign"
     },
     {
         "id":  260,
@@ -3639,7 +3897,8 @@ window.QUESTIONS = [
                         "Stop and help aged pedestrians across the road."
                     ],
         "answer":  1,
-        "explain":  "They will often hurry when it\u0027s wet weather and their view might be partially obscured by an umbrella or raincoat hood."
+        "explain":  "They will often hurry when it\u0027s wet weather and their view might be partially obscured by an umbrella or raincoat hood.",
+        "short":  "Pedestrians in wet weather"
     },
     {
         "id":  261,
@@ -3653,7 +3912,8 @@ window.QUESTIONS = [
                         "Places where special speed limits apply."
                     ],
         "answer":  1,
-        "explain":  "Special markings on the road show where pedestrians have rights to cross and you must give way to them."
+        "explain":  "Special markings on the road show where pedestrians have rights to cross and you must give way to them.",
+        "short":  "Meaning of these road markings"
     },
     {
         "id":  262,
@@ -3667,7 +3927,8 @@ window.QUESTIONS = [
                         "At all times, if there is any danger of colliding with them, even if there is no marked crossing."
                     ],
         "answer":  2,
-        "explain":  "You must also give way even if there is no marked crossing if you are in danger of colliding with them."
+        "explain":  "You must also give way even if there is no marked crossing if you are in danger of colliding with them.",
+        "short":  "When you must give way to pedestrians"
     },
     {
         "id":  263,
@@ -3681,7 +3942,8 @@ window.QUESTIONS = [
                         "You must give way to pedestrians if there is a danger of a collision."
                     ],
         "answer":  2,
-        "explain":  "Pedestrians will sometimes cross where there are no marked crossings. You must also give way even if there is no marked crossing if you are in danger of colliding with them."
+        "explain":  "Pedestrians will sometimes cross where there are no marked crossings. You must also give way even if there is no marked crossing if you are in danger of colliding with them.",
+        "short":  "Correct statement about crossings"
     },
     {
         "id":  264,
@@ -3695,7 +3957,8 @@ window.QUESTIONS = [
                         "Stay as close as possible to the vehicle in front of you."
                     ],
         "answer":  1,
-        "explain":  "Pedestrians and animals can be obscured by other vehicles. They may not see you and could try to cross in front of your vehicle. Also, do not drive too close to parked cars as there is a risk that someone opening a car door might hit your vehicle. However, you should still drive in the left hand lane unless turning right or overtaking."
+        "explain":  "Pedestrians and animals can be obscured by other vehicles. They may not see you and could try to cross in front of your vehicle. Also, do not drive too close to parked cars as there is a risk that someone opening a car door might hit your vehicle. However, you should still drive in the left hand lane unless turning right or overtaking.",
+        "short":  "Driving past parked vehicles"
     },
     {
         "id":  265,
@@ -3709,7 +3972,8 @@ window.QUESTIONS = [
                         "Give way to the person if there is any danger of colliding."
                     ],
         "answer":  2,
-        "explain":  "You must also give way even if there is no marked crossing if you are in danger of colliding with them."
+        "explain":  "You must also give way even if there is no marked crossing if you are in danger of colliding with them.",
+        "short":  "Person standing on a pedestrian refuge"
     },
     {
         "id":  266,
@@ -3723,7 +3987,8 @@ window.QUESTIONS = [
                         "Take extra care, slow down and give way to the pedestrians."
                     ],
         "answer":  2,
-        "explain":  "Pedestrians are generally looking for the shortest route and they will cross in front of and behind buses and light rail trams after they have got off, and anywhere where it\u0027s convenient rather than safe. Take extra care, slow down and give way to the pedestrians."
+        "explain":  "Pedestrians are generally looking for the shortest route and they will cross in front of and behind buses and light rail trams after they have got off, and anywhere where it\u0027s convenient rather than safe. Take extra care, slow down and give way to the pedestrians.",
+        "short":  "Light Rail vehicle stopped at a tram stop"
     },
     {
         "id":  267,
@@ -3737,7 +4002,8 @@ window.QUESTIONS = [
                         "Increase your speed to avoid the chance of hitting them."
                     ],
         "answer":  1,
-        "explain":  "Be aware that a bus can obscure pedestrians who may try to cross in front of your vehicle. Be prepared to stop if necessary."
+        "explain":  "Be aware that a bus can obscure pedestrians who may try to cross in front of your vehicle. Be prepared to stop if necessary.",
+        "short":  "Driving where many pedestrians are present"
     },
     {
         "id":  268,
@@ -3751,7 +4017,8 @@ window.QUESTIONS = [
                         "Less dangerous than sober pedestrians because they are more careful after drinking."
                     ],
         "answer":  0,
-        "explain":  "Alcohol reduces a person\u0027s ability to judge distance and speed, therefore they are more likely to cross a road in front of a moving vehicle."
+        "explain":  "Alcohol reduces a person\u0027s ability to judge distance and speed, therefore they are more likely to cross a road in front of a moving vehicle.",
+        "short":  "Pedestrians affected by alcohol"
     },
     {
         "id":  269,
@@ -3765,7 +4032,8 @@ window.QUESTIONS = [
                         "Drive around them so you don\u0027t hold up traffic."
                     ],
         "answer":  0,
-        "explain":  "Elderly, children and disabled people could need extra time to cross, so be patient."
+        "explain":  "Elderly, children and disabled people could need extra time to cross, so be patient.",
+        "short":  "Elderly people or children on a crossing"
     },
     {
         "id":  270,
@@ -3779,7 +4047,8 @@ window.QUESTIONS = [
                         "May overtake the vehicle provided no cars are coming the other way."
                     ],
         "answer":  0,
-        "explain":  "If a vehicle has stopped at a pedestrian crossing you are not allowed to overtake it. Pedestrians may be obscured by the vehicle."
+        "explain":  "If a vehicle has stopped at a pedestrian crossing you are not allowed to overtake it. Pedestrians may be obscured by the vehicle.",
+        "short":  "Vehicle ahead stopped at a pedestrian crossing"
     },
     {
         "id":  271,
@@ -3793,7 +4062,8 @@ window.QUESTIONS = [
                         "Must ride against the flow of traffic so they can be seen."
                     ],
         "answer":  0,
-        "explain":  "Bicycle riders have the same rights as other road users and bikes are treated equally as vehicles."
+        "explain":  "Bicycle riders have the same rights as other road users and bikes are treated equally as vehicles.",
+        "short":  "Correct statement about bicycle riders"
     },
     {
         "id":  272,
@@ -3807,7 +4077,8 @@ window.QUESTIONS = [
                         "Continue at the same speed and drive around them."
                     ],
         "answer":  0,
-        "explain":  "Younger children and toddlers often have minimal road sense, yet are highly mobile. They can easily catch their parents off-guard and dash into the road after a ball, for example."
+        "explain":  "Younger children and toddlers often have minimal road sense, yet are highly mobile. They can easily catch their parents off-guard and dash into the road after a ball, for example.",
+        "short":  "Children playing or walking near the road"
     },
     {
         "id":  273,
@@ -3821,7 +4092,8 @@ window.QUESTIONS = [
                         "You should slow down and be more careful because they may move suddenly."
                     ],
         "answer":  2,
-        "explain":  "Younger children and toddlers often have minimal road sense, yet are highly mobile. They can easily catch their parents off-guard and dash into the road after a ball, for example. Slow down and be prepared to stop."
+        "explain":  "Younger children and toddlers often have minimal road sense, yet are highly mobile. They can easily catch their parents off-guard and dash into the road after a ball, for example. Slow down and be prepared to stop.",
+        "short":  "Seeing children on or near the road"
     },
     {
         "id":  274,
@@ -3835,7 +4107,8 @@ window.QUESTIONS = [
                         "Slow down until they are half way through the crossing and drive on."
                     ],
         "answer":  1,
-        "explain":  "Special markings on the road show where pedestrians have rights to cross and you must give way to them."
+        "explain":  "Special markings on the road show where pedestrians have rights to cross and you must give way to them.",
+        "short":  "Approaching these people on the road"
     },
     {
         "id":  275,
@@ -3849,7 +4122,8 @@ window.QUESTIONS = [
                         "Look more carefully for pedestrians because they are hard to see."
                     ],
         "answer":  2,
-        "explain":  "Take care in the evenings and nights when they are not as easy to see."
+        "explain":  "Take care in the evenings and nights when they are not as easy to see.",
+        "short":  "Giving way to pedestrians in poor light"
     },
     {
         "id":  276,
@@ -3863,7 +4137,8 @@ window.QUESTIONS = [
                         "Slow down and stop until the supervisor takes down the sign."
                     ],
         "answer":  2,
-        "explain":  "You must wait until the children are off the crossing and the hand-held sign is taken away."
+        "explain":  "You must wait until the children are off the crossing and the hand-held sign is taken away.",
+        "short":  "Approaching the crossing scene shown"
     },
     {
         "id":  277,
@@ -3877,7 +4152,8 @@ window.QUESTIONS = [
                         "Slow down or stop to avoid hitting the person."
                     ],
         "answer":  2,
-        "explain":  "Special markings on the road show where pedestrians have rights to cross and you must give way to them."
+        "explain":  "Special markings on the road show where pedestrians have rights to cross and you must give way to them.",
+        "short":  "Approaching a person crossing the road"
     },
     {
         "id":  278,
@@ -3891,7 +4167,8 @@ window.QUESTIONS = [
                         "Need only be used if the child wants to sleep."
                     ],
         "answer":  1,
-        "explain":  "Children aged up to 7 years must be in an approved child restraint or booster seat suitable for their age and size - these must be fitted in accordance with the manufacturer\u0027s instructions. They usually attach to ISOFIX points. Don\u0027t carry children in your arms (you won\u0027t be strong enough to hold in in a crash)."
+        "explain":  "Children aged up to 7 years must be in an approved child restraint or booster seat suitable for their age and size - these must be fitted in accordance with the manufacturer\u0027s instructions. They usually attach to ISOFIX points. Don\u0027t carry children in your arms (you won\u0027t be strong enough to hold in in a crash).",
+        "short":  "Fitting child restraints correctly"
     },
     {
         "id":  279,
@@ -3905,7 +4182,8 @@ window.QUESTIONS = [
                         "By law, all occupants of a car (unless exempt) need to be restrained by a properly fitted and adjusted seat belt or a child restraint."
                     ],
         "answer":  2,
-        "explain":  "When you take anyone in your vehicle it\u0027s important that you have enough seat belts for everyone. It\u0027s compulsory for all passengers to wear seat belts when they are fitted in the vehicle, unless they are exempt for medical reasons."
+        "explain":  "When you take anyone in your vehicle it\u0027s important that you have enough seat belts for everyone. It\u0027s compulsory for all passengers to wear seat belts when they are fitted in the vehicle, unless they are exempt for medical reasons.",
+        "short":  "Seat belt law for all occupants"
     },
     {
         "id":  280,
@@ -3919,7 +4197,8 @@ window.QUESTIONS = [
                         "You do, because you are the driver."
                     ],
         "answer":  2,
-        "explain":  "Drivers are responsible for all passengers wearing a seat belt. Any passenger aged 16 or over who isn\u0027t using a seat belt where one is available will be fined along with the driver."
+        "explain":  "Drivers are responsible for all passengers wearing a seat belt. Any passenger aged 16 or over who isn\u0027t using a seat belt where one is available will be fined along with the driver.",
+        "short":  "Driver\u0027s duty for passengers\u0027 belts"
     },
     {
         "id":  281,
@@ -3933,7 +4212,8 @@ window.QUESTIONS = [
                         "An anchorage point designed for a baby restraint."
                     ],
         "answer":  2,
-        "explain":  "Children aged up to 7 years must be in an approved child restraint or booster seat suitable for their age and size - these must be fitted in accordance with the manufacturer\u0027s instructions. They usually attach to ISOFIX points."
+        "explain":  "Children aged up to 7 years must be in an approved child restraint or booster seat suitable for their age and size - these must be fitted in accordance with the manufacturer\u0027s instructions. They usually attach to ISOFIX points.",
+        "short":  "Baby restraint anchorage points"
     },
     {
         "id":  282,
@@ -3947,7 +4227,8 @@ window.QUESTIONS = [
                         "Distracting the driver."
                     ],
         "answer":  0,
-        "explain":  "It\u0027s compulsory for all passengers to wear seat belts when they are fitted in the vehicle, unless they are exempt for medical reasons. Drivers are responsible for all passengers wearing a seat belt."
+        "explain":  "It\u0027s compulsory for all passengers to wear seat belts when they are fitted in the vehicle, unless they are exempt for medical reasons. Drivers are responsible for all passengers wearing a seat belt.",
+        "short":  "Rear passenger not wearing a belt"
     },
     {
         "id":  283,
@@ -3961,7 +4242,8 @@ window.QUESTIONS = [
                         "Are only needed on short trips."
                     ],
         "answer":  1,
-        "explain":  "Seat belts and child restraints save lives and prevent injury. They are the most effective device for protecting passengers in an accident. They must always be worn properly and buckled tightly."
+        "explain":  "Seat belts and child restraints save lives and prevent injury. They are the most effective device for protecting passengers in an accident. They must always be worn properly and buckled tightly.",
+        "short":  "Wearing belts properly and tightly"
     },
     {
         "id":  284,
@@ -3975,7 +4257,8 @@ window.QUESTIONS = [
                         "You have a baby restraint properly fitted to your vehicle."
                     ],
         "answer":  2,
-        "explain":  "Children aged up to 7 years must be in an approved child restraint or booster seat suitable for their age and size - these must be fitted in accordance with the manufacturer\u0027s instructions. They usually attach to ISOFIX points. Don\u0027t carry children in your arms (you won\u0027t be strong enough to hold in in a crash)."
+        "explain":  "Children aged up to 7 years must be in an approved child restraint or booster seat suitable for their age and size - these must be fitted in accordance with the manufacturer\u0027s instructions. They usually attach to ISOFIX points. Don\u0027t carry children in your arms (you won\u0027t be strong enough to hold in in a crash).",
+        "short":  "Baby restraint required for infants"
     },
     {
         "id":  285,
@@ -3989,7 +4272,8 @@ window.QUESTIONS = [
                         "Padded instrument panels."
                     ],
         "answer":  0,
-        "explain":  "Seat belts save lives and prevent injury. They are the most effective device for protecting passengers in an accident. They must always be worn properly and buckled tightly."
+        "explain":  "Seat belts save lives and prevent injury. They are the most effective device for protecting passengers in an accident. They must always be worn properly and buckled tightly.",
+        "short":  "Seat belts protect best in a crash"
     },
     {
         "id":  286,
@@ -4003,7 +4287,8 @@ window.QUESTIONS = [
                         "Drive slower than you normally would so the passengers are safe."
                     ],
         "answer":  1,
-        "explain":  "Drivers are responsible for all passengers wearing a seat belt. Any passenger aged 16 or over who isn\u0027t using a seat belt where one is available will be fined along with the driver."
+        "explain":  "Drivers are responsible for all passengers wearing a seat belt. Any passenger aged 16 or over who isn\u0027t using a seat belt where one is available will be fined along with the driver.",
+        "short":  "Reminding passengers to buckle up"
     },
     {
         "id":  287,
@@ -4017,7 +4302,8 @@ window.QUESTIONS = [
                         "Only the driver and front seat passenger."
                     ],
         "answer":  0,
-        "explain":  "It\u0027s compulsory for all passengers to wear seat belts when they are fitted in the vehicle, unless they are exempt for medical reasons. Drivers are responsible for all passengers wearing a seat belt."
+        "explain":  "It\u0027s compulsory for all passengers to wear seat belts when they are fitted in the vehicle, unless they are exempt for medical reasons. Drivers are responsible for all passengers wearing a seat belt.",
+        "short":  "All occupants must wear belts"
     },
     {
         "id":  288,
@@ -4031,7 +4317,8 @@ window.QUESTIONS = [
                         "In the front seat sharing your seat belt."
                     ],
         "answer":  1,
-        "explain":  "If your vehicle doesn\u0027t have seat belts, the best place for passengers is in the back seat as it will give them the most protection."
+        "explain":  "If your vehicle doesn\u0027t have seat belts, the best place for passengers is in the back seat as it will give them the most protection.",
+        "short":  "Safest seat with no seat belt"
     },
     {
         "id":  289,
@@ -4045,7 +4332,8 @@ window.QUESTIONS = [
                         "Are not necessary for good drivers."
                     ],
         "answer":  0,
-        "explain":  "Seat belts save lives and prevent injury. They are the most effective device for protecting passengers in an accident. They must always be worn properly and buckled tightly."
+        "explain":  "Seat belts save lives and prevent injury. They are the most effective device for protecting passengers in an accident. They must always be worn properly and buckled tightly.",
+        "short":  "Seat belts save lives"
     },
     {
         "id":  290,
@@ -4059,7 +4347,8 @@ window.QUESTIONS = [
                         "If you purchased it after 1998."
                     ],
         "answer":  1,
-        "explain":  "A radar detector is a device installed in your grille or mounted on the inside of your windscreen which detects if your speed is being monitored by police using a radar gun. Jammers jam the signal from a police radar and they are illegal, too."
+        "explain":  "A radar detector is a device installed in your grille or mounted on the inside of your windscreen which detects if your speed is being monitored by police using a radar gun. Jammers jam the signal from a police radar and they are illegal, too.",
+        "short":  "Radar detectors and jammers illegal"
     },
     {
         "id":  291,
@@ -4073,7 +4362,8 @@ window.QUESTIONS = [
                         "A letter of warning and a small fine."
                     ],
         "answer":  1,
-        "explain":  "You may receive a substantial fine, lose your licence and incur demerit points for exceeding the speed limit."
+        "explain":  "You may receive a substantial fine, lose your licence and incur demerit points for exceeding the speed limit.",
+        "short":  "Penalties for speeding"
     },
     {
         "id":  292,
@@ -4087,7 +4377,8 @@ window.QUESTIONS = [
                         "50 Km/h."
                     ],
         "answer":  0,
-        "explain":  "Pedestrians will be using the road along with vehicles, therefore the speed limit is low. 10kph is the limit in shared zones including car parks and reserves."
+        "explain":  "Pedestrians will be using the road along with vehicles, therefore the speed limit is low. 10kph is the limit in shared zones including car parks and reserves.",
+        "short":  "Shared zone speed limit"
     },
     {
         "id":  293,
@@ -4101,7 +4392,8 @@ window.QUESTIONS = [
                         "Pull over and wait till it stops raining."
                     ],
         "answer":  0,
-        "explain":  "If there was a prolonged period of sunny weather before the rain then the surface can become very slick, especially with only light rain where there\u0027s not enough water to help wash the surface oil and dirt away quickly. Slow down to a speed that suits the conditions better."
+        "explain":  "If there was a prolonged period of sunny weather before the rain then the surface can become very slick, especially with only light rain where there\u0027s not enough water to help wash the surface oil and dirt away quickly. Slow down to a speed that suits the conditions better.",
+        "short":  "Slowing down for light rain"
     },
     {
         "id":  294,
@@ -4115,7 +4407,8 @@ window.QUESTIONS = [
                         "Speed up to a little bit over the speed limit, because everyone does it."
                     ],
         "answer":  0,
-        "explain":  "Remember that you are the one in control of the car, not your passengers, and you have a responsibility to be safe on the roads. Don\u0027t give in to peer pressure."
+        "explain":  "Remember that you are the one in control of the car, not your passengers, and you have a responsibility to be safe on the roads. Don\u0027t give in to peer pressure.",
+        "short":  "Resisting pressure to speed up"
     },
     {
         "id":  295,
@@ -4144,7 +4437,8 @@ window.QUESTIONS = [
                         "Turn off the busy street and wait for traffic to clear."
                     ],
         "answer":  1,
-        "explain":  "Remember that you are the one in control of the car and you have a responsibility to be safe on the roads. Don\u0027t give in to peer pressure. If you don\u0027t feel comfortable doing a certain speed, slow down."
+        "explain":  "Remember that you are the one in control of the car and you have a responsibility to be safe on the roads. Don\u0027t give in to peer pressure. If you don\u0027t feel comfortable doing a certain speed, slow down.",
+        "short":  "Driving below the limit if unsafe"
     },
     {
         "id":  297,
@@ -4158,7 +4452,8 @@ window.QUESTIONS = [
                         "Slow down to the new speed limit."
                     ],
         "answer":  2,
-        "explain":  "The reduced speed zone is to ensure the safety of any road workers, and also because road conditions might be slippery or damaging to your vehicle at higher speeds."
+        "explain":  "The reduced speed zone is to ensure the safety of any road workers, and also because road conditions might be slippery or damaging to your vehicle at higher speeds.",
+        "short":  "Roadworks reduced speed zone"
     },
     {
         "id":  298,
@@ -4187,7 +4482,8 @@ window.QUESTIONS = [
                         "The maximum speed they are allowed to drive."
                     ],
         "answer":  2,
-        "explain":  "Speed limit signs are always a black number inside a red circle. Exceeding the speed limit by any speed is technically against the law and you can be fined even if you are doing 1kph over the limit."
+        "explain":  "Speed limit signs are always a black number inside a red circle. Exceeding the speed limit by any speed is technically against the law and you can be fined even if you are doing 1kph over the limit.",
+        "short":  "Speed limit signs: maximum speed"
     },
     {
         "id":  300,
@@ -4201,7 +4497,8 @@ window.QUESTIONS = [
                         "Only permitted when other vehicles are going faster than the speed limit."
                     ],
         "answer":  0,
-        "explain":  "Exceeding the speed limit by any speed is technically against the law and you can be fined even if you are doing 1kph over the limit."
+        "explain":  "Exceeding the speed limit by any speed is technically against the law and you can be fined even if you are doing 1kph over the limit.",
+        "short":  "Never exceed the speed limit"
     },
     {
         "id":  301,
@@ -4215,7 +4512,8 @@ window.QUESTIONS = [
                         "Slow down immediately to 40 km/h or less even though other drivers want to go faster."
                     ],
         "answer":  2,
-        "explain":  "40kph is the limit in school zones at prescribed times and school bus blackspot areas."
+        "explain":  "40kph is the limit in school zones at prescribed times and school bus blackspot areas.",
+        "short":  "School zone 40 km/h limit"
     },
     {
         "id":  302,
@@ -4229,7 +4527,8 @@ window.QUESTIONS = [
                         "There\u0027s an emergency, which mean speed limits don\u0027t apply."
                     ],
         "answer":  1,
-        "explain":  "If a road has street lights and is urban in the absence of other posted limits it will be 50kph."
+        "explain":  "If a road has street lights and is urban in the absence of other posted limits it will be 50kph.",
+        "short":  "Default 100 km/h limit"
     },
     {
         "id":  303,
@@ -4963,7 +5262,8 @@ window.QUESTIONS = [
                         "Stop until train has passed then proceed immediately."
                     ],
         "answer":  1,
-        "explain":  "If there are lights flashing then you must stop. If a train passes and the lights continue to flash or the barrier doesn\u0027t move another train might be coming, so remain where you are."
+        "explain":  "If there are lights flashing then you must stop. If a train passes and the lights continue to flash or the barrier doesn\u0027t move another train might be coming, so remain where you are.",
+        "short":  "Flashing lights: railway crossing"
     },
     {
         "id":  352,
