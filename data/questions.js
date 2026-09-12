@@ -213,7 +213,7 @@ window.QUESTIONS = [
     {
         "id":  16,
         "cat":  "Intersections",
-        "img":  "images/int036.jpg",
+        "img":  "images/int014.jpg",
         "num":  36,
         "q":  "When you wish to turn left at a roundabout you indicate -",
         "options":  [
@@ -787,7 +787,7 @@ window.QUESTIONS = [
     {
         "id":  57,
         "cat":  "Fatigue and Driving",
-        "img":  "images/fat017.jpg",
+        "img":  "images/fat010.jpg",
         "num":  17,
         "q":  "Why should you avoid heavy braking on a wet road?",
         "options":  [
@@ -801,7 +801,7 @@ window.QUESTIONS = [
     {
         "id":  58,
         "cat":  "Fatigue and Driving",
-        "img":  "images/fat016.jpg",
+        "img":  "images/fat010.jpg",
         "num":  16,
         "q":  "When driving in wet weather, your vehicle will -",
         "options":  [
@@ -829,7 +829,7 @@ window.QUESTIONS = [
     {
         "id":  60,
         "cat":  "Fatigue and Driving",
-        "img":  "images/fat014.jpg",
+        "img":  "images/fat006.jpg",
         "num":  14,
         "q":  "What is the best way to avoid hitting other vehicles, people or animals when moving off from the kerb?",
         "options":  [
@@ -843,7 +843,7 @@ window.QUESTIONS = [
     {
         "id":  61,
         "cat":  "Fatigue and Driving",
-        "img":  "images/fat013.jpg",
+        "img":  "images/fat010.jpg",
         "num":  13,
         "q":  "When driving on a slippery wet road, for example, one covered in early morning dew, your vehicle will -",
         "options":  [
@@ -857,7 +857,7 @@ window.QUESTIONS = [
     {
         "id":  62,
         "cat":  "Fatigue and Driving",
-        "img":  "images/fat012.jpg",
+        "img":  "images/fat011.jpg",
         "num":  12,
         "q":  "At night, when you approach an oncoming vehicle, you should -",
         "options":  [
@@ -1025,7 +1025,7 @@ window.QUESTIONS = [
     {
         "id":  74,
         "cat":  "Alcohol and Drugs",
-        "img":  "images/alc021.jpg",
+        "img":  "images/alc013.jpg",
         "num":  21,
         "q":  "If you take medicine and then drink alcohol -",
         "options":  [
@@ -1039,7 +1039,7 @@ window.QUESTIONS = [
     {
         "id":  75,
         "cat":  "Alcohol and Drugs",
-        "img":  "images/alc020.jpg",
+        "img":  "images/alc012.jpg",
         "num":  20,
         "q":  "Is it an offence to refuse to take a POLICE breath test?",
         "options":  [
@@ -1053,7 +1053,7 @@ window.QUESTIONS = [
     {
         "id":  76,
         "cat":  "Alcohol and Drugs",
-        "img":  "images/alc019.jpg",
+        "img":  "images/alc001.jpg",
         "num":  19,
         "q":  "If you are going out and going to drink alcohol, the best way to avoid having to drink and drive is to -",
         "options":  [
@@ -1067,7 +1067,7 @@ window.QUESTIONS = [
     {
         "id":  77,
         "cat":  "Alcohol and Drugs",
-        "img":  "images/alc018.jpg",
+        "img":  "images/alc017.jpg",
         "num":  18,
         "q":  "If you are taking several medications and you want to drive, you should -",
         "options":  [
@@ -1165,7 +1165,7 @@ window.QUESTIONS = [
     {
         "id":  84,
         "cat":  "Alcohol and Drugs",
-        "img":  "images/alc010.jpg",
+        "img":  "images/alc004.jpg",
         "num":  10,
         "q":  "After drinking alcohol you could -",
         "options":  [
@@ -1207,7 +1207,7 @@ window.QUESTIONS = [
     {
         "id":  87,
         "cat":  "Alcohol and Drugs",
-        "img":  "images/alc007.jpg",
+        "img":  "images/alc001.jpg",
         "num":  7,
         "q":  "On Thursday, Friday and Saturday nights, how many serious crashes involve alcohol?",
         "options":  [
@@ -1249,7 +1249,7 @@ window.QUESTIONS = [
     {
         "id":  90,
         "cat":  "General Knowledge",
-        "img":  "images/gen020.jpg",
+        "img":  "images/fat018.jpg",
         "num":  20,
         "q":  "When you are driving on a two-lane freeway, which lane should you choose?",
         "options":  [
@@ -1641,7 +1641,7 @@ window.QUESTIONS = [
     {
         "id":  118,
         "cat":  "General Knowledge",
-        "img":  "images/gen039.jpg",
+        "img":  "images/fat006.jpg",
         "num":  39,
         "q":  "Before getting out of your vehicle you must",
         "options":  [
@@ -1949,7 +1949,7 @@ window.QUESTIONS = [
     {
         "id":  140,
         "cat":  "General Knowledge",
-        "img":  "images/gen013.jpg",
+        "img":  "images/gen010.jpg",
         "num":  13,
         "q":  "If you see a sign indicating road repairs are going on, you should",
         "options":  [
@@ -2537,7 +2537,7 @@ window.QUESTIONS = [
     {
         "id":  182,
         "cat":  "Traffic Lanes",
-        "img":  "images/lan008.jpg",
+        "img":  "images/gen075.jpg",
         "num":  8,
         "q":  "You are driving a car and want to pick up a passenger. The lane you want to stop in is a BUS LANE. Are you permitted to stop there?",
         "options":  [
@@ -2593,7 +2593,7 @@ window.QUESTIONS = [
     {
         "id":  186,
         "cat":  "Traffic Lanes",
-        "img":  "images/lan012.jpg",
+        "img":  "images/lan011.jpg",
         "num":  12,
         "q":  "You wish to turn left at this intersection. The traffic lights are red and you see this sign. You should -",
         "options":  [
@@ -2635,7 +2635,7 @@ window.QUESTIONS = [
     {
         "id":  189,
         "cat":  "Traffic Lanes",
-        "img":  "images/lan015.jpg",
+        "img":  "images/lan010.jpg",
         "num":  15,
         "q":  "You want to turn right at an intersection and see this traffic light. You should -",
         "options":  [
@@ -2705,7 +2705,7 @@ window.QUESTIONS = [
     {
         "id":  194,
         "cat":  "Traffic Lanes",
-        "img":  "images/lan019.jpg",
+        "img":  "images/fat018.jpg",
         "num":  19,
         "q":  "Before changing lanes you should",
         "options":  [
@@ -2761,7 +2761,7 @@ window.QUESTIONS = [
     {
         "id":  198,
         "cat":  "Traffic Lanes",
-        "img":  "images/lan024.jpg",
+        "img":  "images/gen021.jpg",
         "num":  24,
         "q":  "Signalling is -",
         "options":  [
@@ -2845,7 +2845,7 @@ window.QUESTIONS = [
     {
         "id":  204,
         "cat":  "Traffic Lanes",
-        "img":  "images/lan030.jpg",
+        "img":  "images/lan020.jpg",
         "num":  30,
         "q":  "When driving on a multi-lane road with a speed limit of more than 80 km/h, which lane should you choose?",
         "options":  [
@@ -2910,7 +2910,8 @@ window.QUESTIONS = [
                         "There is a lane just for light rail vehicles."
                     ],
         "answer":  2,
-        "explain":  "Light rail vehicle lanes are marked with this sign."
+        "explain":  "Light rail vehicle lanes are marked with this sign.",
+        "short":  "Light rail vehicle lane"
     },
     {
         "id":  209,
@@ -2943,7 +2944,7 @@ window.QUESTIONS = [
     {
         "id":  211,
         "cat":  "Traffic Lanes",
-        "img":  "images/lan038.jpg",
+        "img":  "images/lan011.jpg",
         "num":  38,
         "q":  "What may you do at an intersection with traffic lights at which this sign is displayed?",
         "options":  [
@@ -2971,7 +2972,7 @@ window.QUESTIONS = [
     {
         "id":  213,
         "cat":  "Traffic Lanes",
-        "img":  "images/lan040.jpg",
+        "img":  "images/lan026.jpg",
         "num":  40,
         "q":  "A section of road is marked with double unbroken dividing lines as in the diagram. When is a vehicle allowed to cross these lines?",
         "options":  [
@@ -2999,7 +3000,7 @@ window.QUESTIONS = [
     {
         "id":  215,
         "cat":  "Traffic Lanes",
-        "img":  "images/lan042.jpg",
+        "img":  "images/gen021.jpg",
         "num":  42,
         "q":  "You must use your indicator lights when -",
         "options":  [
@@ -3027,7 +3028,7 @@ window.QUESTIONS = [
     {
         "id":  217,
         "cat":  "Traffic Lanes",
-        "img":  "images/lan045.jpg",
+        "img":  "images/int020.jpg",
         "num":  45,
         "q":  "As you approach a set of traffic lights at an intersection, they change from green to yellow (amber). You must -",
         "options":  [
@@ -3097,7 +3098,7 @@ window.QUESTIONS = [
     {
         "id":  222,
         "cat":  "Negligent Driving",
-        "img":  "images/neg002.jpg",
+        "img":  "images/neg001.jpg",
         "num":  2,
         "q":  "The faster the vehicle in front of you is travelling, the -",
         "options":  [
@@ -3279,7 +3280,7 @@ window.QUESTIONS = [
     {
         "id":  235,
         "cat":  "Negligent Driving",
-        "img":  "images/neg015.jpg",
+        "img":  "images/alc012.jpg",
         "num":  15,
         "q":  "If you are convicted of dangerous driving -",
         "options":  [
@@ -3349,7 +3350,7 @@ window.QUESTIONS = [
     {
         "id":  240,
         "cat":  "Negligent Driving",
-        "img":  "images/neg020.jpg",
+        "img":  "images/fat006.jpg",
         "num":  20,
         "q":  "When driving near parked vehicles, you should -",
         "options":  [
@@ -3363,7 +3364,7 @@ window.QUESTIONS = [
     {
         "id":  241,
         "cat":  "Negligent Driving",
-        "img":  "images/neg021.jpg",
+        "img":  "images/neg001.jpg",
         "num":  21,
         "q":  "You are approaching a hill or curve. You must not cross the centre line to overtake -",
         "options":  [
@@ -3405,7 +3406,7 @@ window.QUESTIONS = [
     {
         "id":  244,
         "cat":  "Negligent Driving",
-        "img":  "images/neg024.jpg",
+        "img":  "images/neg007.jpg",
         "num":  24,
         "q":  "When being overtaken by another vehicle what should you do to help?",
         "options":  [
@@ -3419,7 +3420,7 @@ window.QUESTIONS = [
     {
         "id":  245,
         "cat":  "Negligent Driving",
-        "img":  "images/neg025.jpg",
+        "img":  "images/gen010.jpg",
         "num":  25,
         "q":  "When driving through temporary road work you should -",
         "options":  [
@@ -3559,7 +3560,7 @@ window.QUESTIONS = [
     {
         "id":  255,
         "cat":  "Pedestrians",
-        "img":  "images/ped006.jpg",
+        "img":  "images/ped005.jpg",
         "num":  6,
         "q":  "When approaching a marked pedestrian crossing and no pedestrians are in sight, you should -",
         "options":  [
@@ -3573,7 +3574,7 @@ window.QUESTIONS = [
     {
         "id":  256,
         "cat":  "Pedestrians",
-        "img":  "images/ped007.jpg",
+        "img":  "images/ped005.jpg",
         "num":  7,
         "q":  "When driving near pedestrian crossings, intersections, or school crossings, you should always -",
         "options":  [
@@ -3741,7 +3742,7 @@ window.QUESTIONS = [
     {
         "id":  268,
         "cat":  "Pedestrians",
-        "img":  "images/ped019.jpg",
+        "img":  "images/alc001.jpg",
         "num":  19,
         "q":  "Pedestrians who are affected by alcohol, are -",
         "options":  [
@@ -3783,7 +3784,7 @@ window.QUESTIONS = [
     {
         "id":  271,
         "cat":  "Pedestrians",
-        "img":  "images/ped022.jpg",
+        "img":  "images/neg018.jpg",
         "num":  22,
         "q":  "Which one of the following statements is correct? Bicycle riders -",
         "options":  [
@@ -3825,7 +3826,7 @@ window.QUESTIONS = [
     {
         "id":  274,
         "cat":  "Pedestrians",
-        "img":  "images/ped025.jpg",
+        "img":  "images/ped020.jpg",
         "num":  25,
         "q":  "You drive towards these people on the road. What should you do?",
         "options":  [
@@ -3839,7 +3840,7 @@ window.QUESTIONS = [
     {
         "id":  275,
         "cat":  "Pedestrians",
-        "img":  "images/ped026.jpg",
+        "img":  "images/fat020.jpg",
         "num":  26,
         "q":  "You must give way to pedestrians if there is a risk of hitting them. When driving in poor light, you should -",
         "options":  [
@@ -3853,7 +3854,7 @@ window.QUESTIONS = [
     {
         "id":  276,
         "cat":  "Pedestrians",
-        "img":  "images/ped027.jpg",
+        "img":  "images/ped010.jpg",
         "num":  27,
         "q":  "You approach a crossing and see the scene in the picture. You should -",
         "options":  [
@@ -3867,7 +3868,7 @@ window.QUESTIONS = [
     {
         "id":  277,
         "cat":  "Pedestrians",
-        "img":  "images/ped028.jpg",
+        "img":  "images/ped020.jpg",
         "num":  28,
         "q":  "You approach a person crossing the road. You should -",
         "options":  [
@@ -4063,7 +4064,7 @@ window.QUESTIONS = [
     {
         "id":  291,
         "cat":  "Speed Limits",
-        "img":  "images/spl002.jpg",
+        "img":  "images/alc012.jpg",
         "num":  2,
         "q":  "What could be the penalties for driving over the speed limit -",
         "options":  [
@@ -4128,7 +4129,8 @@ window.QUESTIONS = [
                         "Share this road with other people and vehicles and not exceed 10 km/h."
                     ],
         "answer":  2,
-        "explain":  "You will be sharing this road with pedestrians and other vehicles. The speed limit is 10 km/h as shown by the speed limit sign."
+        "explain":  "You will be sharing this road with pedestrians and other vehicles. The speed limit is 10 km/h as shown by the speed limit sign.",
+        "short":  "10 km/h shared zone"
     },
     {
         "id":  296,
@@ -4147,7 +4149,7 @@ window.QUESTIONS = [
     {
         "id":  297,
         "cat":  "Speed Limits",
-        "img":  "images/spl008.jpg",
+        "img":  "images/gen010.jpg",
         "num":  8,
         "q":  "If you are driving along the highway and come across road works with a reduced speed zone, you must -",
         "options":  [
@@ -4170,12 +4172,13 @@ window.QUESTIONS = [
                         "Not exceed 40 km/h and keep a special lookout for bicycle riders, pedestrians and children."
                     ],
         "answer":  2,
-        "explain":  "40kph is the limit in high pedestrian activity areas, local traffic areas, school zones at prescribed times and school bus blackspot areas."
+        "explain":  "40kph is the limit in high pedestrian activity areas, local traffic areas, school zones at prescribed times and school bus blackspot areas.",
+        "short":  "40 km/h pedestrian zone"
     },
     {
         "id":  299,
         "cat":  "Speed Limits",
-        "img":  "images/spl010.jpg",
+        "img":  "images/sgn039.jpg",
         "num":  10,
         "q":  "Speed limit signs (such as the one shown) tell drivers -",
         "options":  [
@@ -4240,7 +4243,8 @@ window.QUESTIONS = [
                         "Road under repair, slow down."
                     ],
         "answer":  1,
-        "explain":  "There is a steep hill ahead. You should slow down and change down one or two gears to allow your engine to take over some of the braking. Be careful you don\u0027t suffer from \u0027brake fade\u0027 where your brakes stop being effective. If you notice this happening, pull over immediately and let the brakes cool down."
+        "explain":  "There is a steep hill ahead. You should slow down and change down one or two gears to allow your engine to take over some of the braking. Be careful you don\u0027t suffer from \u0027brake fade\u0027 where your brakes stop being effective. If you notice this happening, pull over immediately and let the brakes cool down.",
+        "short":  "Steep downhill grade"
     },
     {
         "id":  304,
@@ -4254,7 +4258,8 @@ window.QUESTIONS = [
                         "Double lane bridge ahead."
                     ],
         "answer":  0,
-        "explain":  "This sign means that traffic travels in two directions. You might see it after exiting a motorway or dual carriageway or after a one-way street."
+        "explain":  "This sign means that traffic travels in two directions. You might see it after exiting a motorway or dual carriageway or after a one-way street.",
+        "short":  "Two-way traffic sign"
     },
     {
         "id":  305,
@@ -4268,7 +4273,8 @@ window.QUESTIONS = [
                         "Freeway conditions are ahead, maximum speed is 100 km/h."
                     ],
         "answer":  1,
-        "explain":  "When the two-way road you are on is about to become a divided road you will see this sign."
+        "explain":  "When the two-way road you are on is about to become a divided road you will see this sign.",
+        "short":  "Divided road ahead"
     },
     {
         "id":  306,
@@ -4282,12 +4288,13 @@ window.QUESTIONS = [
                         "There may be animals on or near the road ahead, slow down and be prepared to stop to avoid collision."
                     ],
         "answer":  2,
-        "explain":  "There may be livestock on the road. Slow down and pay special attention to scanning the verges so you can anticipate if livestock might move in front of your vehicle."
+        "explain":  "There may be livestock on the road. Slow down and pay special attention to scanning the verges so you can anticipate if livestock might move in front of your vehicle.",
+        "short":  "Animals on the road"
     },
     {
         "id":  307,
         "cat":  "Street Signs",
-        "img":  "images/sgn005.jpg",
+        "img":  "images/int044.jpg",
         "num":  5,
         "q":  "When you see this sign, what must you do?",
         "options":  [
@@ -4296,7 +4303,8 @@ window.QUESTIONS = [
                         "Slow down and be ready to stop and give way to a train."
                     ],
         "answer":  2,
-        "explain":  "This sign indicates there is a railway level crossing with two tracks ahead. You must give way to trains approaching."
+        "explain":  "This sign indicates there is a railway level crossing with two tracks ahead. You must give way to trains approaching.",
+        "short":  "Railway crossing: give way"
     },
     {
         "id":  308,
@@ -4310,7 +4318,8 @@ window.QUESTIONS = [
                         "Cemetery ahead."
                     ],
         "answer":  1,
-        "explain":  "This sign is for a crossroads ahead and you may need to give way at the crossroads, depending on the signage."
+        "explain":  "This sign is for a crossroads ahead and you may need to give way at the crossroads, depending on the signage.",
+        "short":  "Crossroads ahead"
     },
     {
         "id":  309,
@@ -4324,7 +4333,8 @@ window.QUESTIONS = [
                         "Vehicles are not allowed to stop at the kerb except in a medical emergency."
                     ],
         "answer":  2,
-        "explain":  "No stopping signs - you can only stop here if it\u0027s a medical emergency."
+        "explain":  "No stopping signs - you can only stop here if it\u0027s a medical emergency.",
+        "short":  "No Stopping sign"
     },
     {
         "id":  310,
@@ -4338,12 +4348,13 @@ window.QUESTIONS = [
                         "May stop at any time to pick up or drop off passengers."
                     ],
         "answer":  0,
-        "explain":  "A clearway is a section of road where parking is prohibited during certain times, in this case between 3:30-6:30pm, Monday to Friday."
+        "explain":  "A clearway is a section of road where parking is prohibited during certain times, in this case between 3:30-6:30pm, Monday to Friday.",
+        "short":  "Clearway sign"
     },
     {
         "id":  311,
         "cat":  "Street Signs",
-        "img":  "images/sgn009.jpg",
+        "img":  "images/int038.jpg",
         "num":  9,
         "q":  "When you see this sign you should -",
         "options":  [
@@ -4352,7 +4363,8 @@ window.QUESTIONS = [
                         "Come to a complete stop, look both ways for trains and proceed with caution if no trains are approaching."
                     ],
         "answer":  2,
-        "explain":  "You must always stop at a stop sign."
+        "explain":  "You must always stop at a stop sign.",
+        "short":  "Railway crossing: stop sign"
     },
     {
         "id":  312,
@@ -4366,7 +4378,8 @@ window.QUESTIONS = [
                         "Hospital ahead, slow down and proceed with caution."
                     ],
         "answer":  1,
-        "explain":  "This area has been identified as one where pedestrians are common and may be crossing the road. It could be near shopping centres or other public amenities."
+        "explain":  "This area has been identified as one where pedestrians are common and may be crossing the road. It could be near shopping centres or other public amenities.",
+        "short":  "Pedestrians may be crossing"
     },
     {
         "id":  313,
@@ -4380,7 +4393,8 @@ window.QUESTIONS = [
                         "Not pass another vehicle."
                     ],
         "answer":  0,
-        "explain":  "This no entry sign indicates you cannot drive beyond it as it may be the entrance to an exit-only driveway or a one-way road with traffic coming towards you."
+        "explain":  "This no entry sign indicates you cannot drive beyond it as it may be the entrance to an exit-only driveway or a one-way road with traffic coming towards you.",
+        "short":  "No Entry sign"
     },
     {
         "id":  314,
@@ -4394,7 +4408,8 @@ window.QUESTIONS = [
                         "No right turn allowed."
                     ],
         "answer":  1,
-        "explain":  "This sign indicates a sharp right hand turn. You may need to slow down, especially if it is wet."
+        "explain":  "This sign indicates a sharp right hand turn. You may need to slow down, especially if it is wet.",
+        "short":  "Sharp right-hand bend"
     },
     {
         "id":  315,
@@ -4408,7 +4423,8 @@ window.QUESTIONS = [
                         "You must not turn to the right."
                     ],
         "answer":  0,
-        "explain":  "This sign means you must not turn to the left. This could be to prevent you from turning into a one-way street."
+        "explain":  "This sign means you must not turn to the left. This could be to prevent you from turning into a one-way street.",
+        "short":  "No Left Turn sign"
     },
     {
         "id":  316,
@@ -4422,7 +4438,8 @@ window.QUESTIONS = [
                         "Slow down and be prepared to stop if the lights start flashing, warning you of an approaching train."
                     ],
         "answer":  2,
-        "explain":  "This sign indicates there is a railway level crossing with two tracks ahead. Slow down and be prepared to stop if the lights are flashing and give way to approaching trains."
+        "explain":  "This sign indicates there is a railway level crossing with two tracks ahead. Slow down and be prepared to stop if the lights are flashing and give way to approaching trains.",
+        "short":  "Railway crossing (2 tracks)"
     },
     {
         "id":  317,
@@ -4436,7 +4453,8 @@ window.QUESTIONS = [
                         "Nature reserve 30 km ahead."
                     ],
         "answer":  0,
-        "explain":  "Advisory signs with distances warn of a hazard and for how long that hazard is in effect. Drive any distance out of the city and you\u0027ll probably see something similar to this one which warns of kangaroos on the road for the next 30 km."
+        "explain":  "Advisory signs with distances warn of a hazard and for how long that hazard is in effect. Drive any distance out of the city and you\u0027ll probably see something similar to this one which warns of kangaroos on the road for the next 30 km.",
+        "short":  "Kangaroos next 30 km"
     },
     {
         "id":  318,
@@ -4450,7 +4468,8 @@ window.QUESTIONS = [
                         "Pedestrians are not allowed."
                     ],
         "answer":  1,
-        "explain":  "This area may have children present, for example, near a school, play area, or swimming pool. Be careful and be prepared to slow down if necessary. Kids have less road sense and could run out in front of you if distracted by something the other side of the road."
+        "explain":  "This area may have children present, for example, near a school, play area, or swimming pool. Be careful and be prepared to slow down if necessary. Kids have less road sense and could run out in front of you if distracted by something the other side of the road.",
+        "short":  "Children crossing ahead"
     },
     {
         "id":  319,
@@ -4464,7 +4483,8 @@ window.QUESTIONS = [
                         "Slow down and be prepared to stop and give way to all traffic if there is any danger of a collision."
                     ],
         "answer":  2,
-        "explain":  "Give way: Slow down and be prepared to stop and give way to all traffic if there is any danger of a collision."
+        "explain":  "Give way: Slow down and be prepared to stop and give way to all traffic if there is any danger of a collision.",
+        "short":  "Give Way sign"
     },
     {
         "id":  320,
@@ -4478,12 +4498,13 @@ window.QUESTIONS = [
                         "Traffic lights out of order, Police on duty ahead."
                     ],
         "answer":  1,
-        "explain":  "If there\u0027s a worker or traffic controller with a stop sign directing traffic then you might see this sign. This sign can also be in black and red."
+        "explain":  "If there\u0027s a worker or traffic controller with a stop sign directing traffic then you might see this sign. This sign can also be in black and red.",
+        "short":  "Traffic controller ahead"
     },
     {
         "id":  321,
         "cat":  "Street Signs",
-        "img":  "images/sgn019.jpg",
+        "img":  "images/int044.jpg",
         "num":  19,
         "q":  "What does this sign mean?",
         "options":  [
@@ -4492,7 +4513,8 @@ window.QUESTIONS = [
                         "Railway level crossing ahead, slow down and look out for trains, be prepared to stop."
                     ],
         "answer":  2,
-        "explain":  "Advanced warning of an of a railway level crossing ahead."
+        "explain":  "Advanced warning of an of a railway level crossing ahead.",
+        "short":  "Railway crossing warning sign"
     },
     {
         "id":  322,
@@ -4506,7 +4528,8 @@ window.QUESTIONS = [
                         "Heavy vehicle checking station ahead."
                     ],
         "answer":  1,
-        "explain":  "This sign indicates that trucks may be pulling out from side streets. You may see these signs near industrial areas, for example."
+        "explain":  "This sign indicates that trucks may be pulling out from side streets. You may see these signs near industrial areas, for example.",
+        "short":  "Trucks entering from side road"
     },
     {
         "id":  323,
@@ -4520,7 +4543,8 @@ window.QUESTIONS = [
                         "Drive carefully and watch out for traffic entering from a side-road intersection ahead."
                     ],
         "answer":  2,
-        "explain":  "You are approaching an intersection and traffic may enter from the side road."
+        "explain":  "You are approaching an intersection and traffic may enter from the side road.",
+        "short":  "Side road intersection ahead"
     },
     {
         "id":  324,
@@ -4534,7 +4558,8 @@ window.QUESTIONS = [
                         "If a one lane bridge is ahead."
                     ],
         "answer":  1,
-        "explain":  "You are currently driving on a divided road and the road will join another road with traffic heading in the opposite direction to form two-way traffic."
+        "explain":  "You are currently driving on a divided road and the road will join another road with traffic heading in the opposite direction to form two-way traffic.",
+        "short":  "Divided road ends"
     },
     {
         "id":  325,
@@ -4548,7 +4573,8 @@ window.QUESTIONS = [
                         "Stop at all times and give way to all traffic."
                     ],
         "answer":  1,
-        "explain":  "If the lights are not working, or the amber is flashing you treat this intersection like you would any intersection with a stop sign."
+        "explain":  "If the lights are not working, or the amber is flashing you treat this intersection like you would any intersection with a stop sign.",
+        "short":  "Traffic lights out of order"
     },
     {
         "id":  326,
@@ -4562,7 +4588,8 @@ window.QUESTIONS = [
                         "Police station ahead."
                     ],
         "answer":  0,
-        "explain":  "A sharp depression in the road can bottom out your suspension in extreme cases if you are going too fast. This can not only damage your car, but could cause you to spin and leave the road. Be prepared to slow down if necessary. It may also conceal other vehicles coming towards you so take care if you want to overtake another vehicle."
+        "explain":  "A sharp depression in the road can bottom out your suspension in extreme cases if you are going too fast. This can not only damage your car, but could cause you to spin and leave the road. Be prepared to slow down if necessary. It may also conceal other vehicles coming towards you so take care if you want to overtake another vehicle.",
+        "short":  "Dip in the road"
     },
     {
         "id":  327,
@@ -4576,7 +4603,8 @@ window.QUESTIONS = [
                         "Drive carefully, roundabout ahead."
                     ],
         "answer":  0,
-        "explain":  "When you see a \u0027Keep left\u0027 sign, you must stay to the left of the sign."
+        "explain":  "When you see a \u0027Keep left\u0027 sign, you must stay to the left of the sign.",
+        "short":  "Keep Left sign"
     },
     {
         "id":  328,
@@ -4590,7 +4618,8 @@ window.QUESTIONS = [
                         "Road under repair, drive carefully."
                     ],
         "answer":  0,
-        "explain":  "Slippery when wet. Rain can cause the road to be much more slippery in areas where a high build-up of oil, tyre rubber and road grime occurs, and there is a risk that you might skid if you are going too fast for the conditions. Slow down and take care."
+        "explain":  "Slippery when wet. Rain can cause the road to be much more slippery in areas where a high build-up of oil, tyre rubber and road grime occurs, and there is a risk that you might skid if you are going too fast for the conditions. Slow down and take care.",
+        "short":  "Slippery when wet"
     },
     {
         "id":  329,
@@ -4604,7 +4633,8 @@ window.QUESTIONS = [
                         "Only vehicles carrying a disable person and displaying a mobility parking authority may park in this area."
                     ],
         "answer":  2,
-        "explain":  "Only vehicles carrying a disable person and displaying a mobility parking authority may park in this area. Other vehicles might be ticketed or towed."
+        "explain":  "Only vehicles carrying a disable person and displaying a mobility parking authority may park in this area. Other vehicles might be ticketed or towed.",
+        "short":  "Disabled parking sign"
     },
     {
         "id":  330,
@@ -4618,7 +4648,8 @@ window.QUESTIONS = [
                         "Drive carefully, you are reaching the top of the hill and will not be able to see a safe distance in front of you."
                     ],
         "answer":  2,
-        "explain":  "There\u0027s a crest of a hill ahead. Be careful if you are overtaking as you might not be able to see vehicles coming towards you that are the other side of the crest."
+        "explain":  "There\u0027s a crest of a hill ahead. Be careful if you are overtaking as you might not be able to see vehicles coming towards you that are the other side of the crest.",
+        "short":  "Crest of a hill"
     },
     {
         "id":  331,
@@ -4632,7 +4663,8 @@ window.QUESTIONS = [
                         "You are approaching an intersection with traffic lights, be prepared to stop."
                     ],
         "answer":  1,
-        "explain":  "Advanced warning of an intersection where you have to give way. The intersection might be concealed. Slow down and be prepared to stop to give way to other traffic."
+        "explain":  "Advanced warning of an intersection where you have to give way. The intersection might be concealed. Slow down and be prepared to stop to give way to other traffic.",
+        "short":  "Give Way sign ahead"
     },
     {
         "id":  332,
@@ -4646,7 +4678,8 @@ window.QUESTIONS = [
                         "T-intersection ahead. If you are on the terminating road, you must give way to all vehicles approaching from your right or left."
                     ],
         "answer":  2,
-        "explain":  "T-intersection ahead. If you are on the terminating road, you must give way to all vehicles approaching from your right or left."
+        "explain":  "T-intersection ahead. If you are on the terminating road, you must give way to all vehicles approaching from your right or left.",
+        "short":  "T-intersection ahead"
     },
     {
         "id":  333,
@@ -4660,7 +4693,8 @@ window.QUESTIONS = [
                         "Red light camera in use at traffic lights ahead."
                     ],
         "answer":  1,
-        "explain":  "Railway level crossing with flashing signals ahead, slow down, drive carefully, and be prepared to stop. The level crossing is usually indicated by one or more signs, most often a crossbuck (a metal cross with railway crossing written on it)."
+        "explain":  "Railway level crossing with flashing signals ahead, slow down, drive carefully, and be prepared to stop. The level crossing is usually indicated by one or more signs, most often a crossbuck (a metal cross with railway crossing written on it).",
+        "short":  "Railway crossing with flashing signals"
     },
     {
         "id":  334,
@@ -4674,7 +4708,8 @@ window.QUESTIONS = [
                         "One way traffic ahead."
                     ],
         "answer":  1,
-        "explain":  "Advanced warning of an intersection where you have to stop. The intersection might be concealed. Be prepared to stop to give way to other traffic."
+        "explain":  "Advanced warning of an intersection where you have to stop. The intersection might be concealed. Be prepared to stop to give way to other traffic.",
+        "short":  "Stop sign ahead"
     },
     {
         "id":  335,
@@ -4688,7 +4723,8 @@ window.QUESTIONS = [
                         "You may travel only in the direction in which the arrow is pointing."
                     ],
         "answer":  2,
-        "explain":  "You must follow the direction of the sign as it\u0027s a one-way street."
+        "explain":  "You must follow the direction of the sign as it\u0027s a one-way street.",
+        "short":  "One Way street sign"
     },
     {
         "id":  336,
@@ -4702,7 +4738,8 @@ window.QUESTIONS = [
                         "Joggers ahead, drive carefully."
                     ],
         "answer":  1,
-        "explain":  "This sign means that there is a pedestrian crossing ahead. Slow down and be prepared to stop."
+        "explain":  "This sign means that there is a pedestrian crossing ahead. Slow down and be prepared to stop.",
+        "short":  "Pedestrian crossing sign"
     },
     {
         "id":  337,
@@ -4716,7 +4753,8 @@ window.QUESTIONS = [
                         "Stop at the stop line and give way to all traffic."
                     ],
         "answer":  2,
-        "explain":  "Compulsory stop. All vehicles must stop and give way using the give way rules. A stop sign will usually be painted on the road showing you where to stop."
+        "explain":  "Compulsory stop. All vehicles must stop and give way using the give way rules. A stop sign will usually be painted on the road showing you where to stop.",
+        "short":  "Stop sign"
     },
     {
         "id":  338,
@@ -4730,7 +4768,8 @@ window.QUESTIONS = [
                         "You must give way to traffic on your right."
                     ],
         "answer":  0,
-        "explain":  "This sign means you must not turn to the right. You might see it to prevent you from turning the wrong way into a one-way street (along with the no entry sign above), or where it would be dangerous for you to make a turn across oncoming traffic."
+        "explain":  "This sign means you must not turn to the right. You might see it to prevent you from turning the wrong way into a one-way street (along with the no entry sign above), or where it would be dangerous for you to make a turn across oncoming traffic.",
+        "short":  "No Right Turn sign"
     },
     {
         "id":  339,
@@ -4744,7 +4783,8 @@ window.QUESTIONS = [
                         "You are on Highway 60."
                     ],
         "answer":  0,
-        "explain":  "Speed limit signs are always a black number inside a red circle. You are not to exceed 60 km/h."
+        "explain":  "Speed limit signs are always a black number inside a red circle. You are not to exceed 60 km/h.",
+        "short":  "60 km/h speed sign"
     },
     {
         "id":  340,
@@ -4758,7 +4798,8 @@ window.QUESTIONS = [
                         "Road curves to the left ahead."
                     ],
         "answer":  0,
-        "explain":  "Traffic can only proceed in the direction of the arrow, in this case left. This might be seen if the lane only turns to the left."
+        "explain":  "Traffic can only proceed in the direction of the arrow, in this case left. This might be seen if the lane only turns to the left.",
+        "short":  "Mandatory direction sign"
     },
     {
         "id":  341,
@@ -4772,7 +4813,8 @@ window.QUESTIONS = [
                         "The sign applies to truck drivers only, cars can travel at any speed."
                     ],
         "answer":  1,
-        "explain":  "Speed limit signs are always a black number inside a red circle. You are not to exceed 100 km/h."
+        "explain":  "Speed limit signs are always a black number inside a red circle. You are not to exceed 100 km/h.",
+        "short":  "100 km/h speed sign"
     },
     {
         "id":  342,
@@ -4786,7 +4828,8 @@ window.QUESTIONS = [
                         "Vehicles carrying three or more people, and motorcycles may use this lane."
                     ],
         "answer":  2,
-        "explain":  "Between 6am-10am Monday to Friday this transit lane requires that you have at least two passengers in addition to yourself, or you can use it riding a motorbike. Pets are not classed as passengers in a T2 or T3 lane."
+        "explain":  "Between 6am-10am Monday to Friday this transit lane requires that you have at least two passengers in addition to yourself, or you can use it riding a motorbike. Pets are not classed as passengers in a T2 or T3 lane.",
+        "short":  "T3 transit lane sign"
     },
     {
         "id":  343,
@@ -4800,7 +4843,8 @@ window.QUESTIONS = [
                         "If there is a footbridge for pedestrians ahead."
                     ],
         "answer":  0,
-        "explain":  "Narrow bridge ahead. Watch for pedestrians on the bridge and wide loads coming towards you that could be too wide for you both to drive across the bridge at the same time. There may also be a supplementary plate indicating who has priority over the bridge."
+        "explain":  "Narrow bridge ahead. Watch for pedestrians on the bridge and wide loads coming towards you that could be too wide for you both to drive across the bridge at the same time. There may also be a supplementary plate indicating who has priority over the bridge.",
+        "short":  "Narrow bridge ahead"
     },
     {
         "id":  344,
@@ -4814,7 +4858,8 @@ window.QUESTIONS = [
                         "You are approaching a children\u0027s playground, slow down."
                     ],
         "answer":  1,
-        "explain":  "This is an area with more than average bicycles so be vigilant when looking for them as they can be difficult to see."
+        "explain":  "This is an area with more than average bicycles so be vigilant when looking for them as they can be difficult to see.",
+        "short":  "Bicycle riders ahead"
     },
     {
         "id":  345,
@@ -4828,7 +4873,8 @@ window.QUESTIONS = [
                         "Do not litter."
                     ],
         "answer":  1,
-        "explain":  "Road workers may be working on the road and you may be instructed to stop. This sign might also be in orange. Road repairs can cause the road to be slippery, and you may come around a corner to find a traffic controller with a handheld sign directing traffic, therefore be prepared to stop."
+        "explain":  "Road workers may be working on the road and you may be instructed to stop. This sign might also be in orange. Road repairs can cause the road to be slippery, and you may come around a corner to find a traffic controller with a handheld sign directing traffic, therefore be prepared to stop.",
+        "short":  "Road workers ahead"
     },
     {
         "id":  346,
@@ -4842,7 +4888,8 @@ window.QUESTIONS = [
                         "Slow down, be ready to stop and give way to all vehicles already on the roundabout if there is a danger of a collision."
                     ],
         "answer":  2,
-        "explain":  "There\u0027s a roundabout ahead. Give way to your right."
+        "explain":  "There\u0027s a roundabout ahead. Give way to your right.",
+        "short":  "Roundabout ahead"
     },
     {
         "id":  347,
@@ -4856,7 +4903,8 @@ window.QUESTIONS = [
                         "You must stay in or move to the left lane, unless you are overtaking another vehicle."
                     ],
         "answer":  2,
-        "explain":  "Stay in the left lane unless you need to overtake another vehicle. You will find this sign at the beginning of passing lanes."
+        "explain":  "Stay in the left lane unless you need to overtake another vehicle. You will find this sign at the beginning of passing lanes.",
+        "short":  "Keep Left unless overtaking"
     },
     {
         "id":  348,
@@ -4870,7 +4918,8 @@ window.QUESTIONS = [
                         "Road narrows ahead, slow down and prepare for a change in traffic conditions."
                     ],
         "answer":  2,
-        "explain":  "The road narrows, so be careful, especially of wider vehicles coming in the opposite direction."
+        "explain":  "The road narrows, so be careful, especially of wider vehicles coming in the opposite direction.",
+        "short":  "Road narrows ahead"
     },
     {
         "id":  349,
@@ -4884,7 +4933,8 @@ window.QUESTIONS = [
                         "One way traffic ahead."
                     ],
         "answer":  0,
-        "explain":  "You must not go straight on from the right lane; you can only turn right."
+        "explain":  "You must not go straight on from the right lane; you can only turn right.",
+        "short":  "Right lane must turn right"
     },
     {
         "id":  350,
@@ -4898,7 +4948,8 @@ window.QUESTIONS = [
                         "If an unsealed road is ahead."
                     ],
         "answer":  0,
-        "explain":  "Windy road ahead: there may be bends that are sharper than you anticipate, so the safest way is to slow down. The first curve will be to the right."
+        "explain":  "Windy road ahead: there may be bends that are sharper than you anticipate, so the safest way is to slow down. The first curve will be to the right.",
+        "short":  "Winding road ahead"
     },
     {
         "id":  351,
@@ -4926,7 +4977,8 @@ window.QUESTIONS = [
                         "Slow down, the maximum safe speed around the next curve in the road is 35km/h."
                     ],
         "answer":  2,
-        "explain":  "There\u0027s a curve to the right with an advisory speed of 35kph in dry weather. This would make it quite a sharp curve, so be prepared to slow down, especially if you are a learner driver as there could be other hazards such as wet road markings or gravel in the road."
+        "explain":  "There\u0027s a curve to the right with an advisory speed of 35kph in dry weather. This would make it quite a sharp curve, so be prepared to slow down, especially if you are a learner driver as there could be other hazards such as wet road markings or gravel in the road.",
+        "short":  "35 km/h advisory curve"
     },
     {
         "id":  353,
@@ -4940,7 +4992,9 @@ window.QUESTIONS = [
                         "There is a hump (sudden slope up and down) in the road ahead, slow down."
                     ],
         "answer":  2,
-        "explain":  "There\u0027s a road hump or speed bump ahead. Driving too fast over these can damage your suspension."
+        "explain":  "There\u0027s a road hump or speed bump ahead. Driving too fast over these can damage your suspension.",
+        "short":  "Speed hump ahead"
     }
-];
+]
+;
 

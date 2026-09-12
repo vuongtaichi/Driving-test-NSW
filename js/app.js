@@ -129,6 +129,30 @@
     return { right: right, total: total, pct: total ? Math.round(right / total * 100) : 0 };
   }
 
+  // How much of a section is done, not how accurate you've been on what you've tried:
+  // right/wrong are counted once per question (by its most recent answer), as a share
+  // of every question in the section — not just the ones you've attempted so far.
+  function progress(list) {
+    var right = 0, wrong = 0, total = list.length;
+    list.forEach(function (q) {
+      var last = statOf(q.id).last;
+      if (last === 'right') right++;
+      else if (last === 'wrong') wrong++;
+    });
+    return {
+      right: right, wrong: wrong, total: total,
+      rightPct: total ? Math.round(right / total * 100) : 0,
+      wrongPct: total ? Math.round(wrong / total * 100) : 0,
+      donePct: total ? Math.round((right + wrong) / total * 100) : 0
+    };
+  }
+
+  function setRingSplit(el, labelEl, prog) {
+    el.style.setProperty('--pct-right', prog.rightPct);
+    el.style.setProperty('--pct-wrong', prog.wrongPct);
+    if (labelEl) labelEl.textContent = prog.donePct + '%';
+  }
+
   function setRing(el, labelEl, pct) {
     el.style.setProperty('--pct', pct);
     if (labelEl) labelEl.textContent = pct + '%';
@@ -183,31 +207,29 @@
   }
 
   function startSingle(qid, cat) {
-    // Picking a question from a section's list drills that question, then lets you
-    // keep going forward through the rest of the section in order (not shuffled) —
-    // "Next" all the way, "Finish" only once you reach the section's last question.
+    // Picking a question from a section's list drills the whole section in order
+    // (not shuffled), starting right at the question you picked — Back and Next both
+    // work from there, "Finish" only shows once you reach the section's last question.
     var qs = questionsIn(cat);
     var startIdx = -1;
     for (var i = 0; i < qs.length; i++) if (qs[i].id === qid) { startIdx = i; break; }
     if (startIdx === -1) return;
-    var pool = qs.slice(startIdx);
 
     run = {
       mode: 'single',
       title: catLabel(cat),
       instant: true,
       parentSection: cat,
-      sectionTotal: qs.length,
-      idx: 0,
+      idx: startIdx,
       startedAt: Date.now(),
-      items: pool.map(function (q) {
+      items: qs.map(function (q) {
         var order = [0, 1, 2, 3].slice(0, q.options.length);
         if (store.shuffle) order = shuffled(order);
         return { q: q, order: order, picked: null };
       })
     };
 
-    $('topbar-title').textContent = catLabel(cat) + ' · ' + pool.length + ' questions';
+    $('topbar-title').textContent = catLabel(cat) + ' · ' + qs.length + ' questions';
     show('quiz');
     renderQuestion();
   }
@@ -255,17 +277,18 @@
     list.innerHTML = '';
     categories().forEach(function (cat) {
       var qs = questionsIn(cat);
-      var a = accuracy(qs);
+      var prog = progress(qs);
       var btn = document.createElement('button');
       btn.className = 'card';
       btn.setAttribute('data-section', cat);
       btn.innerHTML =
         '<span class="card__icon">' + iconFor(cat) + '</span>' +
         '<span class="card__body"><strong></strong><small></small></span>' +
-        '<span class="ring card__ring" style="--pct:' + a.pct + '"><span>' + a.pct + '%</span></span>';
+        '<span class="ring ring--split card__ring"><span></span></span>';
       btn.querySelector('strong').textContent = catLabel(cat);
       btn.querySelector('small').textContent =
-        qs.length + ' questions' + (a.total ? ' · ' + a.right + '/' + a.total + ' correct so far' : '');
+        qs.length + ' questions' + ((prog.right + prog.wrong) ? ' · ' + prog.right + ' correct, ' + prog.wrong + ' incorrect' : '');
+      setRingSplit(btn.querySelector('.ring'), btn.querySelector('.ring span'), prog);
       list.appendChild(btn);
     });
   }
@@ -294,13 +317,13 @@
   function openSection(cat) {
     var qs = questionsIn(cat);
     if (!qs.length) return;
-    var a = accuracy(qs);
+    var prog = progress(qs);
 
     $('section-eyebrow').textContent = 'Topic';
     $('section-title').textContent = catLabel(cat);
     $('section-sub').textContent =
-      qs.length + ' questions' + (a.total ? ' · ' + a.right + '/' + a.total + ' correct so far' : '');
-    setRing($('section-ring'), $('section-ring-label'), a.pct);
+      qs.length + ' questions' + ((prog.right + prog.wrong) ? ' · ' + prog.right + ' correct, ' + prog.wrong + ' incorrect' : '');
+    setRingSplit($('section-ring'), $('section-ring-label'), prog);
     $('section-practice-all').setAttribute('data-mode', cat);
     $('section-practice-all').querySelector('small').textContent =
       qs.length + ' questions, shuffled order, instant feedback after each answer';
@@ -318,7 +341,7 @@
         '<span class="qrow__num">Q' + q.num + '</span>' +
         '<span class="qrow__text"></span>' +
         '<span class="qrow__status qrow__status--' + (status || 'none') + '">' + statusIcon(status) + '</span>';
-      btn.querySelector('.qrow__text').textContent = q.q;
+      btn.querySelector('.qrow__text').textContent = q.short || q.q;
       li.appendChild(btn);
       list.appendChild(li);
     });
@@ -336,7 +359,7 @@
     var q = item.q;
 
     $('counter').textContent = (run.mode === 'single')
-      ? 'Question ' + q.num + ' of ' + run.sectionTotal
+      ? 'Question ' + q.num + ' of ' + run.items.length
       : 'Question ' + (run.idx + 1) + ' of ' + run.items.length;
     $('progressbar-fill').style.width = ((run.idx) / run.items.length * 100) + '%';
 

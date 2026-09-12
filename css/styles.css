@@ -175,6 +175,20 @@ main {
 .ring--big { width: 108px; height: 108px; font-size: 1.4rem; }
 .ring--big::before { width: 84px; height: 84px; }
 
+/* Section/topic rings show completion, not accuracy: how much of the whole section
+   has been attempted, split into how much was right vs. wrong — not just accuracy
+   among what's been attempted. Two conic-gradient stops instead of one. */
+.ring--split {
+  --pct-right: 0;
+  --pct-wrong: 0;
+  background:
+    conic-gradient(
+      var(--ok) 0 calc(var(--pct-right) * 1%),
+      var(--bad) calc(var(--pct-right) * 1%) calc((var(--pct-right) + var(--pct-wrong)) * 1%),
+      var(--surface-2) calc((var(--pct-right) + var(--pct-wrong)) * 1%) 0
+    );
+}
+
 /* ---------- cards ---------- */
 .cards { display: grid; gap: 10px; }
 .card {

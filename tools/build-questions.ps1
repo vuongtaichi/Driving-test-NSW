@@ -43,6 +43,12 @@ foreach ($line in Get-Content -LiteralPath $RawJsonl) {
         answer = $obj.answer
         explain = $obj.explain
     }
+    # Optional: a short, distinguishing label for the section question-list preview,
+    # for questions whose "q" is a generic template ("What does this sign mean?") that
+    # would otherwise repeat verbatim across many rows. Falls back to "q" when absent.
+    if ($obj.PSObject.Properties.Name -contains 'short') {
+        $ordered['short'] = $obj.short
+    }
     $results.Add([pscustomobject]$ordered)
 }
 
