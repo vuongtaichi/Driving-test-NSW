@@ -435,18 +435,28 @@
       pane.appendChild(figure);
     });
 
-    var ul = document.createElement('ul');
-    ul.className = 'hbcontent__bullets';
-    section.bullets.forEach(function (bullet) {
-      var li = document.createElement('li');
-      li.textContent = bullet;
-      ul.appendChild(li);
-    });
-    pane.appendChild(ul);
+    if (section.bullets && section.bullets.length) {
+      var ul = document.createElement('ul');
+      ul.className = 'hbcontent__bullets';
+      section.bullets.forEach(function (bullet) {
+        var li = document.createElement('li');
+        li.textContent = bullet;
+        ul.appendChild(li);
+      });
+      pane.appendChild(ul);
+    }
 
     // A table reads more clearly than bullets for side-by-side comparisons
-    // (e.g. licence restrictions by licence type) - only some topics have one.
-    if (section.table) {
+    // (e.g. licence restrictions by licence type) - a topic can have several.
+    var tables = section.tables || (section.table ? [section.table] : []);
+    tables.forEach(function (t) {
+      if (t.title) {
+        var tableTitle = document.createElement('p');
+        tableTitle.className = 'hbtable-title';
+        tableTitle.textContent = t.title;
+        pane.appendChild(tableTitle);
+      }
+
       var tableWrap = document.createElement('div');
       tableWrap.className = 'hbtable-wrap';
       var table = document.createElement('table');
@@ -454,7 +464,7 @@
 
       var thead = document.createElement('thead');
       var headRow = document.createElement('tr');
-      section.table.headers.forEach(function (h) {
+      t.headers.forEach(function (h) {
         var th = document.createElement('th');
         th.textContent = h;
         headRow.appendChild(th);
@@ -463,7 +473,7 @@
       table.appendChild(thead);
 
       var tbody = document.createElement('tbody');
-      section.table.rows.forEach(function (row) {
+      t.rows.forEach(function (row) {
         var tr = document.createElement('tr');
         row.forEach(function (cell) {
           var td = document.createElement('td');
@@ -476,6 +486,17 @@
 
       tableWrap.appendChild(table);
       pane.appendChild(tableWrap);
+    });
+
+    // Abbreviations used on this page, spelled out in one place at the end
+    // rather than inline, so the bullets/tables above stay terse.
+    if (section.abbr && section.abbr.length) {
+      var abbrNote = document.createElement('p');
+      abbrNote.className = 'hbabbr';
+      abbrNote.innerHTML = section.abbr.map(function (pair) {
+        return '<strong>' + pair[0] + '</strong> = ' + pair[1];
+      }).join(' &nbsp;·&nbsp; ');
+      pane.appendChild(abbrNote);
     }
 
     closeHandbookNav();

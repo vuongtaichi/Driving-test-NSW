@@ -151,55 +151,112 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "Speeding is the #1 killer on NSW roads (~40% of deaths, ~20% of serious injuries).",
-          "No sign = default limit: 50km/h built-up, 100km/h elsewhere. Never exceed a posted sign.",
-          "Licence caps regardless of the sign: Learner/P1 90km/h; P2 100km/h; heavy vehicles (LR/MR/HR/HC/MC) 100km/h.",
+          "No sign = default limit: 50km/h built-up, 100km/h elsewhere.",
           "Radar detectors/jammers are illegal to carry.",
-          "Penalties: fines, demerit points (can double), licence loss, impoundment — worse over the limit and in school zones; a learner/P1 speeding offence suspends their licence.",
-          "Sign types: regulatory (fixed limit); variable electronic (tunnels/motorways); local traffic area (40, residential); high pedestrian area (30/40); shared zone (10, give way to pedestrians); school zone (signed times, flashing lights, dragon's teeth); school bus \"40 when lights flash\"; roadwork zones (signed).",
-          "Advisory (yellow) signs are a recommended safe speed for a hazard, not a legal limit.",
-          "4 camera types: mobile, red-light speed, fixed, average-speed (over a distance).",
-          "Small margins matter: a pedestrian hit at 50km/h is ~2x as likely to die as one hit at 40km/h."
-        ]
+          "Penalties: fines, demerits (can double), licence loss, impoundment — worse over the limit and in school zones; a learner/P1 offence suspends their licence.",
+          "A pedestrian hit at 50km/h is ~2x as likely to die as one hit at 40km/h."
+        ],
+        "tables": [
+          {
+            "title": "Sign types",
+            "headers": ["Sign", "Meaning"],
+            "rows": [
+              ["Regulatory", "The legal limit"],
+              ["Variable electronic", "Changes with conditions (tunnels/motorways)"],
+              ["Local traffic area", "40km/h residential streets"],
+              ["High pedestrian area", "30 or 40km/h"],
+              ["Shared zone", "10km/h, give way to pedestrians"],
+              ["School zone", "Signed times, flashing lights, dragon's teeth"],
+              ["School bus", "40km/h either direction while lights flash"],
+              ["Roadwork zone", "Signed limit"],
+              ["Advisory (yellow)", "Recommended safe speed, not a legal limit"]
+            ]
+          },
+          {
+            "title": "Licence speed caps",
+            "headers": ["Licence / vehicle", "Max speed"],
+            "rows": [
+              ["Learner, P1", "90km/h"],
+              ["P2", "100km/h"],
+              ["Heavy vehicles (LR/MR/HR/HC/MC)", "100km/h"]
+            ]
+          },
+          {
+            "title": "Speed camera types",
+            "headers": ["Type", "Where"],
+            "rows": [
+              ["Mobile", "Moved anywhere, anytime"],
+              ["Red-light speed", "Multi-lane intersections"],
+              ["Fixed", "High-risk locations (tunnels)"],
+              ["Average-speed", "Measures average over a distance"]
+            ]
+          }
+        ],
+        "abbr": [["LR/MR/HR/HC/MC", "Light/Medium/Heavy Rigid, Heavy/Multi Combination — heavy vehicle licence classes"]]
       },
       {
         "title": "Alcohol limits",
         "page": 39,
         "bullets": [
-          "BAC limit depends on your licence/vehicle — see the table below.",
           "Can't reliably estimate your own BAC — not drinking at all is the only sure way to stay under.",
-          "Must not drive under the influence, or drink alcohol while actually driving.",
-          "Must not refuse a Random Breath Test (anytime; mandatory after a crash).",
-          "Must not refuse a blood/urine test after a crash — arrest possible after a fatal/likely-fatal crash; hospital admission also testable.",
-          "Penalties scale with how far over + repeat offences: fines, licence loss, prison, or a mandatory alcohol interlock. Even under-limit drink-driving draws a fine and demerit points.",
+          "Penalties scale with how far over + repeat offences: fines, licence loss, prison, or a mandatory alcohol interlock. Even under-limit drink-driving draws a fine and demerits.",
           "Even 1–2 drinks impair reaction, judgement and distance perception; cause false confidence and drowsiness.",
           "~50% of Thu/Fri/Sat night fatal crashes involve alcohol.",
           "Only time reduces BAC (18+ hours after heavy drinking) — not coffee, a shower or a meal."
         ],
-        "table": {
-          "headers": ["Licence / vehicle type", "BAC limit"],
-          "rows": [
-            ["Learner", "Zero"],
-            ["Provisional P1", "Zero"],
-            ["Provisional P2", "Zero"],
-            ["Full licence (C/R), interstate/overseas full licence", "Under 0.05"],
-            ["Public passenger vehicles (buses, taxis, rideshare, chauffeured hire cars)", "Under 0.02"],
-            ["Heavy vehicles/combinations over 13.9 tonnes", "Under 0.02"],
-            ["Dangerous goods vehicles", "Under 0.02"]
-          ]
-        }
+        "tables": [
+          {
+            "title": "BAC limit by licence / vehicle",
+            "headers": ["Licence / vehicle type", "BAC limit"],
+            "rows": [
+              ["Learner, P1, P2", "Zero"],
+              ["Full licence (C/R), interstate/overseas full", "Under 0.05"],
+              ["Public passenger (bus/taxi/rideshare/hire car)", "Under 0.02"],
+              ["Heavy vehicles over 13.9 tonnes", "Under 0.02"],
+              ["Dangerous goods vehicles", "Under 0.02"]
+            ]
+          },
+          {
+            "title": "Testing",
+            "headers": ["Test", "When", "Can you refuse?"],
+            "rows": [
+              ["Random Breath Test", "Anytime; mandatory after a crash", "No"],
+              ["Blood/urine test", "After a crash, or on hospital admission", "No"]
+            ]
+          }
+        ],
+        "abbr": [["BAC", "Blood Alcohol Concentration"]]
       },
       {
         "title": "Drugs and medicines",
         "page": 43,
         "bullets": [
           "Must not drive with illegal drugs present, or under the influence of any drug (illegal, prescription or over-the-counter).",
-          "Mobile Drug Testing (MDT): roadside test for 4 illegal drugs (ecstasy, cannabis, cocaine, meth) — detectable long after use.",
-          "Testing: random roadside saliva swab; blood/urine test after signs of influence, a fatal/likely-fatal crash, or hospital admission (covers medicines too). Must not refuse.",
-          "Penalties: illegal drugs present → fine + licence loss; driving under the influence (incl. prescription) → heavier, up to prison.",
-          "Effects: stimulants (ecstasy/cocaine/meth) → false confidence, risky driving; opiates → drowsiness, slow reactions; cannabis → slower reactions, distorted perception.",
-          "Medicines that can affect driving: painkillers, blood pressure/nausea/allergy/anti-inflammatory/anti-fungal meds, tranquillisers/sedatives, diet pills, cold/flu meds — check labels, ask a doctor/pharmacist.",
+          "MDT: roadside test for 4 illegal drugs (ecstasy, cannabis, cocaine, meth) — detectable long after use.",
+          "Testing: random roadside saliva swab; blood/urine test after signs of influence, a serious crash, or hospital admission. Must not refuse.",
+          "Many medicines can affect driving (painkillers, sedatives, cold/flu meds, etc.) — check labels, ask a doctor/pharmacist.",
           "Never mix drugs with alcohol or each other."
-        ]
+        ],
+        "tables": [
+          {
+            "title": "Effects by drug type",
+            "headers": ["Drug type", "Effect"],
+            "rows": [
+              ["Stimulants (ecstasy, cocaine, meth)", "False confidence, risky driving"],
+              ["Opiates (heroin, morphine, codeine)", "Drowsiness, slow reactions"],
+              ["Cannabis", "Slower reactions, distorted perception"]
+            ]
+          },
+          {
+            "title": "Penalties",
+            "headers": ["Offence", "Penalty"],
+            "rows": [
+              ["Illegal drug present", "Fine + licence loss"],
+              ["Driving under the influence (incl. prescription)", "Heavier, up to prison"]
+            ]
+          }
+        ],
+        "abbr": [["MDT", "Mobile Drug Testing"]]
       },
       {
         "title": "Seatbelts",
@@ -209,14 +266,21 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "~30 killed, ~90 seriously injured yearly in NSW from not wearing a seatbelt.",
-          "Drivers and passengers must wear a seatbelt, whole body inside the vehicle.",
-          "Driver's responsibility: one belt per passenger (never shared), correct fit or an approved child seat, no more passengers than belts, nobody in a non-passenger area (boot, floor, ute tray, trailer).",
-          "Passengers 16+ are also responsible for wearing their own belt properly.",
+          "Everyone must wear a belt, whole body inside the vehicle — one per passenger, never shared.",
           "Wear it \"low, flat and firm\" — never under the arm or behind the back.",
           "A seatbelt roughly doubles your chance of surviving a crash.",
-          "Penalties: detection cameras + police can fine the driver and any passenger 16+; demerit points (can double).",
-          "Exemptions (full licence): reversing, or a slow garbage/delivery vehicle; their passengers when giving/getting urgent medical treatment.",
-          "Any driver/passenger (incl. learner/P1/P2) can be medically exempt with a certificate — sit in the back if possible."
+          "Penalties: detection cameras + police can fine the driver and any passenger 16+; demerits (can double)."
+        ],
+        "tables": [
+          {
+            "title": "Exemptions",
+            "headers": ["Who", "When"],
+            "rows": [
+              ["Full-licence driver", "Reversing, or driving a slow garbage/delivery vehicle"],
+              ["Their passengers", "Giving/getting urgent medical treatment"],
+              ["Any driver/passenger (incl. learner/P1/P2)", "Medical certificate — sit in the back if possible"]
+            ]
+          }
         ]
       },
       {
@@ -226,36 +290,55 @@ window.HANDBOOK = [
           { "src": "images-handbook/child-seat-ages.jpg", "caption": "Children wearing their seatbelt or child restraint properly for their age." }
         ],
         "bullets": [
-          "Under-7s: approved restraint (AS/NZS 1754), driver's responsibility — see age table below.",
-          "7–16 too small for an adult belt: booster, forward-facing seat, or anchored harness (adult lap-sash belt needs ~145cm).",
-          "Fit per manufacturer's instructions, tightly adjusted, proper anchorage — an Authorised Restraint Fitter is recommended.",
-          "Booster seats: always with a lap-and-sash belt or anchored harness (never lap-only); boosters over 2kg must be anchored.",
-          "Front seat: under-4s never in a 2+ row vehicle; 4–7s only if every back-row seat is already taken by other under-7s.",
-          "Exemptions: under-12-months in a tow truck if no proper seat is available; taxis follow the same rules; doctor's certificate for an alternative restraint.",
-          "Penalties: fines and demerit points (can double) for not restraining a child correctly.",
+          "Under-7s need an approved restraint (AS/NZS 1754) — driver's responsibility. See the age table below.",
+          "7–16 too small for an adult belt: booster, forward-facing seat, or anchored harness (adult belt needs ~145cm).",
+          "Fit tightly per the manufacturer's instructions, proper anchorage — an Authorised Restraint Fitter is recommended.",
+          "Front seat: under-4s never in a 2+ row vehicle; 4–7s only if every back-row seat is taken by other under-7s.",
+          "Penalties: fines and demerits (can double) for not restraining a child correctly.",
           "Never share a seatbelt with a child on your lap, and never carry a child in your arms while driving."
         ],
-        "table": {
-          "headers": ["Age", "Restraint required"],
-          "rows": [
-            ["Up to 6 months", "Rear-facing child car seat"],
-            ["6 months – 4 years", "Rear- or forward-facing seat with an inbuilt harness"],
-            ["4 – 7 years", "Forward-facing seat with harness, or an approved booster seat"],
-            ["7 – 16 years (too small for an adult belt)", "Booster seat, forward-facing seat, or anchored harness"]
-          ]
-        }
+        "tables": [
+          {
+            "title": "Restraint required by age",
+            "headers": ["Age", "Restraint required"],
+            "rows": [
+              ["Up to 6 months", "Rear-facing child car seat"],
+              ["6 months – 4 years", "Rear- or forward-facing seat with an inbuilt harness"],
+              ["4 – 7 years", "Forward-facing seat with harness, or an approved booster seat"],
+              ["7 – 16 years (too small for an adult belt)", "Booster seat, forward-facing seat, or anchored harness"]
+            ]
+          },
+          {
+            "title": "Exemptions",
+            "headers": ["Situation", "Rule"],
+            "rows": [
+              ["Under 12 months, tow truck after a crash", "OK without a proper seat if none is available"],
+              ["Taxis", "Same age-based seat/booster/seatbelt rules"],
+              ["Under-7 with a medical condition", "Doctor's certificate for an alternative restraint"]
+            ]
+          }
+        ],
+        "abbr": [["AS/NZS", "Australian/New Zealand Standard"]]
       },
       {
         "title": "Mobile phones",
         "page": 54,
         "bullets": [
-          "Learner/P1/P2: zero phone use while driving, even stationary — no calls, texts, music, maps or photos, handheld or hands-free/Bluetooth.",
-          "Full licence, only two uses: Bluetooth hands-free (calls/audio); or a fixed, commercially-made holder for calls/audio/navigation.",
-          "No other function for a full-licence driver either (texting, video, social media, photos); never held or rested on the leg/shoulder.",
+          "No other function is allowed for anyone while driving (texting, video, social media, photos); never held or rested on the leg/shoulder.",
           "Any driver: any use once safely parked out of the line of traffic.",
           "Exemptions: showing a digital licence to police; a stationary tap-and-pay.",
-          "Penalties: detection cameras operate anywhere/anytime; fines + doubled demerit points; a learner/P1 over the limit loses their licence.",
+          "Penalties: detection cameras operate anywhere/anytime; fines + doubled demerits; a learner/P1 over the limit loses their licence.",
           "Phone use while driving roughly quadruples casualty-crash risk."
+        ],
+        "tables": [
+          {
+            "title": "Allowed phone use",
+            "headers": ["Licence", "Allowed"],
+            "rows": [
+              ["Learner, P1, P2", "None at all, even stationary"],
+              ["Full licence", "Bluetooth hands-free (calls/audio); or a fixed holder (calls/audio/navigation)"]
+            ]
+          }
         ]
       },
       {
@@ -265,7 +348,8 @@ window.HANDBOOK = [
           "No visible/distracting digital screen unless it's a driver's aid (GPS, dispatch, reversing/CCTV/monitoring) properly fixed or built in.",
           "Passengers can use screens if not visible to the driver or distracting.",
           "Penalties: fine and demerit points."
-        ]
+        ],
+        "abbr": [["GPS", "Global Positioning System"]]
       },
       {
         "title": "Fatigue",
@@ -274,32 +358,60 @@ window.HANDBOOK = [
           { "src": "images-handbook/rest-area-sign.jpg", "caption": "A rest area sign — rest areas are open 24/7 but you must not camp in them." }
         ],
         "bullets": [
-          "Causes ~20% of NSW road deaths; fatigue crashes ~2x as likely to be fatal.",
-          "Awake ~17 hours ≈ driving at a BAC of 0.05.",
           "Affects everyone, even on short trips. Higher risk: shift workers, professional drivers, early-starting tradies, students, new parents.",
           "No specific road rule against it, but it's your responsibility.",
-          "Prevention: ~8 hours' sleep a night; wait ~30 min after waking; avoid your body's normal sleep hours (fatal-crash risk 4x higher late night/early morning).",
+          "Prevention: ~8 hours' sleep a night; wait ~30 min after waking before driving.",
           "Warning signs: yawning, poor concentration, sore eyes, drowsiness, slow reactions, drifting, missing signs.",
-          "Stop and nap (~20 min) at the first signs — a 4-second microsleep at 100km/h covers 110m+ blind.",
+          "Stop and nap (~20 min) at the first signs — don't wait for a microsleep.",
           "Plan breaks, share driving, stay hydrated; avoid alcohol, fatty food, too much coffee.",
           "Rest areas (24/7, no camping), petrol stations, or seasonal Driver Reviver sites."
-        ]
+        ],
+        "tables": [
+          {
+            "title": "Fatigue by the numbers",
+            "headers": ["Fact", "Figure"],
+            "rows": [
+              ["Deaths caused by fatigue", "~20% of NSW road deaths"],
+              ["Fatal-crash likelihood", "~2x higher than average"],
+              ["Awake ~17 hours", "≈ driving at BAC 0.05"],
+              ["Late night / early morning fatal risk", "4x higher"],
+              ["4-second microsleep at 100km/h", "110m+ with eyes off the road"]
+            ]
+          }
+        ],
+        "abbr": [["BAC", "Blood Alcohol Concentration"]]
       },
       {
         "title": "Hooning and street racing",
         "page": 62,
         "bullets": [
           "Must not organise, take part in, promote or even film hooning or street racing (burnouts, racing other vehicles, speed trials).",
-          "Vehicle and licence can be confiscated on the spot.",
-          "Penalties: large fines, demerit points, licence loss, impoundment (up to 3 months + fees), prison; a repeat offence can mean the vehicle is sold."
+          "Vehicle and licence can be confiscated on the spot."
+        ],
+        "tables": [
+          {
+            "title": "Penalties",
+            "headers": ["Offence", "Penalty"],
+            "rows": [
+              ["First offence", "Large fines, demerits, licence loss, impoundment (up to 3 months + fees)"],
+              ["Repeat offence", "All of the above, plus the vehicle can be sold, and prison"]
+            ]
+          }
         ]
       },
       {
         "title": "Negligent or dangerous driving",
         "page": 63,
-        "bullets": [
-          "Negligent = below the care/attention expected of a driver; dangerous = speed/manner risking serious injury or death.",
-          "Penalties: negligent → fine + demerit points; dangerous, or negligent causing death/injury → large fines, licence loss, prison."
+        "bullets": [],
+        "tables": [
+          {
+            "headers": ["Offence", "Definition", "Penalty"],
+            "rows": [
+              ["Negligent driving", "Below the care/attention expected of a driver", "Fine + demerits"],
+              ["Dangerous driving", "Speed/manner risking serious injury or death", "Large fines, licence loss, prison"],
+              ["Either, causing death or injury", "—", "Large fines, licence loss, prison"]
+            ]
+          }
         ]
       },
       {
@@ -312,14 +424,22 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "Keep a 3-second gap behind the vehicle in front (4+ seconds in poor conditions: unsealed, icy/wet, night).",
-          "Long vehicle (over 7.5m incl. towed): stay 60m+ behind another long vehicle, except on multi-lane roads, built-up areas, or while overtaking.",
-          "Penalties: fine and demerit points for following too closely.",
-          "Buffering: keep space around your vehicle for hazards (e.g. keep left over blind hills, avoid the door zone of parked cars); check mirrors before repositioning.",
-          "Crash-avoidance space = reaction time (~1.5–2.5s) + response time (~1.5s) ≈ a 3-second gap.",
-          "Check your gap: count \"1 thousand and 1, 2 thousand and 2, 3 thousand and 3\" from a fixed object as the vehicle ahead passes it — too close if you reach it first.",
-          "Even 5km/h over the limit meaningfully increases stopping distance — slow down at blind corners/crests.",
+          "Long vehicle (7.5m+ incl. towed): stay 60m+ behind another long vehicle, except multi-lane roads, built-up areas, or overtaking.",
+          "Buffering: keep space around your vehicle for hazards (keep left over blind hills, avoid the door zone of parked cars).",
+          "Check your gap: count \"1 thousand and 1, 2 thousand and 2...\" from a fixed object as the vehicle ahead passes it — too close if you reach it first.",
           "Two-stage braking (light pressure + pause, then squeeze) beats harsh braking, especially wet/gravel.",
-          "Scanning: keep your eyes moving — ahead, road surface, each side, mirrors and instruments."
+          "Scanning: keep your eyes moving — ahead, road surface, each side, mirrors and instruments.",
+          "Penalty: fine and demerit points for following too closely."
+        ],
+        "tables": [
+          {
+            "title": "Crash-avoidance space (≈ 3-second gap)",
+            "headers": ["Component", "Time"],
+            "rows": [
+              ["Reaction time", "~1.5–2.5s"],
+              ["Response time", "~1.5s"]
+            ]
+          }
         ]
       },
       {
@@ -333,8 +453,21 @@ window.HANDBOOK = [
           { "src": "images-handbook/crash-type-runoff-curve.jpg", "caption": "5. Running off the road on a curve or bend." }
         ],
         "bullets": [
-          "~80% of NSW casualty crashes are one of 5 types (also the most common for provisional drivers): rear-end; adjacent (side) direction; head-on; running off a straight; running off a curve/bend.",
+          "~80% of NSW casualty crashes are one of 5 types below (also the most common for provisional drivers).",
           "Avoidable by following the road rules and managing speed, fatigue and stopping distance — extra care at intersections and when overtaking."
+        ],
+        "tables": [
+          {
+            "title": "The 5 most common crash types",
+            "headers": ["#", "Type", "Avoid by"],
+            "rows": [
+              ["1", "Rear-end", "Keeping a safe following distance"],
+              ["2", "Adjacent (side) direction", "Extra care at intersections"],
+              ["3", "Head-on", "Staying in your lane, careful overtaking"],
+              ["4", "Running off a straight", "Managing speed and fatigue"],
+              ["5", "Running off a curve/bend", "Slowing for the bend, scanning ahead"]
+            ]
+          }
         ]
       }
     ]
