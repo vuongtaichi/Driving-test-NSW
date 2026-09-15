@@ -13,22 +13,82 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/licence-7-steps.png", "caption": "The 7 steps from the Driver Knowledge Test through to a full driver licence." }
         ],
-        "bullets": [
-          "Three licence stages to a full Car (C) licence: Learner → Provisional P1 (red P) → Provisional P2 (green P) → Full.",
-          "Three tests along the way, each with its own fee: Driver Knowledge Test (DKT), Hazard Perception Test (HPT), Driving Test.",
-          "This pathway is the Graduated Licensing Scheme (GLS): at least 4 years to a full licence starting under 25, or 3 years starting over 25.",
-          "Before you start: 15 years 11 months+ (DKT online) or 16+ (DKT in-person); NSW residential address; proof of identity; medically fit and pass an eyesight test.",
-          "Step 1 – DKT online: interactive course + test done anywhere online via a MyServiceNSW Account; unlimited resits for one fee; minimum age 15 years 11 months.",
-          "Step 1 – DKT in-person: multiple-choice computer test booked at a service centre; minimum age 16; a fee applies every re-sit.",
-          "Extra DKT support: Driver Licensing Access Program (DLAP) for disadvantaged/Aboriginal applicants; call 13 22 13 for an assistant reader.",
-          "Step 2 – Learner licence: valid 5 years (redo the DKT and pay again if it lapses). Under 25 must log 120 hours incl. 20 at night before the Driving Test; over 25 can move on as soon as ready, no logged hours needed.",
-          "Ways to build logged hours: Safer Drivers Course (20 hours credit); \"3 for 1\" lessons with a licensed instructor (1 lesson hour = 3 log-book hours); DLAP support.",
-          "Learners must always have a supervisor with a full Australian licence beside them, keep zero alcohol, and display L plates.",
-          "Step 3 – HPT: computer test using real driving film clips, respond by touch; valid 15 months. Over 25 can sit it any time; under 25 needs 10 months on a learner licence first.",
-          "Step 4 – Driving Test: practical on-road test with a Service NSW officer in a registered, roadworthy car; must be taken within 15 months of passing the HPT (else redo the HPT). Under 25 also needs 12 months on a learner licence and 120 logged hours (20 at night). A fail can be re-booked after 7 days.",
-          "Step 5 – P1 (red P): no more log book or supervisor. Valid 18 months, renewable for a fee. Apply for P2 after 12 months (extended if suspended; restarts if disqualified).",
-          "Step 6 – P2 (green P): apply after 12 months on P1. Valid 36 months, renewable for a fee. Progress to full after 24 months (extended by the suspension length plus 6 months; restarts if disqualified).",
-          "Step 7 – Full licence: apply after 24 months on P2; issued for 1, 3 or 5 years, or 10 years if aged 21–44."
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Graduated Licensing Scheme (GLS) — minimum time to a full licence",
+            "headers": ["Starting age", "Minimum time to full licence"],
+            "rows": [
+              ["Under 25", "At least 4 years (Learner → P1 → P2 → Full)"],
+              ["25 and over", "At least 3 years"]
+            ]
+          },
+          {
+            "title": "Before you start",
+            "headers": ["Requirement", "Detail"],
+            "rows": [
+              ["Minimum age", "15y 11m+ (DKT online) or 16+ (DKT in-person)"],
+              ["Residency", "NSW residential address"],
+              ["Identity", "Proof of identity"],
+              ["Health", "Medically fit; pass an eyesight test"]
+            ]
+          },
+          {
+            "title": "Step 1 — Driver Knowledge Test (DKT)",
+            "headers": ["Option", "Format", "Notes"],
+            "rows": [
+              ["Online", "Interactive course + test, anywhere via a MyServiceNSW Account", "Unlimited resits, one fee; minimum age 15y 11m"],
+              ["In-person", "Multiple-choice computer test at a service centre", "Fee every re-sit; minimum age 16"],
+              ["DLAP support", "Driver Licensing Access Program", "For disadvantaged/Aboriginal applicants; call 13 22 13 for an assistant reader"]
+            ]
+          },
+          {
+            "title": "Step 2 — Learner licence",
+            "headers": ["Aspect", "Detail"],
+            "rows": [
+              ["Validity", "5 years (redo the DKT and pay again if it lapses)"],
+              ["Logged hours, under 25", "120 hours incl. 20 at night, before the Driving Test"],
+              ["Logged hours, 25+", "None needed — move on as soon as ready"],
+              ["Building logged hours", "Safer Drivers Course (20hr credit); \"3 for 1\" lessons with an instructor (1 lesson hr = 3 log-book hrs); DLAP support"],
+              ["Supervisor", "Must have a full Australian-licence holder beside you"],
+              ["Alcohol", "Zero"],
+              ["Plates", "Must display L plates"]
+            ]
+          },
+          {
+            "title": "Step 3 — Hazard Perception Test (HPT)",
+            "headers": ["Aspect", "Detail"],
+            "rows": [
+              ["Format", "Computer test using real driving film clips, respond by touch"],
+              ["Validity", "15 months"],
+              ["Eligibility", "25+: any time. Under 25: needs 10 months on a learner licence first"]
+            ]
+          },
+          {
+            "title": "Step 4 — Driving Test",
+            "headers": ["Aspect", "Detail"],
+            "rows": [
+              ["Format", "Practical on-road test with a Service NSW officer, in a registered roadworthy car"],
+              ["Timing", "Within 15 months of passing the HPT (else redo the HPT)"],
+              ["Under-25 extra requirements", "12 months on a learner licence + 120 logged hours (20 at night)"],
+              ["If you fail", "Re-book after 7 days"]
+            ]
+          },
+          {
+            "title": "Steps 5–7 — Provisional and full licence",
+            "headers": ["Stage", "Validity", "To progress"],
+            "rows": [
+              ["P1 (red P)", "18 months, renewable for a fee", "Apply for P2 after 12 months (extended if suspended; restarts if disqualified)"],
+              ["P2 (green P)", "36 months, renewable for a fee", "Progress to full after 24 months (extended by the suspension length + 6 months; restarts if disqualified)"],
+              ["Full", "1, 3 or 5 years — 10 years if aged 21–44", "—"]
+            ]
+          }
+        ],
+        "abbr": [
+          ["DKT", "Driver Knowledge Test"],
+          ["HPT", "Hazard Perception Test"],
+          ["GLS", "Graduated Licensing Scheme"],
+          ["DLAP", "Driver Licensing Access Program"]
         ]
       },
       {
