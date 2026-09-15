@@ -95,99 +95,171 @@ window.HANDBOOK = [
         "title": "Licence classes",
         "page": 16,
         "bullets": [
-          "This handbook covers the Car (C) licence; other vehicle types need a different licence class, plus tests, assessments and medical checks.",
-          "Once you hold a full C licence you can apply for: a Passenger Transport (PT) code (taxis, chauffeured hire cars, rideshare), a Driving Instructor licence, or a Tow Truck Driver certificate; a Bus Driver Authority once you hold the matching bus class."
+          "This handbook covers the Car (C) licence — other vehicle types need a different licence class, plus their own tests, assessments and medical checks."
         ],
-        "table": {
-          "headers": ["Licence", "Can drive"],
-          "rows": [
-            ["Car (C)", "Up to 4.5t GVM, seats up to 12 adults incl. driver — utes, vans, light trucks, tractors/graders, car-based motor tricycles (no under-16 passengers in a tricycle)"],
-            ["Rider (R)", "Any motorcycle, scooter or motor tricycle — doesn't require holding a C licence first"],
-            ["Light Rigid (LR)", "C vehicles + 4.5–8t GVM (small delivery trucks), or >12-seat vehicles up to 8t (minibuses); trailer up to 9t"],
-            ["Medium Rigid (MR)", "C + LR + 2-axle rigid vehicles over 8t GVM (e.g. buses); trailer up to 9t"],
-            ["Heavy Rigid (HR)", "C + LR + MR + rigid vehicles/articulated buses with 3+ axles over 8t; trailer up to 9t"],
-            ["Heavy Combination (HC)", "Above + prime movers with a single semi-trailer, or rigid vehicles towing over 9t"],
-            ["Multi Combination (MC)", "All of the above + B-doubles, road trains, low loader dolly/trailer combinations"]
-          ]
-        }
+        "tables": [
+          {
+            "title": "Licence classes",
+            "headers": ["Licence", "Can drive"],
+            "rows": [
+              ["Car (C)", "Up to 4.5t GVM, seats up to 12 adults incl. driver — utes, vans, light trucks, tractors/graders, car-based motor tricycles"],
+              ["Rider (R)", "Any motorcycle, scooter or motor tricycle — doesn't require holding a C licence first"],
+              ["Light Rigid (LR)", "C vehicles + 4.5–8t GVM (small delivery trucks), or >12-seat vehicles up to 8t (minibuses); trailer up to 9t"],
+              ["Medium Rigid (MR)", "C + LR + 2-axle rigid vehicles over 8t GVM (e.g. buses); trailer up to 9t"],
+              ["Heavy Rigid (HR)", "C + LR + MR + rigid vehicles/articulated buses with 3+ axles over 8t; trailer up to 9t"],
+              ["Heavy Combination (HC)", "Above + prime movers with a single semi-trailer, or rigid vehicles towing over 9t"],
+              ["Multi Combination (MC)", "All of the above + B-doubles, road trains, low loader dolly/trailer combinations"]
+            ]
+          },
+          {
+            "title": "Extra endorsements (after a full C licence)",
+            "headers": ["Endorsement", "For"],
+            "rows": [
+              ["Passenger Transport (PT) code", "Taxis, chauffeured hire cars, rideshare"],
+              ["Driving Instructor licence", "Teaching learner drivers"],
+              ["Tow Truck Driver certificate", "Operating a tow truck"],
+              ["Bus Driver Authority", "Requires holding the matching bus licence class"]
+            ]
+          }
+        ],
+        "abbr": [["GVM", "Gross Vehicle Mass"], ["PT", "Passenger Transport"]]
       },
       {
         "title": "Licence restrictions",
         "page": 19,
         "bullets": [
-          "Alcohol: zero BAC for Learner, P1 and P2 drivers alike — no alcohol in your system at all.",
-          "Mobile phones: Learner/P1/P2 must not use a phone at all while driving, even stationary in traffic — no calls, texts, music, email, social media, internet, maps or photos. Only exceptions: showing a digital licence to police, or a stationary tap-and-pay in a car park/driveway/drive-through.",
-          "Passengers: limited to the number of fitted seatbelts/child seats. After a disqualification, only 1 passenger for 12 months. Under-25s driving 11pm–5am can carry only one passenger aged under 21 (exemptions apply).",
-          "High-performance cars: Learner/P1/P2 must not drive vehicles over 130kW/tonne power-to-mass, significantly engine-modified, or on the banned list — learners may still learn in one, just not drive solo.",
-          "Location: Learner/P1/P2 must not drive in Parramatta Park, Centennial Park or Moore Park in Sydney; no restriction once fully licensed.",
-          "Manual/automatic: passed the test in a manual → can drive either; passed in an automatic → automatic only, unless supervised in a manual by a full-licence holder.",
-          "Motor tricycles: Learner/P1/P2 must not drive car-based motor tricycles.",
-          "None of Learner/P1/P2 may supervise another learner.",
-          "*P1/P2 supervision exception: if you passed the Driving Test in an automatic car and want to drive a manual, you still need a full-licence supervisor."
+          "*P1/P2 supervision exception: if you passed the Driving Test in an automatic and want to drive a manual, you still need a full-licence supervisor."
         ],
-        "table": {
-          "headers": ["Restriction", "Learner", "P1 (red P)", "P2 (green P)"],
-          "rows": [
-            ["Maximum speed", "90km/h", "90km/h", "100km/h"],
-            ["Plate", "White L", "Red P", "Green P"],
-            ["Supervision", "Required at all times", "Not required*", "Not required"],
-            ["Towing", "Not allowed", "Light trailer up to 250kg empty", "Full-licence towing rules"],
-            ["Extra vehicle classes", "Not allowed", "Not allowed", "LR/MR immediately; HR after 1 year on P2"]
-          ]
-        }
+        "tables": [
+          {
+            "title": "Restrictions by licence stage",
+            "headers": ["Restriction", "Learner", "P1 (red P)", "P2 (green P)"],
+            "rows": [
+              ["Maximum speed", "90km/h", "90km/h", "100km/h"],
+              ["Plate", "White L", "Red P", "Green P"],
+              ["Supervision", "Required at all times", "Not required*", "Not required"],
+              ["Towing", "Not allowed", "Light trailer up to 250kg empty", "Full-licence towing rules"],
+              ["Extra vehicle classes", "Not allowed", "Not allowed", "LR/MR immediately; HR after 1 year on P2"],
+              ["Alcohol (BAC)", "Zero", "Zero", "Zero"],
+              ["Mobile phone use while driving", "None at all, even stationary", "None at all, even stationary", "None at all, even stationary"],
+              ["High-performance cars (130kW/tonne+, modified, banned list)", "Can't drive solo", "Can't drive", "Can't drive"],
+              ["Sydney parks (Parramatta/Centennial/Moore)", "Not allowed", "Not allowed", "Not allowed"],
+              ["Car-based motor tricycles", "Not allowed", "Not allowed", "Not allowed"],
+              ["Can supervise another learner", "No", "No", "No"]
+            ]
+          },
+          {
+            "title": "Passenger limits",
+            "headers": ["Situation", "Limit"],
+            "rows": [
+              ["General", "Limited to fitted seatbelts/child seats"],
+              ["After a disqualification", "1 passenger only, for 12 months"],
+              ["Under 25, driving 11pm–5am", "1 passenger under 21 only (exemptions apply)"]
+            ]
+          },
+          {
+            "title": "Manual vs automatic",
+            "headers": ["Test passed in", "Can drive"],
+            "rows": [
+              ["Manual", "Manual or automatic"],
+              ["Automatic", "Automatic only, unless supervised in a manual by a full-licence holder"]
+            ]
+          }
+        ],
+        "abbr": [["BAC", "Blood Alcohol Concentration"]]
       },
       {
         "title": "Medical conditions and disability",
         "page": 24,
-        "bullets": [
-          "You must declare any medical condition or disability that could affect your driving when applying, and pass an eyesight test.",
-          "Conditions like epilepsy or cardiovascular disease need regular medical assessments; a new condition after licensing must be reported to Transport for NSW — not reporting risks losing your licence.",
-          "A disability with a serious effect on driving may require a practical test and can add licence conditions, e.g. automatic-only.",
-          "Ageing: from 75, an annual medical assessment plus eyesight test is required to keep your licence; from 85, also a practical driving assessment every 2 years — or switch to a modified/local-area licence to skip the practical test."
+        "bullets": [],
+        "tables": [
+          {
+            "headers": ["Situation", "Requirement"],
+            "rows": [
+              ["Applying for a licence", "Declare any condition/disability affecting driving; pass an eyesight test"],
+              ["Ongoing condition (e.g. epilepsy, cardiovascular disease)", "Regular medical assessments; report new conditions to Transport for NSW (or risk losing your licence)"],
+              ["Disability with a serious effect on driving", "May require a practical test; can add conditions (e.g. automatic-only)"],
+              ["Age 75+", "Annual medical assessment + eyesight test"],
+              ["Age 85+", "Also a practical driving assessment every 2 years — or switch to a modified/local-area licence to skip it"]
+            ]
+          }
         ]
       },
       {
         "title": "Interstate and overseas licences",
         "page": 25,
         "bullets": [
-          "A current interstate/overseas licence can be used to drive in NSW; conditions depend on licence type — Learner needs a full-licence NSW-equivalent supervisor, L plates and zero alcohol; Provisional/Full follow your own licence's conditions.",
-          "Always: obey NSW road rules, hold the correct class for the vehicle, and don't drive if suspended, disqualified or withdrawn.",
-          "Interstate & NZ licences: usable for up to 3 months, then must be transferred to a NSW licence within that window.",
-          "Other overseas licences: usable for 3–6 months; carry it with an English translation or an International Driving Permit if it's not in English.",
-          "Permanent residents must transfer within 3 months; temporary-visa holders living in NSW over 6 months must transfer within 6 months — only one licence can be held/used in Australia at a time.",
-          "Right to drive on an overseas licence is withdrawn if: 6+ months in NSW without transferring, the licence is suspended/disqualified anywhere, its demerit-point equivalent is exceeded, or certain speeding/alcohol/drug offences are committed.",
+          "Always obey NSW road rules, hold the correct class for the vehicle, and don't drive if suspended, disqualified or withdrawn.",
+          "Only one licence can be held/used in Australia at a time.",
           "A DKT and/or Driving Test may still be required when transferring, depending on the country the licence is from."
         ],
-        "table": {
-          "headers": ["Overseas/interstate licence held", "NSW equivalent"],
-          "rows": [
-            ["Learner licence", "Learner licence (may skip straight to the HPT/Driving Test)"],
-            ["Full licence held less than 12 months", "Provisional P1"],
-            ["Full licence held 12 months to 3 years", "Provisional P2"],
-            ["Full licence held 3+ years", "Full (unrestricted) licence"]
-          ]
-        }
+        "tables": [
+          {
+            "title": "NSW equivalent by licence type",
+            "headers": ["Overseas/interstate licence held", "NSW equivalent"],
+            "rows": [
+              ["Learner licence", "Learner licence (may skip straight to the HPT/Driving Test); needs a full-licence NSW-equivalent supervisor, L plates, zero alcohol"],
+              ["Full licence held less than 12 months", "Provisional P1"],
+              ["Full licence held 12 months to 3 years", "Provisional P2"],
+              ["Full licence held 3+ years", "Full (unrestricted) licence"]
+            ]
+          },
+          {
+            "title": "How long you can use it before transferring",
+            "headers": ["Licence origin", "Usable for"],
+            "rows": [
+              ["Interstate or NZ", "3 months, then transfer to a NSW licence"],
+              ["Other overseas (non-English)", "3–6 months; carry an English translation or International Driving Permit"],
+              ["Permanent resident", "Must transfer within 3 months"],
+              ["Temporary visa, living in NSW 6+ months", "Must transfer within 6 months"]
+            ]
+          },
+          {
+            "title": "When your right to drive here is withdrawn",
+            "headers": ["Trigger"],
+            "rows": [
+              ["6+ months in NSW without transferring"],
+              ["Licence suspended/disqualified anywhere"],
+              ["Demerit-point equivalent exceeded"],
+              ["Certain speeding/alcohol/drug offences committed"]
+            ]
+          }
+        ],
+        "abbr": [["DKT", "Driver Knowledge Test"]]
       },
       {
         "title": "Driving with the correct licence",
         "page": 28,
-        "bullets": [
-          "Always carry the correct, current licence for the vehicle you're driving — police can ask for it anytime; keep a digital licence charged and uncracked.",
-          "Fines apply for not carrying it or refusing to show it.",
-          "Your licence must be current (not expired/suspended/disqualified), the right class, and a NSW licence unless validly using an interstate/overseas one.",
-          "Driving without a correct, current licence risks large fines and prison, worse for repeat offences within 5 years.",
-          "Never let an unlicensed person drive your vehicle."
+        "bullets": [],
+        "tables": [
+          {
+            "headers": ["Rule", "Detail"],
+            "rows": [
+              ["Carry your licence", "The correct, current one for the vehicle you're driving — police can ask anytime; keep a digital licence charged and uncracked"],
+              ["Not carrying it / refusing to show it", "Fines apply"],
+              ["Your licence must be", "Current (not expired/suspended/disqualified), the right class, and NSW (unless validly using an interstate/overseas one)"],
+              ["Driving without a correct, current licence", "Large fines and prison — worse for repeat offences within 5 years"],
+              ["Letting an unlicensed person drive your vehicle", "Never allowed"]
+            ]
+          }
         ]
       },
       {
         "title": "Learner driver supervisor",
         "page": 28,
-        "bullets": [
-          "A learner must always have a supervisor in the seat beside them; driving without one can mean immediate suspension.",
-          "The supervisor must hold a full unrestricted Australian licence (not learner, P1/P2 or overseas) — both supervisor and learner can be fined otherwise.",
-          "Supervisor alcohol/drugs: BAC under 0.05, no illegal drugs or drug influence. Police can breath-test a supervisor after a crash, hospital staff can blood/urine test, and police can test for suspected drug influence — the same severe penalties as for drivers apply.",
-          "A supervisor is a role model and mentor: start with simple skills (steering, accelerating, braking) on quiet daytime roads, build up to busier roads and harder conditions, and keep early night practice on familiar roads."
-        ]
+        "bullets": [],
+        "tables": [
+          {
+            "headers": ["Requirement", "Detail"],
+            "rows": [
+              ["Presence", "Must always be in the seat beside the learner — driving without one can mean immediate suspension"],
+              ["Licence", "Full unrestricted Australian licence (not learner, P1/P2 or overseas) — both can be fined otherwise"],
+              ["Alcohol/drugs", "BAC under 0.05, no illegal drugs/drug influence — tested and penalised the same as drivers"],
+              ["Role", "Model/mentor: start simple (steering, accelerating, braking) on quiet daytime roads, build up gradually, keep early night practice on familiar roads"]
+            ]
+          }
+        ],
+        "abbr": [["BAC", "Blood Alcohol Concentration"]]
       }
     ]
   },

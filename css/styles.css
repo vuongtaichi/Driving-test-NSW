@@ -1,13 +1,13 @@
 /* ---------- design tokens ---------- */
 :root {
-  --bg: #f4f4f8;
+  --bg: #f8f8fb;
   --surface: #ffffff;
-  --surface-2: #ececf2;
+  --surface-2: #eeeef3;
   --text: #17171c;
   --text-dim: #5d5d6b;
   --line: #dededf;
-  --brand: #ffc400;
-  --brand-ink: #241d00;
+  --brand: #ffd34d;
+  --brand-ink: #2b2000;
   --ok: #1b8b3a;
   --ok-bg: #d4f3dc;
   --bad: #c62828;
@@ -19,12 +19,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #121216;
-    --surface: #1c1c22;
-    --surface-2: #26262e;
+    --bg: #1e1e24;
+    --surface: #27272e;
+    --surface-2: #313139;
     --text: #f2f2f5;
     --text-dim: #a2a2b0;
-    --line: #32323c;
+    --line: #3d3d47;
+    --brand: #ffd666;
+    --brand-ink: #2b2000;
     --ok: #5ed37e;
     --ok-bg: #17351f;
     --bad: #ff8a80;

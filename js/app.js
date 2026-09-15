@@ -500,7 +500,7 @@
     }
 
     closeHandbookNav();
-    pane.scrollIntoView({ block: 'start' });
+    window.scrollTo(0, 0);
   }
 
   function closeHandbookNav() {
