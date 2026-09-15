@@ -4,6 +4,7 @@
   'use strict';
 
   var ALL = window.QUESTIONS || [];
+  var HANDBOOK = window.HANDBOOK || [];
   var MOCK_SIZE = 45;      // questions in a mock test
   var MOCK_PASS = 41;      // correct answers needed to pass
   var LETTERS = ['A', 'B', 'C', 'D'];
@@ -30,7 +31,7 @@
   var store = load();
 
   function load() {
-    var blank = { stats: {}, fav: [], shuffle: false };
+    var blank = { stats: {}, fav: [], shuffle: false, tab: 'dkt' };
     try {
       var raw = localStorage.getItem(STORE_KEY);
       if (!raw) return blank;
@@ -38,7 +39,8 @@
       return {
         stats: parsed.stats || {},
         fav: parsed.fav || [],
-        shuffle: !!parsed.shuffle
+        shuffle: !!parsed.shuffle,
+        tab: parsed.tab === 'handbook' ? 'handbook' : 'dkt'
       };
     } catch (err) {
       return blank;
@@ -237,13 +239,13 @@
   /* ---------------- views ---------------- */
 
   function show(which) {
-    ['home', 'section', 'quiz', 'result'].forEach(function (name) {
+    ['home', 'section', 'quiz', 'result', 'handbook-chapter'].forEach(function (name) {
       $('view-' + name).hidden = (name !== which);
     });
     $('btn-home').hidden = (which === 'home');
     $('btn-fav').hidden = (which !== 'quiz');
     $('progressbar').hidden = (which !== 'quiz');
-    if (which === 'home') $('topbar-title').textContent = 'DKT Practice';
+    if (which === 'home') $('topbar-title').textContent = store.tab === 'handbook' ? 'Road User Handbook' : 'DKT Practice';
     if (which === 'result') $('topbar-title').textContent = 'Results';
     window.scrollTo(0, 0);
   }
@@ -304,6 +306,97 @@
     if (/speed/i.test(cat)) return '&#9201;';                 // stopwatch
     if (/street sign/i.test(cat)) return '&#128737;';         // sign shield
     return '&#128218;';                                      // book (general knowledge)
+  }
+
+  /* ---------------- home tabs (DKT / handbook) ---------------- */
+
+  function showTab(tab) {
+    store.tab = (tab === 'handbook') ? 'handbook' : 'dkt';
+    save();
+    $('home-dkt').hidden = store.tab !== 'dkt';
+    $('home-handbook').hidden = store.tab !== 'handbook';
+    Array.prototype.forEach.call(document.querySelectorAll('.hometabs__btn'), function (btn) {
+      var active = btn.getAttribute('data-tab') === store.tab;
+      btn.classList.toggle('is-active', active);
+      btn.setAttribute('aria-selected', active ? 'true' : 'false');
+    });
+    $('topbar-title').textContent = store.tab === 'handbook' ? 'Road User Handbook' : 'DKT Practice';
+  }
+
+  /* ---------------- handbook ---------------- */
+
+  function renderHandbookHome() {
+    var list = $('handbook-cat-list');
+    list.innerHTML = '';
+    HANDBOOK.forEach(function (chapter) {
+      var btn = document.createElement('button');
+      btn.className = 'card';
+      btn.setAttribute('data-handbook', chapter.id);
+      btn.innerHTML =
+        '<span class="card__icon">' + iconForHandbook(chapter.id) + '</span>' +
+        '<span class="card__body"><strong></strong><small></small></span>';
+      btn.querySelector('strong').textContent = chapter.title;
+      btn.querySelector('small').textContent =
+        chapter.sections.length + (chapter.sections.length === 1 ? ' topic' : ' topics');
+      list.appendChild(btn);
+    });
+  }
+
+  function iconForHandbook(id) {
+    var icons = {
+      'licences': '&#128196;',
+      'safe-driving': '&#9888;',
+      'sharing-road': '&#128694;',
+      'stopping-giving-way': '&#128678;',
+      'overtaking-merging': '&#8646;',
+      'road-lanes-lines': '&#128663;',
+      'parking': '&#128665;',
+      'warnings-hazards': '&#9888;',
+      'vehicle-safety': '&#128295;',
+      'vehicle-environment': '&#127793;',
+      'penalties': '&#9878;'
+    };
+    return icons[id] || '&#128218;';
+  }
+
+  function openHandbookChapter(id) {
+    var chapter = null;
+    for (var i = 0; i < HANDBOOK.length; i++) if (HANDBOOK[i].id === id) { chapter = HANDBOOK[i]; break; }
+    if (!chapter) return;
+
+    $('handbook-chapter-title').textContent = chapter.title;
+    $('handbook-chapter-sub').textContent =
+      chapter.sections.length + (chapter.sections.length === 1 ? ' topic' : ' topics');
+
+    var list = $('hblist');
+    list.innerHTML = '';
+    chapter.sections.forEach(function (section, idx) {
+      var item = document.createElement('div');
+      item.className = 'hbsection';
+
+      var btn = document.createElement('button');
+      btn.className = 'hbsection__head';
+      btn.setAttribute('data-hbtoggle', idx);
+      btn.setAttribute('aria-expanded', 'false');
+      btn.innerHTML = '<span></span><span class="hbsection__chevron">&#9662;</span>';
+      btn.querySelector('span').textContent = section.title;
+      item.appendChild(btn);
+
+      var body = document.createElement('ul');
+      body.className = 'hbsection__body';
+      body.hidden = true;
+      section.bullets.forEach(function (bullet) {
+        var li = document.createElement('li');
+        li.textContent = bullet;
+        body.appendChild(li);
+      });
+      item.appendChild(body);
+
+      list.appendChild(item);
+    });
+
+    $('topbar-title').textContent = chapter.title;
+    show('handbook-chapter');
   }
 
   /* ---------------- section (per-topic list) ---------------- */
@@ -564,9 +657,20 @@
     var modeBtn = e.target.closest ? e.target.closest('[data-mode]') : null;
     var sectionBtn = e.target.closest ? e.target.closest('[data-section]') : null;
     var qBtn = e.target.closest ? e.target.closest('[data-qid]') : null;
+    var tabBtn = e.target.closest ? e.target.closest('[data-tab]') : null;
+    var handbookBtn = e.target.closest ? e.target.closest('[data-handbook]') : null;
+    var hbToggleBtn = e.target.closest ? e.target.closest('[data-hbtoggle]') : null;
     if (modeBtn && !modeBtn.disabled) startRun(modeBtn.getAttribute('data-mode'));
     else if (sectionBtn && !sectionBtn.disabled) openSection(sectionBtn.getAttribute('data-section'));
     else if (qBtn) startSingle(Number(qBtn.getAttribute('data-qid')), qBtn.getAttribute('data-cat'));
+    else if (tabBtn) showTab(tabBtn.getAttribute('data-tab'));
+    else if (handbookBtn) openHandbookChapter(handbookBtn.getAttribute('data-handbook'));
+    else if (hbToggleBtn) {
+      var body = hbToggleBtn.parentElement.querySelector('.hbsection__body');
+      var open = hbToggleBtn.getAttribute('aria-expanded') === 'true';
+      hbToggleBtn.setAttribute('aria-expanded', open ? 'false' : 'true');
+      body.hidden = open;
+    }
   });
 
   $('btn-next').addEventListener('click', next);
@@ -575,15 +679,18 @@
   // The back arrow returns to wherever this run was launched from: a section's
   // question list if it has one, otherwise straight home.
   $('btn-home').addEventListener('click', function () {
-    // Already looking at a section's question list? Its "back" always means Home —
-    // don't fall through to a stale run's parentSection from an earlier quiz, or the
-    // arrow just reopens the same section and looks like it did nothing.
-    if (!$('view-section').hidden) { renderHome(); show('home'); return; }
+    // Already looking at a section's question list, or a handbook chapter? Its "back"
+    // always means Home — don't fall through to a stale run's parentSection from an
+    // earlier quiz, or the arrow just reopens the same section and looks like it did nothing.
+    if (!$('view-section').hidden || !$('view-handbook-chapter').hidden) {
+      renderHome(); showTab(store.tab); show('home'); return;
+    }
     if (run && run.parentSection) openSection(run.parentSection);
-    else { renderHome(); show('home'); }
+    else { renderHome(); showTab(store.tab); show('home'); }
   });
   $('btn-result-home').addEventListener('click', function () {
     renderHome();
+    showTab(store.tab);
     show('home');
   });
   $('btn-again').addEventListener('click', function () { startRun(run ? run.mode : 'mock'); });
@@ -602,7 +709,7 @@
 
   $('btn-reset').addEventListener('click', function () {
     if (!window.confirm('Clear all your answers, stats and favourites?')) return;
-    store = { stats: {}, fav: [], shuffle: store.shuffle };
+    store = { stats: {}, fav: [], shuffle: store.shuffle, tab: store.tab };
     save();
     renderHome();
   });
@@ -628,6 +735,8 @@
     $('view-home').innerHTML = '<p>Could not load the questions. Make sure <code>data/questions.js</code> sits next to this page.</p>';
   } else {
     renderHome();
+    renderHandbookHome();
+    showTab(store.tab);
     show('home');
   }
 })();

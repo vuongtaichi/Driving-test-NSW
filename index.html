@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Practice the NSW Driver Knowledge Test — 353 questions with diagrams and explanations.">
+<meta name="description" content="Practice the NSW Driver Knowledge Test and browse a summary of the Road User Handbook.">
 <meta name="theme-color" content="#ffc400">
 <title>DKT Practice — Driver Knowledge Test</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚦</text></svg>">
@@ -23,66 +23,92 @@
 
   <!-- ================= HOME ================= -->
   <section class="view" id="view-home">
-    <div class="hero">
-      <p class="hero__eyebrow">Driver Knowledge Test</p>
-      <h2 class="hero__title">Practise until you can't get it wrong.</h2>
-      <p class="hero__sub"><strong id="stat-total">353</strong> questions with the official diagrams and explanations.</p>
+    <div class="hometabs" role="tablist" aria-label="Site sections">
+      <button class="hometabs__btn" data-tab="dkt" role="tab" aria-selected="true">DKT Practice</button>
+      <button class="hometabs__btn" data-tab="handbook" role="tab" aria-selected="false">Road User Handbook</button>
     </div>
 
-    <div class="stats" id="stats">
-      <div class="stat">
-        <div class="ring" id="ring-overall" style="--pct:0"><span id="ring-overall-label">0%</span></div>
-        <div class="stat__meta"><strong>Accuracy</strong><span id="stat-attempts">not started</span></div>
+    <div id="home-dkt">
+      <div class="hero">
+        <p class="hero__eyebrow">Driver Knowledge Test</p>
+        <h2 class="hero__title">Practise until you can't get it wrong.</h2>
+        <p class="hero__sub"><strong id="stat-total">353</strong> questions with the official diagrams and explanations.</p>
       </div>
-      <div class="stat__nums">
-        <div><strong id="stat-seen">0</strong><span>seen</span></div>
-        <div><strong id="stat-right">0</strong><span>correct</span></div>
-        <div><strong id="stat-wrong">0</strong><span>to review</span></div>
+
+      <div class="stats" id="stats">
+        <div class="stat">
+          <div class="ring" id="ring-overall" style="--pct:0"><span id="ring-overall-label">0%</span></div>
+          <div class="stat__meta"><strong>Accuracy</strong><span id="stat-attempts">not started</span></div>
+        </div>
+        <div class="stat__nums">
+          <div><strong id="stat-seen">0</strong><span>seen</span></div>
+          <div><strong id="stat-right">0</strong><span>correct</span></div>
+          <div><strong id="stat-wrong">0</strong><span>to review</span></div>
+        </div>
+      </div>
+
+      <h3 class="section-title">Take a test</h3>
+      <div class="cards">
+        <button class="card card--primary" data-mode="mock">
+          <span class="card__icon">&#9201;</span>
+          <span class="card__body">
+            <strong>Mock test</strong>
+            <small><span id="mock-count">45</span> random questions &middot; pass mark <span id="mock-pass">41</span> &middot; answers at the end</small>
+          </span>
+        </button>
+        <button class="card" data-mode="all">
+          <span class="card__icon">&#128218;</span>
+          <span class="card__body">
+            <strong>Practice all questions</strong>
+            <small>All 353, instant feedback after each answer</small>
+          </span>
+        </button>
+        <button class="card" data-mode="wrong" id="card-wrong">
+          <span class="card__icon">&#8635;</span>
+          <span class="card__body">
+            <strong>Review my mistakes</strong>
+            <small><span id="wrong-count">0</span> questions you have answered incorrectly</small>
+          </span>
+        </button>
+        <button class="card" data-mode="fav" id="card-fav">
+          <span class="card__icon">&#9825;</span>
+          <span class="card__body">
+            <strong>Favourites</strong>
+            <small><span id="fav-count">0</span> saved questions</small>
+          </span>
+        </button>
+      </div>
+
+      <h3 class="section-title">Practise by topic</h3>
+      <div class="cards" id="cat-list"></div>
+
+      <div class="home-foot">
+        <label class="switch">
+          <input type="checkbox" id="opt-shuffle">
+          <span>Shuffle the order of answers</span>
+        </label>
+        <button class="linkbtn" id="btn-reset">Reset all progress</button>
       </div>
     </div>
 
-    <h3 class="section-title">Take a test</h3>
-    <div class="cards">
-      <button class="card card--primary" data-mode="mock">
-        <span class="card__icon">&#9201;</span>
-        <span class="card__body">
-          <strong>Mock test</strong>
-          <small><span id="mock-count">45</span> random questions &middot; pass mark <span id="mock-pass">41</span> &middot; answers at the end</small>
-        </span>
-      </button>
-      <button class="card" data-mode="all">
-        <span class="card__icon">&#128218;</span>
-        <span class="card__body">
-          <strong>Practice all questions</strong>
-          <small>All 353, instant feedback after each answer</small>
-        </span>
-      </button>
-      <button class="card" data-mode="wrong" id="card-wrong">
-        <span class="card__icon">&#8635;</span>
-        <span class="card__body">
-          <strong>Review my mistakes</strong>
-          <small><span id="wrong-count">0</span> questions you have answered incorrectly</small>
-        </span>
-      </button>
-      <button class="card" data-mode="fav" id="card-fav">
-        <span class="card__icon">&#9825;</span>
-        <span class="card__body">
-          <strong>Favourites</strong>
-          <small><span id="fav-count">0</span> saved questions</small>
-        </span>
-      </button>
-    </div>
+    <div id="home-handbook" hidden>
+      <div class="hero">
+        <p class="hero__eyebrow">Road User Handbook</p>
+        <h2 class="hero__title">Know the rules, not just the answers.</h2>
+        <p class="hero__sub">A condensed, chapter-by-chapter summary of the NSW Road User Handbook.</p>
+      </div>
 
-    <h3 class="section-title">Practise by topic</h3>
-    <div class="cards" id="cat-list"></div>
-
-    <div class="home-foot">
-      <label class="switch">
-        <input type="checkbox" id="opt-shuffle">
-        <span>Shuffle the order of answers</span>
-      </label>
-      <button class="linkbtn" id="btn-reset">Reset all progress</button>
+      <h3 class="section-title">Chapters</h3>
+      <div class="cards" id="handbook-cat-list"></div>
     </div>
+  </section>
+
+  <!-- ================= HANDBOOK CHAPTER ================= -->
+  <section class="view" id="view-handbook-chapter" hidden>
+    <p class="hero__eyebrow">Road User Handbook</p>
+    <h2 class="hero__title" id="handbook-chapter-title">Chapter</h2>
+    <p class="hero__sub" id="handbook-chapter-sub"></p>
+    <div class="hblist" id="hblist"></div>
   </section>
 
   <!-- ================= SECTION ================= -->
@@ -147,11 +173,13 @@
 </main>
 
 <footer class="sitefoot">
-  <p>Practice material transcribed from NSW DKT practice screenshots. Study aid only — always check the official
-     <em>Road Users' Handbook</em> for the current rules.</p>
+  <p>Practice material transcribed from NSW DKT practice screenshots. The Road User Handbook section is a
+     condensed summary, not the full legal text — study aid only, always check the official
+     <em>Road User Handbook</em> and Road Rules for the current rules.</p>
 </footer>
 
 <script src="data/questions.js"></script>
+<script src="data/handbook.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

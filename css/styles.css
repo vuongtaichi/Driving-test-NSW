@@ -237,6 +237,74 @@ main {
   padding: 0;
 }
 
+/* ---------- home tabs ---------- */
+.hometabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+.hometabs__btn {
+  flex: 1;
+  padding: 10px 8px 12px;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  font: inherit;
+  font-weight: 700;
+  font-size: .92rem;
+  color: var(--text-dim);
+  cursor: pointer;
+}
+.hometabs__btn:hover { color: var(--text); }
+.hometabs__btn.is-active { color: var(--text); border-bottom-color: var(--brand); }
+
+/* ---------- handbook chapter (accordion) ---------- */
+.hblist {
+  display: grid;
+  gap: 8px;
+  margin-top: 18px;
+}
+.hbsection {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.hbsection__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  padding: 14px 16px;
+  text-align: left;
+  font: inherit;
+  font-weight: 700;
+  color: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+.hbsection__head:hover { background: var(--surface-2); }
+.hbsection__chevron {
+  flex: none;
+  color: var(--text-dim);
+  transition: transform .15s ease;
+}
+.hbsection__head[aria-expanded="true"] .hbsection__chevron { transform: rotate(180deg); }
+.hbsection__body {
+  margin: 0;
+  padding: 0 18px 16px 34px;
+  display: grid;
+  gap: 8px;
+  font-size: .92rem;
+  line-height: 1.45;
+  color: var(--text);
+}
+.hbsection__body li { padding-left: 2px; }
+
 /* ---------- section (per-topic question list) ---------- */
 .qlist {
   list-style: none;
