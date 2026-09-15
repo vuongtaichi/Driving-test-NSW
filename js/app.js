@@ -327,23 +327,6 @@
 
   /* ---------------- handbook ---------------- */
 
-  function iconForHandbook(id) {
-    var icons = {
-      'licences': '&#128196;',
-      'safe-driving': '&#9888;',
-      'sharing-road': '&#128694;',
-      'stopping-giving-way': '&#128678;',
-      'overtaking-merging': '&#8646;',
-      'road-lanes-lines': '&#128663;',
-      'parking': '&#128665;',
-      'warnings-hazards': '&#9888;',
-      'vehicle-safety': '&#128295;',
-      'vehicle-environment': '&#127793;',
-      'penalties': '&#9878;'
-    };
-    return icons[id] || '&#128218;';
-  }
-
   // Chapters are collapsible toggles; only the chapter holding the active topic
   // starts expanded, so the sidebar reads as a scannable list of chapters rather
   // than a long dump of all 77 topics at once.
@@ -360,7 +343,7 @@
       heading.setAttribute('aria-expanded', 'false');
       var icon = document.createElement('span');
       icon.className = 'hbnav__chapter-icon';
-      icon.innerHTML = iconForHandbook(chapter.id);
+      icon.textContent = cIdx + 1;
       var label = document.createElement('span');
       label.className = 'hbnav__chapter-label';
       label.textContent = chapter.title;

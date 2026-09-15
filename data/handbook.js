@@ -140,41 +140,47 @@ window.HANDBOOK = [
         "title": "Speed limits",
         "page": 32,
         "figures": [
-          { "src": "images-handbook/speed-signs-1.png", "caption": "Regulatory, variable, local traffic area and high pedestrian activity speed signs." },
-          { "src": "images-handbook/speed-signs-2-zones.png", "caption": "Shared zone and school zone speed signs." }
+          { "src": "images-handbook/speed-sign-regulatory.png", "caption": "Regulatory sign: white background, red circle — the legal limit." },
+          { "src": "images-handbook/speed-sign-variable.png", "caption": "Variable electronic signs — change with road conditions." },
+          { "src": "images-handbook/speed-sign-local-traffic-area.png", "caption": "Local traffic area — 40km/h residential streets." },
+          { "src": "images-handbook/speed-sign-high-pedestrian.png", "caption": "High pedestrian activity area — 30 or 40km/h." },
+          { "src": "images-handbook/speed-sign-shared-zone.png", "caption": "Shared zone (10km/h) and its end sign." },
+          { "src": "images-handbook/speed-sign-school-zone-flag.png", "caption": "School zone start sign." },
+          { "src": "images-handbook/speed-sign-school-zone-times.png", "caption": "School zone times and speed limit." },
+          { "src": "images-handbook/speed-sign-school-zone-end.png", "caption": "End of school zone — limit reverts." }
         ],
         "bullets": [
-          "Speeding is the number one killer on NSW roads — a factor in around 40% of deaths and 20% of serious injuries each year.",
-          "Default limits where there's no sign: 50km/h in built-up areas (street lights/buildings less than 100m apart); 100km/h everywhere else. Where a sign is posted, you must not exceed it.",
-          "Your licence caps the speed you can drive even if the sign is higher: Learner and P1 capped at 90km/h; P2 at 100km/h; heavy vehicles over 4.5t GVM (LR/MR/HR/HC/MC) capped at 100km/h.",
-          "It's illegal to carry a radar detector or jammer — anything that detects, interferes with or reduces the effectiveness of speed-measuring devices.",
-          "Penalties: fines, demerit points (including doubled), loss of licence, vehicle/plate impoundment — worse the further over and in school zones. Any speeding offence puts a learner or P1 driver over their demerit limit and suspends their licence.",
-          "Sign types: regulatory (white sign, red circle = legal limit); variable electronic signs (tunnels/motorways/bridges, change with conditions); local traffic areas (40km/h residential streets); high pedestrian activity areas (30 or 40km/h, e.g. CBDs/shopping strips); shared zones (10km/h, must give way to pedestrians); school zones (signed times on school days, flashing lights plus \"dragon's teeth\" road markings); school bus stop zones and buses showing \"40 when lights flash\" (max 40km/h passing in either direction while flashing); roadwork zones (signed limit).",
-          "Advisory speed signs (yellow) show a safe recommended speed for hazards like curves — not a legal limit, but slow further still in poor conditions.",
-          "Four speed camera types: mobile (moved anywhere, anytime), red-light speed cameras (multi-lane intersections), fixed (high-risk locations like tunnels), average speed cameras (measure average speed over a distance).",
-          "Even 5–10km/h over feels \"acceptable\" to some, but meaningfully raises crash risk — a pedestrian hit at 50km/h is about twice as likely to die as one hit at 40km/h."
+          "Speeding is the #1 killer on NSW roads (~40% of deaths, ~20% of serious injuries).",
+          "No sign = default limit: 50km/h built-up, 100km/h elsewhere. Never exceed a posted sign.",
+          "Licence caps regardless of the sign: Learner/P1 90km/h; P2 100km/h; heavy vehicles (LR/MR/HR/HC/MC) 100km/h.",
+          "Radar detectors/jammers are illegal to carry.",
+          "Penalties: fines, demerit points (can double), licence loss, impoundment — worse over the limit and in school zones; a learner/P1 speeding offence suspends their licence.",
+          "Sign types: regulatory (fixed limit); variable electronic (tunnels/motorways); local traffic area (40, residential); high pedestrian area (30/40); shared zone (10, give way to pedestrians); school zone (signed times, flashing lights, dragon's teeth); school bus \"40 when lights flash\"; roadwork zones (signed).",
+          "Advisory (yellow) signs are a recommended safe speed for a hazard, not a legal limit.",
+          "4 camera types: mobile, red-light speed, fixed, average-speed (over a distance).",
+          "Small margins matter: a pedestrian hit at 50km/h is ~2x as likely to die as one hit at 40km/h."
         ]
       },
       {
         "title": "Alcohol limits",
         "page": 39,
         "bullets": [
-          "Your legal blood alcohol concentration (BAC) limit depends on your licence and the vehicle you're driving — see the table below.",
-          "You can't reliably estimate your own BAC — size, tiredness and serving size all vary it, so not drinking at all is the only sure way to stay under.",
-          "Must not drive under the influence of alcohol, and must not drink alcohol while actually driving even if you'd stay under your limit.",
-          "Must not refuse a Random Breath Test — police can test you anytime, and must test any driver involved in a crash.",
-          "Must not refuse a blood/urine test after a crash; police can arrest you for one after a fatal/likely-fatal crash, and hospital staff can test you if you're admitted.",
-          "Penalties scale with how far over the limit and repeat offences: fines, loss of licence, prison, or a mandatory alcohol interlock. Drinking while driving under the limit still draws a fine and demerit points.",
-          "Even 1–2 drinks impair reaction, judgement and speed/distance perception, give false confidence, hurt multitasking and cause drowsiness.",
-          "Around 50% of Thursday/Friday/Saturday night fatal crashes involve alcohol, and drink-driving crashes tend to be more serious.",
-          "Only time reduces BAC — it can take 18+ hours after heavy drinking; coffee, a shower or a meal won't speed it up. Plan a non-driving way home if you're drinking."
+          "BAC limit depends on your licence/vehicle — see the table below.",
+          "Can't reliably estimate your own BAC — not drinking at all is the only sure way to stay under.",
+          "Must not drive under the influence, or drink alcohol while actually driving.",
+          "Must not refuse a Random Breath Test (anytime; mandatory after a crash).",
+          "Must not refuse a blood/urine test after a crash — arrest possible after a fatal/likely-fatal crash; hospital admission also testable.",
+          "Penalties scale with how far over + repeat offences: fines, licence loss, prison, or a mandatory alcohol interlock. Even under-limit drink-driving draws a fine and demerit points.",
+          "Even 1–2 drinks impair reaction, judgement and distance perception; cause false confidence and drowsiness.",
+          "~50% of Thu/Fri/Sat night fatal crashes involve alcohol.",
+          "Only time reduces BAC (18+ hours after heavy drinking) — not coffee, a shower or a meal."
         ],
         "table": {
           "headers": ["Licence / vehicle type", "BAC limit"],
           "rows": [
             ["Learner", "Zero"],
-            ["Provisional P1", "Under 0.05"],
-            ["Provisional P2", "Under 0.02"],
+            ["Provisional P1", "Zero"],
+            ["Provisional P2", "Zero"],
             ["Full licence (C/R), interstate/overseas full licence", "Under 0.05"],
             ["Public passenger vehicles (buses, taxis, rideshare, chauffeured hire cars)", "Under 0.02"],
             ["Heavy vehicles/combinations over 13.9 tonnes", "Under 0.02"],
@@ -186,13 +192,13 @@ window.HANDBOOK = [
         "title": "Drugs and medicines",
         "page": 43,
         "bullets": [
-          "Must not drive with illegal drugs present in your system, or under the influence of any drug — illegal, prescription or over-the-counter.",
-          "Mobile Drug Testing (MDT) can test any driver or supervisor for 4 common illegal drugs: ecstasy, cannabis, cocaine, methamphetamine (incl. speed/ice) — they can stay detectable long after use.",
-          "Testing methods: a random roadside saliva/oral-fluid swab for illegal drugs; a blood/urine test after signs of drug influence and a sobriety assessment, after a fatal/likely-fatal crash, or on hospital admission — covering a wider range of drugs and medicines. Must not refuse either.",
-          "Penalties: presence of illegal drugs → fine and licence loss; driving under the influence (incl. prescription drugs) → heavier penalties, up to prison.",
-          "Stimulants (ecstasy, cocaine, meth) create false confidence and encourage aggressive, risky driving; opiates (heroin, morphine, codeine, methadone) cause drowsiness and slow reactions; cannabis slows reactions and distorts perception of distance/time and decision-making.",
-          "Medicines that can affect driving: painkillers; blood pressure, nausea, allergy, anti-inflammatory and anti-fungal medicines; tranquillisers/sedatives/sleeping pills; diet pills; cold and flu medicines — check warning labels and ask a doctor or pharmacist if unsure.",
-          "Never mix drugs with alcohol or with each other — the effects are unpredictable and more dangerous."
+          "Must not drive with illegal drugs present, or under the influence of any drug (illegal, prescription or over-the-counter).",
+          "Mobile Drug Testing (MDT): roadside test for 4 illegal drugs (ecstasy, cannabis, cocaine, meth) — detectable long after use.",
+          "Testing: random roadside saliva swab; blood/urine test after signs of influence, a fatal/likely-fatal crash, or hospital admission (covers medicines too). Must not refuse.",
+          "Penalties: illegal drugs present → fine + licence loss; driving under the influence (incl. prescription) → heavier, up to prison.",
+          "Effects: stimulants (ecstasy/cocaine/meth) → false confidence, risky driving; opiates → drowsiness, slow reactions; cannabis → slower reactions, distorted perception.",
+          "Medicines that can affect driving: painkillers, blood pressure/nausea/allergy/anti-inflammatory/anti-fungal meds, tranquillisers/sedatives, diet pills, cold/flu meds — check labels, ask a doctor/pharmacist.",
+          "Never mix drugs with alcohol or each other."
         ]
       },
       {
@@ -202,15 +208,15 @@ window.HANDBOOK = [
           { "src": "images-handbook/seatbelt-fit.jpg", "caption": "The person with the tick is wearing their seatbelt correctly (low, flat and firm); the person with the cross is not." }
         ],
         "bullets": [
-          "Around 30 people are killed and 90 seriously injured each year in NSW from not wearing a seatbelt — preventable by wearing one properly.",
-          "Drivers and passengers must wear a seatbelt and keep their whole body inside the vehicle.",
-          "Driver's responsibility: one seatbelt per passenger (never shared), correctly adjusted belts or an approved child seat for each passenger's age/size, no more passengers than seats/belts allow, and nobody riding in a non-passenger area (boot, floor, ute tray, trailer, caravan).",
-          "Passengers aged 16+ are also responsible for wearing their own seatbelt properly and staying inside the vehicle.",
-          "Wear it \"low, flat and firm\": low over the hips, no twists or folds, pulled firm and over the shoulder — never under the arm or behind the back.",
-          "A seatbelt roughly doubles your chance of surviving a crash and reduces injury risk.",
-          "Penalties: seatbelt-detection cameras and police can fine the driver and any passenger 16+ for non-compliance; fines, demerit points and double demerit points apply.",
-          "Exemptions for full-licence drivers: while reversing, or driving a garbage/delivery vehicle under 25km/h with frequent stops; their passengers are exempt when giving/getting urgent medical treatment, or riding in that same slow garbage/delivery vehicle.",
-          "Any driver or passenger (incl. learner/P1/P2) can be exempt with a medical condition and certificate; where possible, an exempt passenger should sit in the back seat."
+          "~30 killed, ~90 seriously injured yearly in NSW from not wearing a seatbelt.",
+          "Drivers and passengers must wear a seatbelt, whole body inside the vehicle.",
+          "Driver's responsibility: one belt per passenger (never shared), correct fit or an approved child seat, no more passengers than belts, nobody in a non-passenger area (boot, floor, ute tray, trailer).",
+          "Passengers 16+ are also responsible for wearing their own belt properly.",
+          "Wear it \"low, flat and firm\" — never under the arm or behind the back.",
+          "A seatbelt roughly doubles your chance of surviving a crash.",
+          "Penalties: detection cameras + police can fine the driver and any passenger 16+; demerit points (can double).",
+          "Exemptions (full licence): reversing, or a slow garbage/delivery vehicle; their passengers when giving/getting urgent medical treatment.",
+          "Any driver/passenger (incl. learner/P1/P2) can be medically exempt with a certificate — sit in the back if possible."
         ]
       },
       {
@@ -220,14 +226,14 @@ window.HANDBOOK = [
           { "src": "images-handbook/child-seat-ages.jpg", "caption": "Children wearing their seatbelt or child restraint properly for their age." }
         ],
         "bullets": [
-          "Children under 7 must use an approved child restraint meeting AS/NZS 1754 — the driver is responsible for this. See the age bands below.",
-          "7–16 year-olds too small for an adult belt should use a booster, forward-facing seat or anchored harness; suggested minimum height for an adult lap-sash belt is 145cm.",
-          "Fitting must follow the manufacturer's instructions, tightly adjusted and attached to a proper anchorage point — an Authorised Restraint Fitter at an Authorised Restraint Fitting Station is recommended.",
-          "Booster seats must be used with a lap-and-sash belt or an approved anchored harness (never a lap-only belt); boosters over 2kg must be anchored.",
-          "Front seat: under-4s must not sit in front of a vehicle with 2+ rows (a single-row vehicle is OK with an approved seat); 4–7 year-olds must not sit in front of a 2+ row vehicle unless every back-row seat is already taken by other under-7s.",
-          "Exemptions: a child under 12 months can travel in a tow truck after a crash/breakdown without a proper seat if none is available; taxis follow the same age-based seat/booster/seatbelt rules and must carry a child-restraint anchorage point; a doctor's certificate lets an under-7 with a medical condition use an alternative restraint.",
-          "Penalties: fines and demerit points (incl. double demerit points) for not restraining a child correctly.",
-          "Never share one seatbelt between yourself and a child on your lap, and never carry a child in your arms in a moving vehicle — both risk crushing the child in a crash."
+          "Under-7s: approved restraint (AS/NZS 1754), driver's responsibility — see age table below.",
+          "7–16 too small for an adult belt: booster, forward-facing seat, or anchored harness (adult lap-sash belt needs ~145cm).",
+          "Fit per manufacturer's instructions, tightly adjusted, proper anchorage — an Authorised Restraint Fitter is recommended.",
+          "Booster seats: always with a lap-and-sash belt or anchored harness (never lap-only); boosters over 2kg must be anchored.",
+          "Front seat: under-4s never in a 2+ row vehicle; 4–7s only if every back-row seat is already taken by other under-7s.",
+          "Exemptions: under-12-months in a tow truck if no proper seat is available; taxis follow the same rules; doctor's certificate for an alternative restraint.",
+          "Penalties: fines and demerit points (can double) for not restraining a child correctly.",
+          "Never share a seatbelt with a child on your lap, and never carry a child in your arms while driving."
         ],
         "table": {
           "headers": ["Age", "Restraint required"],
@@ -243,22 +249,22 @@ window.HANDBOOK = [
         "title": "Mobile phones",
         "page": 54,
         "bullets": [
-          "Learner/P1/P2: must not use a phone at all while driving, even stationary — no calls, texts, music, email, social media, internet, maps or photos, whether handheld, in a holder, or hands-free/Bluetooth.",
-          "Full-licence drivers get only two uses: Bluetooth hands-free for voice calls or audio; or a vehicle-fixed phone holder for voice calls, audio, or as a driver's aid (maps/navigation/dispatch). The holder must be commercially made, fixed, and not block your view.",
-          "No other function is allowed for a full-licence driver either (texting, video calls, email, social media, internet, photography), and the phone must never be held or rested on the leg or between shoulder and ear.",
-          "Any driver can use a phone for any function once safely parked out of the line of traffic (ignition doesn't need to be off).",
-          "Exemptions for all drivers: showing a digital licence to police; a stationary tap-and-pay in a car park, driveway or drive-through.",
-          "Penalties: mobile phone detection cameras operate anywhere, anytime; fines and doubled demerit points apply, and a learner or P1 driver will go over their demerit limit and lose their licence.",
-          "Using a phone while driving can roughly quadruple the risk of a casualty crash."
+          "Learner/P1/P2: zero phone use while driving, even stationary — no calls, texts, music, maps or photos, handheld or hands-free/Bluetooth.",
+          "Full licence, only two uses: Bluetooth hands-free (calls/audio); or a fixed, commercially-made holder for calls/audio/navigation.",
+          "No other function for a full-licence driver either (texting, video, social media, photos); never held or rested on the leg/shoulder.",
+          "Any driver: any use once safely parked out of the line of traffic.",
+          "Exemptions: showing a digital licence to police; a stationary tap-and-pay.",
+          "Penalties: detection cameras operate anywhere/anytime; fines + doubled demerit points; a learner/P1 over the limit loses their licence.",
+          "Phone use while driving roughly quadruples casualty-crash risk."
         ]
       },
       {
         "title": "Digital screens and GPS",
         "page": 57,
         "bullets": [
-          "Must not have a digital screen (tablet, laptop, dashboard screen) switched on if you can see it or it could distract another driver — unless it's a driver's aid (GPS/navigation, dispatch, reversing screen, CCTV security, vehicle monitoring) fixed in a proper holder or built in.",
-          "Passengers can use screens, but they must not be visible to the driver from the normal driving position or distract another driver.",
-          "Penalties: fine and demerit points for illegal use."
+          "No visible/distracting digital screen unless it's a driver's aid (GPS, dispatch, reversing/CCTV/monitoring) properly fixed or built in.",
+          "Passengers can use screens if not visible to the driver or distracting.",
+          "Penalties: fine and demerit points."
         ]
       },
       {
@@ -268,32 +274,32 @@ window.HANDBOOK = [
           { "src": "images-handbook/rest-area-sign.jpg", "caption": "A rest area sign — rest areas are open 24/7 but you must not camp in them." }
         ],
         "bullets": [
-          "Fatigue causes around 20% of NSW road deaths each year; fatigue-related crashes are about twice as likely to be fatal.",
-          "Being awake for about 17 hours affects your driving similarly to a BAC of 0.05.",
-          "Affects everyone regardless of experience, and on short everyday trips, not just long or night drives. Higher-risk groups: shift workers, professional drivers, early-starting tradies, students, new parents.",
-          "There's no specific road rule against it, but it's your responsibility not to put yourself or others at risk.",
-          "Prevention: aim for about 8 hours' sleep a night (teens need more); wait ~30 minutes after waking before driving (sleep inertia); avoid driving during your body's normal sleep hours — fatal fatigue-crash risk is 4x higher late at night and early morning.",
-          "Warning signs: yawning, poor concentration, sore/tired eyes, restlessness, drowsiness, slow reactions, boredom, irritability, bigger/less frequent steering corrections, missing signs, drifting in the lane.",
-          "Stop and nap (about 20 minutes) as soon as you notice signs, rather than waiting for a microsleep — a 4-second microsleep at 100km/h covers 110m+ with your eyes off the road.",
-          "Plan regular breaks in advance, share the driving where you can, stay hydrated, and avoid alcohol, fatty food, too much coffee or sugary drinks.",
-          "Use rest areas (open 24/7, no camping), petrol stations, parks, country towns, or seasonal Driver Reviver sites for a free tea/coffee and a break."
+          "Causes ~20% of NSW road deaths; fatigue crashes ~2x as likely to be fatal.",
+          "Awake ~17 hours ≈ driving at a BAC of 0.05.",
+          "Affects everyone, even on short trips. Higher risk: shift workers, professional drivers, early-starting tradies, students, new parents.",
+          "No specific road rule against it, but it's your responsibility.",
+          "Prevention: ~8 hours' sleep a night; wait ~30 min after waking; avoid your body's normal sleep hours (fatal-crash risk 4x higher late night/early morning).",
+          "Warning signs: yawning, poor concentration, sore eyes, drowsiness, slow reactions, drifting, missing signs.",
+          "Stop and nap (~20 min) at the first signs — a 4-second microsleep at 100km/h covers 110m+ blind.",
+          "Plan breaks, share driving, stay hydrated; avoid alcohol, fatty food, too much coffee.",
+          "Rest areas (24/7, no camping), petrol stations, or seasonal Driver Reviver sites."
         ]
       },
       {
         "title": "Hooning and street racing",
         "page": 62,
         "bullets": [
-          "Must not organise, take part in, promote or even film/photograph hooning or street racing — including burnouts/donuts (deliberately losing traction), racing other vehicles, or speed trials/record attempts.",
-          "Your vehicle and licence can be confiscated on the spot.",
-          "Penalties: large fines, demerit points, loss of licence, impoundment (up to 3 months plus storage fees to reclaim it), and prison; a second offence can mean the vehicle is sold."
+          "Must not organise, take part in, promote or even film hooning or street racing (burnouts, racing other vehicles, speed trials).",
+          "Vehicle and licence can be confiscated on the spot.",
+          "Penalties: large fines, demerit points, licence loss, impoundment (up to 3 months + fees), prison; a repeat offence can mean the vehicle is sold."
         ]
       },
       {
         "title": "Negligent or dangerous driving",
         "page": 63,
         "bullets": [
-          "Means driving without the due care and attention reasonably expected of a driver, or at a speed/in a manner dangerous to the public — risking serious injury or death.",
-          "Penalties: negligent driving → fine and demerit points; dangerous driving, or negligent driving causing death or injury → large fines, loss of licence, prison."
+          "Negligent = below the care/attention expected of a driver; dangerous = speed/manner risking serious injury or death.",
+          "Penalties: negligent → fine + demerit points; dangerous, or negligent causing death/injury → large fines, licence loss, prison."
         ]
       },
       {
@@ -305,28 +311,30 @@ window.HANDBOOK = [
           { "src": "images-handbook/stopping-distance-chart.jpg", "caption": "The distance a car travels to stop at 40/60/80/100km/h, on a dry vs wet road." }
         ],
         "bullets": [
-          "Keep enough space to stop safely behind the vehicle in front — a 3-second gap in good conditions, rising to 4+ seconds in poor conditions (unsealed, icy or wet roads, night).",
-          "Driving a long vehicle (over 7.5m incl. towed): stay at least 60m behind another long vehicle, except on multi-lane roads, in built-up areas, or while overtaking.",
+          "Keep a 3-second gap behind the vehicle in front (4+ seconds in poor conditions: unsealed, icy/wet, night).",
+          "Long vehicle (over 7.5m incl. towed): stay 60m+ behind another long vehicle, except on multi-lane roads, built-up areas, or while overtaking.",
           "Penalties: fine and demerit points for following too closely.",
-          "Road positioning (\"buffering\"): keep space around your vehicle for hazards — e.g. keep left over blind hills/sharp corners, avoid the door zone of parked cars; check mirrors before repositioning.",
-          "Crash avoidance space = reaction time (~1.5s alert and sober, up to ~2.5s at higher speed) plus response time (~1.5s to act) — around a 3-second gap in good conditions.",
-          "Check your gap: pick a fixed roadside object, and count \"1 thousand and 1, 2 thousand and 2, 3 thousand and 3\" from when the vehicle ahead passes it — if you reach the object before finishing, you're following too close.",
-          "Even 5km/h over the limit meaningfully increases stopping distance; slow down and be ready to stop for anything that could enter your space, including at blind corners and crests.",
-          "Two-stage braking — light pressure and pause (set up), then progressively squeeze — reduces skidding and improves control versus harsh braking, especially on wet or gravel roads.",
-          "Scanning: keep your eyes moving — ahead, at the road surface, to each side, and regularly to your mirrors and instruments."
+          "Buffering: keep space around your vehicle for hazards (e.g. keep left over blind hills, avoid the door zone of parked cars); check mirrors before repositioning.",
+          "Crash-avoidance space = reaction time (~1.5–2.5s) + response time (~1.5s) ≈ a 3-second gap.",
+          "Check your gap: count \"1 thousand and 1, 2 thousand and 2, 3 thousand and 3\" from a fixed object as the vehicle ahead passes it — too close if you reach it first.",
+          "Even 5km/h over the limit meaningfully increases stopping distance — slow down at blind corners/crests.",
+          "Two-stage braking (light pressure + pause, then squeeze) beats harsh braking, especially wet/gravel.",
+          "Scanning: keep your eyes moving — ahead, road surface, each side, mirrors and instruments."
         ]
       },
       {
         "title": "Common crashes in NSW",
         "page": 69,
         "figures": [
-          { "src": "images-handbook/crash-types-1-3.jpg", "caption": "Crash type 1 (rear-end), 2 (adjacent direction) and 3 (opposite direction)." },
-          { "src": "images-handbook/crash-types-4-5.jpg", "caption": "Crash type 4 (running off a straight) and 5 (running off a curve or bend)." }
+          { "src": "images-handbook/crash-type-rearend.jpg", "caption": "1. Rear-end collision." },
+          { "src": "images-handbook/crash-type-adjacent.jpg", "caption": "2. Collision from an adjacent (side) direction." },
+          { "src": "images-handbook/crash-type-opposite.jpg", "caption": "3. Head-on collision with an oncoming vehicle." },
+          { "src": "images-handbook/crash-type-runoff-straight.jpg", "caption": "4. Running off the road on a straight." },
+          { "src": "images-handbook/crash-type-runoff-curve.jpg", "caption": "5. Running off the road on a curve or bend." }
         ],
         "bullets": [
-          "About 80% of NSW casualty crashes fall into 5 types: rear-end collisions; collisions with a vehicle from an adjacent (side) direction; head-on collisions with an oncoming vehicle; running off the road on a straight and hitting something; running off the road on a curve/bend and hitting something.",
-          "These are also the most common crash types for provisional drivers.",
-          "Avoidable by following the road rules and managing speed, fatigue and safe stopping distance, and taking extra care at intersections and when overtaking."
+          "~80% of NSW casualty crashes are one of 5 types (also the most common for provisional drivers): rear-end; adjacent (side) direction; head-on; running off a straight; running off a curve/bend.",
+          "Avoidable by following the road rules and managing speed, fatigue and stopping distance — extra care at intersections and when overtaking."
         ]
       }
     ]
