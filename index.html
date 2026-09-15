@@ -31,7 +31,7 @@
     <div id="home-dkt">
       <div class="hero">
         <p class="hero__eyebrow">Driver Knowledge Test</p>
-        <h2 class="hero__title">Practise until you can't get it wrong.</h2>
+        <h2 class="hero__title">Practice until you can't get it wrong.</h2>
         <p class="hero__sub"><strong id="stat-total">353</strong> questions with the official diagrams and explanations.</p>
       </div>
 
@@ -79,7 +79,7 @@
         </button>
       </div>
 
-      <h3 class="section-title">Practise by topic</h3>
+      <h3 class="section-title">Practice by topic</h3>
       <div class="cards" id="cat-list"></div>
 
       <div class="home-foot">
@@ -98,17 +98,15 @@
         <p class="hero__sub">A condensed, chapter-by-chapter summary of the NSW Road User Handbook.</p>
       </div>
 
-      <h3 class="section-title">Chapters</h3>
-      <div class="cards" id="handbook-cat-list"></div>
+      <div class="hbwrap">
+        <button class="hbnav-toggle" id="hbnav-toggle" aria-expanded="false" aria-controls="hbnav">
+          <span id="hbnav-toggle-label">Chapters</span>
+          <span class="hbnav-toggle__chevron">&#9662;</span>
+        </button>
+        <nav class="hbnav" id="hbnav" aria-label="Handbook chapters and topics"></nav>
+        <div class="hbcontent" id="hbcontent"></div>
+      </div>
     </div>
-  </section>
-
-  <!-- ================= HANDBOOK CHAPTER ================= -->
-  <section class="view" id="view-handbook-chapter" hidden>
-    <p class="hero__eyebrow">Road User Handbook</p>
-    <h2 class="hero__title" id="handbook-chapter-title">Chapter</h2>
-    <p class="hero__sub" id="handbook-chapter-sub"></p>
-    <div class="hblist" id="hblist"></div>
   </section>
 
   <!-- ================= SECTION ================= -->

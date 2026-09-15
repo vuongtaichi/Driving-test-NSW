@@ -31,7 +31,7 @@
   var store = load();
 
   function load() {
-    var blank = { stats: {}, fav: [], shuffle: false, tab: 'dkt' };
+    var blank = { stats: {}, fav: [], shuffle: false, tab: 'dkt', hbSel: null };
     try {
       var raw = localStorage.getItem(STORE_KEY);
       if (!raw) return blank;
@@ -40,7 +40,8 @@
         stats: parsed.stats || {},
         fav: parsed.fav || [],
         shuffle: !!parsed.shuffle,
-        tab: parsed.tab === 'handbook' ? 'handbook' : 'dkt'
+        tab: parsed.tab === 'handbook' ? 'handbook' : 'dkt',
+        hbSel: typeof parsed.hbSel === 'string' ? parsed.hbSel : null
       };
     } catch (err) {
       return blank;
@@ -239,7 +240,7 @@
   /* ---------------- views ---------------- */
 
   function show(which) {
-    ['home', 'section', 'quiz', 'result', 'handbook-chapter'].forEach(function (name) {
+    ['home', 'section', 'quiz', 'result'].forEach(function (name) {
       $('view-' + name).hidden = (name !== which);
     });
     $('btn-home').hidden = (which === 'home');
@@ -315,6 +316,7 @@
     save();
     $('home-dkt').hidden = store.tab !== 'dkt';
     $('home-handbook').hidden = store.tab !== 'handbook';
+    $('app').classList.toggle('app--wide', store.tab === 'handbook');
     Array.prototype.forEach.call(document.querySelectorAll('.hometabs__btn'), function (btn) {
       var active = btn.getAttribute('data-tab') === store.tab;
       btn.classList.toggle('is-active', active);
@@ -324,23 +326,6 @@
   }
 
   /* ---------------- handbook ---------------- */
-
-  function renderHandbookHome() {
-    var list = $('handbook-cat-list');
-    list.innerHTML = '';
-    HANDBOOK.forEach(function (chapter) {
-      var btn = document.createElement('button');
-      btn.className = 'card';
-      btn.setAttribute('data-handbook', chapter.id);
-      btn.innerHTML =
-        '<span class="card__icon">' + iconForHandbook(chapter.id) + '</span>' +
-        '<span class="card__body"><strong></strong><small></small></span>';
-      btn.querySelector('strong').textContent = chapter.title;
-      btn.querySelector('small').textContent =
-        chapter.sections.length + (chapter.sections.length === 1 ? ' topic' : ' topics');
-      list.appendChild(btn);
-    });
-  }
 
   function iconForHandbook(id) {
     var icons = {
@@ -359,44 +344,179 @@
     return icons[id] || '&#128218;';
   }
 
-  function openHandbookChapter(id) {
-    var chapter = null;
-    for (var i = 0; i < HANDBOOK.length; i++) if (HANDBOOK[i].id === id) { chapter = HANDBOOK[i]; break; }
-    if (!chapter) return;
+  // Chapters are collapsible toggles; only the chapter holding the active topic
+  // starts expanded, so the sidebar reads as a scannable list of chapters rather
+  // than a long dump of all 77 topics at once.
+  function renderHandbookNav() {
+    var nav = $('hbnav');
+    nav.innerHTML = '';
+    HANDBOOK.forEach(function (chapter, cIdx) {
+      var group = document.createElement('div');
+      group.className = 'hbnav__group';
 
-    $('handbook-chapter-title').textContent = chapter.title;
-    $('handbook-chapter-sub').textContent =
-      chapter.sections.length + (chapter.sections.length === 1 ? ' topic' : ' topics');
+      var heading = document.createElement('button');
+      heading.className = 'hbnav__chapter';
+      heading.setAttribute('data-hb-toggle', cIdx);
+      heading.setAttribute('aria-expanded', 'false');
+      var icon = document.createElement('span');
+      icon.className = 'hbnav__chapter-icon';
+      icon.innerHTML = iconForHandbook(chapter.id);
+      var label = document.createElement('span');
+      label.className = 'hbnav__chapter-label';
+      label.textContent = chapter.title;
+      var chevron = document.createElement('span');
+      chevron.className = 'hbnav__chapter-chevron';
+      chevron.innerHTML = '&#9662;';
+      heading.appendChild(icon);
+      heading.appendChild(label);
+      heading.appendChild(chevron);
+      group.appendChild(heading);
 
-    var list = $('hblist');
-    list.innerHTML = '';
-    chapter.sections.forEach(function (section, idx) {
-      var item = document.createElement('div');
-      item.className = 'hbsection';
-
-      var btn = document.createElement('button');
-      btn.className = 'hbsection__head';
-      btn.setAttribute('data-hbtoggle', idx);
-      btn.setAttribute('aria-expanded', 'false');
-      btn.innerHTML = '<span></span><span class="hbsection__chevron">&#9662;</span>';
-      btn.querySelector('span').textContent = section.title;
-      item.appendChild(btn);
-
-      var body = document.createElement('ul');
-      body.className = 'hbsection__body';
-      body.hidden = true;
-      section.bullets.forEach(function (bullet) {
+      var list = document.createElement('ul');
+      list.className = 'hbnav__list';
+      list.hidden = true;
+      chapter.sections.forEach(function (section, sIdx) {
         var li = document.createElement('li');
-        li.textContent = bullet;
-        body.appendChild(li);
+        var btn = document.createElement('button');
+        btn.className = 'hbnav__link';
+        btn.setAttribute('data-hb-chapter', cIdx);
+        btn.setAttribute('data-hb-section', sIdx);
+        btn.textContent = section.title;
+        li.appendChild(btn);
+        list.appendChild(li);
       });
-      item.appendChild(body);
+      group.appendChild(list);
+      nav.appendChild(group);
+    });
+  }
 
-      list.appendChild(item);
+  function toggleHandbookChapter(cIdx) {
+    var heading = document.querySelector('.hbnav__chapter[data-hb-toggle="' + cIdx + '"]');
+    if (!heading) return;
+    var list = heading.nextElementSibling;
+    var open = heading.getAttribute('aria-expanded') === 'true';
+    heading.setAttribute('aria-expanded', open ? 'false' : 'true');
+    list.hidden = open;
+  }
+
+  function expandHandbookChapter(cIdx) {
+    var heading = document.querySelector('.hbnav__chapter[data-hb-toggle="' + cIdx + '"]');
+    if (!heading) return;
+    heading.setAttribute('aria-expanded', 'true');
+    heading.nextElementSibling.hidden = false;
+  }
+
+  // Shows one topic's full content in the content pane - the pane holds exactly one
+  // topic at a time (not an accordion sharing space with the rest of the chapter).
+  function selectHandbookSection(cIdx, sIdx) {
+    var chapter = HANDBOOK[cIdx];
+    if (!chapter) return;
+    var section = chapter.sections[sIdx];
+    if (!section) return;
+
+    store.hbSel = cIdx + ':' + sIdx;
+    save();
+
+    expandHandbookChapter(cIdx);
+    Array.prototype.forEach.call(document.querySelectorAll('.hbnav__link'), function (btn) {
+      var active = Number(btn.getAttribute('data-hb-chapter')) === cIdx && Number(btn.getAttribute('data-hb-section')) === sIdx;
+      btn.classList.toggle('is-active', active);
     });
 
-    $('topbar-title').textContent = chapter.title;
-    show('handbook-chapter');
+    var pane = $('hbcontent');
+    pane.innerHTML = '';
+
+    var eyebrow = document.createElement('p');
+    eyebrow.className = 'hero__eyebrow';
+    eyebrow.textContent = chapter.title;
+    pane.appendChild(eyebrow);
+
+    var title = document.createElement('h2');
+    title.className = 'hero__title';
+    title.textContent = section.title;
+    pane.appendChild(title);
+
+    (section.figures || []).forEach(function (fig) {
+      var figure = document.createElement('figure');
+      figure.className = 'hbfigure';
+      var img = document.createElement('img');
+      img.src = fig.src;
+      img.alt = fig.caption || section.title;
+      img.loading = 'lazy';
+      figure.appendChild(img);
+      if (fig.caption) {
+        var caption = document.createElement('figcaption');
+        caption.textContent = fig.caption;
+        figure.appendChild(caption);
+      }
+      pane.appendChild(figure);
+    });
+
+    var ul = document.createElement('ul');
+    ul.className = 'hbcontent__bullets';
+    section.bullets.forEach(function (bullet) {
+      var li = document.createElement('li');
+      li.textContent = bullet;
+      ul.appendChild(li);
+    });
+    pane.appendChild(ul);
+
+    // A table reads more clearly than bullets for side-by-side comparisons
+    // (e.g. licence restrictions by licence type) - only some topics have one.
+    if (section.table) {
+      var tableWrap = document.createElement('div');
+      tableWrap.className = 'hbtable-wrap';
+      var table = document.createElement('table');
+      table.className = 'hbtable';
+
+      var thead = document.createElement('thead');
+      var headRow = document.createElement('tr');
+      section.table.headers.forEach(function (h) {
+        var th = document.createElement('th');
+        th.textContent = h;
+        headRow.appendChild(th);
+      });
+      thead.appendChild(headRow);
+      table.appendChild(thead);
+
+      var tbody = document.createElement('tbody');
+      section.table.rows.forEach(function (row) {
+        var tr = document.createElement('tr');
+        row.forEach(function (cell) {
+          var td = document.createElement('td');
+          td.textContent = cell;
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody);
+
+      tableWrap.appendChild(table);
+      pane.appendChild(tableWrap);
+    }
+
+    closeHandbookNav();
+    pane.scrollIntoView({ block: 'start' });
+  }
+
+  function closeHandbookNav() {
+    $('hbnav').classList.remove('is-open');
+    $('hbnav-toggle').setAttribute('aria-expanded', 'false');
+  }
+
+  function toggleHandbookNav() {
+    var open = $('hbnav').classList.toggle('is-open');
+    $('hbnav-toggle').setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+
+  // Resume on the last topic browsed, if any, otherwise the handbook's first topic.
+  function initHandbookSelection() {
+    if (!HANDBOOK.length) return;
+    var sel = (store.hbSel || '0:0').split(':');
+    var cIdx = Number(sel[0]) || 0;
+    var sIdx = Number(sel[1]) || 0;
+    if (!HANDBOOK[cIdx] || !HANDBOOK[cIdx].sections[sIdx]) { cIdx = 0; sIdx = 0; }
+    selectHandbookSection(cIdx, sIdx);
   }
 
   /* ---------------- section (per-topic list) ---------------- */
@@ -543,7 +663,7 @@
   /* ---------------- results ---------------- */
 
   function finish() {
-    // Practising a single question from a section list: skip the results page
+    // Practicing a single question from a section list: skip the results page
     // (the answer was already shown inline) and drop straight back to that list,
     // refreshed with the new correct/incorrect status.
     if (run.mode === 'single' && run.parentSection) {
@@ -658,19 +778,16 @@
     var sectionBtn = e.target.closest ? e.target.closest('[data-section]') : null;
     var qBtn = e.target.closest ? e.target.closest('[data-qid]') : null;
     var tabBtn = e.target.closest ? e.target.closest('[data-tab]') : null;
-    var handbookBtn = e.target.closest ? e.target.closest('[data-handbook]') : null;
-    var hbToggleBtn = e.target.closest ? e.target.closest('[data-hbtoggle]') : null;
+    var hbLinkBtn = e.target.closest ? e.target.closest('[data-hb-section]') : null;
+    var hbChapterToggle = e.target.closest ? e.target.closest('[data-hb-toggle]') : null;
+    var hbNavToggleBtn = e.target.closest ? e.target.closest('#hbnav-toggle') : null;
     if (modeBtn && !modeBtn.disabled) startRun(modeBtn.getAttribute('data-mode'));
     else if (sectionBtn && !sectionBtn.disabled) openSection(sectionBtn.getAttribute('data-section'));
     else if (qBtn) startSingle(Number(qBtn.getAttribute('data-qid')), qBtn.getAttribute('data-cat'));
     else if (tabBtn) showTab(tabBtn.getAttribute('data-tab'));
-    else if (handbookBtn) openHandbookChapter(handbookBtn.getAttribute('data-handbook'));
-    else if (hbToggleBtn) {
-      var body = hbToggleBtn.parentElement.querySelector('.hbsection__body');
-      var open = hbToggleBtn.getAttribute('aria-expanded') === 'true';
-      hbToggleBtn.setAttribute('aria-expanded', open ? 'false' : 'true');
-      body.hidden = open;
-    }
+    else if (hbLinkBtn) selectHandbookSection(Number(hbLinkBtn.getAttribute('data-hb-chapter')), Number(hbLinkBtn.getAttribute('data-hb-section')));
+    else if (hbChapterToggle) toggleHandbookChapter(Number(hbChapterToggle.getAttribute('data-hb-toggle')));
+    else if (hbNavToggleBtn) toggleHandbookNav();
   });
 
   $('btn-next').addEventListener('click', next);
@@ -679,12 +796,10 @@
   // The back arrow returns to wherever this run was launched from: a section's
   // question list if it has one, otherwise straight home.
   $('btn-home').addEventListener('click', function () {
-    // Already looking at a section's question list, or a handbook chapter? Its "back"
-    // always means Home — don't fall through to a stale run's parentSection from an
-    // earlier quiz, or the arrow just reopens the same section and looks like it did nothing.
-    if (!$('view-section').hidden || !$('view-handbook-chapter').hidden) {
-      renderHome(); showTab(store.tab); show('home'); return;
-    }
+    // Already looking at a section's question list? Its "back" always means Home —
+    // don't fall through to a stale run's parentSection from an earlier quiz, or the
+    // arrow just reopens the same section and looks like it did nothing.
+    if (!$('view-section').hidden) { renderHome(); showTab(store.tab); show('home'); return; }
     if (run && run.parentSection) openSection(run.parentSection);
     else { renderHome(); showTab(store.tab); show('home'); }
   });
@@ -735,7 +850,8 @@
     $('view-home').innerHTML = '<p>Could not load the questions. Make sure <code>data/questions.js</code> sits next to this page.</p>';
   } else {
     renderHome();
-    renderHandbookHome();
+    renderHandbookNav();
+    initHandbookSelection();
     showTab(store.tab);
     show('home');
   }
