@@ -1845,12 +1845,23 @@ window.HANDBOOK = [
         "title": "Vehicle registration",
         "page": 185,
         "bullets": [
-          "All vehicles must be registered to drive in NSW; all vehicles except trailers and caravans need CTP insurance (a green slip) to register.",
-          "Driving unregistered or uninsured is illegal (fine plus demerit points); if you crash while unregistered you're not covered by CTP and face severe penalties. Parking an unregistered vehicle on a road also draws a penalty.",
-          "You can only drive an unregistered vehicle while getting or renewing registration, or with an unregistered vehicle permit.",
-          "Buying an already-registered vehicle: transfer registration into your name within 14 days to avoid a late surcharge.",
-          "Renew registration by the due date; unpaid for 3+ months past due means automatic cancellation, requiring a fresh registration. Vehicles over 5 years old generally need a safety check to renew — a failed vehicle must not be driven except to/from repair or inspection, and not again until it passes and is registered."
-        ]
+          "All vehicles must be registered to drive in NSW; all except trailers/caravans need CTP insurance (a green slip) to register.",
+          "Driving unregistered/uninsured is illegal (fine + demerits); crashing while unregistered means no CTP cover and severe penalties. Parking an unregistered vehicle also draws a penalty.",
+          "Can only drive an unregistered vehicle while getting/renewing registration, or with an unregistered vehicle permit."
+        ],
+        "tables": [
+          {
+            "title": "Registration essentials",
+            "headers": ["Situation", "Rule"],
+            "rows": [
+              ["Buying an already-registered vehicle", "Transfer into your name within 14 days (avoid a late surcharge)"],
+              ["Unpaid registration, 3+ months overdue", "Automatic cancellation — need fresh registration"],
+              ["Vehicles over 5 years old", "Generally need a safety check to renew"],
+              ["Failed safety check", "Must not be driven except to/from repair or inspection"]
+            ]
+          }
+        ],
+        "abbr": [["CTP", "Compulsory Third Party (insurance)"]]
       },
       {
         "title": "Number plates",
@@ -1860,31 +1871,81 @@ window.HANDBOOK = [
           { "src": "images-handbook/number-plate-visibility-topdown.jpg", "caption": "Top-down view of the 45-degree number plate visibility arc on each side of the vehicle." }
         ],
         "bullets": [
-          "Must be permanently fitted front and back (motorcycles: back only), issued by Transport for NSW, matching your Certificate of Registration — never fit your plates to another vehicle.",
-          "Must not be altered, defaced or obscured (e.g. by L/P plates); any plate cover must be clear, clean, untinted, non-reflective and flat.",
-          "Plates must be clean, undamaged and readable from at least 20m, from above, and within a 45-degree arc from the vehicle's centre on each side.",
-          "All rear plates need a light for night visibility. A towed trailer needs its own rear plate. A bike rack or tow bar must not block the rear plate's visibility.",
+          "Never fit your plates to another vehicle.",
           "You can buy a smaller auxiliary copy of your plate at a service centre; penalties apply for hiding any part of a plate."
+        ],
+        "tables": [
+          {
+            "title": "Number plate rules",
+            "headers": ["Requirement", "Detail"],
+            "rows": [
+              ["Fitting", "Front and back (motorcycles: back only), issued by Transport for NSW, matching your Certificate of Registration"],
+              ["Condition", "Not altered, defaced or obscured (e.g. by L/P plates); any cover must be clear, clean, untinted, non-reflective, flat"],
+              ["Visibility", "Clean, undamaged, readable from 20m, from above, within a 45-degree arc from the vehicle's centre each side"],
+              ["Night", "All rear plates need a light; a towed trailer needs its own rear plate"],
+              ["Obstruction", "A bike rack or tow bar must not block the rear plate's visibility"]
+            ]
+          }
         ]
       },
       {
         "title": "Roadworthiness",
         "page": 189,
         "bullets": [
-          "To register, a vehicle must be roadworthy and meet legal standards.",
-          "Police can inspect your vehicle anytime and issue a Defect Notice if it's unsafe — e.g. too noisy, leaking oil, excess smoke, a non-compliant or unsafe bull bar (pointed corners/sharp edges), or a badly fitted accessory (fishing rod holder, spotlight mount, winch).",
+          "To register, a vehicle must be roadworthy and meet legal standards. Police can inspect your vehicle anytime.",
           "A Defect Notice must be repaired by its due date, sometimes needing clearance from an authorised inspector — registration can be suspended if you miss the deadline.",
-          "Significant modifications need assessment and certification by a licensed certifier under the Vehicle Safety Compliance Certification Scheme (VSCCS) before registration — modifications can also affect insurance and warranty. P1/P2 drivers must not drive vehicles modified to increase engine performance.",
-          "Regularly check wipers/washers, horn and seatbelts work; check all lights (headlights, brake lights, indicators) and don't drive at night with faulty lights. Tyres (incl. spare) must have at least 1.5mm tread, correct pressure, and no cracks, bumps or uneven wear."
-        ]
+          "Significant modifications need certification by a licensed certifier under the VSCCS before registration — can also affect insurance/warranty. P1/P2 drivers must not drive vehicles modified to increase engine performance.",
+          "Regularly check wipers/washers, horn, seatbelts and all lights; don't drive at night with faulty lights. Tyres (incl. spare) need at least 1.5mm tread, correct pressure, no cracks/bumps/uneven wear."
+        ],
+        "tables": [
+          {
+            "title": "Defect Notice triggers",
+            "headers": ["Trigger"],
+            "rows": [
+              ["Too noisy"],
+              ["Leaking oil"],
+              ["Excess smoke"],
+              ["Non-compliant/unsafe bull bar (pointed corners/sharp edges)"],
+              ["Badly fitted accessory (fishing rod holder, spotlight mount, winch)"]
+            ]
+          }
+        ],
+        "abbr": [["VSCCS", "Vehicle Safety Compliance Certification Scheme"]]
       },
       {
         "title": "Vehicle safety features",
         "page": 190,
         "bullets": [
-          "Modern safety tech (e.g. autonomous emergency braking, lane support) reduces crash risk; side curtain airbags reduce injury severity when a crash can't be avoided — check ANCAP or the Used Car Safety Ratings Buyer's Guide when choosing a car.",
+          "Modern safety tech reduces crash risk; side curtain airbags reduce injury severity when a crash can't be avoided — check ANCAP or the Used Car Safety Ratings Buyer's Guide when choosing a car.",
           "Airbags are a supplementary restraint system working with seatbelts — for the driver's airbag to work best, keep the steering wheel low and facing your chest; a faulty airbag makes the vehicle unsafe.",
-          "Electronic driver-assist systems help but don't prevent a crash if you drive dangerously: ESC keeps your intended direction by braking individual wheels or adjusting power; ABS prevents skidding under heavy braking (the pedal may pulse); TCS stops wheel spin for smooth acceleration on slippery surfaces; EBA/BAS boosts braking force on sudden braking to cut stopping distance; AEB warns of, and can auto-brake for, objects in your path; LSS alerts or steers you back from drifting over a lane line; RCA gives a camera/sensor view and alerts while reversing; BSM alerts you to vehicles in your blind spot when changing lanes."
+          "Electronic driver-assist systems help but don't prevent a crash if you drive dangerously."
+        ],
+        "tables": [
+          {
+            "title": "Driver-assist systems",
+            "headers": ["System", "What it does"],
+            "rows": [
+              ["ESC", "Keeps your intended direction by braking individual wheels or adjusting power"],
+              ["ABS", "Prevents skidding under heavy braking (the pedal may pulse)"],
+              ["TCS", "Stops wheel spin for smooth acceleration on slippery surfaces"],
+              ["EBA/BAS", "Boosts braking force on sudden braking to cut stopping distance"],
+              ["AEB", "Warns of, and can auto-brake for, objects in your path"],
+              ["LSS", "Alerts or steers you back from drifting over a lane line"],
+              ["RCA", "Camera/sensor view and alerts while reversing"],
+              ["BSM", "Alerts you to vehicles in your blind spot when changing lanes"]
+            ]
+          }
+        ],
+        "abbr": [
+          ["ANCAP", "Australasian New Car Assessment Program"],
+          ["ESC", "Electronic Stability Control"],
+          ["ABS", "Anti-lock Braking System"],
+          ["TCS", "Traction Control System"],
+          ["EBA/BAS", "Emergency Brake Assist / Brake Assist System"],
+          ["AEB", "Autonomous Emergency Braking"],
+          ["LSS", "Lane Support System"],
+          ["RCA", "Reversing Camera Assist"],
+          ["BSM", "Blind Spot Monitoring"]
         ]
       },
       {
@@ -1895,8 +1956,18 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "Towing needs extra skill and knowledge beyond normal driving.",
-          "Rules: only one trailer at a time; nobody may travel inside a towed trailer or caravan; loads must be secured, covered, and not overhang.",
           "Learner and P1 drivers have towing restrictions; illegal towing risks a fine and demerit points."
+        ],
+        "tables": [
+          {
+            "title": "Towing rules",
+            "headers": ["Rule"],
+            "rows": [
+              ["Only one trailer at a time"],
+              ["Nobody may travel inside a towed trailer or caravan"],
+              ["Loads must be secured, covered, and not overhang"]
+            ]
+          }
         ]
       },
       {
@@ -1907,8 +1978,25 @@ window.HANDBOOK = [
           { "src": "images-handbook/left-foot-brace-photo.jpg", "caption": "Use your left foot to brace your body when driving." }
         ],
         "bullets": [
-          "Good posture reduces fatigue and improves comfort, control and safety.",
-          "Set up: seat gives a clear view and easy reach to controls; steering wheel low and facing your chest; head restraint matched to your height; seatbelt low on the hips with no twists; mirrors show the rear and sides clearly; sit upright for back/shoulder support; arms bent with thumbs on the wheel rim; knees slightly bent; sit back in the seat; brace with your left foot."
+          "Good posture reduces fatigue and improves comfort, control and safety."
+        ],
+        "tables": [
+          {
+            "title": "Good driving-posture checklist",
+            "headers": ["Setup"],
+            "rows": [
+              ["Seat gives a clear view and easy reach to controls"],
+              ["Steering wheel low and facing your chest"],
+              ["Head restraint matched to your height"],
+              ["Seatbelt low on the hips with no twists"],
+              ["Mirrors show the rear and sides clearly"],
+              ["Sit upright for back/shoulder support"],
+              ["Arms bent with thumbs on the wheel rim"],
+              ["Knees slightly bent"],
+              ["Sit back in the seat"],
+              ["Brace with your left foot"]
+            ]
+          }
         ]
       }
     ]
@@ -1922,9 +2010,25 @@ window.HANDBOOK = [
         "title": "Ecodriving",
         "page": 194,
         "bullets": [
-          "Must not throw rubbish from your vehicle — you're responsible for anything thrown, dropped or that falls from your vehicle or a towed trailer; reported littering draws a heavy fine, and if the item could injure someone or damage a vehicle or the road, you must remove it as soon as it's safely possible or face a fine and demerit points.",
-          "Never throw cigarette butts (lit ones are especially dangerous) — a heavy fine plus demerit points apply.",
-          "Ecodriving tips to cut fuel use and emissions: don't overfill the tank; use air conditioning only when needed (most efficient above 60km/h); keep tyres correctly inflated (under-inflation raises fuel use); turn the engine off for long stops; remove unused roof/bike racks and unnecessary weight; service the vehicle regularly with the correct oil and coolant; shift gears at lower revs in a manual; avoid over-revving on take-off; maintain a steady speed."
+          "Must not throw rubbish from your vehicle — responsible for anything thrown, dropped or that falls from your vehicle or a towed trailer; reported littering draws a heavy fine. If the item could injure someone or damage a vehicle/road, remove it as soon as safely possible or face a fine + demerits.",
+          "Never throw cigarette butts (lit ones are especially dangerous) — heavy fine plus demerit points."
+        ],
+        "tables": [
+          {
+            "title": "Ecodriving tips (cut fuel use and emissions)",
+            "headers": ["Tip"],
+            "rows": [
+              ["Don't overfill the tank"],
+              ["Use air conditioning only when needed (most efficient above 60km/h)"],
+              ["Keep tyres correctly inflated"],
+              ["Turn the engine off for long stops"],
+              ["Remove unused roof/bike racks and unnecessary weight"],
+              ["Service the vehicle regularly with the correct oil and coolant"],
+              ["Shift gears at lower revs in a manual"],
+              ["Avoid over-revving on take-off"],
+              ["Maintain a steady speed"]
+            ]
+          }
         ]
       }
     ]
@@ -1951,36 +2055,84 @@ window.HANDBOOK = [
           "A demerit-point suspension applies on top of any other suspension you get for the offence itself.",
           "Double demerit points apply during holiday periods for: speeding, not wearing a seatbelt (you or your passengers), not using an approved child car seat, and illegal mobile phone use."
         ],
-        "table": {
-          "headers": ["Licence type", "Points in 3 years", "Suspension"],
-          "rows": [
-            ["Learner", "4", "3 months"],
-            ["Provisional P1", "4", "3 months"],
-            ["Provisional P2", "7", "3 months"],
-            ["Full licence", "13–15", "3 months"],
-            ["Full licence", "16–19", "4 months"],
-            ["Full licence", "20 or more", "5 months"]
-          ]
-        }
+        "tables": [
+          {
+            "title": "Demerit limits and suspension",
+            "headers": ["Licence type", "Points in 3 years", "Suspension"],
+            "rows": [
+              ["Learner", "4", "3 months"],
+              ["Provisional P1", "4", "3 months"],
+              ["Provisional P2", "7", "3 months"],
+              ["Full licence", "13–15", "3 months"],
+              ["Full licence", "16–19", "4 months"],
+              ["Full licence", "20 or more", "5 months"]
+            ]
+          }
+        ]
       },
       {
         "title": "Loss of licence",
         "page": 197,
         "bullets": [
           "Two ways to lose your licence: suspension and disqualification — driving while either applies is a serious offence.",
-          "Suspension (temporary) can result from exceeding your demerit limit within 3 years, driving 30km/h+ over the limit, a first under-0.08 alcohol offence, unpaid fines, or being medically unfit.",
-          "Police can suspend and seize your licence on the spot for: a learner driving without a supervisor; a learner/P1/P2 driving 30km/h+ over the limit; anyone driving 45km/h+ over the limit; driving over the alcohol limit; or hooning/street racing.",
           "Once a suspension ends you can drive again — if police seized your licence, apply for a replacement at a service centre first; going to court can convert a suspension into a disqualification instead.",
-          "Disqualification (via a court conviction) cancels your licence entirely. The court sets the period (offences often have minimum/maximum terms); once it ends, apply to reissue at a service centre — longer disqualifications may require re-sitting the DKT and/or Driving Test.",
-          "Any driver, including learner/P1/P2, can be disqualified for: driving on a suspended licence; driving over the alcohol limit or under its influence; illegal drugs present or driving under drug/medicine influence; driving 30km/h+ over the limit; negligent or dangerous driving causing injury or death; hooning/street racing; or failing to stop after a crash causing injury or death."
+          "Disqualification (via a court conviction) cancels your licence entirely. The court sets the period; once it ends, apply to reissue at a service centre — longer disqualifications may require re-sitting the DKT and/or Driving Test."
+        ],
+        "tables": [
+          {
+            "title": "What triggers a suspension",
+            "headers": ["Trigger"],
+            "rows": [
+              ["Exceeding your demerit limit within 3 years"],
+              ["Driving 30km/h+ over the limit"],
+              ["A first under-0.08 alcohol offence"],
+              ["Unpaid fines"],
+              ["Being medically unfit"]
+            ]
+          },
+          {
+            "title": "Police can suspend/seize your licence on the spot for",
+            "headers": ["Situation"],
+            "rows": [
+              ["A learner driving without a supervisor"],
+              ["A learner/P1/P2 driving 30km/h+ over the limit"],
+              ["Anyone driving 45km/h+ over the limit"],
+              ["Driving over the alcohol limit"],
+              ["Hooning/street racing"]
+            ]
+          },
+          {
+            "title": "Any driver can be disqualified for",
+            "headers": ["Offence"],
+            "rows": [
+              ["Driving on a suspended licence"],
+              ["Driving over the alcohol limit or under its influence"],
+              ["Illegal drugs present or driving under drug/medicine influence"],
+              ["Driving 30km/h+ over the limit"],
+              ["Negligent or dangerous driving causing injury or death"],
+              ["Hooning/street racing"],
+              ["Failing to stop after a crash causing injury or death"]
+            ]
+          }
         ]
       },
       {
         "title": "Alcohol interlocks",
         "page": 198,
         "bullets": [
-          "A drink-driving conviction may require an alcohol interlock — an electronic breath-tester wired to the ignition that stops the vehicle starting if it detects alcohol.",
-          "Can follow: a BAC of 0.08 or over, any repeat drink-driving offence, driving under the influence of alcohol, or refusing a blood/urine test."
+          "A drink-driving conviction may require an alcohol interlock — an electronic breath-tester wired to the ignition that stops the vehicle starting if it detects alcohol."
+        ],
+        "tables": [
+          {
+            "title": "An interlock can follow",
+            "headers": ["Trigger"],
+            "rows": [
+              ["A BAC of 0.08 or over"],
+              ["Any repeat drink-driving offence"],
+              ["Driving under the influence of alcohol"],
+              ["Refusing a blood/urine test"]
+            ]
+          }
         ]
       },
       {
@@ -1995,16 +2147,43 @@ window.HANDBOOK = [
         "title": "Vehicle impoundment",
         "page": 199,
         "bullets": [
-          "Police can impound your vehicle or remove its plates for high-risk offences: driving 45km/h+ over the limit; a repeat 0.08+ BAC offence; hooning/street racing; unlicensed driving (2+ offences); driving while disqualified (2+ offences); or fleeing police.",
           "Combined with losing your licence, this aims to keep high-risk drivers off the road."
+        ],
+        "tables": [
+          {
+            "title": "Police can impound your vehicle / remove plates for",
+            "headers": ["High-risk offence"],
+            "rows": [
+              ["Driving 45km/h+ over the limit"],
+              ["A repeat 0.08+ BAC offence"],
+              ["Hooning/street racing"],
+              ["Unlicensed driving (2+ offences)"],
+              ["Driving while disqualified (2+ offences)"],
+              ["Fleeing police"]
+            ]
+          }
         ]
       },
       {
         "title": "Prison",
         "page": 200,
         "bullets": [
-          "A court can jail you for high-risk offences: BAC 0.08 or over, driving under the influence of alcohol, driving under the influence of drugs or medicines, refusing a blood/urine test, negligent or dangerous driving causing injury or death, driving while suspended or disqualified, or hooning/street racing.",
           "Prison terms can increase for repeat offences."
+        ],
+        "tables": [
+          {
+            "title": "A court can jail you for",
+            "headers": ["High-risk offence"],
+            "rows": [
+              ["BAC 0.08 or over"],
+              ["Driving under the influence of alcohol"],
+              ["Driving under the influence of drugs or medicines"],
+              ["Refusing a blood/urine test"],
+              ["Negligent or dangerous driving causing injury or death"],
+              ["Driving while suspended or disqualified"],
+              ["Hooning/street racing"]
+            ]
+          }
         ]
       },
       {
