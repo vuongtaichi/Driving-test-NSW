@@ -307,7 +307,7 @@ main.app--wide { max-width: 1100px; }
   border-radius: 8px;
   background: none;
   font: inherit;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 700;
   text-align: left;
   color: var(--text);
@@ -316,11 +316,11 @@ main.app--wide { max-width: 1100px; }
 .hbnav__chapter:hover { background: var(--surface-2); }
 .hbnav__chapter-icon {
   flex: none;
-  width: 18px; height: 18px;
+  width: 26px; height: 26px;
   display: grid; place-items: center;
   border-radius: 50%;
   background: var(--surface-2);
-  font-size: .68rem; font-weight: 700; line-height: 1;
+  font-size: 1rem; font-weight: 700; line-height: 1;
   color: var(--text-dim);
 }
 .hbnav__chapter[aria-expanded="true"] .hbnav__chapter-icon { background: var(--brand); color: var(--brand-ink); }
@@ -430,8 +430,7 @@ main.app--wide { max-width: 1100px; }
   font-size: .74rem;
   font-weight: 700;
   letter-spacing: .04em;
-  text-transform: uppercase;
-  color: var(--text-dim);
+  color: var(--text);
   background: var(--surface-2);
 }
 .hbtable tr:last-child td { border-bottom: 0; }
