@@ -435,6 +435,7 @@
       // enforces it as a hard count above the mobile breakpoint and falls back to
       // a responsive auto-fit below it -- see styles.css for why.
       if (figuresGrid.cols) figuresParent.dataset.cols = figuresGrid.cols;
+      if (figuresGrid.mobileCols) figuresParent.dataset.mobileCols = figuresGrid.mobileCols;
       if (figuresGrid.heightScale) figuresParent.style.setProperty('--hb-img-h', Math.round(220 * figuresGrid.heightScale) + 'px');
       if (figuresGrid.square) figuresParent.classList.add('hbfigures--square');
       pane.appendChild(figuresParent);
@@ -582,8 +583,29 @@
       pane.appendChild(abbrNote);
     }
 
+    $('hb-prev').hidden = !getAdjacentHandbookSection(cIdx, sIdx, -1);
+    $('hb-next').hidden = !getAdjacentHandbookSection(cIdx, sIdx, 1);
+
     closeHandbookNav();
     window.scrollTo(0, 0);
+  }
+
+  // Walks to the previous/next subsection across chapter boundaries (dir is -1 or 1);
+  // returns null past the very first or very last subsection in the whole handbook.
+  function getAdjacentHandbookSection(cIdx, sIdx, dir) {
+    var chapter = HANDBOOK[cIdx];
+    if (!chapter) return null;
+    var newSIdx = sIdx + dir;
+    if (newSIdx >= 0 && newSIdx < chapter.sections.length) return { cIdx: cIdx, sIdx: newSIdx };
+    var newCIdx = cIdx + dir;
+    if (!HANDBOOK[newCIdx]) return null;
+    return { cIdx: newCIdx, sIdx: dir > 0 ? 0 : HANDBOOK[newCIdx].sections.length - 1 };
+  }
+
+  function goToAdjacentHandbookSection(dir) {
+    var sel = (store.hbSel || '0:0').split(':');
+    var target = getAdjacentHandbookSection(Number(sel[0]) || 0, Number(sel[1]) || 0, dir);
+    if (target) selectHandbookSection(target.cIdx, target.sIdx);
   }
 
   function closeHandbookNav() {
@@ -891,6 +913,8 @@
     var hbLinkBtn = e.target.closest ? e.target.closest('[data-hb-section]') : null;
     var hbChapterToggle = e.target.closest ? e.target.closest('[data-hb-toggle]') : null;
     var hbNavToggleBtn = e.target.closest ? e.target.closest('#hbnav-toggle') : null;
+    var hbPrevBtn = e.target.closest ? e.target.closest('#hb-prev') : null;
+    var hbNextBtn = e.target.closest ? e.target.closest('#hb-next') : null;
     if (modeBtn && !modeBtn.disabled) startRun(modeBtn.getAttribute('data-mode'));
     else if (sectionBtn && !sectionBtn.disabled) openSection(sectionBtn.getAttribute('data-section'));
     else if (qBtn) startSingle(Number(qBtn.getAttribute('data-qid')), qBtn.getAttribute('data-cat'));
@@ -898,6 +922,8 @@
     else if (hbLinkBtn) selectHandbookSection(Number(hbLinkBtn.getAttribute('data-hb-chapter')), Number(hbLinkBtn.getAttribute('data-hb-section')));
     else if (hbChapterToggle) toggleHandbookChapter(Number(hbChapterToggle.getAttribute('data-hb-toggle')));
     else if (hbNavToggleBtn) toggleHandbookNav();
+    else if (hbPrevBtn) goToAdjacentHandbookSection(-1);
+    else if (hbNextBtn) goToAdjacentHandbookSection(1);
   });
 
   $('btn-next').addEventListener('click', next);

@@ -317,6 +317,35 @@ main.app--wide { max-width: 1100px; --content-max: 1100px; }
 .hbnav-toggle__chevron { transition: transform .15s ease; color: var(--brand-ink); }
 .hbnav-toggle[aria-expanded="true"] .hbnav-toggle__chevron { transform: rotate(180deg); }
 
+/* Icon-only floating buttons for moving to the previous/next subsection,
+   pinned to the bottom corners so they stay reachable regardless of
+   how long the current subsection's content is. */
+.hbpage {
+  position: fixed;
+  bottom: 20px;
+  z-index: 15;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow);
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.hbpage:hover { background: var(--surface-2); }
+.hbpage--prev { left: 20px; }
+.hbpage--next { right: 20px; }
+@media (max-width: 760px) {
+  .hbpage { bottom: 14px; width: 44px; height: 44px; }
+  .hbpage--prev { left: 14px; }
+  .hbpage--next { right: 14px; }
+}
+
 .hbnav {
   flex: 0 0 250px;
   min-width: 0;
@@ -381,7 +410,7 @@ main.app--wide { max-width: 1100px; --content-max: 1100px; }
 .hbnav__link:hover { background: var(--surface-2); }
 .hbnav__link.is-active { background: var(--brand); color: var(--brand-ink); font-weight: 600; }
 
-.hbcontent { flex: 1; min-width: 0; }
+.hbcontent { flex: 1; min-width: 0; padding-bottom: 76px; }  /* keeps the fixed prev/next buttons from covering the tail of the content */
 .hbcontent .hero__title { font-size: 1.3rem; }
 .hbcontent__chapter-label {
   margin: 0;
@@ -488,6 +517,7 @@ main.app--wide { max-width: 1100px; --content-max: 1100px; }
 .hbfigures[data-cols="5"] { grid-template-columns: repeat(5, 1fr); }
 @media (max-width: 480px) {
   .hbfigures[data-cols] { grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); }
+  .hbfigures[data-mobile-cols="2"] { grid-template-columns: repeat(2, 1fr); }
 }
 .hbfigures .hbfigure { margin: 0; display: flex; flex-direction: column; --hb-fig-scale: 1; }
 .hbfigures .hbfigure img { max-height: calc(var(--hb-img-h, 220px) * var(--hb-fig-scale, 1)); width: auto; max-width: 100%; margin: 0 auto; object-fit: contain; }
@@ -572,6 +602,7 @@ main.app--wide { max-width: 1100px; --content-max: 1100px; }
     right: 12px;
     z-index: 20;
     width: auto;
+    gap: 6px;
     margin-bottom: 0;
     padding: 8px 6px;
     background: transparent;

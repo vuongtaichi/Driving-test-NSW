@@ -1006,7 +1006,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/roundabout-multilane.jpg", "caption": "Using a multi-lane roundabout with arrows marked on the road.", "scale": 1.5 },
           { "src": "images-handbook/roundabout-bicycle.jpg", "caption": "A bicycle at a roundabout turning right from the left lane.", "scale": 1.5 }
         ],
-        "figuresGrid": { "cols": 3 },
+        "figuresGrid": { "cols": 3, "mobileCols": 2 },
         "bullets": [],
         "tables": [
           {
@@ -1094,7 +1094,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/no-bicycles-sign.jpg", "caption": "'No bicycles' sign: bicycle riders must not ride beyond the sign.", "scale": 1.5 },
           { "src": "images-handbook/right-turn-from-left-sign.jpg", "caption": "'Right turn from left only' sign, marking a bicycle hook-turn intersection." }
         ],
-        "figuresGrid": { "cols": 4 },
+        "figuresGrid": { "cols": 4, "mobileCols": 2 },
         "bullets": [],
         "tables": [
           {
