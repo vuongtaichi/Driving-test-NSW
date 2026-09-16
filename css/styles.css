@@ -384,11 +384,15 @@ main.app--wide { max-width: 1100px; }
   gap: 14px;
   margin: 18px 0;
 }
-.hbfigures .hbfigure { margin: 0; display: flex; flex-direction: column; }
-.hbfigures .hbfigure img { max-height: 220px; width: auto; max-width: 100%; margin: 0 auto; object-fit: contain; }
+.hbfigures .hbfigure { margin: 0; display: flex; flex-direction: column; --hb-fig-scale: 1; }
+.hbfigures .hbfigure img { max-height: calc(var(--hb-img-h, 220px) * var(--hb-fig-scale, 1)); width: auto; max-width: 100%; margin: 0 auto; object-fit: contain; }
 .hbfigures .hbfigure figcaption { margin-top: auto; padding-top: 8px; }
 .hbfigures .hbfigure--wide { grid-column: span 2; }
 .hbfigures .hbfigure--wide img { max-width: 100%; width: 100%; }
+.hbfigures--square .hbfigure img,
+.hbfigures .hbfigure--square img {
+  aspect-ratio: 1 / 1; width: 100%; height: auto; max-height: none; object-fit: contain;
+}
 
 .hbtable-wrap {
   margin: 18px 0;

@@ -420,18 +420,25 @@
     pane.appendChild(title);
 
     var figureList = section.figures || [];
+    var figuresGrid = section.figuresGrid || {};
     // 2+ images lay out in a responsive grid (as many columns as fit); a single
     // image stays full-width, since a 1-cell "grid" would just look like a figure.
     var figuresParent = pane;
-    if (figureList.length > 1) {
+    var isGrid = figureList.length > 1;
+    if (isGrid) {
       figuresParent = document.createElement('div');
       figuresParent.className = 'hbfigures';
+      if (figuresGrid.cols) figuresParent.style.gridTemplateColumns = 'repeat(' + figuresGrid.cols + ', 1fr)';
+      if (figuresGrid.heightScale) figuresParent.style.setProperty('--hb-img-h', Math.round(220 * figuresGrid.heightScale) + 'px');
+      if (figuresGrid.square) figuresParent.classList.add('hbfigures--square');
       pane.appendChild(figuresParent);
     }
     var figureNodes = [];
     figureList.forEach(function (fig) {
       var figure = document.createElement('figure');
       figure.className = 'hbfigure';
+      if (fig.square) figure.classList.add('hbfigure--square');
+      if (fig.scale) figure.style.setProperty('--hb-fig-scale', fig.scale);
       var img = document.createElement('img');
       img.src = fig.src;
       img.alt = fig.caption || section.title;
@@ -443,7 +450,18 @@
         figure.appendChild(caption);
       }
       figuresParent.appendChild(figure);
-      figureNodes.push({ figure: figure, img: img });
+      figureNodes.push({ figure: figure, img: img, fig: fig });
+      // A single (non-grid) figure has no max-height cap to scale, so an explicit
+      // section/figure scale instead directly enlarges the image from its own
+      // natural pixel size (capped by the existing max-width:100% ceiling).
+      if (!isGrid && (fig.scale || figuresGrid.heightScale)) {
+        var factor = fig.scale || figuresGrid.heightScale;
+        var applyNaturalScale = function () {
+          if (img.naturalWidth) img.style.width = Math.round(img.naturalWidth * factor) + 'px';
+        };
+        if (img.complete) applyNaturalScale();
+        else img.addEventListener('load', applyNaturalScale);
+      }
     });
     // A markedly wide (landscape) image gets 2 grid columns instead of 1, so it
     // isn't squeezed as narrow as a portrait/square sign in the same row. This is
@@ -452,9 +470,16 @@
     // basically the same shape always land on the same side of the cutoff,
     // instead of each image racing to classify itself in isolation (which let
     // tiny crop differences push near-identical images to opposite outcomes).
+    // A figure can also set an explicit "wide" true/false to override this
+    // auto-detection, for cases where several images should share one grid
+    // treatment regardless of their individual crop's exact pixel ratio.
     var pendingFigures = figureNodes.length;
     function classifyFigures() {
       figureNodes.forEach(function (fn) {
+        if (typeof fn.fig.wide === 'boolean') {
+          fn.figure.classList.toggle('hbfigure--wide', fn.fig.wide);
+          return;
+        }
         var w = fn.img.naturalWidth, h = fn.img.naturalHeight;
         if (!w || !h) return;
         var ratio = Math.round((w / h) * 20) / 20;

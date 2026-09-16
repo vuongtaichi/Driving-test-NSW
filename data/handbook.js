@@ -13,6 +13,7 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/licence-7-steps.png", "caption": "The 7 steps from the Driver Knowledge Test through to a full driver licence." }
         ],
+        "figuresGrid": { "heightScale": 1.2 },
         "bullets": [],
         "tables": [
           {
@@ -278,13 +279,13 @@ window.HANDBOOK = [
         "page": 32,
         "figures": [
           { "src": "images-handbook/speed-sign-regulatory.png", "caption": "Regulatory sign: white background, red circle — the legal limit." },
-          { "src": "images-handbook/speed-sign-variable.png", "caption": "Variable electronic signs — change with road conditions." },
-          { "src": "images-handbook/speed-sign-local-traffic-area.png", "caption": "Local traffic area — 40km/h residential streets." },
-          { "src": "images-handbook/speed-sign-high-pedestrian.png", "caption": "High pedestrian activity area — 30 or 40km/h." },
-          { "src": "images-handbook/speed-sign-shared-zone.png", "caption": "Shared zone (10km/h) and its end sign." },
+          { "src": "images-handbook/speed-sign-local-traffic-area.png", "caption": "Local traffic area — 40km/h residential streets.", "square": true },
           { "src": "images-handbook/speed-sign-school-zone-flag.png", "caption": "School zone start sign." },
-          { "src": "images-handbook/speed-sign-school-zone-times.png", "caption": "School zone times and speed limit." },
-          { "src": "images-handbook/speed-sign-school-zone-end.png", "caption": "End of school zone — limit reverts." }
+          { "src": "images-handbook/speed-sign-variable.png", "caption": "Variable electronic signs — change with road conditions." },
+          { "src": "images-handbook/speed-sign-high-pedestrian.png", "caption": "High pedestrian activity area — 30 or 40km/h.", "wide": true },
+          { "src": "images-handbook/speed-sign-shared-zone.png", "caption": "Shared zone (10km/h) and its end sign.", "wide": true },
+          { "src": "images-handbook/speed-sign-school-zone-times.png", "caption": "School zone times and speed limit.", "wide": true },
+          { "src": "images-handbook/speed-sign-school-zone-end.png", "caption": "End of school zone — limit reverts.", "wide": true }
         ],
         "bullets": [],
         "tables": [
@@ -444,7 +445,10 @@ window.HANDBOOK = [
         "title": "Child car seats",
         "page": 49,
         "figures": [
-          { "src": "images-handbook/child-seat-ages.jpg", "caption": "Children wearing their seatbelt or child restraint properly for their age." }
+          { "src": "images-handbook/child-seat-rear-facing.jpg", "caption": "Up to 6 months — approved rear-facing child car seat." },
+          { "src": "images-handbook/child-seat-rear-or-forward.jpg", "caption": "6 months to 4 years — approved rear- or forward-facing child car seat." },
+          { "src": "images-handbook/child-seat-booster.jpg", "caption": "4+ years — approved booster seat." },
+          { "src": "images-handbook/child-seat-adult-belt.jpg", "caption": "145cm or taller — can use an adult seatbelt." }
         ],
         "bullets": [],
         "tables": [
@@ -605,6 +609,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/crash-avoidance-photo.jpg", "caption": "Keep a 3-second gap behind the vehicle in front of you." },
           { "src": "images-handbook/stopping-distance-chart.jpg", "caption": "The distance a car travels to stop at 40/60/80/100km/h, on a dry vs wet road." }
         ],
+        "figuresGrid": { "cols": 3 },
         "bullets": [],
         "tables": [
           {
@@ -811,6 +816,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/truck-blind-spots.jpg", "caption": "Blind spots in front, beside and behind a truck." },
           { "src": "images-handbook/truck-turning-left.jpg", "caption": "A long vehicle can use more than one lane to turn left." }
         ],
+        "figuresGrid": { "heightScale": 1.5 },
         "bullets": [
           "Heavy vehicles cause more serious crashes because of their size, weight and length — everyone needs to take extra care around them."
         ],
@@ -902,16 +908,17 @@ window.HANDBOOK = [
         "title": "Traffic lights",
         "page": 85,
         "figures": [
-          { "src": "images-handbook/turn-arrow-red.jpg", "caption": "Red turn arrow — must not turn that way." },
-          { "src": "images-handbook/turn-arrow-green.jpg", "caption": "Green turn arrow — may turn that way." },
-          { "src": "images-handbook/turn-arrow-flashing-yellow.jpg", "caption": "Flashing yellow turn arrow — may turn, giving way to pedestrians." },
-          { "src": "images-handbook/left-turn-on-red-sign.jpg", "caption": "You can turn left on a red light after stopping, where this sign is shown." },
-          { "src": "images-handbook/turning-right-lights.jpg", "caption": "Only turn right at traffic lights when there's a break in the oncoming traffic." },
-          { "src": "images-handbook/bus-signal-b.jpg", "caption": "A white \"B\" signal means only buses can go through the intersection." },
-          { "src": "images-handbook/tram-signal-t.jpg", "caption": "A red \"T\" signal means trams must stop at the intersection." },
-          { "src": "images-handbook/bicycle-signal-lights.jpg", "caption": "Green and red bicycle crossing lights." },
-          { "src": "images-handbook/bicycle-storage-area.jpg", "caption": "A bicycle storage area at traffic lights — vehicles must not enter it while the lights are red." },
-          { "src": "images-handbook/pedestrian-signals.jpg", "caption": "Red, flashing red and green pedestrian signals, plus a walk-direction sign and a countdown timer." }
+          { "src": "images-handbook/turn-arrow-red.jpg", "caption": "Red turn arrow — must not turn that way.", "scale": 2 },
+          { "src": "images-handbook/turn-arrow-green.jpg", "caption": "Green turn arrow — may turn that way.", "scale": 2 },
+          { "src": "images-handbook/turn-arrow-flashing-yellow.jpg", "caption": "Flashing yellow turn arrow — may turn, giving way to pedestrians.", "scale": 2 },
+          { "src": "images-handbook/left-turn-on-red-sign.jpg", "caption": "You can turn left on a red light after stopping, where this sign is shown.", "scale": 2 },
+          { "src": "images-handbook/turning-right-lights.jpg", "caption": "Only turn right at traffic lights when there's a break in the oncoming traffic.", "scale": 2 },
+          { "src": "images-handbook/bus-signal-b.jpg", "caption": "A white \"B\" signal means only buses can go through the intersection.", "scale": 2 },
+          { "src": "images-handbook/tram-signal-t.jpg", "caption": "A red \"T\" signal means trams must stop at the intersection.", "scale": 2 },
+          { "src": "images-handbook/bicycle-signal-green.jpg", "caption": "Green bicycle crossing light." },
+          { "src": "images-handbook/bicycle-signal-red.jpg", "caption": "Red bicycle crossing light." },
+          { "src": "images-handbook/bicycle-storage-area.jpg", "caption": "A bicycle storage area at traffic lights — vehicles must not enter it while the lights are red.", "wide": true, "scale": 2 },
+          { "src": "images-handbook/pedestrian-signals.jpg", "caption": "Red, flashing red and green pedestrian signals, plus a walk-direction sign and a countdown timer.", "wide": true, "scale": 2 }
         ],
         "bullets": [],
         "tables": [
@@ -1016,11 +1023,12 @@ window.HANDBOOK = [
           { "src": "images-handbook/intersection-nosign-2.jpg", "caption": "No signs: the car turning right (A) must give way to the car turning left (B)." },
           { "src": "images-handbook/intersection-nosign-3.jpg", "caption": "No signs: two cars both turning right at opposite sides can pass in front of each other." },
           { "src": "images-handbook/intersection-turnleft.jpg", "caption": "A car turning left (A) must give way to a car crossing straight through from the right (B)." },
-          { "src": "images-handbook/t-intersection-sign.jpg", "caption": "A T-intersection warning sign." },
           { "src": "images-handbook/t-intersection-1.jpg", "caption": "The car turning right from the road ending at a T-intersection (A) must give way to the car going straight ahead on the continuing road (B)." },
           { "src": "images-handbook/t-intersection-2.jpg", "caption": "Where the continuing road bends, the car leaving it (B) must give way to the oncoming car on the continuing road (A)." },
+          { "src": "images-handbook/t-intersection-sign.jpg", "caption": "A T-intersection warning sign." },
           { "src": "images-handbook/keep-intersection-clear.jpg", "caption": "Keep the intersection clear at all times — don't enter unless there's room on the far side." }
         ],
+        "figuresGrid": { "heightScale": 1.4 },
         "bullets": [],
         "tables": [
           {
