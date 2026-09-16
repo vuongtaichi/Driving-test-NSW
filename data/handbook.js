@@ -188,12 +188,17 @@ window.HANDBOOK = [
       {
         "title": "Interstate and overseas licences",
         "page": 25,
-        "bullets": [
-          "Always obey NSW road rules, hold the correct class for the vehicle, and don't drive if suspended, disqualified or withdrawn.",
-          "Only one licence can be held/used in Australia at a time.",
-          "A DKT and/or Driving Test may still be required when transferring, depending on the country the licence is from."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Always obey NSW road rules, hold the correct class for the vehicle, and don't drive if suspended, disqualified or withdrawn"],
+              ["Only one licence can be held/used in Australia at a time"],
+              ["A DKT and/or Driving Test may still be required when transferring, depending on the country the licence is from"]
+            ]
+          },
           {
             "title": "NSW equivalent by licence type",
             "headers": ["Overseas/interstate licence held", "NSW equivalent"],
@@ -281,14 +286,19 @@ window.HANDBOOK = [
           { "src": "images-handbook/speed-sign-school-zone-times.png", "caption": "School zone times and speed limit." },
           { "src": "images-handbook/speed-sign-school-zone-end.png", "caption": "End of school zone — limit reverts." }
         ],
-        "bullets": [
-          "Speeding is the #1 killer on NSW roads (~40% of deaths, ~20% of serious injuries).",
-          "No sign = default limit: 50km/h built-up, 100km/h elsewhere.",
-          "Radar detectors/jammers are illegal to carry.",
-          "Penalties: fines, demerits (can double), licence loss, impoundment — worse over the limit and in school zones; a learner/P1 offence suspends their licence.",
-          "A pedestrian hit at 50km/h is ~2x as likely to die as one hit at 40km/h."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Speeding is the #1 killer on NSW roads (~40% of deaths, ~20% of serious injuries)"],
+              ["No sign = default limit: 50km/h built-up, 100km/h elsewhere"],
+              ["Radar detectors/jammers are illegal to carry"],
+              ["Penalties: fines, demerits (can double), licence loss, impoundment — worse over the limit and in school zones; a learner/P1 offence suspends their licence"],
+              ["A pedestrian hit at 50km/h is ~2x as likely to die as one hit at 40km/h"]
+            ]
+          },
           {
             "title": "Sign types",
             "headers": ["Sign", "Meaning"],
@@ -329,14 +339,19 @@ window.HANDBOOK = [
       {
         "title": "Alcohol limits",
         "page": 39,
-        "bullets": [
-          "Can't reliably estimate your own BAC — not drinking at all is the only sure way to stay under.",
-          "Penalties scale with how far over + repeat offences: fines, licence loss, prison, or a mandatory alcohol interlock. Even under-limit drink-driving draws a fine and demerits.",
-          "Even 1–2 drinks impair reaction, judgement and distance perception; cause false confidence and drowsiness.",
-          "~50% of Thu/Fri/Sat night fatal crashes involve alcohol.",
-          "Only time reduces BAC (18+ hours after heavy drinking) — not coffee, a shower or a meal."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Can't reliably estimate your own BAC — not drinking at all is the only sure way to stay under"],
+              ["Penalties scale with how far over + repeat offences: fines, licence loss, prison, or a mandatory alcohol interlock. Even under-limit drink-driving draws a fine and demerits"],
+              ["Even 1–2 drinks impair reaction, judgement and distance perception; cause false confidence and drowsiness"],
+              ["~50% of Thu/Fri/Sat night fatal crashes involve alcohol"],
+              ["Only time reduces BAC (18+ hours after heavy drinking) — not coffee, a shower or a meal"]
+            ]
+          },
           {
             "title": "BAC limit by licence / vehicle",
             "headers": ["Licence / vehicle type", "BAC limit"],
@@ -362,14 +377,19 @@ window.HANDBOOK = [
       {
         "title": "Drugs and medicines",
         "page": 43,
-        "bullets": [
-          "Must not drive with illegal drugs present, or under the influence of any drug (illegal, prescription or over-the-counter).",
-          "MDT: roadside test for 4 illegal drugs (ecstasy, cannabis, cocaine, meth) — detectable long after use.",
-          "Testing: random roadside saliva swab; blood/urine test after signs of influence, a serious crash, or hospital admission. Must not refuse.",
-          "Many medicines can affect driving (painkillers, sedatives, cold/flu meds, etc.) — check labels, ask a doctor/pharmacist.",
-          "Never mix drugs with alcohol or each other."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Must not drive with illegal drugs present, or under the influence of any drug (illegal, prescription or over-the-counter)"],
+              ["MDT: roadside test for 4 illegal drugs (ecstasy, cannabis, cocaine, meth) — detectable long after use"],
+              ["Testing: random roadside saliva swab; blood/urine test after signs of influence, a serious crash, or hospital admission. Must not refuse"],
+              ["Many medicines can affect driving (painkillers, sedatives, cold/flu meds, etc.) — check labels, ask a doctor/pharmacist"],
+              ["Never mix drugs with alcohol or each other"]
+            ]
+          },
           {
             "title": "Effects by drug type",
             "headers": ["Drug type", "Effect"],
@@ -396,14 +416,19 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/seatbelt-fit.jpg", "caption": "The person with the tick is wearing their seatbelt correctly (low, flat and firm); the person with the cross is not." }
         ],
-        "bullets": [
-          "~30 killed, ~90 seriously injured yearly in NSW from not wearing a seatbelt.",
-          "Everyone must wear a belt, whole body inside the vehicle — one per passenger, never shared.",
-          "Wear it \"low, flat and firm\" — never under the arm or behind the back.",
-          "A seatbelt roughly doubles your chance of surviving a crash.",
-          "Penalties: detection cameras + police can fine the driver and any passenger 16+; demerits (can double)."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["~30 killed, ~90 seriously injured yearly in NSW from not wearing a seatbelt"],
+              ["Everyone must wear a belt, whole body inside the vehicle — one per passenger, never shared"],
+              ["Wear it \"low, flat and firm\" — never under the arm or behind the back"],
+              ["A seatbelt roughly doubles your chance of surviving a crash"],
+              ["Penalties: detection cameras + police can fine the driver and any passenger 16+; demerits (can double)"]
+            ]
+          },
           {
             "title": "Exemptions",
             "headers": ["Who", "When"],
@@ -421,15 +446,20 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/child-seat-ages.jpg", "caption": "Children wearing their seatbelt or child restraint properly for their age." }
         ],
-        "bullets": [
-          "Under-7s need an approved restraint (AS/NZS 1754) — driver's responsibility. See the age table below.",
-          "7–16 too small for an adult belt: booster, forward-facing seat, or anchored harness (adult belt needs ~145cm).",
-          "Fit tightly per the manufacturer's instructions, proper anchorage — an Authorised Restraint Fitter is recommended.",
-          "Front seat: under-4s never in a 2+ row vehicle; 4–7s only if every back-row seat is taken by other under-7s.",
-          "Penalties: fines and demerits (can double) for not restraining a child correctly.",
-          "Never share a seatbelt with a child on your lap, and never carry a child in your arms while driving."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Under-7s need an approved restraint (AS/NZS 1754) — driver's responsibility. See the age table below"],
+              ["7–16 too small for an adult belt: booster, forward-facing seat, or anchored harness (adult belt needs ~145cm)"],
+              ["Fit tightly per the manufacturer's instructions, proper anchorage — an Authorised Restraint Fitter is recommended"],
+              ["Front seat: under-4s never in a 2+ row vehicle; 4–7s only if every back-row seat is taken by other under-7s"],
+              ["Penalties: fines and demerits (can double) for not restraining a child correctly"],
+              ["Never share a seatbelt with a child on your lap, and never carry a child in your arms while driving"]
+            ]
+          },
           {
             "title": "Restraint required by age",
             "headers": ["Age", "Restraint required"],
@@ -455,14 +485,19 @@ window.HANDBOOK = [
       {
         "title": "Mobile phones",
         "page": 54,
-        "bullets": [
-          "No other function is allowed for anyone while driving (texting, video, social media, photos); never held or rested on the leg/shoulder.",
-          "Any driver: any use once safely parked out of the line of traffic.",
-          "Exemptions: showing a digital licence to police; a stationary tap-and-pay.",
-          "Penalties: detection cameras operate anywhere/anytime; fines + doubled demerits; a learner/P1 over the limit loses their licence.",
-          "Phone use while driving roughly quadruples casualty-crash risk."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["No other function is allowed for anyone while driving (texting, video, social media, photos); never held or rested on the leg/shoulder"],
+              ["Any driver: any use once safely parked out of the line of traffic"],
+              ["Exemptions: showing a digital licence to police; a stationary tap-and-pay"],
+              ["Penalties: detection cameras operate anywhere/anytime; fines + doubled demerits; a learner/P1 over the limit loses their licence"],
+              ["Phone use while driving roughly quadruples casualty-crash risk"]
+            ]
+          },
           {
             "title": "Allowed phone use",
             "headers": ["Licence", "Allowed"],
@@ -476,10 +511,16 @@ window.HANDBOOK = [
       {
         "title": "Digital screens and GPS",
         "page": 57,
-        "bullets": [
-          "No visible/distracting digital screen unless it's a driver's aid (GPS, dispatch, reversing/CCTV/monitoring) properly fixed or built in.",
-          "Passengers can use screens if not visible to the driver or distracting.",
-          "Penalties: fine and demerit points."
+        "bullets": [],
+        "tables": [
+          {
+            "headers": ["Point"],
+            "rows": [
+              ["No visible/distracting digital screen unless it's a driver's aid (GPS, dispatch, reversing/CCTV/monitoring) properly fixed or built in"],
+              ["Passengers can use screens if not visible to the driver or distracting"],
+              ["Penalties: fine and demerit points"]
+            ]
+          }
         ],
         "abbr": [["GPS", "Global Positioning System"]]
       },
@@ -489,16 +530,21 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/rest-area-sign.jpg", "caption": "A rest area sign — rest areas are open 24/7 but you must not camp in them." }
         ],
-        "bullets": [
-          "Affects everyone, even on short trips. Higher risk: shift workers, professional drivers, early-starting tradies, students, new parents.",
-          "No specific road rule against it, but it's your responsibility.",
-          "Prevention: ~8 hours' sleep a night; wait ~30 min after waking before driving.",
-          "Warning signs: yawning, poor concentration, sore eyes, drowsiness, slow reactions, drifting, missing signs.",
-          "Stop and nap (~20 min) at the first signs — don't wait for a microsleep.",
-          "Plan breaks, share driving, stay hydrated; avoid alcohol, fatty food, too much coffee.",
-          "Rest areas (24/7, no camping), petrol stations, or seasonal Driver Reviver sites."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Affects everyone, even on short trips. Higher risk: shift workers, professional drivers, early-starting tradies, students, new parents"],
+              ["No specific road rule against it, but it's your responsibility"],
+              ["Prevention: ~8 hours' sleep a night; wait ~30 min after waking before driving"],
+              ["Warning signs: yawning, poor concentration, sore eyes, drowsiness, slow reactions, drifting, missing signs"],
+              ["Stop and nap (~20 min) at the first signs — don't wait for a microsleep"],
+              ["Plan breaks, share driving, stay hydrated; avoid alcohol, fatty food, too much coffee"],
+              ["Rest areas (24/7, no camping), petrol stations, or seasonal Driver Reviver sites"]
+            ]
+          },
           {
             "title": "Fatigue by the numbers",
             "headers": ["Fact", "Figure"],
@@ -516,13 +562,18 @@ window.HANDBOOK = [
       {
         "title": "Hooning and street racing",
         "page": 62,
-        "bullets": [
-          "Must not organise, take part in, promote or even film hooning or street racing (burnouts, racing other vehicles, speed trials).",
-          "Vehicle and licence can be confiscated on the spot."
-        ],
+        "bullets": [],
         "tables": [
           {
-            "title": "Penalties",
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Must not organise, take part in, promote or even film hooning or street racing (burnouts, racing other vehicles, speed trials)"],
+              ["Vehicle and licence can be confiscated on the spot"]
+            ]
+          },
+          {
+            "title": "Penalties by offence",
             "headers": ["Offence", "Penalty"],
             "rows": [
               ["First offence", "Large fines, demerits, licence loss, impoundment (up to 3 months + fees)"],
@@ -554,16 +605,21 @@ window.HANDBOOK = [
           { "src": "images-handbook/crash-avoidance-photo.jpg", "caption": "Keep a 3-second gap behind the vehicle in front of you." },
           { "src": "images-handbook/stopping-distance-chart.jpg", "caption": "The distance a car travels to stop at 40/60/80/100km/h, on a dry vs wet road." }
         ],
-        "bullets": [
-          "Keep a 3-second gap behind the vehicle in front (4+ seconds in poor conditions: unsealed, icy/wet, night).",
-          "Long vehicle (7.5m+ incl. towed): stay 60m+ behind another long vehicle, except multi-lane roads, built-up areas, or overtaking.",
-          "Buffering: keep space around your vehicle for hazards (keep left over blind hills, avoid the door zone of parked cars).",
-          "Check your gap: count \"1 thousand and 1, 2 thousand and 2...\" from a fixed object as the vehicle ahead passes it — too close if you reach it first.",
-          "Two-stage braking (light pressure + pause, then squeeze) beats harsh braking, especially wet/gravel.",
-          "Scanning: keep your eyes moving — ahead, road surface, each side, mirrors and instruments.",
-          "Penalty: fine and demerit points for following too closely."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Keep a 3-second gap behind the vehicle in front (4+ seconds in poor conditions: unsealed, icy/wet, night)"],
+              ["Long vehicle (7.5m+ incl. towed): stay 60m+ behind another long vehicle, except multi-lane roads, built-up areas, or overtaking"],
+              ["Buffering: keep space around your vehicle for hazards (keep left over blind hills, avoid the door zone of parked cars)"],
+              ["Check your gap: count \"1 thousand and 1, 2 thousand and 2...\" from a fixed object as the vehicle ahead passes it — too close if you reach it first"],
+              ["Two-stage braking (light pressure + pause, then squeeze) beats harsh braking, especially wet/gravel"],
+              ["Scanning: keep your eyes moving — ahead, road surface, each side, mirrors and instruments"],
+              ["Penalty: fine and demerit points for following too closely"]
+            ]
+          },
           {
             "title": "Crash-avoidance space (≈ 3-second gap)",
             "headers": ["Component", "Time"],
@@ -584,11 +640,16 @@ window.HANDBOOK = [
           { "src": "images-handbook/crash-type-runoff-straight.jpg", "caption": "4. Running off the road on a straight." },
           { "src": "images-handbook/crash-type-runoff-curve.jpg", "caption": "5. Running off the road on a curve or bend." }
         ],
-        "bullets": [
-          "~80% of NSW casualty crashes are one of 5 types below (also the most common for provisional drivers).",
-          "Avoidable by following the road rules and managing speed, fatigue and stopping distance — extra care at intersections and when overtaking."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["~80% of NSW casualty crashes are one of 5 types below (also the most common for provisional drivers)"],
+              ["Avoidable by following the road rules and managing speed, fatigue and stopping distance — extra care at intersections and when overtaking"]
+            ]
+          },
           {
             "title": "The 5 most common crash types",
             "headers": ["#", "Type", "Avoid by"],
@@ -612,13 +673,18 @@ window.HANDBOOK = [
       {
         "title": "Pedestrians",
         "page": 71,
-        "bullets": [
-          "Pedestrians include people walking/running, pushing a bicycle, using a wheelchair/mobility scooter, or on a skateboard, foot scooter or rollerblades — vulnerable, with no protection in a collision.",
-          "Always slow down and be ready to stop for any pedestrian in danger, even without right of way or if jaywalking.",
-          "Slow down near shopping centres/transport hubs and in poor visibility — over half of pedestrian deaths happen in darkness or dusk.",
-          "Extra care when reversing, especially in/out of a driveway — children are hard to see; only reverse as far as necessary."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Pedestrians include people walking/running, pushing a bicycle, using a wheelchair/mobility scooter, or on a skateboard, foot scooter or rollerblades — vulnerable, with no protection in a collision"],
+              ["Always slow down and be ready to stop for any pedestrian in danger, even without right of way or if jaywalking"],
+              ["Slow down near shopping centres/transport hubs and in poor visibility — over half of pedestrian deaths happen in darkness or dusk"],
+              ["Extra care when reversing, especially in/out of a driveway — children are hard to see; only reverse as far as necessary"]
+            ]
+          },
           {
             "title": "Must give way to pedestrians",
             "headers": ["Situation"],
@@ -653,14 +719,19 @@ window.HANDBOOK = [
       {
         "title": "Bicycle riders",
         "page": 75,
-        "bullets": [
-          "Bicycle riders mostly follow the same road rules as drivers, plus extra rules (e.g. an approved helmet) — vulnerable and unprotected, so it's your responsibility to help keep them safe.",
-          "Keep a lookout: harder to see at dawn/dusk/night, often ride at the far left — check blind spots before turning left/changing lanes. Never underestimate their speed; in slow traffic they can match or beat a car.",
-          "Must use a bike lane where one exists; otherwise may ride on the road, including mid-lane (e.g. to avoid rough edges/gravel) — be ready to slow and give room.",
-          "At intersections/roundabouts, watch for riders before turning — they may do a hook turn (using the left lane) to turn right unless signed otherwise, and must give way to vehicles leaving the intersection. Never enter a bicycle storage area at a red light.",
-          "Always check mirrors before opening a door — never open it into a bicycle's path."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Bicycle riders mostly follow the same road rules as drivers, plus extra rules (e.g. an approved helmet) — vulnerable and unprotected, so it's your responsibility to help keep them safe"],
+              ["Keep a lookout: harder to see at dawn/dusk/night, often ride at the far left — check blind spots before turning left/changing lanes. Never underestimate their speed; in slow traffic they can match or beat a car"],
+              ["Must use a bike lane where one exists; otherwise may ride on the road, including mid-lane (e.g. to avoid rough edges/gravel) — be ready to slow and give room"],
+              ["At intersections/roundabouts, watch for riders before turning — they may do a hook turn (using the left lane) to turn right unless signed otherwise, and must give way to vehicles leaving the intersection. Never enter a bicycle storage area at a red light"],
+              ["Always check mirrors before opening a door — never open it into a bicycle's path"]
+            ]
+          },
           {
             "title": "What cyclists may legally do",
             "headers": ["Allowed"],
@@ -685,13 +756,18 @@ window.HANDBOOK = [
       {
         "title": "Motorcycle riders",
         "page": 77,
-        "bullets": [
-          "Motorcycle riders mostly follow the same rules as other drivers, plus extra rules (e.g. an approved helmet) — ~25x more likely to be killed per km travelled, being harder to see, less stable and unprotected. Most at risk at busy city intersections/lane changes and on country-road bends.",
-          "Keep a lookout: motorcycles can hide behind a truck or car — check mirrors and blind spots especially before merging, changing lanes or turning.",
-          "Overtake with as much space as you'd give a car, and never drive alongside one in the same lane — they're entitled to a full-width lane. May ride two abreast within 1.5m.",
-          "Keep a safe distance — riders may need to dodge debris/oil/poor surface, and need extra time to stop."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Motorcycle riders mostly follow the same rules as other drivers, plus extra rules (e.g. an approved helmet) — ~25x more likely to be killed per km travelled, being harder to see, less stable and unprotected. Most at risk at busy city intersections/lane changes and on country-road bends"],
+              ["Keep a lookout: motorcycles can hide behind a truck or car — check mirrors and blind spots especially before merging, changing lanes or turning"],
+              ["Overtake with as much space as you'd give a car, and never drive alongside one in the same lane — they're entitled to a full-width lane. May ride two abreast within 1.5m"],
+              ["Keep a safe distance — riders may need to dodge debris/oil/poor surface, and need extra time to stop"]
+            ]
+          },
           {
             "title": "Lane filtering — only legal when",
             "headers": ["Condition"],
@@ -707,11 +783,16 @@ window.HANDBOOK = [
       {
         "title": "Horse riders",
         "page": 79,
-        "bullets": [
-          "Horse riders and horse-drawn vehicles have the same rights and responsibilities as other road users, plus some special rules.",
-          "Can ride on any road unless signed otherwise, two abreast within 1.5m — more than two only when overtaking or droving stock."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Horse riders and horse-drawn vehicles have the same rights and responsibilities as other road users, plus some special rules"],
+              ["Can ride on any road unless signed otherwise, two abreast within 1.5m — more than two only when overtaking or droving stock"]
+            ]
+          },
           {
             "title": "Passing a horse or horse-drawn vehicle",
             "headers": ["Rule"],
@@ -758,13 +839,21 @@ window.HANDBOOK = [
         "title": "Stop signs and stop lines",
         "page": 82,
         "figures": [
-          { "src": "images-handbook/stop-sign-types.jpg", "caption": "Stop sign at an intersection, one held by a traffic controller, one for a broken traffic light, and \"Stop sign ahead\"." }
+          { "src": "images-handbook/stop-sign-intersection.jpg", "caption": "Stop sign at an intersection." },
+          { "src": "images-handbook/stop-sign-traffic-controller.jpg", "caption": "Stop sign used by traffic controllers." },
+          { "src": "images-handbook/stop-sign-dots.jpg", "caption": "Stop here when traffic lights are not working." },
+          { "src": "images-handbook/stop-sign-ahead.jpg", "caption": "Stop sign ahead — slow down." }
         ],
-        "bullets": [
-          "A \"Stop\" sign is a regulatory sign and must be obeyed by law.",
-          "A \"Stop sign ahead\" sign warns you to slow down and prepare to stop."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["A \"Stop\" sign is a regulatory sign and must be obeyed by law"],
+              ["A \"Stop sign ahead\" sign warns you to slow down and prepare to stop"]
+            ]
+          },
           {
             "title": "Where a Stop sign/line applies",
             "headers": ["Situation", "Rule"],
@@ -785,13 +874,19 @@ window.HANDBOOK = [
         "title": "Give way signs and give way lines",
         "page": 84,
         "figures": [
-          { "src": "images-handbook/give-way-sign-types.jpg", "caption": "A give way sign, and a \"give way sign ahead\" warning sign." }
+          { "src": "images-handbook/give-way-sign.jpg", "caption": "Give way sign." },
+          { "src": "images-handbook/give-way-sign-ahead.jpg", "caption": "Give way sign ahead." }
         ],
-        "bullets": [
-          "A \"Give way\" sign is a regulatory sign and must be obeyed by law.",
-          "A \"Give way sign ahead\" sign warns you to slow down and prepare to stop."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["A \"Give way\" sign is a regulatory sign and must be obeyed by law"],
+              ["A \"Give way sign ahead\" sign warns you to slow down and prepare to stop"]
+            ]
+          },
           {
             "title": "Give way sign/line rules",
             "headers": ["Situation", "Rule"],
@@ -807,7 +902,9 @@ window.HANDBOOK = [
         "title": "Traffic lights",
         "page": 85,
         "figures": [
-          { "src": "images-handbook/turn-signal-arrows.jpg", "caption": "Red, green and flashing yellow turn arrows, and what each one means for turning traffic." },
+          { "src": "images-handbook/turn-arrow-red.jpg", "caption": "Red turn arrow — must not turn that way." },
+          { "src": "images-handbook/turn-arrow-green.jpg", "caption": "Green turn arrow — may turn that way." },
+          { "src": "images-handbook/turn-arrow-flashing-yellow.jpg", "caption": "Flashing yellow turn arrow — may turn, giving way to pedestrians." },
           { "src": "images-handbook/left-turn-on-red-sign.jpg", "caption": "You can turn left on a red light after stopping, where this sign is shown." },
           { "src": "images-handbook/turning-right-lights.jpg", "caption": "Only turn right at traffic lights when there's a break in the oncoming traffic." },
           { "src": "images-handbook/bus-signal-b.jpg", "caption": "A white \"B\" signal means only buses can go through the intersection." },
@@ -816,14 +913,19 @@ window.HANDBOOK = [
           { "src": "images-handbook/bicycle-storage-area.jpg", "caption": "A bicycle storage area at traffic lights — vehicles must not enter it while the lights are red." },
           { "src": "images-handbook/pedestrian-signals.jpg", "caption": "Red, flashing red and green pedestrian signals, plus a walk-direction sign and a countdown timer." }
         ],
-        "bullets": [
-          "Must always obey traffic lights, even with no other traffic around or late at night — the same rules apply to temporary lights at roadworks.",
-          "A \"turn left on red\" sign lets you stop at the red, then turn left when clear, giving way to traffic approaching from the right.",
-          "Turning right on a green light with no arrow: wait for a gap in oncoming traffic; if the light changes mid-turn, complete it as soon as it's safe. No U-turns at traffic lights unless a \"U-turn permitted\" sign is shown.",
-          "When turning, give way to any pedestrian still crossing even on a flashing red, and always stop for pedestrians at a pelican crossing.",
-          "Red-light speed cameras catch both red-light running and speeding at any light phase."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Must always obey traffic lights, even with no other traffic around or late at night — the same rules apply to temporary lights at roadworks"],
+              ["A \"turn left on red\" sign lets you stop at the red, then turn left when clear, giving way to traffic approaching from the right"],
+              ["Turning right on a green light with no arrow: wait for a gap in oncoming traffic; if the light changes mid-turn, complete it as soon as it's safe. No U-turns at traffic lights unless a \"U-turn permitted\" sign is shown"],
+              ["When turning, give way to any pedestrian still crossing even on a flashing red, and always stop for pedestrians at a pelican crossing"],
+              ["Red-light speed cameras catch both red-light running and speeding at any light phase"]
+            ]
+          },
           {
             "title": "Light colours",
             "headers": ["Colour", "Meaning"],
@@ -878,14 +980,19 @@ window.HANDBOOK = [
           { "src": "images-handbook/roundabout-multilane.jpg", "caption": "Using a multi-lane roundabout with arrows marked on the road." },
           { "src": "images-handbook/roundabout-bicycle.jpg", "caption": "A bicycle at a roundabout turning right from the left lane." }
         ],
-        "bullets": [
-          "Traffic moves one way around a central island; you can turn left or right, go straight ahead, or make a full U-turn.",
-          "On approach, slow or stop to give way to all vehicles already on the roundabout — those on your right, and those who've entered from your left or from directly opposite you.",
-          "Follow road arrows/signs on multi-lane roundabouts.",
-          "Pedestrians: you don't have to give way when turning unless there's a marked crossing, but must always avoid a collision.",
-          "Bicycles are entitled to a full lane and may use the left lane to turn right on a multi-lane roundabout (must give way to vehicles leaving) — watch for riders stopped in the left lane."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Traffic moves one way around a central island; you can turn left or right, go straight ahead, or make a full U-turn"],
+              ["On approach, slow or stop to give way to all vehicles already on the roundabout — those on your right, and those who've entered from your left or from directly opposite you"],
+              ["Follow road arrows/signs on multi-lane roundabouts"],
+              ["Pedestrians: you don't have to give way when turning unless there's a marked crossing, but must always avoid a collision"],
+              ["Bicycles are entitled to a full lane and may use the left lane to turn right on a multi-lane roundabout (must give way to vehicles leaving) — watch for riders stopped in the left lane"]
+            ]
+          },
           {
             "title": "Roundabout manoeuvres",
             "headers": ["Manoeuvre", "What to do"],
@@ -914,12 +1021,17 @@ window.HANDBOOK = [
           { "src": "images-handbook/t-intersection-2.jpg", "caption": "Where the continuing road bends, the car leaving it (B) must give way to the oncoming car on the continuing road (A)." },
           { "src": "images-handbook/keep-intersection-clear.jpg", "caption": "Keep the intersection clear at all times — don't enter unless there's room on the far side." }
         ],
-        "bullets": [
-          "About half of all NSW crashes happen at intersections — approach at a speed that lets you stop and give way. Over half of motorcycle-vehicle crashes happen there too.",
-          "Rules depend on the intersection type: Stop signs, Give way signs, no signs or lines, traffic lights, or a roundabout. Always follow police or traffic controller hand signals over the signs.",
-          "Keeping intersections clear: don't enter unless there's room for your vehicle on the far side (applies to all intersections, level crossings and pedestrian crossings); never stop in a \"Keep clear\" marked area."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["About half of all NSW crashes happen at intersections — approach at a speed that lets you stop and give way. Over half of motorcycle-vehicle crashes happen there too"],
+              ["Rules depend on the intersection type: Stop signs, Give way signs, no signs or lines, traffic lights, or a roundabout. Always follow police or traffic controller hand signals over the signs"],
+              ["Keeping intersections clear: don't enter unless there's room for your vehicle on the far side (applies to all intersections, level crossings and pedestrian crossings); never stop in a \"Keep clear\" marked area"]
+            ]
+          },
           {
             "title": "Give-way rules by intersection type",
             "headers": ["Intersection type", "Give way to"],
@@ -952,15 +1064,20 @@ window.HANDBOOK = [
           { "src": "images-handbook/right-turn-from-left-sign.jpg", "caption": "'Right turn from left only' sign, marking a bicycle hook-turn intersection." },
           { "src": "images-handbook/hook-turn-diagram.jpg", "caption": "A bicycle hook turn: wait at the far left (A), keep left while turning (B), turn when it's safe (C)." }
         ],
-        "bullets": [
-          "Always check both directions before turning and give way to pedestrians crossing the road you're turning into.",
-          "Plan turns early to be in the right lane in time to indicate; may drive on/across/outside edge lines for up to 100m when turning.",
-          "Turning left: indicate left, move close to the left side, keep left in the road you're entering, use a slip lane if there is one.",
-          "Turning right: indicate right, follow lane markings/arrows, move close to the centre dividing line, stay in the same relative lane crossing; may cross any dividing line to enter/leave a road, driveway or car park; keep wheels straight beforehand so you don't block oncoming traffic.",
-          "Long/oversize vehicles with a \"Do not overtake turning vehicle\" sign may use more than one lane to turn — stay behind, never alongside, until complete.",
-          "Bicycles may hook-turn right (from the far left, staying left through the intersection, giving way to traffic from their right) — needs no hand signal (an ordinary right turn does)."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Always check both directions before turning and give way to pedestrians crossing the road you're turning into"],
+              ["Plan turns early to be in the right lane in time to indicate; may drive on/across/outside edge lines for up to 100m when turning"],
+              ["Turning left: indicate left, move close to the left side, keep left in the road you're entering, use a slip lane if there is one"],
+              ["Turning right: indicate right, follow lane markings/arrows, move close to the centre dividing line, stay in the same relative lane crossing; may cross any dividing line to enter/leave a road, driveway or car park; keep wheels straight beforehand so you don't block oncoming traffic"],
+              ["Long/oversize vehicles with a \"Do not overtake turning vehicle\" sign may use more than one lane to turn — stay behind, never alongside, until complete"],
+              ["Bicycles may hook-turn right (from the far left, staying left through the intersection, giving way to traffic from their right) — needs no hand signal (an ordinary right turn does)"]
+            ]
+          },
           {
             "title": "Turn-restriction signs",
             "headers": ["Sign", "Meaning"],
@@ -982,12 +1099,17 @@ window.HANDBOOK = [
           { "src": "images-handbook/u-turn-signs.jpg", "caption": "'No U-turn' signs (regulatory and electronic) and the 'U-turn permitted' sign for use at traffic lights." },
           { "src": "images-handbook/three-point-turn.jpg", "caption": "A three-point turn usually involves at least three turns." }
         ],
-        "bullets": [
-          "Take extra care: indicate and check mirrors/blind spots for traffic from every direction, check again, indicate, and pull out only when clear.",
-          "When U-turning: have a clear view of approaching traffic, start from the marked lane nearest the centre (or left of centre if unmarked), give way to vehicles and pedestrians, and indicate before starting.",
-          "A three-point turn suits a road too narrow for a U-turn (typically 3 manoeuvres) — it takes longer, so on a busy road it's safer to drive around the block or use a roundabout instead."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Take extra care: indicate and check mirrors/blind spots for traffic from every direction, check again, indicate, and pull out only when clear"],
+              ["When U-turning: have a clear view of approaching traffic, start from the marked lane nearest the centre (or left of centre if unmarked), give way to vehicles and pedestrians, and indicate before starting"],
+              ["A three-point turn suits a road too narrow for a U-turn (typically 3 manoeuvres) — it takes longer, so on a busy road it's safer to drive around the block or use a roundabout instead"]
+            ]
+          },
           {
             "title": "Must not U-turn",
             "headers": ["Situation"],
@@ -1673,7 +1795,9 @@ window.HANDBOOK = [
         "title": "Wildlife and livestock",
         "page": 173,
         "figures": [
-          { "src": "images-handbook/wildlife-livestock-signs.jpg", "caption": "'Stock may be crossing ahead' and 'Look out for kangaroos ahead' warning signs." }
+          { "src": "images-handbook/livestock-sign.jpg", "caption": "Livestock warning sign." },
+          { "src": "images-handbook/stock-crossing-sign.jpg", "caption": "Stock may be crossing ahead." },
+          { "src": "images-handbook/kangaroo-sign.jpg", "caption": "Look out for kangaroos ahead." }
         ],
         "bullets": [
           "On country roads, watch for unfenced livestock and wildlife — they move quickly and unpredictably; more active near waterholes/creeks and harder to see at sunrise/sunset.",

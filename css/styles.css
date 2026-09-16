@@ -2,7 +2,7 @@
 :root {
   --bg: #ffffff;
   --surface: #ffffff;
-  --surface-2: #eeeef3;
+  --surface-2: #eeeeee;
   --text: #17171c;
   --text-dim: #5d5d6b;
   --line: #dededf;
@@ -375,7 +375,20 @@ main.app--wide { max-width: 1100px; }
   text-align: center;
 }
 .hbfigure img { max-width: 100%; border-radius: 6px; }
-.hbfigure figcaption { margin-top: 8px; font-size: .82rem; color: var(--text-dim); text-align: left; }
+.hbfigure figcaption { margin-top: 8px; font-size: .98rem; color: var(--text-dim); text-align: left; }
+
+/* 2+ figures on a page lay out as a responsive grid instead of one long column. */
+.hbfigures {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 14px;
+  margin: 18px 0;
+}
+.hbfigures .hbfigure { margin: 0; display: flex; flex-direction: column; }
+.hbfigures .hbfigure img { max-height: 220px; width: auto; max-width: 100%; margin: 0 auto; object-fit: contain; }
+.hbfigures .hbfigure figcaption { margin-top: auto; padding-top: 8px; }
+.hbfigures .hbfigure--wide { grid-column: span 2; }
+.hbfigures .hbfigure--wide img { max-width: 100%; width: 100%; }
 
 .hbtable-wrap {
   margin: 18px 0;

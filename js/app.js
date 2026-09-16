@@ -419,7 +419,17 @@
     title.textContent = section.title;
     pane.appendChild(title);
 
-    (section.figures || []).forEach(function (fig) {
+    var figureList = section.figures || [];
+    // 2+ images lay out in a responsive grid (as many columns as fit); a single
+    // image stays full-width, since a 1-cell "grid" would just look like a figure.
+    var figuresParent = pane;
+    if (figureList.length > 1) {
+      figuresParent = document.createElement('div');
+      figuresParent.className = 'hbfigures';
+      pane.appendChild(figuresParent);
+    }
+    var figureNodes = [];
+    figureList.forEach(function (fig) {
       var figure = document.createElement('figure');
       figure.className = 'hbfigure';
       var img = document.createElement('img');
@@ -432,8 +442,36 @@
         caption.textContent = fig.caption;
         figure.appendChild(caption);
       }
-      pane.appendChild(figure);
+      figuresParent.appendChild(figure);
+      figureNodes.push({ figure: figure, img: img });
     });
+    // A markedly wide (landscape) image gets 2 grid columns instead of 1, so it
+    // isn't squeezed as narrow as a portrait/square sign in the same row. This is
+    // decided once for the whole section, after every one of its images has
+    // loaded, and the ratio is snapped to the nearest 0.05 -- so images that are
+    // basically the same shape always land on the same side of the cutoff,
+    // instead of each image racing to classify itself in isolation (which let
+    // tiny crop differences push near-identical images to opposite outcomes).
+    var pendingFigures = figureNodes.length;
+    function classifyFigures() {
+      figureNodes.forEach(function (fn) {
+        var w = fn.img.naturalWidth, h = fn.img.naturalHeight;
+        if (!w || !h) return;
+        var ratio = Math.round((w / h) * 20) / 20;
+        fn.figure.classList.toggle('hbfigure--wide', ratio >= 1.4);
+      });
+    }
+    figureNodes.forEach(function (fn) {
+      if (fn.img.complete) {
+        pendingFigures--;
+      } else {
+        fn.img.addEventListener('load', function () {
+          pendingFigures--;
+          if (pendingFigures === 0) classifyFigures();
+        });
+      }
+    });
+    if (pendingFigures === 0) classifyFigures();
 
     if (section.bullets && section.bullets.length) {
       var ul = document.createElement('ul');
