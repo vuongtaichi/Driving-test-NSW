@@ -1065,8 +1065,8 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/turn-plan-ahead.jpg", "caption": "Turning right then immediately left: turn right from the left lane." },
           { "src": "images-handbook/turning-right-dividing-lines.jpg", "caption": "You can cross a single or double dividing line when entering or leaving a road." },
-          { "src": "images-handbook/long-vehicle-turning.jpg", "caption": "Stay behind heavy vehicles that are turning — don't put your vehicle in their path.", "newRow": true },
-          { "src": "images-handbook/hook-turn-diagram.jpg", "caption": "A bicycle hook turn: wait at the far left (A), keep left while turning (B), turn when it's safe (C)." },
+          { "src": "images-handbook/hook-turn-diagram.jpg", "caption": "A bicycle hook turn: wait at the far left (A), keep left while turning (B), turn when it's safe (C).", "newRow": true },
+          { "src": "images-handbook/long-vehicle-turning.jpg", "caption": "Stay behind heavy vehicles that are turning — don't put your vehicle in their path." },
           { "src": "images-handbook/no-left-turn-regulatory.jpg", "caption": "'No left turn' sign (regulatory): you must not turn left.", "newRow": true },
           { "src": "images-handbook/no-left-turn-electronic.jpg", "caption": "'No left turn' sign (electronic): you must not turn left." },
           { "src": "images-handbook/no-right-turn-regulatory.jpg", "caption": "'No right turn' sign (regulatory): you must not turn right or make a U-turn." },
@@ -1112,9 +1112,11 @@ window.HANDBOOK = [
         "title": "U-turns and three-point turns",
         "page": 112,
         "figures": [
-          { "src": "images-handbook/u-turn-signs.jpg", "caption": "'No U-turn' signs (regulatory and electronic) and the 'U-turn permitted' sign for use at traffic lights." },
-          { "src": "images-handbook/three-point-turn.jpg", "caption": "A three-point turn usually involves at least three turns." }
+          { "src": "images-handbook/u-turn-signs.jpg", "caption": "'No U-turn' signs (regulatory and electronic)." },
+          { "src": "images-handbook/u-turn-permitted-sign.jpg", "caption": "'U-turn permitted' sign, for use at traffic lights." },
+          { "src": "images-handbook/three-point-turn.jpg", "caption": "A three-point turn usually involves at least three turns.", "newRow": true, "wide": true }
         ],
+        "figuresGrid": { "cols": 2 },
         "bullets": [],
         "tables": [
           {
@@ -1142,14 +1144,21 @@ window.HANDBOOK = [
         "title": "Indicating",
         "page": 114,
         "figures": [
-          { "src": "images-handbook/hand-signals.jpg", "caption": "Hand signals: bend your arm at the elbow to signal stopping, or extend it straight out to signal turning right." }
+          { "src": "images-handbook/hand-signal-stop.jpg", "caption": "Extend your arm to the right and bend at the elbow to signal you're stopping.", "wide": false },
+          { "src": "images-handbook/hand-signal-turn-right.jpg", "caption": "Extend your arm to the right to signal you're turning right.", "wide": false }
         ],
-        "bullets": [
-          "Indicating warns others you intend to move left or right — plan early so you're in the right lane with time to signal, and still check mirrors and blind spots.",
-          "Turn the indicator off after each manoeuvre; indicate for at least 5 seconds before pulling out from the roadside or a parking spot.",
-          "If indicators aren't fitted, working or clearly visible (risking a Defect Notice), hand-signal instead — arm out with elbow bent for stopping, arm straight out for a right turn. Bicycle riders must hand-signal a right turn (not for a hook turn)."
-        ],
+        "figuresGrid": { "cols": 2 },
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Indicating warns others you intend to move left or right — plan early so you're in the right lane with time to signal, and still check mirrors and blind spots."],
+              ["Turn the indicator off after each manoeuvre; indicate for at least 5 seconds before pulling out from the roadside or a parking spot."],
+              ["If indicators aren't fitted, working or clearly visible (risking a Defect Notice), hand-signal instead — arm out with elbow bent for stopping, arm straight out for a right turn. Bicycle riders must hand-signal a right turn (not for a hook turn)."]
+            ]
+          },
           {
             "title": "Must indicate before",
             "headers": ["Situation"],
@@ -1171,17 +1180,23 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/pedestrian-crossing-sign.jpg", "caption": "'Pedestrian crossing' sign, shown at the crossing." },
           { "src": "images-handbook/pedestrian-crossing-ahead-sign.jpg", "caption": "'Pedestrian crossing ahead' warning sign." },
-          { "src": "images-handbook/zigzag-crossing.jpg", "caption": "A pedestrian crossing with zig-zag approach lines." },
-          { "src": "images-handbook/childrens-crossing-flag.jpg", "caption": "A red-orange flag marks a children's crossing when it's operating." },
           { "src": "images-handbook/children-crossing-ahead-sign.jpg", "caption": "'Children may be crossing ahead' warning sign." },
-          { "src": "images-handbook/pedestrians-crossing-ahead-sign.jpg", "caption": "'Pedestrians may be crossing ahead' warning sign, used near pedestrian refuges and high-activity areas." }
+          { "src": "images-handbook/pedestrians-crossing-ahead-sign.jpg", "caption": "'Pedestrians may be crossing ahead' warning sign, used near pedestrian refuges and high-activity areas." },
+          { "src": "images-handbook/zigzag-crossing.jpg", "caption": "A pedestrian crossing with zig-zag approach lines.", "newRow": true, "wide": true },
+          { "src": "images-handbook/childrens-crossing-flag.jpg", "caption": "A red-orange flag marks a children's crossing when it's operating." }
         ],
-        "bullets": [
-          "Must give way to pedestrians crossing at any pedestrian crossing; approach at a speed that lets you stop, and give extra time to children or elderly pedestrians.",
-          "Still stop at a nearby Stop sign even if you've just stopped for a crossing.",
-          "High pedestrian activity areas (shopping strips, near schools/parks/pools) may have a lower limit and warning signs — slow down when you see them."
-        ],
+        "figuresGrid": { "cols": 4 },
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Must give way to pedestrians crossing at any pedestrian crossing; approach at a speed that lets you stop, and give extra time to children or elderly pedestrians."],
+              ["Still stop at a nearby Stop sign even if you've just stopped for a crossing."],
+              ["High pedestrian activity areas (shopping strips, near schools/parks/pools) may have a lower limit and warning signs — slow down when you see them."]
+            ]
+          },
           {
             "title": "Types of pedestrian crossing",
             "headers": ["Type", "Rule"],
@@ -1199,11 +1214,12 @@ window.HANDBOOK = [
         "title": "Railway level crossings",
         "page": 120,
         "figures": [
-          { "src": "images-handbook/level-crossing-sign.jpg", "caption": "Level crossing sign, placed at the crossing itself." },
-          { "src": "images-handbook/level-crossing-warning-signs.jpg", "caption": "Level crossing warning signs: flashing lights ahead, level crossing ahead, and level crossing on a side road." },
-          { "src": "images-handbook/level-crossing-stop-signals.jpg", "caption": "Stop at a level crossing for a Stop sign, flashing red lights, or a closing/closed boom gate." },
-          { "src": "images-handbook/level-crossing-giveway.jpg", "caption": "'Give way' at a level crossing: slow down, look both ways, and stop if a train is coming." }
+          { "src": "images-handbook/level-crossing-sign.jpg", "caption": "Level crossing sign, placed at the crossing itself.", "wide": false },
+          { "src": "images-handbook/level-crossing-giveway.jpg", "caption": "'Give way' at a level crossing: slow down, look both ways, and stop if a train is coming." },
+          { "src": "images-handbook/level-crossing-warning-signs.jpg", "caption": "Level crossing warning signs: flashing lights ahead, level crossing ahead, and level crossing on a side road.", "newRow": true, "wide": true },
+          { "src": "images-handbook/level-crossing-stop-signals.jpg", "caption": "Stop at a level crossing for a Stop sign, flashing red lights, or a closing/closed boom gate.", "newRow": true, "wide": true }
         ],
+        "figuresGrid": { "cols": 2 },
         "bullets": [
           "Trains are fast, heavy and can't stop quickly — always slow down, look and listen approaching a crossing; never drive onto one while a train is approaching or if the far side is blocked.",
           "Never block a crossing — only cross if you can clear the tracks completely; never stop/park on a crossing or within 20m of either side.",
@@ -1228,9 +1244,10 @@ window.HANDBOOK = [
         "title": "Narrow bridges and roads",
         "page": 122,
         "figures": [
-          { "src": "images-handbook/narrow-bridge-giveway.jpg", "caption": "Car B must give way to Car A on a bridge." },
-          { "src": "images-handbook/narrow-bridge-road-signs.jpg", "caption": "'Narrow bridge', 'Narrow bridge ahead' and 'Road narrows ahead' warning signs." }
+          { "src": "images-handbook/narrow-bridge-giveway.jpg", "caption": "Car B must give way to Car A on a bridge.", "wide": false },
+          { "src": "images-handbook/narrow-bridge-road-signs.jpg", "caption": "'Narrow bridge', 'Narrow bridge ahead' and 'Road narrows ahead' warning signs.", "wide": false }
         ],
+        "figuresGrid": { "cols": 2 },
         "bullets": [
           "At a narrow bridge or road with a Give way sign, slow down, prepare to stop, and give way to oncoming vehicles — even without a sign, you should still give way.",
           "Watch for oversize vehicles that may drive down the centre of a bridge, taking more than one lane — be ready to stop and wait for them to clear it."
