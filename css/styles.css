@@ -12,7 +12,7 @@
   --ok-bg: #d4f3dc;
   --bad: #c62828;
   --bad-bg: #fadcdc;
-  --shadow: 0 1px 2px rgba(16, 16, 30, .06), 0 8px 24px rgba(16, 16, 30, .06);
+  --shadow: 0 1px 3px rgba(16, 16, 30, .12), 0 6px 18px rgba(16, 16, 30, .10);
   --radius: 14px;
   color-scheme: light dark;
 }
@@ -31,11 +31,17 @@
     --ok-bg: #17351f;
     --bad: #ff8a80;
     --bad-bg: #3a1a1a;
-    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px rgba(0, 0, 0, .35);
+    --shadow: 0 1px 3px rgba(0, 0, 0, .45), 0 6px 18px rgba(0, 0, 0, .4);
   }
 }
 
 * { box-sizing: border-box; }
+
+html {
+  scrollbar-gutter: stable both-edges;   /* reserves matching space on both
+                                            sides so the scrollbar doesn't
+                                            push centered content off-centre */
+}
 
 body {
   margin: 0;
@@ -104,9 +110,10 @@ main {
   max-width: 720px;
   margin: 0 auto;
   padding: 18px 14px 40px;
+  --content-max: 720px;
 }
 /* The handbook's sidebar + content layout needs more room than the quiz's single column. */
-main.app--wide { max-width: 1100px; }
+main.app--wide { max-width: 1100px; --content-max: 1100px; }
 .section-title {
   margin: 28px 0 10px;
   font-size: .8rem;
@@ -210,9 +217,10 @@ main.app--wide { max-width: 1100px; }
   cursor: pointer;
   transition: transform .12s ease, border-color .12s ease;
 }
-.card:hover { transform: translateY(-1px); border-color: var(--brand); }
+.card:hover { background: var(--surface-2); }
 .card:disabled { opacity: .45; cursor: not-allowed; transform: none; }
 .card--primary { background: var(--brand); color: var(--brand-ink); }
+.card--primary:hover { background: var(--brand); }
 .card__icon { font-size: 1.5rem; line-height: 1; }
 .card__body { display: flex; flex-direction: column; gap: 2px; }
 .card__body small { opacity: .75; font-size: .84rem; }
@@ -241,20 +249,30 @@ main.app--wide { max-width: 1100px; }
 }
 
 /* ---------- home tabs ---------- */
+/* A sibling of <main> (like .topbar), not a child of it, so its background
+   spans the full viewport width. .hometabs__inner has the same max-width +
+   margin:auto centering as main, so the tab row/description align with
+   main's column; .app--wide switches it the same way main's own class does
+   for the handbook tab. */
 .hometabs {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 18px;           /* was margin-bottom: as a margin this sat
-                                     outside the sticky box, so it engaged
-                                     sticky positioning later than the very
-                                     next sticky element (hbnav), producing a
-                                     gap that visibly grew/shrank mid-scroll */
   position: sticky;
   top: 45px;                     /* below the sticky topbar */
   z-index: 8;
   will-change: transform;
   background: var(--bg);
 }
+.hometabs__inner {
+  display: flex;
+  flex-direction: column;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 14px 18px;           /* was margin-bottom: as a margin this sat
+                                     outside the sticky box, so it engaged
+                                     sticky positioning later than the very
+                                     next sticky element (hbnav), producing a
+                                     gap that visibly grew/shrank mid-scroll */
+}
+.hometabs.app--wide .hometabs__inner { max-width: 1100px; }
 .hometabs__row {
   display: flex;
   gap: 4px;
@@ -329,7 +347,7 @@ main.app--wide { max-width: 1100px; }
   border-radius: 8px;
   background: none;
   font: inherit;
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   text-align: left;
   color: var(--text);
@@ -362,7 +380,7 @@ main.app--wide { max-width: 1100px; }
   border-radius: 8px;
   background: none;
   font: inherit;
-  font-size: .88rem;
+  font-size: 1.05rem;
   color: var(--text);
   cursor: pointer;
 }
@@ -370,6 +388,7 @@ main.app--wide { max-width: 1100px; }
 .hbnav__link.is-active { background: var(--brand); color: var(--brand-ink); font-weight: 600; }
 
 .hbcontent { flex: 1; min-width: 0; }
+.hbcontent .hero__title { font-size: 1.3rem; }
 .hbcontent__chapter-label {
   margin: 0;
   font-size: 1rem;
@@ -449,7 +468,7 @@ main.app--wide { max-width: 1100px; }
   white-space: normal;
 }
 .hbtable th {
-  font-size: .74rem;
+  font-size: .98rem;
   font-weight: 700;
   letter-spacing: .04em;
   color: var(--text);
@@ -464,10 +483,9 @@ main.app--wide { max-width: 1100px; }
   border-radius: 6px;
   background: var(--brand);
   color: var(--brand-ink);
-  font-size: .74rem;
+  font-size: .84rem;
   font-weight: 700;
-  letter-spacing: .06em;
-  text-transform: uppercase;
+  letter-spacing: .01em;
 }
 
 .hbabbr {
@@ -486,7 +504,7 @@ main.app--wide { max-width: 1100px; }
     display: flex;
     position: fixed;
     top: calc(58px + env(safe-area-inset-top, 0px));
-    left: 12px;
+    right: 12px;
     z-index: 20;
     width: auto;
     margin-bottom: 0;

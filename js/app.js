@@ -246,6 +246,7 @@
     $('btn-home').hidden = (which === 'home');
     $('btn-fav').hidden = (which !== 'quiz');
     $('progressbar').hidden = (which !== 'quiz');
+    $('hometabs').hidden = (which !== 'home');
     if (which === 'home') $('topbar-title').textContent = store.tab === 'handbook' ? 'Road User Handbook' : 'DKT Practice';
     if (which === 'result') $('topbar-title').textContent = 'Results';
     window.scrollTo(0, 0);
@@ -318,6 +319,7 @@
     $('home-handbook').hidden = store.tab !== 'handbook';
     $('hometabs-desc').hidden = store.tab !== 'handbook';
     $('app').classList.toggle('app--wide', store.tab === 'handbook');
+    $('hometabs').classList.toggle('app--wide', store.tab === 'handbook');
     Array.prototype.forEach.call(document.querySelectorAll('.hometabs__btn'), function (btn) {
       var active = btn.getAttribute('data-tab') === store.tab;
       btn.classList.toggle('is-active', active);

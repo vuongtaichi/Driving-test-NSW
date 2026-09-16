@@ -13,7 +13,7 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/licence-7-steps.png", "caption": "The 7 steps from the Driver Knowledge Test through to a full driver licence." }
         ],
-        "figuresGrid": { "heightScale": 1.2 },
+        "figuresGrid": { "heightScale": 0.1 },
         "bullets": [],
         "tables": [
           {
@@ -288,10 +288,10 @@ window.HANDBOOK = [
         "title": "Speed limits",
         "page": 32,
         "figures": [
-          { "src": "images-handbook/speed-sign-regulatory.png", "caption": "Regulatory sign: white background, red circle — the legal limit.", "scale": 1.7, "wide": true },
-          { "src": "images-handbook/speed-sign-local-traffic-area.png", "caption": "Local traffic area — 40km/h residential streets.", "square": true, "wide": true },
+          { "src": "images-handbook/speed-sign-regulatory.png", "caption": "Regulatory sign: white background, red circle — the legal limit." },
+          { "src": "images-handbook/speed-sign-local-traffic-area.png", "caption": "Local traffic area — 40km/h residential streets.", "square": true },
           { "src": "images-handbook/speed-sign-school-zone.png", "caption": "School zone sign — start flag, active times and speed limit.", "newRow": true, "wide": true },
-          { "src": "images-handbook/speed-sign-variable.png", "caption": "Variable electronic signs — change with road conditions.", "newRow": true, "wide": true },
+          { "src": "images-handbook/speed-sign-variable.png", "caption": "Variable electronic signs — change with road conditions.", "wide": true },
           { "src": "images-handbook/speed-sign-high-pedestrian.png", "caption": "High pedestrian activity area — 30 or 40km/h.", "wide": true, "scale": 1.3 },
           { "src": "images-handbook/speed-sign-shared-zone.png", "caption": "Shared zone (10km/h) and its end sign.", "wide": true, "newRow": true },
           { "src": "images-handbook/speed-sign-school-zone-end.png", "caption": "End of school zone — limit reverts.", "wide": true }
@@ -1318,7 +1318,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/overtake-broken-lines.jpg", "caption": "You can cross a single broken line, or a double line with the broken line closer to you, to overtake if the road ahead is clear.", "wide": true },
           { "src": "images-handbook/no-lines-overtake-sign.jpg", "caption": "'No lines — do not overtake unless safe' sign, shown where no lines are marked on the road." },
           { "src": "images-handbook/keep-left-unless-overtaking-sign.jpg", "caption": "'Keep left unless overtaking' sign." },
-          { "src": "images-handbook/long-vehicle-sign.jpg", "caption": "'Long vehicle' sign: the vehicle is longer than normal.", "wide": false },
+          { "src": "images-handbook/long-vehicle-sign.jpg", "caption": "'Long vehicle' sign: the vehicle is longer than normal.", "wide": false, "newRow": true },
           { "src": "images-handbook/oversize-vehicle-sign.jpg", "caption": "'Oversize' sign: the vehicle is wider, longer or higher than normal.", "wide": false },
           { "src": "images-handbook/do-not-overtake-turning-vehicle-sign.jpg", "caption": "'Do not overtake turning vehicle' sign, used on long vehicles that may need more than one lane to turn.", "wide": true },
           { "src": "images-handbook/long-vehicle-no-overtake-left.jpg", "caption": "Do not overtake to the left of a long vehicle which is turning left.", "span": 4 },
@@ -1369,8 +1369,8 @@ window.HANDBOOK = [
         "page": 132,
         "figures": [
           { "src": "images-handbook/lane-ends-merge.jpg", "caption": "When Car A crosses a broken line to change lanes because its lane is ending, it must give way to Car B already in that lane.", "span": 3, "newRow": true },
-          { "src": "images-handbook/give-way-to-buses-sign.jpg", "caption": "'Give way to buses' sign, shown when driving in the left lane.", "span": 3, "newRow": true },
-          { "src": "images-handbook/zipper-merge.jpg", "caption": "A zipper merge: when two lanes reduce to one, the trailing car (B) gives way to the car ahead (A).", "span": 3, "newRow": true }
+          { "src": "images-handbook/zipper-merge.jpg", "caption": "A zipper merge: when two lanes reduce to one, the trailing car (B) gives way to the car ahead (A).", "span": 3, "newRow": true },
+          { "src": "images-handbook/give-way-to-buses-sign.jpg", "caption": "'Give way to buses' sign, shown when driving in the left lane.", "span": 3, "newRow": true }
         ],
         "figuresGrid": { "cols": 3 },
         "bullets": [],
@@ -1799,6 +1799,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/works-zone-sign.jpg", "caption": "Works zone sign — works zone to the left of the sign." },
           { "src": "images-handbook/truck-zone-sign.jpg", "caption": "Truck zone sign — truck zone to the left of the sign." }
         ],
+        "figuresGrid": { "cols": 4 },
         "bullets": [],
         "tables": [
           {
@@ -1899,8 +1900,8 @@ window.HANDBOOK = [
           { "src": "images-handbook/floodway-sign.jpg", "caption": "Floodway ahead — a causeway that may be covered in water.", "newRow": true },
           { "src": "images-handbook/road-subject-to-flooding-sign.jpg", "caption": "Road ahead may be covered by floodwater." },
           { "src": "images-handbook/floodwater-depth-indicator-sign.jpg", "caption": "Floodwater depth indicator, showing the depth of floodwater across a road." },
-          { "src": "images-handbook/advisory-speed-sign.jpg", "caption": "An advisory speed sign paired with a warning sign, showing the maximum safe speed in good conditions." },
-          { "src": "images-handbook/variable-message-sign-photo.jpg", "caption": "A variable message sign on a motorway." }
+          { "src": "images-handbook/advisory-speed-sign.jpg", "caption": "An advisory speed sign paired with a warning sign, showing the maximum safe speed in good conditions.", "wide": true },
+          { "src": "images-handbook/variable-message-sign-photo.jpg", "caption": "A variable message sign on a motorway.", "span": 3 }
         ],
         "bullets": [],
         "tables": [
