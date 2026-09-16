@@ -249,7 +249,6 @@ main.app--wide { max-width: 1100px; }
                                      sticky positioning later than the very
                                      next sticky element (hbnav), producing a
                                      gap that visibly grew/shrank mid-scroll */
-  border-bottom: 1px solid var(--line);
   position: sticky;
   top: 45px;                     /* below the sticky topbar */
   z-index: 8;
