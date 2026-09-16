@@ -1264,7 +1264,7 @@ window.HANDBOOK = [
         "title": "Narrow bridges and roads",
         "page": 122,
         "figures": [
-          { "src": "images-handbook/narrow-bridge-giveway.jpg", "caption": "Car B must give way to Car A on a bridge.", "wide": true, "newRow": true },
+          { "src": "images-handbook/narrow-bridge-giveway.jpg", "caption": "Car B must give way to Car A on a bridge.", "span": 3, "newRow": true },
           { "src": "images-handbook/narrow-bridge-sign.jpg", "caption": "Narrow bridge.", "newRow": true },
           { "src": "images-handbook/narrow-bridge-ahead-sign.jpg", "caption": "Narrow bridge ahead." },
           { "src": "images-handbook/road-narrows-ahead-sign.jpg", "caption": "Road narrows ahead." }
@@ -1314,17 +1314,17 @@ window.HANDBOOK = [
         "title": "Overtaking",
         "page": 124,
         "figures": [
-          { "src": "images-handbook/overtaking-continuous-lines.png", "caption": "You must not cross a single continuous line, or double continuous lines, to overtake." },
-          { "src": "images-handbook/overtake-broken-lines.jpg", "caption": "You can cross a single broken line, or a double line with the broken line closer to you, to overtake if the road ahead is clear." },
+          { "src": "images-handbook/overtaking-continuous-lines.png", "caption": "You must not cross a single continuous line, or double continuous lines, to overtake.", "wide": true },
+          { "src": "images-handbook/overtake-broken-lines.jpg", "caption": "You can cross a single broken line, or a double line with the broken line closer to you, to overtake if the road ahead is clear.", "wide": true },
           { "src": "images-handbook/no-lines-overtake-sign.jpg", "caption": "'No lines — do not overtake unless safe' sign, shown where no lines are marked on the road." },
           { "src": "images-handbook/keep-left-unless-overtaking-sign.jpg", "caption": "'Keep left unless overtaking' sign." },
           { "src": "images-handbook/long-vehicle-sign.jpg", "caption": "'Long vehicle' sign: the vehicle is longer than normal." },
           { "src": "images-handbook/oversize-vehicle-sign.jpg", "caption": "'Oversize' sign: the vehicle is wider, longer or higher than normal." },
-          { "src": "images-handbook/do-not-overtake-turning-vehicle-sign.jpg", "caption": "'Do not overtake turning vehicle' sign, used on long vehicles that may need more than one lane to turn." },
-          { "src": "images-handbook/long-vehicle-no-overtake-left.jpg", "caption": "Do not overtake to the left of a long vehicle which is turning left." },
+          { "src": "images-handbook/do-not-overtake-turning-vehicle-sign.jpg", "caption": "'Do not overtake turning vehicle' sign, used on long vehicles that may need more than one lane to turn.", "wide": true },
+          { "src": "images-handbook/long-vehicle-no-overtake-left.jpg", "caption": "Do not overtake to the left of a long vehicle which is turning left.", "span": 3 },
           { "src": "images-handbook/long-vehicle-overtake-left-multilane.jpg", "caption": "You can overtake a long vehicle on the left when it's safe and you're on a multi-lane road." },
           { "src": "images-handbook/overtake-motorcycle.jpg", "caption": "Give motorcycles plenty of room when overtaking." },
-          { "src": "images-handbook/overtake-bicycle.jpg", "caption": "You can cross double dividing lines when overtaking a bicycle." },
+          { "src": "images-handbook/overtake-bicycle.jpg", "caption": "You can cross double dividing lines when overtaking a bicycle.", "wide": true },
           { "src": "images-handbook/no-overtaking-passing-sign.jpg", "caption": "'No overtaking or passing' sign, used on bridges." }
         ],
         "bullets": [],

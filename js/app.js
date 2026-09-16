@@ -443,6 +443,9 @@
       if (fig.square) figure.classList.add('hbfigure--square');
       if (fig.scale) figure.style.setProperty('--hb-fig-scale', fig.scale);
       if (fig.newRow) figure.style.gridColumnStart = '1';
+      // "span" sets an exact column count (e.g. 3 in a 3-col grid), overriding
+      // the "wide" span-2 class below via inline style's higher specificity.
+      if (fig.span) figure.style.gridColumnEnd = 'span ' + fig.span;
       var img = document.createElement('img');
       img.src = fig.src;
       img.alt = fig.caption || section.title;
