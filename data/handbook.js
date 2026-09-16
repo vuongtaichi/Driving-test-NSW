@@ -281,9 +281,9 @@ window.HANDBOOK = [
           { "src": "images-handbook/speed-sign-regulatory.png", "caption": "Regulatory sign: white background, red circle — the legal limit." },
           { "src": "images-handbook/speed-sign-local-traffic-area.png", "caption": "Local traffic area — 40km/h residential streets.", "square": true },
           { "src": "images-handbook/speed-sign-school-zone.png", "caption": "School zone sign — start flag, active times and speed limit." },
-          { "src": "images-handbook/speed-sign-variable.png", "caption": "Variable electronic signs — change with road conditions." },
+          { "src": "images-handbook/speed-sign-variable.png", "caption": "Variable electronic signs — change with road conditions.", "newRow": true },
           { "src": "images-handbook/speed-sign-high-pedestrian.png", "caption": "High pedestrian activity area — 30 or 40km/h.", "wide": true },
-          { "src": "images-handbook/speed-sign-shared-zone.png", "caption": "Shared zone (10km/h) and its end sign.", "wide": true },
+          { "src": "images-handbook/speed-sign-shared-zone.png", "caption": "Shared zone (10km/h) and its end sign.", "wide": true, "newRow": true },
           { "src": "images-handbook/speed-sign-school-zone-end.png", "caption": "End of school zone — limit reverts.", "wide": true }
         ],
         "bullets": [],
@@ -991,6 +991,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/roundabout-multilane.jpg", "caption": "Using a multi-lane roundabout with arrows marked on the road.", "scale": 1.5 },
           { "src": "images-handbook/roundabout-bicycle.jpg", "caption": "A bicycle at a roundabout turning right from the left lane.", "scale": 1.5 }
         ],
+        "figuresGrid": { "cols": 3 },
         "bullets": [],
         "tables": [
           {
