@@ -911,7 +911,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/turn-arrow-green.jpg", "caption": "Green turn arrow — may turn that way.", "scale": 2 },
           { "src": "images-handbook/turn-arrow-flashing-yellow.jpg", "caption": "Flashing yellow turn arrow — may turn, giving way to pedestrians.", "scale": 2 },
           { "src": "images-handbook/left-turn-on-red-sign.jpg", "caption": "You can turn left on a red light after stopping, where this sign is shown.", "scale": 2 },
-          { "src": "images-handbook/turning-right-lights.jpg", "caption": "Only turn right at traffic lights when there's a break in the oncoming traffic.", "scale": 2 },
+          { "src": "images-handbook/turning-right-lights.jpg", "caption": "Only turn right at traffic lights when there's no right arrow signal and there's a break in the oncoming traffic.", "scale": 2 },
           { "src": "images-handbook/bus-signal-b.jpg", "caption": "A white \"B\" signal means only buses can go through the intersection.", "scale": 2 },
           { "src": "images-handbook/tram-signal-t.jpg", "caption": "A red \"T\" signal means trams must stop at the intersection.", "scale": 2 },
           { "src": "images-handbook/bicycle-signal-green.jpg", "caption": "Green bicycle crossing light." },
