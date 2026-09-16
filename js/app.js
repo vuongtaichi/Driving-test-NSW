@@ -316,6 +316,7 @@
     save();
     $('home-dkt').hidden = store.tab !== 'dkt';
     $('home-handbook').hidden = store.tab !== 'handbook';
+    $('hometabs-desc').hidden = store.tab !== 'handbook';
     $('app').classList.toggle('app--wide', store.tab === 'handbook');
     Array.prototype.forEach.call(document.querySelectorAll('.hometabs__btn'), function (btn) {
       var active = btn.getAttribute('data-tab') === store.tab;
