@@ -1492,16 +1492,29 @@ window.HANDBOOK = [
           { "src": "images-handbook/parking-railway-crossing.jpg", "caption": "No parking within 20m either side of a railway level crossing." }
         ],
         "bullets": [
-          "Never leave children or animals alone in a vehicle — risk of dehydration/burns in a hot car, playing with controls (handbrake, gears, power windows), or harm if the vehicle is stolen.",
-          "Must not stop or park: double-parked alongside another vehicle; across a driveway (unless dropping off/picking up passengers); on a median strip (unless signed); on a traffic island; within an intersection; on a children's or pedestrian crossing; on a railway level crossing; on footpaths/nature strips (unless signed); in a slip lane (unless signed) — and never in a way that blocks traffic flow or endangers other road users.",
-          "\"No parking\" signs (all the time or at specified times): you may stop under 2 minutes within 3m of the vehicle to drop off/pick up passengers or load/unload — 5 minutes with a Mobility Parking Scheme (MPS) permit.",
-          "Must not park within 1m of another parked vehicle in front or behind (angle parking excepted).",
-          "Bus stops: no parking within 20m before or 10m after, unless signed.",
-          "Intersections: no parking within 20m of a signalised intersection, or within 10m of a non-signalised one — unless signed, or it's a T-intersection and you're parked along the continuing road's unbroken side.",
-          "Crossings: no stopping/parking within 20m before / 10m after a children's or pedestrian crossing; within 10m before / 3m after standalone pedestrian/bicycle-crossing traffic lights; within 20m either side of a railway level crossing — all unless signed otherwise.",
-          "No parking within 3m of double dividing lines, or within 1m of a fire hydrant, fire hydrant indicator or fire plug indicator.",
-          "On a hill or curve outside a built-up area: don't stop or park unless your vehicle would be visible from at least 100m away, and follow any parking sign's specific instructions."
-        ]
+          "Never leave children or animals alone in a vehicle — risk of dehydration/burns, playing with controls, or harm if the vehicle is stolen.",
+          "Must not stop or park: double-parked, across a driveway (unless dropping off/picking up), on a median strip/traffic island (unless signed), within an intersection, on a crossing or level crossing, on footpaths/nature strips (unless signed), in a slip lane (unless signed) — never blocking traffic flow.",
+          "\"No parking\" signs: may stop under 2 minutes within 3m to drop off/pick up or load — 5 minutes with an MPS permit.",
+          "On a hill/curve outside a built-up area: don't stop/park unless your vehicle would be visible from at least 100m away."
+        ],
+        "tables": [
+          {
+            "title": "No-stopping/parking distances",
+            "headers": ["Location", "Distance"],
+            "rows": [
+              ["Bus stop", "20m before, 10m after (unless signed)"],
+              ["Signalised intersection", "20m"],
+              ["Non-signalised intersection", "10m (unless signed, or a T-intersection on the continuing road's unbroken side)"],
+              ["Children's/pedestrian crossing", "20m before, 10m after"],
+              ["Standalone pedestrian/bicycle crossing lights", "10m before, 3m after"],
+              ["Railway level crossing", "20m either side"],
+              ["Double dividing lines", "3m"],
+              ["Fire hydrant/indicator/plug indicator", "1m"],
+              ["Another parked vehicle, front or behind", "1m (angle parking excepted)"]
+            ]
+          }
+        ],
+        "abbr": [["MPS", "Mobility Parking Scheme"]]
       },
       {
         "title": "Restricted parking",
@@ -1523,23 +1536,32 @@ window.HANDBOOK = [
           { "src": "images-handbook/works-zone-sign.jpg", "caption": "Works zone sign — works zone to the left of the sign." },
           { "src": "images-handbook/truck-zone-sign.jpg", "caption": "Truck zone sign — truck zone to the left of the sign." }
         ],
-        "bullets": [
-          "\"No stopping\" signs ban stopping anywhere along the road/kerb in the arrow's direction except in an emergency (sometimes marked by a continuous yellow edge line); may apply only at certain times.",
-          "Clearways (signed, or a broken yellow line) ban stopping between the signed times except in an emergency — buses and taxis (not rideshare) may still stop briefly to pick up/drop off. Special event clearways ban parking during their shown dates and times.",
-          "Restricted parking areas (e.g. Darling Harbour, Homebush Bay) ban stopping/parking between the start/end signs except where separately signed — you may still stop to drop off or pick up goods or passengers.",
-          "Hourly parking signs allow parking during the shown days/hours, and outside them too unless another sign says otherwise.",
-          "Electric vehicle parking bays are for EVs only, sometimes only while charging, and sometimes only during specific signed days/hours.",
-          "Accessible parking needs a current Mobility Parking Scheme (MPS) permit displayed (yours or as a passenger's) — permit holders also get extended time in restricted areas.",
-          "Resident parking permits let you park free and without time limits in that area — the permit must be displayed at all times.",
-          "Special event parking areas near venues cap parking time to what's shown on the sign, unless you hold a permit.",
-          "Motorcycle parking zones are motorcycle-only between the signs, though any vehicle may briefly stop to drop off/pick up passengers.",
-          "Pay parking (Meter/Ticket/Phone/Coupon signs) requires payment for the shown maximum time — e.g. \"2P meter\" means up to 2 hours, paid.",
-          "No parking within 3m of an Australia Post letter box (you can still stop briefly to post mail or drop off/pick up passengers).",
-          "Taxi zones and bus zones ban other vehicles stopping in the arrow's direction (except taxis/buses respectively), except outside any signed times.",
-          "Loading zones: goods vehicles get up to 30 minutes for goods (not personal items/shopping); public buses up to 30 minutes for passengers; any vehicle may still stop briefly for passengers — times may be restricted.",
-          "Works zones ban parking unless your vehicle is used in the nearby construction work; any vehicle may still stop briefly for passengers.",
-          "Truck zones ban stopping/parking during the signed hours unless you're a 4.5+ tonne GVM truck dropping off/picking up goods; any vehicle may still stop briefly for passengers."
-        ]
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Restricted parking zones",
+            "headers": ["Zone/sign", "Rule"],
+            "rows": [
+              ["No stopping", "Bans stopping anywhere along the kerb in the arrow's direction except emergencies; may apply only at certain times"],
+              ["Clearway", "Bans stopping between signed times except emergencies; buses/taxis (not rideshare) may still stop briefly"],
+              ["Special event clearway", "Bans parking during the shown dates/times"],
+              ["Restricted parking area", "Bans stopping/parking between start/end signs (except where separately signed); may still drop off/pick up"],
+              ["Hourly parking", "Allowed during shown days/hours, and outside them too unless another sign says otherwise"],
+              ["Electric vehicle bay", "EVs only, sometimes only while charging, sometimes only during signed hours"],
+              ["Accessible parking", "Needs a current MPS permit displayed; permit holders also get extended time elsewhere"],
+              ["Resident parking permit", "Free, no time limit in that area; must be displayed at all times"],
+              ["Special event parking area", "Caps parking time to what's shown, unless you hold a permit"],
+              ["Motorcycle parking zone", "Motorcycle-only between the signs; any vehicle may briefly stop for passengers"],
+              ["Pay parking (Meter/Ticket/Phone/Coupon)", "Payment required for the shown maximum time"],
+              ["Australia Post letter box", "No parking within 3m (can stop briefly to post mail or for passengers)"],
+              ["Taxi zone / bus zone", "Bans other vehicles stopping in the arrow's direction (except taxis/buses), outside signed times"],
+              ["Loading zone", "Goods vehicles ≤30 min for goods; buses ≤30 min for passengers; any vehicle may stop briefly for passengers"],
+              ["Works zone", "Bans parking unless used in the nearby construction work; any vehicle may stop briefly for passengers"],
+              ["Truck zone", "Bans stopping/parking during signed hours unless a 4.5t+ GVM truck loading; any vehicle may stop briefly for passengers"]
+            ]
+          }
+        ],
+        "abbr": [["MPS", "Mobility Parking Scheme"], ["GVM", "Gross Vehicle Mass"]]
       },
       {
         "title": "Ways to park",
@@ -1550,9 +1572,17 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "Two main methods: parallel and angle parking, followed by standard parking checks.",
-          "Parallel parking (the default unless signed otherwise): park facing the direction of traffic, parallel and as close as possible to the kerb, within any line markings, and at least 1m from vehicles parked in front and behind. On a one-way street you may also park on the right side.",
-          "Angle parking (where signed or marked): park at a 45-degree angle with the front of the vehicle to the kerb, unless signs or markings say otherwise.",
-          "Parking checks: engage the park brake before leaving the vehicle; if moving more than 3m away, remove the key and lock all doors/windows if the vehicle is unattended; check mirrors and blind spots for pedestrians, bikes and vehicles before opening your door; before pulling out, indicate for at least 5 seconds, check mirrors, and look over your shoulder for blind spots."
+          "Parking checks: engage the park brake; if moving 3m+ away, remove the key and lock up if unattended; check mirrors/blind spots before opening your door; indicate 5+ seconds and check mirrors/blind spots before pulling out."
+        ],
+        "tables": [
+          {
+            "title": "Parking methods",
+            "headers": ["Method", "How"],
+            "rows": [
+              ["Parallel (default unless signed otherwise)", "Facing the direction of traffic, parallel and close to the kerb, ≥1m from vehicles in front/behind (one-way street: may also park on the right)"],
+              ["Angle (where signed or marked)", "45-degree angle, front of the vehicle to the kerb"]
+            ]
+          }
         ]
       }
     ]
@@ -1579,9 +1609,33 @@ window.HANDBOOK = [
           { "src": "images-handbook/variable-message-sign-photo.jpg", "caption": "A variable message sign on a motorway." }
         ],
         "bullets": [
-          "Diamond-shaped, black symbols/words on yellow — they warn of dangers or changed conditions ahead: side roads/T-intersections (give way rules apply), curves/bends/winding roads, roads narrowing/dividing/merging, give way/stop signs ahead, pedestrian/children's crossings ahead, cyclists, roads slippery when wet, steep descents, slow-moving vehicles crossing or entering, temporary hazards (oil spill, fallen tree, snow, landslide), narrow bridges, dips/humps, kangaroos/livestock crossing, floodwater/causeways (sometimes with a depth gauge), grids, and limited sightlines over a hill crest.",
+          "Diamond-shaped, black symbols/words on yellow — warn of dangers or changed conditions ahead.",
           "Advisory speed signs sometimes pair with a warning sign to show the safe speed for that hazard in good conditions.",
           "Variable message signs (large electronic displays) warn of changing conditions ahead, such as fog, crashes, roadworks, congestion, closures or police operations."
+        ],
+        "tables": [
+          {
+            "title": "What warning signs flag",
+            "headers": ["Hazard"],
+            "rows": [
+              ["Side roads/T-intersections (give way rules apply)"],
+              ["Curves, bends, winding roads"],
+              ["Roads narrowing/dividing/merging"],
+              ["Give way/Stop signs ahead"],
+              ["Pedestrian/children's crossings ahead"],
+              ["Cyclists"],
+              ["Roads slippery when wet"],
+              ["Steep descents"],
+              ["Slow-moving vehicles crossing or entering"],
+              ["Temporary hazards (oil spill, fallen tree, snow, landslide)"],
+              ["Narrow bridges"],
+              ["Dips/humps"],
+              ["Kangaroos/livestock crossing"],
+              ["Floodwater/causeways (sometimes with a depth gauge)"],
+              ["Grids"],
+              ["Limited sightlines over a hill crest"]
+            ]
+          }
         ]
       },
       {
@@ -1596,9 +1650,23 @@ window.HANDBOOK = [
           { "src": "images-handbook/roadwork-arrow-vehicle.jpg", "caption": "A temporary arrow on a roadwork vehicle warns you that a road hazard is ahead and to change lanes." }
         ],
         "bullets": [
-          "Temporary signs warn roadworks are ahead — slow down, watch for hazards, and be ready to stop. Obey all regulatory signs, temporary traffic lights, and a traffic controller's handheld Stop/Slow sign or hand signals; watch for road workers.",
-          "Roadwork speed limit signs are regulatory — never exceed the shown limit (e.g. 40km/h).",
-          "Other roadwork signs: slow down and prepare to stop; a traffic controller ahead; road workers or approaching roadworks; roadworks have ended; unmarked road (take care overtaking); closed lane ahead (merge as directed); loose stones (slow down); a vehicle-mounted temporary arrow warning of a hazard and directing a lane change."
+          "Temporary signs warn roadworks are ahead — slow down, watch for hazards, be ready to stop. Obey all regulatory signs, temporary traffic lights, and a traffic controller's handheld Stop/Slow sign or hand signals; watch for road workers.",
+          "Roadwork speed limit signs are regulatory — never exceed the shown limit (e.g. 40km/h)."
+        ],
+        "tables": [
+          {
+            "title": "Other roadwork signs",
+            "headers": ["Sign", "Meaning"],
+            "rows": [
+              ["Prepare to stop / traffic controller ahead", "Slow down"],
+              ["Road workers / approaching roadworks", "Take care"],
+              ["Roadworks have ended", "—"],
+              ["Unmarked road (no lines)", "Take care overtaking"],
+              ["Closed lane ahead", "Merge as directed"],
+              ["Loose stones", "Slow down"],
+              ["Vehicle-mounted temporary arrow", "Warns of a hazard, directs a lane change"]
+            ]
+          }
         ]
       },
       {
@@ -1608,10 +1676,20 @@ window.HANDBOOK = [
           { "src": "images-handbook/wildlife-livestock-signs.jpg", "caption": "'Stock may be crossing ahead' and 'Look out for kangaroos ahead' warning signs." }
         ],
         "bullets": [
-          "On country roads, watch for unfenced livestock and wildlife — they move quickly and unpredictably and can cause serious crashes; more active near waterholes/creeks and harder to see at sunrise/sunset.",
+          "On country roads, watch for unfenced livestock and wildlife — they move quickly and unpredictably; more active near waterholes/creeks and harder to see at sunrise/sunset.",
           "Slow down at stock or animal warning signs.",
           "If an animal is on or near the road, slow down and brake in a controlled way — never swerve, as that risks losing control or colliding with oncoming traffic.",
-          "After hitting an animal, only stop if it's safe. For an injured native or wild animal, contact WIRES (wires.org.au, 1300 094 737, 24/7); for a domestic pet, contact the owner, police, or the RSPCA (rspca.org.au)."
+          "After hitting an animal, only stop if it's safe."
+        ],
+        "tables": [
+          {
+            "title": "After hitting an animal, contact",
+            "headers": ["Animal", "Contact"],
+            "rows": [
+              ["Injured native/wild animal", "WIRES (wires.org.au, 1300 094 737, 24/7)"],
+              ["Domestic pet", "Owner, police, or the RSPCA (rspca.org.au)"]
+            ]
+          }
         ]
       },
       {
@@ -1621,14 +1699,29 @@ window.HANDBOOK = [
           { "src": "images-handbook/tow-truck-plate.jpg", "caption": "Authorised NSW crash-scene tow trucks have a four-digit number plate ending in 'TT'." }
         ],
         "bullets": [
-          "Must always stop after a crash and give as much help as possible, and provide your details to those involved or to police — failing to stop and help after a crash causing death or injury risks a fine and prison.",
-          "Immediate steps: turn off the ignition (fire risk), turn on hazard lights, and if it's safe, clear dangerous debris or broken glass from the road.",
-          "A crash with a dangerous-goods truck: call 000, warn people away, avoid touching spilled chemicals or breathing fumes/dust, and follow the Emergency Procedures Guide on the truck's door if it's safe.",
-          "Exchange with others involved: your name and address, your vehicle registration number, and the vehicle owner's name/address if you're not the owner.",
-          "Call an ambulance then police (000) if anyone is injured or killed. Police also attend when someone is trapped, a driver may be alcohol/drug-affected, someone won't stop or exchange details, traffic needs directing or hazards managing, or a bus/truck needs towing. Give police your licence, crash and vehicle details, your name/address, and witness/other-driver information.",
-          "Police attendance isn't needed if there are no injuries and nothing needs towing — if an injury surfaces later, call the Police Assistance Line (131 444). If police didn't attend, report within 24 hours if a vehicle was towed, property or animals were damaged/injured, or you couldn't exchange details — report to the nearest station or 131 444.",
+          "Must always stop after a crash and give as much help as possible, and provide your details — failing to stop and help after a crash causing death/injury risks a fine and prison.",
+          "Immediate steps: turn off the ignition (fire risk), turn on hazard lights, and if safe, clear dangerous debris/glass from the road.",
+          "A crash with a dangerous-goods truck: call 000, warn people away, avoid touching spilled chemicals/fumes/dust, follow the Emergency Procedures Guide on the truck's door if safe.",
+          "Exchange with others involved: your name/address, vehicle registration, and the owner's name/address if you're not the owner.",
+          "Give police your licence, crash and vehicle details, your name/address, and witness/other-driver information.",
+          "If police didn't attend, report within 24 hours if a vehicle was towed, property/animals were damaged/injured, or you couldn't exchange details — report to the nearest station or 131 444.",
           "Learn first aid via St John Ambulance, Australian Red Cross, or the National Safety Council of Australia.",
-          "Towing after a crash: you choose who tows your vehicle and where to. Authorised NSW crash-scene tow trucks have a 4-digit plate ending \"TT\" and a driver with a valid driver certificate — don't use one that doesn't qualify. You must sign a Towing Authorisation Form (you can contact someone first, and can get a copy); police or an authorised officer can arrange a tow if you can't. Comprehensive insurance may cover the towing fee."
+          "Towing: you choose who tows your vehicle and where. Authorised NSW crash-scene tow trucks have a 4-digit plate ending \"TT\" — sign a Towing Authorisation Form (you can contact someone first); comprehensive insurance may cover the fee."
+        ],
+        "tables": [
+          {
+            "title": "When police attend a crash",
+            "headers": ["Situation", "Call 000?"],
+            "rows": [
+              ["Anyone injured or killed", "Yes — ambulance then police"],
+              ["Someone trapped", "Yes"],
+              ["A driver may be alcohol/drug-affected", "Yes"],
+              ["Someone won't stop or exchange details", "Yes"],
+              ["Traffic needs directing or hazards managing", "Yes"],
+              ["A bus/truck needs towing", "Yes"],
+              ["No injuries, nothing needs towing", "Not needed — call the Police Assistance Line (131 444) if an injury surfaces later"]
+            ]
+          }
         ]
       },
       {
@@ -1639,20 +1732,29 @@ window.HANDBOOK = [
           { "src": "images-handbook/warning-triangle-photo.jpg", "caption": "Warning triangle on the road. Slow down." }
         ],
         "bullets": [
-          "Reduce breakdown risk: check fuel, oil, water and tyre pressure (including the spare) regularly; carry a hi-vis vest and torch.",
-          "If you break down: pull over safely (shoulder, emergency stopping lane, breakdown lane), park as far left and away from traffic as possible, turn on hazard lights (and park lights in poor visibility), stay in the vehicle belted and call roadside assistance; for a flat tyre, drive to a safe spot away from traffic if you can.",
-          "If you must exit the vehicle: check for traffic first, exit on the safer side, stand clear behind a safety barrier if possible, avoid crossing the road, and don't change a tyre unless it's safe.",
-          "In a tunnel: pull into the breakdown bay or side of the lane, turn on hazard lights and radio, stay in the vehicle, and wait — major tunnels are constantly monitored.",
-          "Passing a broken-down vehicle: slow down and keep your distance. Passing a stopped tow truck or breakdown vehicle with flashing lights: slow to 40km/h if the limit is 80km/h or less, or slow down and safely move over (change lanes if multi-lane and safe) if it's over 80km/h — don't speed up again until you've passed everyone involved. Slow down for heavy-vehicle warning triangles too."
+          "Reduce breakdown risk: check fuel/oil/water/tyre pressure (incl. spare) regularly; carry a hi-vis vest and torch.",
+          "If you break down: pull over safely (shoulder, emergency stopping lane, breakdown lane), park as far left as possible, hazard lights on, stay in the vehicle belted, call roadside assistance.",
+          "If you must exit: check for traffic first, exit on the safer side, stand clear behind a safety barrier if possible, don't change a tyre unless it's safe.",
+          "In a tunnel: pull into the breakdown bay, hazard lights and radio on, stay in the vehicle and wait — major tunnels are constantly monitored."
+        ],
+        "tables": [
+          {
+            "title": "Passing a broken-down/emergency vehicle with flashing lights",
+            "headers": ["Speed limit", "Rule"],
+            "rows": [
+              ["80km/h or less", "Slow to 40km/h"],
+              ["Over 80km/h", "Slow down and safely move over/change lanes if multi-lane"]
+            ]
+          }
         ]
       },
       {
         "title": "Police and emergency vehicles",
         "page": 179,
         "bullets": [
-          "Watch for emergency vehicles (police, fire, ambulance) — failing to give way risks a fine and demerit points. Obey police directions, signs and hand signals, and pull over safely as soon as you can if directed.",
-          "Passing a stopped emergency vehicle with flashing blue/red lights: slow to 40km/h if the limit is 80km/h or less, or slow down and safely move over/change lanes if it's over 80km/h — don't speed up until you've passed everyone involved.",
-          "On hearing a siren or seeing flashing blue/red lights approaching, give way — move left, stop, or pull out of the traffic line as needed."
+          "Watch for emergency vehicles (police, fire, ambulance) — failing to give way risks a fine and demerits. Obey police directions/signs/hand signals, pull over safely if directed.",
+          "On hearing a siren or seeing flashing blue/red lights approaching, give way — move left, stop, or pull out of the traffic line as needed.",
+          "Passing a stopped emergency vehicle with flashing lights follows the same 40km/h / move-over rule as breakdowns (see previous page)."
         ]
       },
       {
@@ -1666,21 +1768,44 @@ window.HANDBOOK = [
         "title": "Driving in poor conditions",
         "page": 180,
         "bullets": [
-          "Avoid driving in severe or unpredictable weather (storms, bushfires, hail, snow, dust storms, heavy fog) — check conditions beforehand, and pull over safely if conditions worsen mid-trip.",
-          "If you must drive in poor conditions: slow down, drive carefully, improve your visibility with running lights or headlights, stay updated via radio, consider an alternate route, and take regular rest breaks.",
-          "Wet weather: roads get slippery and stopping takes longer — turn on headlights if needed, brake gently, and increase your following gap.",
-          "Unsealed roads (dirt/gravel): slow down and take care — longer stopping distance, harder control, and a risk of skidding, sliding or rolling at speed.",
-          "Water: avoid driving through it — depth and current are hard to judge, the surface underneath may be damaged, and debris or rising water add risk. Floodwater is extremely dangerous — find another way or wait; turning around is safer than driving through."
+          "Avoid driving in severe/unpredictable weather (storms, bushfires, hail, snow, dust storms, heavy fog) — check conditions beforehand, pull over safely if it worsens mid-trip.",
+          "If you must drive in poor conditions: slow down, improve visibility with lights, stay updated via radio, consider an alternate route, take regular rest breaks."
+        ],
+        "tables": [
+          {
+            "title": "Poor conditions",
+            "headers": ["Condition", "What to do"],
+            "rows": [
+              ["Wet weather", "Headlights if needed, brake gently, increase your following gap"],
+              ["Unsealed roads (dirt/gravel)", "Slow down — longer stopping distance, harder control, risk of skidding"],
+              ["Water on the road", "Avoid driving through it — depth/current are hard to judge"],
+              ["Floodwater", "Extremely dangerous — find another way or wait; turning around is safer than driving through"]
+            ]
+          }
         ]
       },
       {
         "title": "Driving distractions",
         "page": 181,
         "bullets": [
-          "A distraction is anything taking your eyes off the road, hands off the wheel, or mind off driving — from inside or outside the vehicle. Just 2 seconds of eyes-off-road doubles crash/near-crash risk (at 50km/h that's 28m travelled blind).",
-          "Passengers can help spot hazards, but their noise or behaviour can distract you, and some may push you to speed or break rules — young drivers have a higher crash risk with similarly-aged passengers.",
-          "Animals must travel secured in an appropriate area — you must not drive with one on your lap, being led from the vehicle, or tied to the outside.",
-          "Ways to reduce distraction: turn off the radio/music in tricky traffic, stow loose items, ask passengers not to distract you, don't adjust the radio while driving, limit passengers/animals, and for phones — learners/P1/P2 should silence, stow or switch off theirs, and full-licence drivers should avoid using theirs at all."
+          "A distraction is anything taking your eyes off the road, hands off the wheel, or mind off driving. Just 2 seconds of eyes-off-road doubles crash/near-crash risk (at 50km/h that's 28m travelled blind).",
+          "Passengers can help spot hazards, but their noise/behaviour can distract you — young drivers have a higher crash risk with similarly-aged passengers.",
+          "Animals must travel secured in an appropriate area — must not be on your lap, being led from the vehicle, or tied to the outside."
+        ],
+        "tables": [
+          {
+            "title": "Ways to reduce distraction",
+            "headers": ["Action"],
+            "rows": [
+              ["Turn off the radio/music in tricky traffic"],
+              ["Stow loose items"],
+              ["Ask passengers not to distract you"],
+              ["Don't adjust the radio while driving"],
+              ["Limit passengers/animals"],
+              ["Learner/P1/P2: silence, stow or switch off your phone"],
+              ["Full licence: avoid phone use entirely while driving"]
+            ]
+          }
         ]
       },
       {
@@ -1693,12 +1818,20 @@ window.HANDBOOK = [
         "bullets": [
           "About a third of crashes happen at night — pedestrians, bikes and motorcycles are harder to see.",
           "At night, or whenever there's not enough light to see a person in dark clothing at 100m, your vehicle must clearly show headlights, tail lights, number plates, and any fitted clearance/side marker lights.",
-          "Headlights: day running lights (or low beam if not fitted) improve visibility; must be on between sunset and sunrise, or anytime visibility is that poor.",
-          "High beam is usable to see further, even under street lights — dip to low beam within 200m of an oncoming vehicle or when following one within 200m; you may flash high beam before overtaking.",
-          "Fog lights: only in fog, heavy rain, or similarly limiting conditions (smoke, dust) — switch off once visibility improves; use low beam if you lack fog lights.",
-          "Hazard lights: only when your vehicle is in a hazardous position or in genuinely hazardous conditions (thick fog, very heavy rain).",
-          "Don't use or fit dazzling or distracting lights. If dazzled by oncoming high beam, look to the left edge of your lane, and slow down or stop out of the traffic line until your eyes recover.",
-          "Horns and warning devices: only to warn of your vehicle's position or approach, to warn animals off the road, or as part of an anti-theft/alcohol-interlock device — never to scare or intimidate others, especially cyclists, pedestrians or horse riders."
+          "Don't use or fit dazzling or distracting lights. If dazzled by oncoming high beam, look to the left edge of your lane, and slow down or stop out of the traffic line until your eyes recover."
+        ],
+        "tables": [
+          {
+            "title": "When to use each light",
+            "headers": ["Light", "When"],
+            "rows": [
+              ["Headlights (day running, or low beam if not fitted)", "Between sunset and sunrise, or anytime visibility is that poor"],
+              ["High beam", "To see further, even under street lights — dip within 200m of an oncoming or followed vehicle; may flash before overtaking"],
+              ["Fog lights", "Only in fog, heavy rain, or similarly limiting conditions — switch off once visibility improves"],
+              ["Hazard lights", "Only when your vehicle is in a hazardous position or in genuinely hazardous conditions"],
+              ["Horn", "Only to warn of your position/approach or warn animals off the road — never to intimidate"]
+            ]
+          }
         ]
       }
     ]
