@@ -13,7 +13,7 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/licence-7-steps.png", "caption": "The 7 steps from the Driver Knowledge Test through to a full driver licence." }
         ],
-        "figuresGrid": { "heightScale": 0.1 },
+        "figuresGrid": { "heightScale": 1.08 },
         "bullets": [],
         "tables": [
           {

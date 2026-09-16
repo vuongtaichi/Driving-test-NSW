@@ -503,12 +503,18 @@ main.app--wide { max-width: 1100px; --content-max: 1100px; }
   .hbnav-toggle {
     display: flex;
     position: fixed;
-    top: calc(58px + env(safe-area-inset-top, 0px));
+    top: calc(6px + env(safe-area-inset-top, 0px));  /* sits on the yellow
+                                                         topbar itself, not
+                                                         the tab row below it */
     right: 12px;
     z-index: 20;
     width: auto;
     margin-bottom: 0;
-    padding: 8px 12px;
+    padding: 8px 6px;
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: var(--brand-ink);
   }
   .hbnav {
     display: none;
@@ -529,6 +535,18 @@ main.app--wide { max-width: 1100px; --content-max: 1100px; }
     margin-bottom: 16px;
   }
   .hbnav.is-open { display: block; }
+}
+
+@media (max-width: 480px) {
+  /* "span"/"rowSpan" set grid-column-end/grid-row-end as inline styles,
+     which no external stylesheet rule can override -- so a figure that
+     spans e.g. 4 columns on desktop kept forcing that many *implicit*
+     tracks under the narrow auto-fit grid below, overflowing the page
+     horizontally. !important is required here to win over inline styles. */
+  .hbfigures .hbfigure {
+    grid-column-end: span 1 !important;
+    grid-row-end: span 1 !important;
+  }
 }
 
 /* ---------- section (per-topic question list) ---------- */
