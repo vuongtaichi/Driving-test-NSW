@@ -71,7 +71,7 @@ window.HANDBOOK = [
             "rows": [
               ["Format", "Practical on-road test with a Service NSW officer, in a registered roadworthy car"],
               ["Timing", "Within 15 months of passing the HPT (else redo the HPT)"],
-              ["Under-25 extra requirements", "12 months on a learner licence + 120 logged hours (20 at night)"],
+              ["Under-25yo extra requirements", "12 months on a learner licence + 120 logged hours (20 at night)"],
               ["If you fail", "Re-book after 7 days"]
             ]
           },
@@ -280,11 +280,10 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/speed-sign-regulatory.png", "caption": "Regulatory sign: white background, red circle — the legal limit." },
           { "src": "images-handbook/speed-sign-local-traffic-area.png", "caption": "Local traffic area — 40km/h residential streets.", "square": true },
-          { "src": "images-handbook/speed-sign-school-zone-flag.png", "caption": "School zone start sign." },
+          { "src": "images-handbook/speed-sign-school-zone.png", "caption": "School zone sign — start flag, active times and speed limit." },
           { "src": "images-handbook/speed-sign-variable.png", "caption": "Variable electronic signs — change with road conditions." },
           { "src": "images-handbook/speed-sign-high-pedestrian.png", "caption": "High pedestrian activity area — 30 or 40km/h.", "wide": true },
           { "src": "images-handbook/speed-sign-shared-zone.png", "caption": "Shared zone (10km/h) and its end sign.", "wide": true },
-          { "src": "images-handbook/speed-sign-school-zone-times.png", "caption": "School zone times and speed limit.", "wide": true },
           { "src": "images-handbook/speed-sign-school-zone-end.png", "caption": "End of school zone — limit reverts.", "wide": true }
         ],
         "bullets": [],
@@ -456,10 +455,10 @@ window.HANDBOOK = [
             "title": "Key points",
             "headers": ["Point"],
             "rows": [
-              ["Under-7s need an approved restraint (AS/NZS 1754) — driver's responsibility. See the age table below"],
-              ["7–16 too small for an adult belt: booster, forward-facing seat, or anchored harness (adult belt needs ~145cm)"],
+              ["Under-7yo need an approved restraint (AS/NZS 1754) — driver's responsibility. See the age table below"],
+              ["7–16yo too small for an adult belt: booster, forward-facing seat, or anchored harness (adult belt needs ~145cm)"],
               ["Fit tightly per the manufacturer's instructions, proper anchorage — an Authorised Restraint Fitter is recommended"],
-              ["Front seat: under-4s never in a 2+ row vehicle; 4–7s only if every back-row seat is taken by other under-7s"],
+              ["Front seat: under-4yo never in a 2+ row vehicle; 4–7yo only if every back-row seat is taken by other under-7yo"],
               ["Penalties: fines and demerits (can double) for not restraining a child correctly"],
               ["Never share a seatbelt with a child on your lap, and never carry a child in your arms while driving"]
             ]
@@ -480,7 +479,7 @@ window.HANDBOOK = [
             "rows": [
               ["Under 12 months, tow truck after a crash", "OK without a proper seat if none is available"],
               ["Taxis", "Same age-based seat/booster/seatbelt rules"],
-              ["Under-7 with a medical condition", "Doctor's certificate for an alternative restraint"]
+              ["Under-7yo with a medical condition", "Doctor's certificate for an alternative restraint"]
             ]
           }
         ],
@@ -609,7 +608,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/crash-avoidance-photo.jpg", "caption": "Keep a 3-second gap behind the vehicle in front of you." },
           { "src": "images-handbook/stopping-distance-chart.jpg", "caption": "The distance a car travels to stop at 40/60/80/100km/h, on a dry vs wet road." }
         ],
-        "figuresGrid": { "cols": 3 },
+        "figuresGrid": { "cols": 1, "heightScale": 1.6 },
         "bullets": [],
         "tables": [
           {
@@ -918,7 +917,11 @@ window.HANDBOOK = [
           { "src": "images-handbook/bicycle-signal-green.jpg", "caption": "Green bicycle crossing light." },
           { "src": "images-handbook/bicycle-signal-red.jpg", "caption": "Red bicycle crossing light." },
           { "src": "images-handbook/bicycle-storage-area.jpg", "caption": "A bicycle storage area at traffic lights — vehicles must not enter it while the lights are red.", "wide": true, "scale": 2 },
-          { "src": "images-handbook/pedestrian-signals.jpg", "caption": "Red, flashing red and green pedestrian signals, plus a walk-direction sign and a countdown timer.", "wide": true, "scale": 2 }
+          { "src": "images-handbook/pedestrian-signal-red.jpg", "caption": "Red pedestrian symbol — pedestrians must not start to cross.", "scale": 2, "newRow": true },
+          { "src": "images-handbook/pedestrian-signal-flashing-red.jpg", "caption": "Flashing red pedestrian symbol — must not start to cross, but can finish crossing.", "scale": 2 },
+          { "src": "images-handbook/pedestrian-signal-green.jpg", "caption": "Green pedestrian symbol — pedestrians can start to cross.", "scale": 2 },
+          { "src": "images-handbook/pedestrian-walk-direction.jpg", "caption": "Pedestrians can walk in any direction when the green pedestrian symbol is showing.", "scale": 2 },
+          { "src": "images-handbook/pedestrian-countdown.jpg", "caption": "Pedestrian countdown timers show the number of seconds until the lights change.", "scale": 2 }
         ],
         "bullets": [],
         "tables": [
@@ -980,12 +983,13 @@ window.HANDBOOK = [
         "title": "Roundabouts",
         "page": 91,
         "figures": [
-          { "src": "images-handbook/roundabout-signs.jpg", "caption": "\"Roundabout ahead\" and \"give way to vehicles on the roundabout\" signs." },
-          { "src": "images-handbook/roundabout-turn-left.jpg", "caption": "Turning left at a roundabout." },
-          { "src": "images-handbook/roundabout-straight.jpg", "caption": "Going straight ahead at a roundabout." },
-          { "src": "images-handbook/roundabout-turn-right.jpg", "caption": "Turning right or making a full turn (U-turn) at a roundabout." },
-          { "src": "images-handbook/roundabout-multilane.jpg", "caption": "Using a multi-lane roundabout with arrows marked on the road." },
-          { "src": "images-handbook/roundabout-bicycle.jpg", "caption": "A bicycle at a roundabout turning right from the left lane." }
+          { "src": "images-handbook/roundabout-ahead-sign.jpg", "caption": "\"Roundabout ahead\" sign.", "scale": 1.5 },
+          { "src": "images-handbook/roundabout-giveway-sign.jpg", "caption": "\"Give way to vehicles on the roundabout\" sign.", "scale": 1.5 },
+          { "src": "images-handbook/roundabout-turn-left.jpg", "caption": "Turning left at a roundabout.", "scale": 1.5 },
+          { "src": "images-handbook/roundabout-straight.jpg", "caption": "Going straight ahead at a roundabout.", "scale": 1.5 },
+          { "src": "images-handbook/roundabout-turn-right.jpg", "caption": "Turning right or making a full turn (U-turn) at a roundabout.", "scale": 1.5 },
+          { "src": "images-handbook/roundabout-multilane.jpg", "caption": "Using a multi-lane roundabout with arrows marked on the road.", "scale": 1.5 },
+          { "src": "images-handbook/roundabout-bicycle.jpg", "caption": "A bicycle at a roundabout turning right from the left lane.", "scale": 1.5 }
         ],
         "bullets": [],
         "tables": [

@@ -439,6 +439,7 @@
       figure.className = 'hbfigure';
       if (fig.square) figure.classList.add('hbfigure--square');
       if (fig.scale) figure.style.setProperty('--hb-fig-scale', fig.scale);
+      if (fig.newRow) figure.style.gridColumnStart = '1';
       var img = document.createElement('img');
       img.src = fig.src;
       img.alt = fig.caption || section.title;
