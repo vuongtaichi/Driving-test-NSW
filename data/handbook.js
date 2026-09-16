@@ -1372,6 +1372,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/give-way-to-buses-sign.jpg", "caption": "'Give way to buses' sign, shown when driving in the left lane." },
           { "src": "images-handbook/zipper-merge.jpg", "caption": "A zipper merge: when two lanes reduce to one, the trailing car (B) gives way to the car ahead (A)." }
         ],
+        "figuresGrid": { "cols": 3 },
         "bullets": [],
         "tables": [
           {
@@ -1405,7 +1406,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/closed-lane-signal.jpg", "caption": "Closed-lane signal on a motorway: you must not drive in this lane." },
           { "src": "images-handbook/lane-exit-signals.jpg", "caption": "Left and right lane-exit signals: the road ahead is closed, and the next exit is a detour." },
           { "src": "images-handbook/motorway-lane-signals-photo.jpg", "caption": "Left lane-merge and closed-lane signals in use — you must not drive in the right lane, and must change lanes left if you're in the second lane from the right." },
-          { "src": "images-handbook/variable-message-sign.jpg", "caption": "Variable message sign showing travel times." },
+          { "src": "images-handbook/variable-message-sign.jpg", "caption": "Variable message sign showing travel times.", "wide": true },
           { "src": "images-handbook/end-motorway-signs.jpg", "caption": "These signs indicate the end of a motorway." },
           { "src": "images-handbook/exit-motorway-sign.jpg", "caption": "Exit sign from a motorway." },
           { "src": "images-handbook/motorway-exit-ahead-sign.jpg", "caption": "An exit to the motorway is coming." },
@@ -1470,9 +1471,9 @@ window.HANDBOOK = [
           { "src": "images-handbook/no-stopping-kerb-lines.jpg", "caption": "Continuous yellow kerb lines mean no stopping at any time except in an emergency." },
           { "src": "images-handbook/painted-island-double-lines.jpg", "caption": "You must not drive or stop on a painted island that's surrounded by double lines." },
           { "src": "images-handbook/painted-island-turning-lane.jpg", "caption": "A car entering a turning lane from a painted island (Car B) must give way to the car already in the turning lane (Car A)." },
-          { "src": "images-handbook/s-lane.jpg", "caption": "You must not cross a continuous line to turn into an S-lane." },
+          { "src": "images-handbook/s-lane.jpg", "caption": "You must not cross a continuous line to turn into an S-lane.", "wide": true },
           { "src": "images-handbook/painted-arrows-intersection.jpg", "caption": "Follow the painted arrows and stay in your lane when turning." },
-          { "src": "images-handbook/keep-clear-marking.jpg", "caption": "Area with 'Keep clear' marked on the road." },
+          { "src": "images-handbook/keep-clear-marking.jpg", "caption": "Area with 'Keep clear' marked on the road.", "wide": true },
           { "src": "images-handbook/dragons-teeth-photo.jpg", "caption": "Dragon's teeth road markings in a school zone." }
         ],
         "bullets": [],
@@ -1738,13 +1739,14 @@ window.HANDBOOK = [
         "title": "No parking",
         "page": 156,
         "figures": [
-          { "src": "images-handbook/no-parking-sign.png", "caption": "A \"No parking\" sign — you can stop briefly to drop off/pick up or load, but not park." },
-          { "src": "images-handbook/bus-stop-distance.png", "caption": "No parking within 20m before or 10m after a bus stop." },
-          { "src": "images-handbook/parking-intersections.jpg", "caption": "No parking within 10m of an intersection without traffic lights (or 20m with lights), unless signed or it's a T-intersection." },
-          { "src": "images-handbook/parking-crossings.jpg", "caption": "No parking within 20m before or 10m after a children's or pedestrian crossing." },
-          { "src": "images-handbook/parking-signal-lights.jpg", "caption": "No parking within 10m before or 3m after standalone pedestrian or bicycle crossing lights." },
-          { "src": "images-handbook/parking-railway-crossing.jpg", "caption": "No parking within 20m either side of a railway level crossing." }
+          { "src": "images-handbook/bus-stop-distance.png", "caption": "No parking within 20m before or 10m after a bus stop.", "span": 4, "newRow": true },
+          { "src": "images-handbook/no-parking-sign.png", "caption": "A \"No parking\" sign — you can stop briefly to drop off/pick up or load, but not park.", "newRow": true },
+          { "src": "images-handbook/parking-intersections.jpg", "caption": "No parking within 10m of an intersection without traffic lights (or 20m with lights), unless signed or it's a T-intersection.", "span": 2 },
+          { "src": "images-handbook/parking-crossings.jpg", "caption": "No parking within 20m before or 10m after a children's or pedestrian crossing.", "span": 4, "newRow": true },
+          { "src": "images-handbook/parking-signal-lights.jpg", "caption": "No parking within 10m before or 3m after standalone pedestrian or bicycle crossing lights.", "span": 4, "newRow": true },
+          { "src": "images-handbook/parking-railway-crossing.jpg", "caption": "No parking within 20m either side of a railway level crossing.", "span": 4, "newRow": true }
         ],
+        "figuresGrid": { "cols": 4 },
         "bullets": [],
         "tables": [
           {
