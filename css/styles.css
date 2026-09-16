@@ -115,7 +115,7 @@ main.app--wide { max-width: 1100px; }
 .hero { margin-bottom: 20px; }
 .hero__eyebrow {
   margin: 0;
-  font-size: .78rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--text);
 }
@@ -350,7 +350,7 @@ main.app--wide { max-width: 1100px; }
 .hbcontent { flex: 1; min-width: 0; }
 .hbcontent__chapter-label {
   margin: 0;
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.3;
   color: var(--text-dim);
@@ -384,6 +384,19 @@ main.app--wide { max-width: 1100px; }
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 14px;
   margin: 18px 0;
+}
+/* An explicit figuresGrid.cols count (data-cols) is a hard column count above
+   the mobile breakpoint, so a section's chosen grid shape (e.g. 3x3, 2x1) is
+   never silently overshot/undershot by auto-fit at in-between widths; below
+   the breakpoint it falls back to a responsive auto-fit so narrow screens
+   still reflow instead of overflowing. */
+.hbfigures[data-cols="1"] { grid-template-columns: repeat(1, 1fr); }
+.hbfigures[data-cols="2"] { grid-template-columns: repeat(2, 1fr); }
+.hbfigures[data-cols="3"] { grid-template-columns: repeat(3, 1fr); }
+.hbfigures[data-cols="4"] { grid-template-columns: repeat(4, 1fr); }
+.hbfigures[data-cols="5"] { grid-template-columns: repeat(5, 1fr); }
+@media (max-width: 480px) {
+  .hbfigures[data-cols] { grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); }
 }
 .hbfigures .hbfigure { margin: 0; display: flex; flex-direction: column; --hb-fig-scale: 1; }
 .hbfigures .hbfigure img { max-height: calc(var(--hb-img-h, 220px) * var(--hb-fig-scale, 1)); width: auto; max-width: 100%; margin: 0 auto; object-fit: contain; }

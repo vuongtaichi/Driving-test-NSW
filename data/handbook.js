@@ -95,10 +95,15 @@ window.HANDBOOK = [
       {
         "title": "Licence classes",
         "page": 16,
-        "bullets": [
-          "This handbook covers the Car (C) licence — other vehicle types need a different licence class, plus their own tests, assessments and medical checks."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["This handbook covers the Car (C) licence — other vehicle types need a different licence class, plus their own tests, assessments and medical checks."]
+            ]
+          },
           {
             "title": "Licence classes",
             "headers": ["Licence", "Can drive"],
@@ -128,10 +133,15 @@ window.HANDBOOK = [
       {
         "title": "Licence restrictions",
         "page": 19,
-        "bullets": [
-          "*P1/P2 supervision exception: if you passed the Driving Test in an automatic and want to drive a manual, you still need a full-licence supervisor."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["*P1/P2 supervision exception: if you passed the Driving Test in an automatic and want to drive a manual, you still need a full-licence supervisor."]
+            ]
+          },
           {
             "title": "Restrictions by licence stage",
             "headers": ["Restriction", "Learner", "P1 (red P)", "P2 (green P)"],
@@ -282,7 +292,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/speed-sign-local-traffic-area.png", "caption": "Local traffic area — 40km/h residential streets.", "square": true },
           { "src": "images-handbook/speed-sign-school-zone.png", "caption": "School zone sign — start flag, active times and speed limit." },
           { "src": "images-handbook/speed-sign-variable.png", "caption": "Variable electronic signs — change with road conditions.", "newRow": true, "wide": true },
-          { "src": "images-handbook/speed-sign-high-pedestrian.png", "caption": "High pedestrian activity area — 30 or 40km/h.", "wide": true },
+          { "src": "images-handbook/speed-sign-high-pedestrian.png", "caption": "High pedestrian activity area — 30 or 40km/h.", "newRow": true, "wide": true, "scale": 1.3 },
           { "src": "images-handbook/speed-sign-shared-zone.png", "caption": "Shared zone (10km/h) and its end sign.", "wide": true, "newRow": true },
           { "src": "images-handbook/speed-sign-school-zone-end.png", "caption": "End of school zone — limit reverts.", "wide": true }
         ],
@@ -816,10 +826,15 @@ window.HANDBOOK = [
           { "src": "images-handbook/truck-turning-left.jpg", "caption": "A long vehicle can use more than one lane to turn left." }
         ],
         "figuresGrid": { "heightScale": 1.5 },
-        "bullets": [
-          "Heavy vehicles cause more serious crashes because of their size, weight and length — everyone needs to take extra care around them."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Heavy vehicles cause more serious crashes because of their size, weight and length — everyone needs to take extra care around them."]
+            ]
+          },
           {
             "title": "Why take extra care around heavy vehicles",
             "headers": ["Hazard", "What to do"],
@@ -1073,8 +1088,8 @@ window.HANDBOOK = [
           { "src": "images-handbook/no-right-turn-electronic.jpg", "caption": "'No right turn' sign (electronic): you must not turn right or make a U-turn." },
           { "src": "images-handbook/left-lane-must-turn-left.jpg", "caption": "'Left lane must turn left' sign: if you're in the left lane, you must turn left." },
           { "src": "images-handbook/right-lane-must-turn-right.jpg", "caption": "'Right lane must turn right' sign: if you're in the right lane, you must turn right." },
-          { "src": "images-handbook/left-only-sign.jpg", "caption": "'Left only' sign: you must turn left." },
-          { "src": "images-handbook/right-only-sign.jpg", "caption": "'Right only' sign: you must turn right." },
+          { "src": "images-handbook/left-only-sign.jpg", "caption": "'Left only' sign: you must turn left.", "scale": 1.5 },
+          { "src": "images-handbook/right-only-sign.jpg", "caption": "'Right only' sign: you must turn right.", "scale": 1.5 },
           { "src": "images-handbook/no-entry-sign.jpg", "caption": "'No entry' sign: you must not drive beyond the sign.", "scale": 1.5 },
           { "src": "images-handbook/no-bicycles-sign.jpg", "caption": "'No bicycles' sign: bicycle riders must not ride beyond the sign.", "scale": 1.5 },
           { "src": "images-handbook/right-turn-from-left-sign.jpg", "caption": "'Right turn from left only' sign, marking a bicycle hook-turn intersection." }
@@ -1182,7 +1197,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/pedestrian-crossing-ahead-sign.jpg", "caption": "'Pedestrian crossing ahead' warning sign." },
           { "src": "images-handbook/children-crossing-ahead-sign.jpg", "caption": "'Children may be crossing ahead' warning sign." },
           { "src": "images-handbook/pedestrians-crossing-ahead-sign.jpg", "caption": "'Pedestrians may be crossing ahead' warning sign, used near pedestrian refuges and high-activity areas." },
-          { "src": "images-handbook/zigzag-crossing.jpg", "caption": "A pedestrian crossing with zig-zag approach lines.", "newRow": true, "wide": true },
+          { "src": "images-handbook/zigzag-crossing.jpg", "caption": "A pedestrian crossing with zig-zag approach lines.", "wide": true },
           { "src": "images-handbook/childrens-crossing-flag.jpg", "caption": "A red-orange flag marks a children's crossing when it's operating." }
         ],
         "figuresGrid": { "cols": 4 },
@@ -1220,13 +1235,18 @@ window.HANDBOOK = [
           { "src": "images-handbook/level-crossing-stop-signals.jpg", "caption": "Stop at a level crossing for a Stop sign, flashing red lights, or a closing/closed boom gate.", "newRow": true, "wide": true }
         ],
         "figuresGrid": { "cols": 2 },
-        "bullets": [
-          "Trains are fast, heavy and can't stop quickly — always slow down, look and listen approaching a crossing; never drive onto one while a train is approaching or if the far side is blocked.",
-          "Never block a crossing — only cross if you can clear the tracks completely; never stop/park on a crossing or within 20m of either side.",
-          "Don't proceed until lights stop flashing and gates are fully open — and if you stopped at a Stop/Give way sign, still wait until it's genuinely safe.",
-          "Crossings without signals (common in the country) need extra care: slow down, look and listen both ways, and after one train passes, check for a second before crossing."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Trains are fast, heavy and can't stop quickly — always slow down, look and listen approaching a crossing; never drive onto one while a train is approaching or if the far side is blocked."],
+              ["Never block a crossing — only cross if you can clear the tracks completely; never stop/park on a crossing or within 20m of either side."],
+              ["Don't proceed until lights stop flashing and gates are fully open — and if you stopped at a Stop/Give way sign, still wait until it's genuinely safe."],
+              ["Crossings without signals (common in the country) need extra care: slow down, look and listen both ways, and after one train passes, check for a second before crossing."]
+            ]
+          },
           {
             "title": "Must stop when",
             "headers": ["Situation"],
@@ -1248,9 +1268,16 @@ window.HANDBOOK = [
           { "src": "images-handbook/narrow-bridge-road-signs.jpg", "caption": "'Narrow bridge', 'Narrow bridge ahead' and 'Road narrows ahead' warning signs.", "wide": false }
         ],
         "figuresGrid": { "cols": 2 },
-        "bullets": [
-          "At a narrow bridge or road with a Give way sign, slow down, prepare to stop, and give way to oncoming vehicles — even without a sign, you should still give way.",
-          "Watch for oversize vehicles that may drive down the centre of a bridge, taking more than one lane — be ready to stop and wait for them to clear it."
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["At a narrow bridge or road with a Give way sign, slow down, prepare to stop, and give way to oncoming vehicles — even without a sign, you should still give way."],
+              ["Watch for oversize vehicles that may drive down the centre of a bridge, taking more than one lane — be ready to stop and wait for them to clear it."]
+            ]
+          }
         ]
       },
       {
@@ -1260,10 +1287,17 @@ window.HANDBOOK = [
           { "src": "images-handbook/one-way-two-way-signs.jpg", "caption": "'One way' sign (travel only in the arrow's direction) and 'Two way' sign (lanes travelling in opposite directions)." },
           { "src": "images-handbook/one-way-right-turn.jpg", "caption": "Keep to the far right when turning right from a one-way street." }
         ],
-        "bullets": [
-          "\"One way\" and \"Two way\" signs are regulatory and must be obeyed.",
-          "A \"One way\" sign means you may only drive in the arrow's direction; turning right from a one-way street, turn from the far right side of the road.",
-          "A \"Two way\" sign means the road carries traffic in both directions."
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["\"One way\" and \"Two way\" signs are regulatory and must be obeyed."],
+              ["A \"One way\" sign means you may only drive in the arrow's direction; turning right from a one-way street, turn from the far right side of the road."],
+              ["A \"Two way\" sign means the road carries traffic in both directions."]
+            ]
+          }
         ]
       }
     ]
@@ -1289,17 +1323,22 @@ window.HANDBOOK = [
           { "src": "images-handbook/overtake-bicycle.jpg", "caption": "You can cross double dividing lines when overtaking a bicycle." },
           { "src": "images-handbook/no-overtaking-passing-sign.jpg", "caption": "'No overtaking or passing' sign, used on bridges." }
         ],
-        "bullets": [
-          "Take care and accurately judge the space needed — if in doubt, wait. Check mirrors and blind spots first; motorcycles/bicycles can be hidden behind other vehicles.",
-          "Before overtaking: check the road ahead is clear with enough distance, check side streets/other lanes, check mirrors/blind spots, and indicate.",
-          "While overtaking, stay under the speed limit; before returning, make sure you can see the passed vehicle in your mirror, and indicate.",
-          "Being overtaken: don't speed up — stay in your lane, keep left, give them room to pass and return.",
-          "Overtaking on the left is only allowed when the vehicle ahead is waiting to turn right/U-turn from the centre, is stopped, or you're on a multi-lane road.",
-          "\"Keep left unless overtaking\" applies on roads with that sign or over 80km/h.",
-          "A \"Do not overtake turning vehicle\" sign: don't overtake on the left while it's turning left; don't overtake on the right while it's turning right unless clearly safe.",
-          "A \"No overtaking or passing\" sign on a bridge: give way to oncoming traffic, don't overtake vehicles travelling the same direction."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Take care and accurately judge the space needed — if in doubt, wait. Check mirrors and blind spots first; motorcycles/bicycles can be hidden behind other vehicles."],
+              ["Before overtaking: check the road ahead is clear with enough distance, check side streets/other lanes, check mirrors/blind spots, and indicate."],
+              ["While overtaking, stay under the speed limit; before returning, make sure you can see the passed vehicle in your mirror, and indicate."],
+              ["Being overtaken: don't speed up — stay in your lane, keep left, give them room to pass and return."],
+              ["Overtaking on the left is only allowed when the vehicle ahead is waiting to turn right/U-turn from the centre, is stopped, or you're on a multi-lane road."],
+              ["\"Keep left unless overtaking\" applies on roads with that sign or over 80km/h."],
+              ["A \"Do not overtake turning vehicle\" sign: don't overtake on the left while it's turning left; don't overtake on the right while it's turning right unless clearly safe."],
+              ["A \"No overtaking or passing\" sign on a bridge: give way to oncoming traffic, don't overtake vehicles travelling the same direction."]
+            ]
+          },
           {
             "title": "Must not overtake when",
             "headers": ["Situation"],
@@ -1329,10 +1368,15 @@ window.HANDBOOK = [
           { "src": "images-handbook/give-way-to-buses-sign.jpg", "caption": "'Give way to buses' sign, shown when driving in the left lane." },
           { "src": "images-handbook/zipper-merge.jpg", "caption": "A zipper merge: when two lanes reduce to one, the trailing car (B) gives way to the car ahead (A)." }
         ],
-        "bullets": [
-          "Always check mirrors and blind spots (watch for motorcycles/bicycles) and indicate before changing or merging lanes; turn the indicator off afterwards."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Always check mirrors and blind spots (watch for motorcycles/bicycles) and indicate before changing or merging lanes; turn the indicator off afterwards."]
+            ]
+          },
           {
             "title": "Merge scenarios",
             "headers": ["Scenario", "Rule"],
@@ -1363,17 +1407,22 @@ window.HANDBOOK = [
           { "src": "images-handbook/motorway-exit-ahead-sign.jpg", "caption": "An exit to the motorway is coming." },
           { "src": "images-handbook/toll-road-sign.jpg", "caption": "Toll road sign — you can pay the toll by electronic tag or electronic pass." }
         ],
-        "bullets": [
-          "A motorway/freeway/expressway is a high-speed road with more than one lane each direction; bicycles may use it unless signed otherwise. Check fuel/oil/water/tyres before a long trip.",
-          "Joining: your lane typically ends and you cross a broken line — give way to traffic already there, slow down, find a safe gap.",
-          "Ramp metering signals manage motorway entry — green stays on just long enough for one vehicle per lane; stop behind the line on red.",
-          "On a motorway with a limit over 80km/h and 2+ lanes, don't drive in the right lane unless overtaking, avoiding an obstruction, all lanes are congested, or a sign allows it. Never U-turn or reverse.",
-          "Variable message signs show travel times and conditions such as ramp closures.",
-          "Must not stop or park except in a genuine emergency — move to the emergency stopping lane if you must stop.",
-          "Leaving: move to the exit lane early, indicate before exiting; if you miss your exit, continue to the next one.",
-          "Toll roads are signed — pay via an electronic tag or pass, or you'll be sent a toll notice."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["A motorway/freeway/expressway is a high-speed road with more than one lane each direction; bicycles may use it unless signed otherwise. Check fuel/oil/water/tyres before a long trip."],
+              ["Joining: your lane typically ends and you cross a broken line — give way to traffic already there, slow down, find a safe gap."],
+              ["Ramp metering signals manage motorway entry — green stays on just long enough for one vehicle per lane; stop behind the line on red."],
+              ["On a motorway with a limit over 80km/h and 2+ lanes, don't drive in the right lane unless overtaking, avoiding an obstruction, all lanes are congested, or a sign allows it. Never U-turn or reverse."],
+              ["Variable message signs show travel times and conditions such as ramp closures."],
+              ["Must not stop or park except in a genuine emergency — move to the emergency stopping lane if you must stop."],
+              ["Leaving: move to the exit lane early, indicate before exiting; if you miss your exit, continue to the next one."],
+              ["Toll roads are signed — pay via an electronic tag or pass, or you'll be sent a toll notice."]
+            ]
+          },
           {
             "title": "Overhead signals",
             "headers": ["Signal", "Meaning"],
@@ -1422,12 +1471,17 @@ window.HANDBOOK = [
           { "src": "images-handbook/keep-clear-marking.jpg", "caption": "Area with 'Keep clear' marked on the road." },
           { "src": "images-handbook/dragons-teeth-photo.jpg", "caption": "Dragon's teeth road markings in a school zone." }
         ],
-        "bullets": [
-          "Keep to the middle of your lane; keep left where there are no lane markings or approaching the top of a hill; watch for lanes dedicated to bicycles, buses, trams and trucks.",
-          "White dividing lines separate opposite-direction traffic — always drive to their left. May cross one to avoid an obstruction if you have a clear view, it's necessary/reasonable, and safe.",
-          "Painted arrows show a lane's permitted direction(s) — go any way shown, but still indicate and stay in your lane through marked turn lines."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Keep to the middle of your lane; keep left where there are no lane markings or approaching the top of a hill; watch for lanes dedicated to bicycles, buses, trams and trucks."],
+              ["White dividing lines separate opposite-direction traffic — always drive to their left. May cross one to avoid an obstruction if you have a clear view, it's necessary/reasonable, and safe."],
+              ["Painted arrows show a lane's permitted direction(s) — go any way shown, but still indicate and stay in your lane through marked turn lines."]
+            ]
+          },
           {
             "title": "Dividing lines — where you may cross",
             "headers": ["Line type", "You may cross to"],
@@ -1465,11 +1519,16 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/slip-lane-giveway.jpg", "caption": "When a car is turning left in a slip lane (Car A), they must give way to vehicles turning right into the road they're turning into." }
         ],
-        "bullets": [
-          "Slip lanes improve flow and safety for left turns, marked by a painted or traffic island — you must use one where it's provided.",
-          "Must not stop in a slip lane unless a parking sign allows it."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Slip lanes improve flow and safety for left turns, marked by a painted or traffic island — you must use one where it's provided."],
+              ["Must not stop in a slip lane unless a parking sign allows it."]
+            ]
+          },
           {
             "title": "Turning left in a slip lane — give way to",
             "headers": ["Give way to"],
@@ -1488,9 +1547,16 @@ window.HANDBOOK = [
           { "src": "images-handbook/median-turning-lane-sign.jpg", "caption": "'Median turning lane' sign." },
           { "src": "images-handbook/median-turning-lane-diagram.jpg", "caption": "You can enter and share a median turning lane with an oncoming vehicle." }
         ],
-        "bullets": [
-          "A shared centre lane for vehicles from either direction turning right into a side road, driveway or property access — marked by signs or arrows.",
-          "You may enter even if an oncoming vehicle is already using it, but must give way to it, slowing down and stopping if necessary."
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["A shared centre lane for vehicles from either direction turning right into a side road, driveway or property access — marked by signs or arrows."],
+              ["You may enter even if an oncoming vehicle is already using it, but must give way to it, slowing down and stopping if necessary."]
+            ]
+          }
         ]
       },
       {
@@ -1502,11 +1568,16 @@ window.HANDBOOK = [
           { "src": "images-handbook/bicycle-path-only-sign.jpg", "caption": "'Bicycle path only' sign." },
           { "src": "images-handbook/bicycle-path-end-sign.jpg", "caption": "'Bicycle path only end' sign." }
         ],
-        "bullets": [
-          "Marked by a bicycle symbol plus \"Lane\" sign/markings; riders must use one where provided unless it's impractical. Ends at a \"Lane end\" sign/marking, at most intersections, or a dead end.",
-          "Bicycle paths differ from lanes: optional for riders, run alongside roads or off-road, marked by a \"Bicycle path\" sign; also usable by skateboard/scooter/rollerblade riders, wheelchair/mobility scooter users, and postal motorcyclists. Other vehicles may cross only when entering/leaving a road or where signed, giving way to everyone else on it."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Marked by a bicycle symbol plus \"Lane\" sign/markings; riders must use one where provided unless it's impractical. Ends at a \"Lane end\" sign/marking, at most intersections, or a dead end."],
+              ["Bicycle paths differ from lanes: optional for riders, run alongside roads or off-road, marked by a \"Bicycle path\" sign; also usable by skateboard/scooter/rollerblade riders, wheelchair/mobility scooter users, and postal motorcyclists. Other vehicles may cross only when entering/leaving a road or where signed, giving way to everyone else on it."]
+            ]
+          },
           {
             "title": "You may drive in a bicycle lane to",
             "headers": ["Reason"],
@@ -1527,10 +1598,15 @@ window.HANDBOOK = [
           { "src": "images-handbook/buses-only-lane-sign.jpg", "caption": "'Buses only lane' sign." },
           { "src": "images-handbook/t-way-lane-sign.jpg", "caption": "'T-way lane' sign, for authorised buses and service vehicles only." }
         ],
-        "bullets": [
-          "No stopping in a bus lane except buses at a stop, or taxis/chauffeured hire cars picking up or dropping off passengers."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["No stopping in a bus lane except buses at a stop, or taxis/chauffeured hire cars picking up or dropping off passengers."]
+            ]
+          },
           {
             "title": "Bus lane access",
             "headers": ["Who", "Rule"],
@@ -1550,10 +1626,15 @@ window.HANDBOOK = [
           { "src": "images-handbook/tramway-only-sign.jpg", "caption": "'Tramway' sign." },
           { "src": "images-handbook/tram-lane-sign.jpg", "caption": "'Tram lane' sign." }
         ],
-        "bullets": [
-          "Never move into the path of a moving tram."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Never move into the path of a moving tram."]
+            ]
+          },
           {
             "title": "Tramway vs tram lane",
             "headers": ["", "Who can use it", "Others may enter to"],
@@ -1611,10 +1692,17 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/shared-path-sign.jpg", "caption": "'Shared path' sign, for bicycle riders and pedestrians." }
         ],
-        "bullets": [
-          "Only for bicycle riders and pedestrians.",
-          "Bicycle riders must keep left (unless impractical), give way to pedestrians (slowing or stopping if needed), and keep left of oncoming riders.",
-          "Skateboard, foot scooter and rollerblade riders must also keep left (unless impractical) and give way to all pedestrians."
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Only for bicycle riders and pedestrians."],
+              ["Bicycle riders must keep left (unless impractical), give way to pedestrians (slowing or stopping if needed), and keep left of oncoming riders."],
+              ["Skateboard, foot scooter and rollerblade riders must also keep left (unless impractical) and give way to all pedestrians."]
+            ]
+          }
         ]
       },
       {
@@ -1624,8 +1712,15 @@ window.HANDBOOK = [
           { "src": "images-handbook/keep-left-sign.jpg", "caption": "'Keep left' sign: drive to the left of the sign." },
           { "src": "images-handbook/keep-right-sign.jpg", "caption": "'Keep right' sign: drive to the right of the sign." }
         ],
-        "bullets": [
-          "\"Keep left\" and \"Keep right\" are regulatory signs and must be obeyed by law — you must stay on the indicated side of the sign."
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["\"Keep left\" and \"Keep right\" are regulatory signs and must be obeyed by law — you must stay on the indicated side of the sign."]
+            ]
+          }
         ]
       }
     ]
@@ -1646,13 +1741,18 @@ window.HANDBOOK = [
           { "src": "images-handbook/parking-signal-lights.jpg", "caption": "No parking within 10m before or 3m after standalone pedestrian or bicycle crossing lights." },
           { "src": "images-handbook/parking-railway-crossing.jpg", "caption": "No parking within 20m either side of a railway level crossing." }
         ],
-        "bullets": [
-          "Never leave children or animals alone in a vehicle — risk of dehydration/burns, playing with controls, or harm if the vehicle is stolen.",
-          "Must not stop or park: double-parked, across a driveway (unless dropping off/picking up), on a median strip/traffic island (unless signed), within an intersection, on a crossing or level crossing, on footpaths/nature strips (unless signed), in a slip lane (unless signed) — never blocking traffic flow.",
-          "\"No parking\" signs: may stop under 2 minutes within 3m to drop off/pick up or load — 5 minutes with an MPS permit.",
-          "On a hill/curve outside a built-up area: don't stop/park unless your vehicle would be visible from at least 100m away."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Never leave children or animals alone in a vehicle — risk of dehydration/burns, playing with controls, or harm if the vehicle is stolen."],
+              ["Must not stop or park: double-parked, across a driveway (unless dropping off/picking up), on a median strip/traffic island (unless signed), within an intersection, on a crossing or level crossing, on footpaths/nature strips (unless signed), in a slip lane (unless signed) — never blocking traffic flow."],
+              ["\"No parking\" signs: may stop under 2 minutes within 3m to drop off/pick up or load — 5 minutes with an MPS permit."],
+              ["On a hill/curve outside a built-up area: don't stop/park unless your vehicle would be visible from at least 100m away."]
+            ]
+          },
           {
             "title": "No-stopping/parking distances",
             "headers": ["Location", "Distance"],
@@ -1725,11 +1825,16 @@ window.HANDBOOK = [
           { "src": "images-handbook/parallel-parking-1m.jpg", "caption": "Parking at least 1m in front of and back from other parked vehicles." },
           { "src": "images-handbook/angle-parking.jpg", "caption": "Vehicles parking front to the kerb for 45-degree angle parking." }
         ],
-        "bullets": [
-          "Two main methods: parallel and angle parking, followed by standard parking checks.",
-          "Parking checks: engage the park brake; if moving 3m+ away, remove the key and lock up if unattended; check mirrors/blind spots before opening your door; indicate 5+ seconds and check mirrors/blind spots before pulling out."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Two main methods: parallel and angle parking, followed by standard parking checks."],
+              ["Parking checks: engage the park brake; if moving 3m+ away, remove the key and lock up if unattended; check mirrors/blind spots before opening your door; indicate 5+ seconds and check mirrors/blind spots before pulling out."]
+            ]
+          },
           {
             "title": "Parking methods",
             "headers": ["Method", "How"],
@@ -1763,12 +1868,17 @@ window.HANDBOOK = [
           { "src": "images-handbook/advisory-speed-sign.jpg", "caption": "An advisory speed sign paired with a warning sign, showing the maximum safe speed in good conditions." },
           { "src": "images-handbook/variable-message-sign-photo.jpg", "caption": "A variable message sign on a motorway." }
         ],
-        "bullets": [
-          "Diamond-shaped, black symbols/words on yellow — warn of dangers or changed conditions ahead.",
-          "Advisory speed signs sometimes pair with a warning sign to show the safe speed for that hazard in good conditions.",
-          "Variable message signs (large electronic displays) warn of changing conditions ahead, such as fog, crashes, roadworks, congestion, closures or police operations."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Diamond-shaped, black symbols/words on yellow — warn of dangers or changed conditions ahead."],
+              ["Advisory speed signs sometimes pair with a warning sign to show the safe speed for that hazard in good conditions."],
+              ["Variable message signs (large electronic displays) warn of changing conditions ahead, such as fog, crashes, roadworks, congestion, closures or police operations."]
+            ]
+          },
           {
             "title": "What warning signs flag",
             "headers": ["Hazard"],
@@ -1804,11 +1914,16 @@ window.HANDBOOK = [
           { "src": "images-handbook/roadwork-signs-row3.jpg", "caption": "No lines (take care overtaking), closed lane ahead, and loose stones signs." },
           { "src": "images-handbook/roadwork-arrow-vehicle.jpg", "caption": "A temporary arrow on a roadwork vehicle warns you that a road hazard is ahead and to change lanes." }
         ],
-        "bullets": [
-          "Temporary signs warn roadworks are ahead — slow down, watch for hazards, be ready to stop. Obey all regulatory signs, temporary traffic lights, and a traffic controller's handheld Stop/Slow sign or hand signals; watch for road workers.",
-          "Roadwork speed limit signs are regulatory — never exceed the shown limit (e.g. 40km/h)."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Temporary signs warn roadworks are ahead — slow down, watch for hazards, be ready to stop. Obey all regulatory signs, temporary traffic lights, and a traffic controller's handheld Stop/Slow sign or hand signals; watch for road workers."],
+              ["Roadwork speed limit signs are regulatory — never exceed the shown limit (e.g. 40km/h)."]
+            ]
+          },
           {
             "title": "Other roadwork signs",
             "headers": ["Sign", "Meaning"],
@@ -1832,13 +1947,18 @@ window.HANDBOOK = [
           { "src": "images-handbook/stock-crossing-sign.jpg", "caption": "Stock may be crossing ahead." },
           { "src": "images-handbook/kangaroo-sign.jpg", "caption": "Look out for kangaroos ahead." }
         ],
-        "bullets": [
-          "On country roads, watch for unfenced livestock and wildlife — they move quickly and unpredictably; more active near waterholes/creeks and harder to see at sunrise/sunset.",
-          "Slow down at stock or animal warning signs.",
-          "If an animal is on or near the road, slow down and brake in a controlled way — never swerve, as that risks losing control or colliding with oncoming traffic.",
-          "After hitting an animal, only stop if it's safe."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["On country roads, watch for unfenced livestock and wildlife — they move quickly and unpredictably; more active near waterholes/creeks and harder to see at sunrise/sunset."],
+              ["Slow down at stock or animal warning signs."],
+              ["If an animal is on or near the road, slow down and brake in a controlled way — never swerve, as that risks losing control or colliding with oncoming traffic."],
+              ["After hitting an animal, only stop if it's safe."]
+            ]
+          },
           {
             "title": "After hitting an animal, contact",
             "headers": ["Animal", "Contact"],
@@ -1855,17 +1975,22 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/tow-truck-plate.jpg", "caption": "Authorised NSW crash-scene tow trucks have a four-digit number plate ending in 'TT'." }
         ],
-        "bullets": [
-          "Must always stop after a crash and give as much help as possible, and provide your details — failing to stop and help after a crash causing death/injury risks a fine and prison.",
-          "Immediate steps: turn off the ignition (fire risk), turn on hazard lights, and if safe, clear dangerous debris/glass from the road.",
-          "A crash with a dangerous-goods truck: call 000, warn people away, avoid touching spilled chemicals/fumes/dust, follow the Emergency Procedures Guide on the truck's door if safe.",
-          "Exchange with others involved: your name/address, vehicle registration, and the owner's name/address if you're not the owner.",
-          "Give police your licence, crash and vehicle details, your name/address, and witness/other-driver information.",
-          "If police didn't attend, report within 24 hours if a vehicle was towed, property/animals were damaged/injured, or you couldn't exchange details — report to the nearest station or 131 444.",
-          "Learn first aid via St John Ambulance, Australian Red Cross, or the National Safety Council of Australia.",
-          "Towing: you choose who tows your vehicle and where. Authorised NSW crash-scene tow trucks have a 4-digit plate ending \"TT\" — sign a Towing Authorisation Form (you can contact someone first); comprehensive insurance may cover the fee."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Must always stop after a crash and give as much help as possible, and provide your details — failing to stop and help after a crash causing death/injury risks a fine and prison."],
+              ["Immediate steps: turn off the ignition (fire risk), turn on hazard lights, and if safe, clear dangerous debris/glass from the road."],
+              ["A crash with a dangerous-goods truck: call 000, warn people away, avoid touching spilled chemicals/fumes/dust, follow the Emergency Procedures Guide on the truck's door if safe."],
+              ["Exchange with others involved: your name/address, vehicle registration, and the owner's name/address if you're not the owner."],
+              ["Give police your licence, crash and vehicle details, your name/address, and witness/other-driver information."],
+              ["If police didn't attend, report within 24 hours if a vehicle was towed, property/animals were damaged/injured, or you couldn't exchange details — report to the nearest station or 131 444."],
+              ["Learn first aid via St John Ambulance, Australian Red Cross, or the National Safety Council of Australia."],
+              ["Towing: you choose who tows your vehicle and where. Authorised NSW crash-scene tow trucks have a 4-digit plate ending \"TT\" — sign a Towing Authorisation Form (you can contact someone first); comprehensive insurance may cover the fee."]
+            ]
+          },
           {
             "title": "When police attend a crash",
             "headers": ["Situation", "Call 000?"],
@@ -1888,13 +2013,18 @@ window.HANDBOOK = [
           { "src": "images-handbook/emergency-stopping-lane-sign.jpg", "caption": "'Emergency stopping lane only' sign." },
           { "src": "images-handbook/warning-triangle-photo.jpg", "caption": "Warning triangle on the road. Slow down." }
         ],
-        "bullets": [
-          "Reduce breakdown risk: check fuel/oil/water/tyre pressure (incl. spare) regularly; carry a hi-vis vest and torch.",
-          "If you break down: pull over safely (shoulder, emergency stopping lane, breakdown lane), park as far left as possible, hazard lights on, stay in the vehicle belted, call roadside assistance.",
-          "If you must exit: check for traffic first, exit on the safer side, stand clear behind a safety barrier if possible, don't change a tyre unless it's safe.",
-          "In a tunnel: pull into the breakdown bay, hazard lights and radio on, stay in the vehicle and wait — major tunnels are constantly monitored."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Reduce breakdown risk: check fuel/oil/water/tyre pressure (incl. spare) regularly; carry a hi-vis vest and torch."],
+              ["If you break down: pull over safely (shoulder, emergency stopping lane, breakdown lane), park as far left as possible, hazard lights on, stay in the vehicle belted, call roadside assistance."],
+              ["If you must exit: check for traffic first, exit on the safer side, stand clear behind a safety barrier if possible, don't change a tyre unless it's safe."],
+              ["In a tunnel: pull into the breakdown bay, hazard lights and radio on, stay in the vehicle and wait — major tunnels are constantly monitored."]
+            ]
+          },
           {
             "title": "Passing a broken-down/emergency vehicle with flashing lights",
             "headers": ["Speed limit", "Rule"],
@@ -1908,27 +2038,46 @@ window.HANDBOOK = [
       {
         "title": "Police and emergency vehicles",
         "page": 179,
-        "bullets": [
-          "Watch for emergency vehicles (police, fire, ambulance) — failing to give way risks a fine and demerits. Obey police directions/signs/hand signals, pull over safely if directed.",
-          "On hearing a siren or seeing flashing blue/red lights approaching, give way — move left, stop, or pull out of the traffic line as needed.",
-          "Passing a stopped emergency vehicle with flashing lights follows the same 40km/h / move-over rule as breakdowns (see previous page)."
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Watch for emergency vehicles (police, fire, ambulance) — failing to give way risks a fine and demerits. Obey police directions/signs/hand signals, pull over safely if directed."],
+              ["On hearing a siren or seeing flashing blue/red lights approaching, give way — move left, stop, or pull out of the traffic line as needed."],
+              ["Passing a stopped emergency vehicle with flashing lights follows the same 40km/h / move-over rule as breakdowns (see previous page)."]
+            ]
+          }
         ]
       },
       {
         "title": "Funeral processions",
         "page": 179,
-        "bullets": [
-          "Must not interrupt a funeral or official procession — a fine applies. Slow down and stay behind it."
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Must not interrupt a funeral or official procession — a fine applies. Slow down and stay behind it."]
+            ]
+          }
         ]
       },
       {
         "title": "Driving in poor conditions",
         "page": 180,
-        "bullets": [
-          "Avoid driving in severe/unpredictable weather (storms, bushfires, hail, snow, dust storms, heavy fog) — check conditions beforehand, pull over safely if it worsens mid-trip.",
-          "If you must drive in poor conditions: slow down, improve visibility with lights, stay updated via radio, consider an alternate route, take regular rest breaks."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Avoid driving in severe/unpredictable weather (storms, bushfires, hail, snow, dust storms, heavy fog) — check conditions beforehand, pull over safely if it worsens mid-trip."],
+              ["If you must drive in poor conditions: slow down, improve visibility with lights, stay updated via radio, consider an alternate route, take regular rest breaks."]
+            ]
+          },
           {
             "title": "Poor conditions",
             "headers": ["Condition", "What to do"],
@@ -1944,12 +2093,17 @@ window.HANDBOOK = [
       {
         "title": "Driving distractions",
         "page": 181,
-        "bullets": [
-          "A distraction is anything taking your eyes off the road, hands off the wheel, or mind off driving. Just 2 seconds of eyes-off-road doubles crash/near-crash risk (at 50km/h that's 28m travelled blind).",
-          "Passengers can help spot hazards, but their noise/behaviour can distract you — young drivers have a higher crash risk with similarly-aged passengers.",
-          "Animals must travel secured in an appropriate area — must not be on your lap, being led from the vehicle, or tied to the outside."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["A distraction is anything taking your eyes off the road, hands off the wheel, or mind off driving. Just 2 seconds of eyes-off-road doubles crash/near-crash risk (at 50km/h that's 28m travelled blind)."],
+              ["Passengers can help spot hazards, but their noise/behaviour can distract you — young drivers have a higher crash risk with similarly-aged passengers."],
+              ["Animals must travel secured in an appropriate area — must not be on your lap, being led from the vehicle, or tied to the outside."]
+            ]
+          },
           {
             "title": "Ways to reduce distraction",
             "headers": ["Action"],
@@ -1972,12 +2126,17 @@ window.HANDBOOK = [
           { "src": "images-handbook/highbeam-behind-vehicle.jpg", "caption": "Turn your headlights to low beam when driving within 200m behind another vehicle." },
           { "src": "images-handbook/highbeam-oncoming-vehicle.jpg", "caption": "Turn your headlights to low beam when a vehicle is coming towards you within 200m." }
         ],
-        "bullets": [
-          "About a third of crashes happen at night — pedestrians, bikes and motorcycles are harder to see.",
-          "At night, or whenever there's not enough light to see a person in dark clothing at 100m, your vehicle must clearly show headlights, tail lights, number plates, and any fitted clearance/side marker lights.",
-          "Don't use or fit dazzling or distracting lights. If dazzled by oncoming high beam, look to the left edge of your lane, and slow down or stop out of the traffic line until your eyes recover."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["About a third of crashes happen at night — pedestrians, bikes and motorcycles are harder to see."],
+              ["At night, or whenever there's not enough light to see a person in dark clothing at 100m, your vehicle must clearly show headlights, tail lights, number plates, and any fitted clearance/side marker lights."],
+              ["Don't use or fit dazzling or distracting lights. If dazzled by oncoming high beam, look to the left edge of your lane, and slow down or stop out of the traffic line until your eyes recover."]
+            ]
+          },
           {
             "title": "When to use each light",
             "headers": ["Light", "When"],
@@ -2001,12 +2160,17 @@ window.HANDBOOK = [
       {
         "title": "Vehicle registration",
         "page": 185,
-        "bullets": [
-          "All vehicles must be registered to drive in NSW; all except trailers/caravans need CTP insurance (a green slip) to register.",
-          "Driving unregistered/uninsured is illegal (fine + demerits); crashing while unregistered means no CTP cover and severe penalties. Parking an unregistered vehicle also draws a penalty.",
-          "Can only drive an unregistered vehicle while getting/renewing registration, or with an unregistered vehicle permit."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["All vehicles must be registered to drive in NSW; all except trailers/caravans need CTP insurance (a green slip) to register."],
+              ["Driving unregistered/uninsured is illegal (fine + demerits); crashing while unregistered means no CTP cover and severe penalties. Parking an unregistered vehicle also draws a penalty."],
+              ["Can only drive an unregistered vehicle while getting/renewing registration, or with an unregistered vehicle permit."]
+            ]
+          },
           {
             "title": "Registration essentials",
             "headers": ["Situation", "Rule"],
@@ -2027,11 +2191,16 @@ window.HANDBOOK = [
           { "src": "images-handbook/number-plate-visibility-angle.jpg", "caption": "Number plates must be visible to 20m, within a 45-degree arc from the vehicle's centre on each side." },
           { "src": "images-handbook/number-plate-visibility-topdown.jpg", "caption": "Top-down view of the 45-degree number plate visibility arc on each side of the vehicle." }
         ],
-        "bullets": [
-          "Never fit your plates to another vehicle.",
-          "You can buy a smaller auxiliary copy of your plate at a service centre; penalties apply for hiding any part of a plate."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Never fit your plates to another vehicle."],
+              ["You can buy a smaller auxiliary copy of your plate at a service centre; penalties apply for hiding any part of a plate."]
+            ]
+          },
           {
             "title": "Number plate rules",
             "headers": ["Requirement", "Detail"],
@@ -2048,13 +2217,18 @@ window.HANDBOOK = [
       {
         "title": "Roadworthiness",
         "page": 189,
-        "bullets": [
-          "To register, a vehicle must be roadworthy and meet legal standards. Police can inspect your vehicle anytime.",
-          "A Defect Notice must be repaired by its due date, sometimes needing clearance from an authorised inspector — registration can be suspended if you miss the deadline.",
-          "Significant modifications need certification by a licensed certifier under the VSCCS before registration — can also affect insurance/warranty. P1/P2 drivers must not drive vehicles modified to increase engine performance.",
-          "Regularly check wipers/washers, horn, seatbelts and all lights; don't drive at night with faulty lights. Tyres (incl. spare) need at least 1.5mm tread, correct pressure, no cracks/bumps/uneven wear."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["To register, a vehicle must be roadworthy and meet legal standards. Police can inspect your vehicle anytime."],
+              ["A Defect Notice must be repaired by its due date, sometimes needing clearance from an authorised inspector — registration can be suspended if you miss the deadline."],
+              ["Significant modifications need certification by a licensed certifier under the VSCCS before registration — can also affect insurance/warranty. P1/P2 drivers must not drive vehicles modified to increase engine performance."],
+              ["Regularly check wipers/washers, horn, seatbelts and all lights; don't drive at night with faulty lights. Tyres (incl. spare) need at least 1.5mm tread, correct pressure, no cracks/bumps/uneven wear."]
+            ]
+          },
           {
             "title": "Defect Notice triggers",
             "headers": ["Trigger"],
@@ -2072,12 +2246,17 @@ window.HANDBOOK = [
       {
         "title": "Vehicle safety features",
         "page": 190,
-        "bullets": [
-          "Modern safety tech reduces crash risk; side curtain airbags reduce injury severity when a crash can't be avoided — check ANCAP or the Used Car Safety Ratings Buyer's Guide when choosing a car.",
-          "Airbags are a supplementary restraint system working with seatbelts — for the driver's airbag to work best, keep the steering wheel low and facing your chest; a faulty airbag makes the vehicle unsafe.",
-          "Electronic driver-assist systems help but don't prevent a crash if you drive dangerously."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Modern safety tech reduces crash risk; side curtain airbags reduce injury severity when a crash can't be avoided — check ANCAP or the Used Car Safety Ratings Buyer's Guide when choosing a car."],
+              ["Airbags are a supplementary restraint system working with seatbelts — for the driver's airbag to work best, keep the steering wheel low and facing your chest; a faulty airbag makes the vehicle unsafe."],
+              ["Electronic driver-assist systems help but don't prevent a crash if you drive dangerously."]
+            ]
+          },
           {
             "title": "Driver-assist systems",
             "headers": ["System", "What it does"],
@@ -2111,11 +2290,16 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/towing-restrictions.jpg", "caption": "Nobody may travel inside a towed trailer or caravan, and loads must not overhang." }
         ],
-        "bullets": [
-          "Towing needs extra skill and knowledge beyond normal driving.",
-          "Learner and P1 drivers have towing restrictions; illegal towing risks a fine and demerit points."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Towing needs extra skill and knowledge beyond normal driving."],
+              ["Learner and P1 drivers have towing restrictions; illegal towing risks a fine and demerit points."]
+            ]
+          },
           {
             "title": "Towing rules",
             "headers": ["Rule"],
@@ -2134,10 +2318,15 @@ window.HANDBOOK = [
           { "src": "images-handbook/driving-posture-photo.jpg", "caption": "Good driving posture: seat upright, arms bent, seatbelt low and untwisted." },
           { "src": "images-handbook/left-foot-brace-photo.jpg", "caption": "Use your left foot to brace your body when driving." }
         ],
-        "bullets": [
-          "Good posture reduces fatigue and improves comfort, control and safety."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Good posture reduces fatigue and improves comfort, control and safety."]
+            ]
+          },
           {
             "title": "Good driving-posture checklist",
             "headers": ["Setup"],
@@ -2166,11 +2355,16 @@ window.HANDBOOK = [
       {
         "title": "Ecodriving",
         "page": 194,
-        "bullets": [
-          "Must not throw rubbish from your vehicle — responsible for anything thrown, dropped or that falls from your vehicle or a towed trailer; reported littering draws a heavy fine. If the item could injure someone or damage a vehicle/road, remove it as soon as safely possible or face a fine + demerits.",
-          "Never throw cigarette butts (lit ones are especially dangerous) — heavy fine plus demerit points."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Must not throw rubbish from your vehicle — responsible for anything thrown, dropped or that falls from your vehicle or a towed trailer; reported littering draws a heavy fine. If the item could injure someone or damage a vehicle/road, remove it as soon as safely possible or face a fine + demerits."],
+              ["Never throw cigarette butts (lit ones are especially dangerous) — heavy fine plus demerit points."]
+            ]
+          },
           {
             "title": "Ecodriving tips (cut fuel use and emissions)",
             "headers": ["Tip"],
@@ -2198,21 +2392,33 @@ window.HANDBOOK = [
       {
         "title": "Fines",
         "page": 195,
-        "bullets": [
-          "Fines apply to most driving offences (illegal parking, speeding, no seatbelt, an unregistered vehicle, breaching licence restrictions) — issued on the spot or by post, due by a set date; serious offences may go to court. Pay via revenue.nsw.gov.au.",
-          "Unpaid fines: your licence can be suspended and/or registration cancelled; a payment plan may be available at revenue.nsw.gov.au — paying, or arranging a plan, ends the suspension.",
-          "Not paying or arranging a plan within 6 months of suspension can get your licence cancelled, requiring reissue once all fines are paid; demerit points carry over through a suspension or reissue."
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Fines apply to most driving offences (illegal parking, speeding, no seatbelt, an unregistered vehicle, breaching licence restrictions) — issued on the spot or by post, due by a set date; serious offences may go to court. Pay via revenue.nsw.gov.au."],
+              ["Unpaid fines: your licence can be suspended and/or registration cancelled; a payment plan may be available at revenue.nsw.gov.au — paying, or arranging a plan, ends the suspension."],
+              ["Not paying or arranging a plan within 6 months of suspension can get your licence cancelled, requiring reissue once all fines are paid; demerit points carry over through a suspension or reissue."]
+            ]
+          }
         ]
       },
       {
         "title": "Demerit points",
         "page": 196,
-        "bullets": [
-          "All drivers start at zero; offences add points to your record; reaching your licence type's limit within a 3-year period triggers a suspension — see the table below.",
-          "A demerit-point suspension applies on top of any other suspension you get for the offence itself.",
-          "Double demerit points apply during holiday periods for: speeding, not wearing a seatbelt (you or your passengers), not using an approved child car seat, and illegal mobile phone use."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["All drivers start at zero; offences add points to your record; reaching your licence type's limit within a 3-year period triggers a suspension — see the table below."],
+              ["A demerit-point suspension applies on top of any other suspension you get for the offence itself."],
+              ["Double demerit points apply during holiday periods for: speeding, not wearing a seatbelt (you or your passengers), not using an approved child car seat, and illegal mobile phone use."]
+            ]
+          },
           {
             "title": "Demerit limits and suspension",
             "headers": ["Licence type", "Points in 3 years", "Suspension"],
@@ -2230,12 +2436,17 @@ window.HANDBOOK = [
       {
         "title": "Loss of licence",
         "page": 197,
-        "bullets": [
-          "Two ways to lose your licence: suspension and disqualification — driving while either applies is a serious offence.",
-          "Once a suspension ends you can drive again — if police seized your licence, apply for a replacement at a service centre first; going to court can convert a suspension into a disqualification instead.",
-          "Disqualification (via a court conviction) cancels your licence entirely. The court sets the period; once it ends, apply to reissue at a service centre — longer disqualifications may require re-sitting the DKT and/or Driving Test."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Two ways to lose your licence: suspension and disqualification — driving while either applies is a serious offence."],
+              ["Once a suspension ends you can drive again — if police seized your licence, apply for a replacement at a service centre first; going to court can convert a suspension into a disqualification instead."],
+              ["Disqualification (via a court conviction) cancels your licence entirely. The court sets the period; once it ends, apply to reissue at a service centre — longer disqualifications may require re-sitting the DKT and/or Driving Test."]
+            ]
+          },
           {
             "title": "What triggers a suspension",
             "headers": ["Trigger"],
@@ -2276,10 +2487,15 @@ window.HANDBOOK = [
       {
         "title": "Alcohol interlocks",
         "page": 198,
-        "bullets": [
-          "A drink-driving conviction may require an alcohol interlock — an electronic breath-tester wired to the ignition that stops the vehicle starting if it detects alcohol."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["A drink-driving conviction may require an alcohol interlock — an electronic breath-tester wired to the ignition that stops the vehicle starting if it detects alcohol."]
+            ]
+          },
           {
             "title": "An interlock can follow",
             "headers": ["Trigger"],
@@ -2295,18 +2511,30 @@ window.HANDBOOK = [
       {
         "title": "Driver education courses",
         "page": 199,
-        "bullets": [
-          "Exceeding your demerit limit twice within 5 years can mean a mandatory course, such as the Traffic Offender Intervention Program, to reinforce road rules and the risks of unsafe driving.",
-          "A court conviction for over-limit driving that doesn't require an interlock may instead require the Sober Driver Program, aimed at changing drink-driving attitudes and behaviour."
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Exceeding your demerit limit twice within 5 years can mean a mandatory course, such as the Traffic Offender Intervention Program, to reinforce road rules and the risks of unsafe driving."],
+              ["A court conviction for over-limit driving that doesn't require an interlock may instead require the Sober Driver Program, aimed at changing drink-driving attitudes and behaviour."]
+            ]
+          }
         ]
       },
       {
         "title": "Vehicle impoundment",
         "page": 199,
-        "bullets": [
-          "Combined with losing your licence, this aims to keep high-risk drivers off the road."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Combined with losing your licence, this aims to keep high-risk drivers off the road."]
+            ]
+          },
           {
             "title": "Police can impound your vehicle / remove plates for",
             "headers": ["High-risk offence"],
@@ -2324,10 +2552,15 @@ window.HANDBOOK = [
       {
         "title": "Prison",
         "page": 200,
-        "bullets": [
-          "Prison terms can increase for repeat offences."
-        ],
+        "bullets": [],
         "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Prison terms can increase for repeat offences."]
+            ]
+          },
           {
             "title": "A court can jail you for",
             "headers": ["High-risk offence"],
@@ -2346,9 +2579,16 @@ window.HANDBOOK = [
       {
         "title": "Toll notices",
         "page": 200,
-        "bullets": [
-          "Using a toll road without an electronic tag or pass means you must pay the toll fee within 3 days, or you'll receive a toll notice (toll plus an administration fee).",
-          "Ignoring it brings a reminder notice with extra fees, then a final notice with overdue fees — not paying by the due date can lead to court."
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Key points",
+            "headers": ["Point"],
+            "rows": [
+              ["Using a toll road without an electronic tag or pass means you must pay the toll fee within 3 days, or you'll receive a toll notice (toll plus an administration fee)."],
+              ["Ignoring it brings a reminder notice with extra fees, then a final notice with overdue fees — not paying by the due date can lead to court."]
+            ]
+          }
         ]
       }
     ]
