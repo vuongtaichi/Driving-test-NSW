@@ -410,7 +410,7 @@
     pane.innerHTML = '';
 
     var eyebrow = document.createElement('p');
-    eyebrow.className = 'hero__eyebrow';
+    eyebrow.className = 'hbcontent__chapter-label';
     eyebrow.textContent = chapter.title;
     pane.appendChild(eyebrow);
 

@@ -307,7 +307,7 @@ main.app--wide { max-width: 1100px; }
   border-radius: 8px;
   background: none;
   font: inherit;
-  font-size: .76rem;
+  font-size: 1.15rem;
   font-weight: 700;
   text-align: left;
   color: var(--text);
@@ -348,6 +348,14 @@ main.app--wide { max-width: 1100px; }
 .hbnav__link.is-active { background: var(--brand); color: var(--brand-ink); font-weight: 600; }
 
 .hbcontent { flex: 1; min-width: 0; }
+/* Bigger than .hero__title (the subsection heading right below it), by request. */
+.hbcontent__chapter-label {
+  margin: 0;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--text);
+}
 .hbcontent__bullets {
   margin: 18px 0 0;
   padding-left: 22px;
