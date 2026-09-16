@@ -367,7 +367,7 @@
         btn.className = 'hbnav__link';
         btn.setAttribute('data-hb-chapter', cIdx);
         btn.setAttribute('data-hb-section', sIdx);
-        btn.textContent = section.title;
+        btn.textContent = (cIdx + 1) + '.' + (sIdx + 1) + ' ' + section.title;
         li.appendChild(btn);
         list.appendChild(li);
       });
@@ -414,12 +414,12 @@
 
     var eyebrow = document.createElement('p');
     eyebrow.className = 'hbcontent__chapter-label';
-    eyebrow.textContent = chapter.title;
+    eyebrow.textContent = (cIdx + 1) + '. ' + chapter.title;
     pane.appendChild(eyebrow);
 
     var title = document.createElement('h2');
     title.className = 'hero__title';
-    title.textContent = section.title;
+    title.textContent = (cIdx + 1) + '.' + (sIdx + 1) + ' ' + section.title;
     pane.appendChild(title);
 
     var figureList = section.figures || [];
@@ -460,6 +460,7 @@
       img.src = fig.src;
       img.alt = fig.caption || section.title;
       img.loading = 'lazy';
+      img.addEventListener('click', function () { openLightbox(fig.src, fig.caption, fig.detail); });
       figure.appendChild(img);
       if (fig.caption) {
         var caption = document.createElement('figcaption');
@@ -856,6 +857,29 @@
     show('quiz');
     renderQuestion();
   }
+
+  /* ---------------- handbook image lightbox ---------------- */
+
+  function openLightbox(src, caption, detail) {
+    $('lightbox-img').src = src;
+    $('lightbox-img').alt = caption || '';
+    $('lightbox-caption').textContent = caption || '';
+    $('lightbox-caption').hidden = !caption;
+    $('lightbox-detail').textContent = detail || '';
+    $('lightbox-detail').hidden = !detail;
+    $('lightbox').hidden = false;
+  }
+
+  function closeLightbox() {
+    $('lightbox').hidden = true;
+    $('lightbox-img').src = '';
+  }
+
+  $('lightbox-close').addEventListener('click', closeLightbox);
+  $('lightbox-backdrop').addEventListener('click', closeLightbox);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !$('lightbox').hidden) closeLightbox();
+  });
 
   /* ---------------- events ---------------- */
 

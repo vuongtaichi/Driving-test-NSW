@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<header class="topbar">
+<header class="topbar" id="topbar">
   <button class="topbar__back" id="btn-home" hidden aria-label="Back to home">&#8592;</button>
   <h1 class="topbar__title" id="topbar-title">DKT Practice</h1>
   <button class="topbar__fav" id="btn-fav" hidden aria-pressed="false" aria-label="Save to favourites">&#9825;</button>
@@ -100,7 +100,7 @@
       <div class="hbwrap">
         <button class="hbnav-toggle" id="hbnav-toggle" aria-expanded="false" aria-controls="hbnav">
           <span id="hbnav-toggle-label">Chapters</span>
-          <span class="hbnav-toggle__chevron">&#9662;</span>
+          <span class="hbnav-toggle__chevron">&#9776;</span>
         </button>
         <nav class="hbnav" id="hbnav" aria-label="Handbook chapters and topics"></nav>
         <div class="hbcontent" id="hbcontent"></div>
@@ -168,6 +168,16 @@
   </section>
 
 </main>
+
+<div class="lightbox" id="lightbox" hidden>
+  <div class="lightbox__backdrop" id="lightbox-backdrop"></div>
+  <div class="lightbox__panel" role="dialog" aria-modal="true" aria-label="Image detail">
+    <button class="lightbox__close" id="lightbox-close" aria-label="Close">&times;</button>
+    <img class="lightbox__img" id="lightbox-img" alt="">
+    <p class="lightbox__caption" id="lightbox-caption"></p>
+    <p class="lightbox__detail" id="lightbox-detail"></p>
+  </div>
+</div>
 
 <script src="data/questions.js"></script>
 <script src="data/handbook.js"></script>
