@@ -1065,8 +1065,8 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/turn-plan-ahead.jpg", "caption": "Turning right then immediately left: turn right from the left lane." },
           { "src": "images-handbook/turning-right-dividing-lines.jpg", "caption": "You can cross a single or double dividing line when entering or leaving a road." },
-          { "src": "images-handbook/hook-turn-diagram.jpg", "caption": "A bicycle hook turn: wait at the far left (A), keep left while turning (B), turn when it's safe (C).", "newRow": true },
-          { "src": "images-handbook/long-vehicle-turning.jpg", "caption": "Stay behind heavy vehicles that are turning — don't put your vehicle in their path." },
+          { "src": "images-handbook/hook-turn-diagram.jpg", "caption": "A bicycle hook turn: wait at the far left (A), keep left while turning (B), turn when it's safe (C).", "newRow": true, "wide": true },
+          { "src": "images-handbook/long-vehicle-turning.jpg", "caption": "Stay behind heavy vehicles that are turning — don't put your vehicle in their path.", "wide": true },
           { "src": "images-handbook/no-left-turn-regulatory.jpg", "caption": "'No left turn' sign (regulatory): you must not turn left.", "newRow": true },
           { "src": "images-handbook/no-left-turn-electronic.jpg", "caption": "'No left turn' sign (electronic): you must not turn left." },
           { "src": "images-handbook/no-right-turn-regulatory.jpg", "caption": "'No right turn' sign (regulatory): you must not turn right or make a U-turn." },
@@ -1075,8 +1075,8 @@ window.HANDBOOK = [
           { "src": "images-handbook/right-lane-must-turn-right.jpg", "caption": "'Right lane must turn right' sign: if you're in the right lane, you must turn right." },
           { "src": "images-handbook/left-only-sign.jpg", "caption": "'Left only' sign: you must turn left." },
           { "src": "images-handbook/right-only-sign.jpg", "caption": "'Right only' sign: you must turn right." },
-          { "src": "images-handbook/no-entry-sign.jpg", "caption": "'No entry' sign: you must not drive beyond the sign." },
-          { "src": "images-handbook/no-bicycles-sign.jpg", "caption": "'No bicycles' sign: bicycle riders must not ride beyond the sign." },
+          { "src": "images-handbook/no-entry-sign.jpg", "caption": "'No entry' sign: you must not drive beyond the sign.", "scale": 1.5 },
+          { "src": "images-handbook/no-bicycles-sign.jpg", "caption": "'No bicycles' sign: bicycle riders must not ride beyond the sign.", "scale": 1.5 },
           { "src": "images-handbook/right-turn-from-left-sign.jpg", "caption": "'Right turn from left only' sign, marking a bicycle hook-turn intersection." }
         ],
         "figuresGrid": { "cols": 4 },

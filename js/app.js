@@ -428,7 +428,12 @@
     if (isGrid) {
       figuresParent = document.createElement('div');
       figuresParent.className = 'hbfigures';
-      if (figuresGrid.cols) figuresParent.style.gridTemplateColumns = 'repeat(' + figuresGrid.cols + ', 1fr)';
+      // A pixel-fixed repeat(N, 1fr) doesn't reflow on narrow/mobile screens, so use
+      // auto-fit with a per-cols minimum width instead: as many columns as fit, capped
+      // at N on a wide screen, naturally dropping to fewer as the viewport shrinks.
+      var COLS_MIN_WIDTH = { 1: '100%', 2: '220px', 3: '150px', 4: '110px' };
+      if (figuresGrid.cols) figuresParent.style.gridTemplateColumns =
+        'repeat(auto-fit, minmax(' + (COLS_MIN_WIDTH[figuresGrid.cols] || '130px') + ', 1fr))';
       if (figuresGrid.heightScale) figuresParent.style.setProperty('--hb-img-h', Math.round(220 * figuresGrid.heightScale) + 'px');
       if (figuresGrid.square) figuresParent.classList.add('hbfigures--square');
       pane.appendChild(figuresParent);
