@@ -1318,10 +1318,10 @@ window.HANDBOOK = [
           { "src": "images-handbook/overtake-broken-lines.jpg", "caption": "You can cross a single broken line, or a double line with the broken line closer to you, to overtake if the road ahead is clear.", "wide": true },
           { "src": "images-handbook/no-lines-overtake-sign.jpg", "caption": "'No lines — do not overtake unless safe' sign, shown where no lines are marked on the road." },
           { "src": "images-handbook/keep-left-unless-overtaking-sign.jpg", "caption": "'Keep left unless overtaking' sign." },
-          { "src": "images-handbook/long-vehicle-sign.jpg", "caption": "'Long vehicle' sign: the vehicle is longer than normal." },
-          { "src": "images-handbook/oversize-vehicle-sign.jpg", "caption": "'Oversize' sign: the vehicle is wider, longer or higher than normal." },
+          { "src": "images-handbook/long-vehicle-sign.jpg", "caption": "'Long vehicle' sign: the vehicle is longer than normal.", "wide": false },
+          { "src": "images-handbook/oversize-vehicle-sign.jpg", "caption": "'Oversize' sign: the vehicle is wider, longer or higher than normal.", "wide": false },
           { "src": "images-handbook/do-not-overtake-turning-vehicle-sign.jpg", "caption": "'Do not overtake turning vehicle' sign, used on long vehicles that may need more than one lane to turn.", "wide": true },
-          { "src": "images-handbook/long-vehicle-no-overtake-left.jpg", "caption": "Do not overtake to the left of a long vehicle which is turning left.", "span": 3 },
+          { "src": "images-handbook/long-vehicle-no-overtake-left.jpg", "caption": "Do not overtake to the left of a long vehicle which is turning left.", "span": 4 },
           { "src": "images-handbook/long-vehicle-overtake-left-multilane.jpg", "caption": "You can overtake a long vehicle on the left when it's safe and you're on a multi-lane road." },
           { "src": "images-handbook/overtake-motorcycle.jpg", "caption": "Give motorcycles plenty of room when overtaking." },
           { "src": "images-handbook/overtake-bicycle.jpg", "caption": "You can cross double dividing lines when overtaking a bicycle.", "wide": true },
@@ -1368,9 +1368,9 @@ window.HANDBOOK = [
         "title": "Merging and changing lanes",
         "page": 132,
         "figures": [
-          { "src": "images-handbook/lane-ends-merge.jpg", "caption": "When Car A crosses a broken line to change lanes because its lane is ending, it must give way to Car B already in that lane." },
-          { "src": "images-handbook/give-way-to-buses-sign.jpg", "caption": "'Give way to buses' sign, shown when driving in the left lane." },
-          { "src": "images-handbook/zipper-merge.jpg", "caption": "A zipper merge: when two lanes reduce to one, the trailing car (B) gives way to the car ahead (A)." }
+          { "src": "images-handbook/lane-ends-merge.jpg", "caption": "When Car A crosses a broken line to change lanes because its lane is ending, it must give way to Car B already in that lane.", "span": 3, "newRow": true },
+          { "src": "images-handbook/give-way-to-buses-sign.jpg", "caption": "'Give way to buses' sign, shown when driving in the left lane.", "span": 3, "newRow": true },
+          { "src": "images-handbook/zipper-merge.jpg", "caption": "A zipper merge: when two lanes reduce to one, the trailing car (B) gives way to the car ahead (A).", "span": 3, "newRow": true }
         ],
         "figuresGrid": { "cols": 3 },
         "bullets": [],
@@ -1471,7 +1471,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/no-stopping-kerb-lines.jpg", "caption": "Continuous yellow kerb lines mean no stopping at any time except in an emergency." },
           { "src": "images-handbook/painted-island-double-lines.jpg", "caption": "You must not drive or stop on a painted island that's surrounded by double lines." },
           { "src": "images-handbook/painted-island-turning-lane.jpg", "caption": "A car entering a turning lane from a painted island (Car B) must give way to the car already in the turning lane (Car A)." },
-          { "src": "images-handbook/s-lane.jpg", "caption": "You must not cross a continuous line to turn into an S-lane.", "wide": true },
+          { "src": "images-handbook/s-lane.jpg", "caption": "You must not cross a continuous line to turn into an S-lane.", "wide": true, "rowSpan": 2 },
           { "src": "images-handbook/painted-arrows-intersection.jpg", "caption": "Follow the painted arrows and stay in your lane when turning." },
           { "src": "images-handbook/keep-clear-marking.jpg", "caption": "Area with 'Keep clear' marked on the road.", "wide": true },
           { "src": "images-handbook/dragons-teeth-photo.jpg", "caption": "Dragon's teeth road markings in a school zone." }
@@ -1741,7 +1741,7 @@ window.HANDBOOK = [
         "figures": [
           { "src": "images-handbook/bus-stop-distance.png", "caption": "No parking within 20m before or 10m after a bus stop.", "span": 4, "newRow": true },
           { "src": "images-handbook/no-parking-sign.png", "caption": "A \"No parking\" sign — you can stop briefly to drop off/pick up or load, but not park.", "newRow": true },
-          { "src": "images-handbook/parking-intersections.jpg", "caption": "No parking within 10m of an intersection without traffic lights (or 20m with lights), unless signed or it's a T-intersection.", "span": 2 },
+          { "src": "images-handbook/parking-intersections.jpg", "caption": "No parking within 10m of an intersection without traffic lights (or 20m with lights), unless signed or it's a T-intersection.", "span": 3 },
           { "src": "images-handbook/parking-crossings.jpg", "caption": "No parking within 20m before or 10m after a children's or pedestrian crossing.", "span": 4, "newRow": true },
           { "src": "images-handbook/parking-signal-lights.jpg", "caption": "No parking within 10m before or 3m after standalone pedestrian or bicycle crossing lights.", "span": 4, "newRow": true },
           { "src": "images-handbook/parking-railway-crossing.jpg", "caption": "No parking within 20m either side of a railway level crossing.", "span": 4, "newRow": true }

@@ -446,6 +446,13 @@
       // "span" sets an exact column count (e.g. 3 in a 3-col grid), overriding
       // the "wide" span-2 class below via inline style's higher specificity.
       if (fig.span) figure.style.gridColumnEnd = 'span ' + fig.span;
+      // "rowSpan" makes a figure taller by spanning multiple grid rows (e.g. a
+      // portrait image sitting beside two shorter ones stacked in one column).
+      // Its image also grows taller to match, unless an explicit "scale" was set above.
+      if (fig.rowSpan) {
+        figure.style.gridRowEnd = 'span ' + fig.rowSpan;
+        if (!fig.scale) figure.style.setProperty('--hb-fig-scale', fig.rowSpan);
+      }
       var img = document.createElement('img');
       img.src = fig.src;
       img.alt = fig.caption || section.title;
