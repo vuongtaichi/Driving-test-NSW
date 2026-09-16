@@ -1782,17 +1782,17 @@ window.HANDBOOK = [
         "page": 160,
         "figures": [
           { "src": "images-handbook/no-stopping-sign.jpg", "caption": "'No stopping' sign: no stopping to the left or right of the sign." },
-          { "src": "images-handbook/clearway-end-signs.jpg", "caption": "You must not park between a 'Clearway' and 'End clearway' sign during the times shown." },
-          { "src": "images-handbook/special-event-clearway-sign-a.jpg", "caption": "Special event clearway sign." },
-          { "src": "images-handbook/special-event-clearway-sign-b.jpg", "caption": "Special event clearway sign, roadside version." },
-          { "src": "images-handbook/restricted-parking-area-signs.jpg", "caption": "'Restricted parking area' and 'End restricted parking area' signs." },
+          { "src": "images-handbook/clearway-end-signs.jpg", "caption": "You must not park between a 'Clearway' and 'End clearway' sign during the times shown.", "wide": true },
+          { "src": "images-handbook/special-event-clearway-sign-a.jpg", "caption": "Special event clearway sign.", "wide": true },
+          { "src": "images-handbook/special-event-clearway-sign-b.jpg", "caption": "Special event clearway sign, roadside version.", "wide": true },
+          { "src": "images-handbook/restricted-parking-area-signs.jpg", "caption": "'Restricted parking area' and 'End restricted parking area' signs.", "wide": true },
           { "src": "images-handbook/hourly-parking-signs.jpg", "caption": "Hourly parking signs (7P, quarter-hour, unlimited) show the days and hours parking is allowed." },
-          { "src": "images-handbook/ev-parking-signs-top.jpg", "caption": "EV parking — some spots allow any EV, others only while charging." },
-          { "src": "images-handbook/ev-parking-signs-bottom.jpg", "caption": "EV parking — time-limited spots, some only while charging." },
-          { "src": "images-handbook/accessible-parking-sign.jpg", "caption": "Accessible parking sign — requires a current Mobility Parking Scheme (MPS) permit." },
+          { "src": "images-handbook/ev-parking-signs-top.jpg", "caption": "EV parking — some spots allow any EV, others only while charging.", "wide": true },
+          { "src": "images-handbook/ev-parking-signs-bottom.jpg", "caption": "EV parking — time-limited spots, some only while charging.", "wide": true },
+          { "src": "images-handbook/accessible-parking-sign.jpg", "caption": "Accessible parking sign — requires a current Mobility Parking Scheme (MPS) permit.", "wide": true },
           { "src": "images-handbook/special-event-parking-area-sign.jpg", "caption": "Special event parking area sign — capped parking time unless you hold a permit." },
           { "src": "images-handbook/motorcycle-parking-sign.jpg", "caption": "Motorcycle parking sign — motorcycle-only between the signs." },
-          { "src": "images-handbook/australia-post-box-parking.jpg", "caption": "Parking at least 3m away from an Australia Post box." },
+          { "src": "images-handbook/australia-post-box-parking.jpg", "caption": "Parking at least 3m away from an Australia Post box.", "span": 4 },
           { "src": "images-handbook/taxi-zone-sign.jpg", "caption": "Taxi zone sign — taxi zone on both sides of the sign." },
           { "src": "images-handbook/bus-zone-sign.jpg", "caption": "Bus zone sign — bus zone on both sides of the sign." },
           { "src": "images-handbook/loading-zone-sign.jpg", "caption": "Loading zone sign — loading zone to the left of the sign." },
@@ -1833,6 +1833,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/parallel-parking-1m.jpg", "caption": "Parking at least 1m in front of and back from other parked vehicles." },
           { "src": "images-handbook/angle-parking.jpg", "caption": "Vehicles parking front to the kerb for 45-degree angle parking." }
         ],
+        "figuresGrid": { "cols": 1 },
         "bullets": [],
         "tables": [
           {
@@ -1864,7 +1865,9 @@ window.HANDBOOK = [
         "title": "Warning signs",
         "page": 167,
         "figures": [
-          { "src": "images-handbook/warning-signs-1.jpg", "caption": "'Cross road ahead', T-intersection give-way, and 'changing to two lanes of oncoming traffic' warning signs." },
+          { "src": "images-handbook/cross-road-ahead-sign.jpg", "caption": "Cross road ahead.", "newRow": true },
+          { "src": "images-handbook/t-intersection-give-way-sign.jpg", "caption": "T-intersection give way." },
+          { "src": "images-handbook/two-lanes-oncoming-traffic-sign.jpg", "caption": "Changing to two lanes of oncoming traffic." },
           { "src": "images-handbook/side-road-ahead-sign.jpg", "caption": "Side road ahead.", "newRow": true },
           { "src": "images-handbook/road-curves-right-sign.jpg", "caption": "Road ahead curves to the right." },
           { "src": "images-handbook/sharp-right-turn-sign.jpg", "caption": "Sharp right turn ahead." },
@@ -1885,7 +1888,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/temporary-traffic-hazard-sign.jpg", "caption": "Temporary traffic hazard." },
           { "src": "images-handbook/warning-narrow-bridge-sign.jpg", "caption": "Narrow bridge." },
           { "src": "images-handbook/warning-narrow-bridge-ahead-sign.jpg", "caption": "Narrow bridge ahead." },
-          { "src": "images-handbook/dip-sign.jpg", "caption": "Dip.", "newRow": true },
+          { "src": "images-handbook/dip-sign.jpg", "caption": "The road dips ahead (a sudden slope down, then up).", "newRow": true },
           { "src": "images-handbook/hump-sign.jpg", "caption": "Hump." },
           { "src": "images-handbook/kangaroos-sign.jpg", "caption": "Kangaroos." },
           { "src": "images-handbook/crest-sign.jpg", "caption": "Crest (blind hilltop)." },
@@ -1943,13 +1946,13 @@ window.HANDBOOK = [
           { "src": "images-handbook/roadwork-speed-limit-sign.jpg", "caption": "40km/h speed limit for roadworks.", "newRow": true },
           { "src": "images-handbook/roadwork-prepare-to-stop-sign.jpg", "caption": "Slow down and be prepared to stop." },
           { "src": "images-handbook/roadwork-traffic-controller-sign.jpg", "caption": "Traffic controller ahead. Be prepared to stop." },
-          { "src": "images-handbook/roadwork-worker-sign.jpg", "caption": "Road workers ahead.", "newRow": true },
-          { "src": "images-handbook/roadwork-ahead-sign.jpg", "caption": "Roadwork ahead." },
+          { "src": "images-handbook/roadwork-worker-sign.jpg", "caption": "Road workers ahead." },
+          { "src": "images-handbook/roadwork-ahead-sign.jpg", "caption": "Roadwork ahead.", "newRow": true },
           { "src": "images-handbook/end-roadwork-sign.jpg", "caption": "End of roadwork." },
           { "src": "images-handbook/roadwork-no-lines-sign.jpg", "caption": "No lines — take care overtaking.", "newRow": true },
           { "src": "images-handbook/closed-lane-ahead-sign.jpg", "caption": "Closed lane ahead." },
           { "src": "images-handbook/loose-stones-sign.jpg", "caption": "Loose stones." },
-          { "src": "images-handbook/roadwork-arrow-vehicle.jpg", "caption": "A temporary arrow on a roadwork vehicle warns you that a road hazard is ahead and to change lanes." }
+          { "src": "images-handbook/roadwork-arrow-vehicle.jpg", "caption": "A temporary arrow on a roadwork vehicle warns you that a road hazard is ahead and to change lanes.", "wide": true }
         ],
         "bullets": [],
         "tables": [
@@ -2163,6 +2166,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/highbeam-behind-vehicle.jpg", "caption": "Turn your headlights to low beam when driving within 200m behind another vehicle." },
           { "src": "images-handbook/highbeam-oncoming-vehicle.jpg", "caption": "Turn your headlights to low beam when a vehicle is coming towards you within 200m." }
         ],
+        "figuresGrid": { "cols": 1 },
         "bullets": [],
         "tables": [
           {
