@@ -452,10 +452,12 @@
       }
       figuresParent.appendChild(figure);
       figureNodes.push({ figure: figure, img: img, fig: fig });
-      // A single (non-grid) figure has no max-height cap to scale, so an explicit
-      // section/figure scale instead directly enlarges the image from its own
-      // natural pixel size (capped by the existing max-width:100% ceiling).
-      if (!isGrid && (fig.scale || figuresGrid.heightScale)) {
+      // max-height alone only ever shrinks an image, never enlarges one past its
+      // native resolution -- so a per-figure scale (needed for small source
+      // images that would otherwise stay tiny) instead sets an explicit pixel
+      // width from the image's own natural size (capped by the existing
+      // max-width:100% ceiling, and by max-height for grid figures).
+      if (fig.scale || (!isGrid && figuresGrid.heightScale)) {
         var factor = fig.scale || figuresGrid.heightScale;
         var applyNaturalScale = function () {
           if (img.naturalWidth) img.style.width = Math.round(img.naturalWidth * factor) + 'px';
