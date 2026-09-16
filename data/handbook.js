@@ -1135,17 +1135,35 @@ window.HANDBOOK = [
           { "src": "images-handbook/no-overtaking-passing-sign.jpg", "caption": "'No overtaking or passing' sign, used on bridges." }
         ],
         "bullets": [
-          "Take care and accurately judge the space needed — if in doubt, wait. Always check mirrors and blind spots first; motorcycles and bicycles can be hidden behind other vehicles.",
-          "Must not overtake: across a continuous dividing line (single or double); without a clear view of approaching traffic (e.g. before a crest or curve, or limited visibility); when a vehicle is stopping or stopped at a pedestrian crossing, intersection or railway crossing; where the road narrows.",
-          "Before overtaking: check the road ahead is clear with enough distance, check side streets/other lanes for anything that might enter your space, check mirrors and blind spots, and indicate.",
-          "While overtaking, stay under the speed limit; before returning to your lane, make sure you can see the passed vehicle in your mirror, and indicate.",
-          "Being overtaken: don't speed up while the other vehicle is crossing the dividing line — stay in your lane, keep left, and give them room to pass and return.",
-          "Overtaking on the left is only allowed when the vehicle ahead is waiting to turn right/U-turn from the centre of the road, is stopped, or you're on a multi-lane road. To pass a vehicle turning right or U-turning from the centre, you may use the left lane, drive on/across/outside edge lines for up to 100m, use a bus/transit/truck lane for up to 100m, or a bicycle/tram lane for up to 50m.",
-          "\"Keep left unless overtaking\" applies on roads with that sign or over 80km/h — don't drive in the right lane unless overtaking, turning right, U-turning, avoiding an obstruction, in slow/stopped left-lane traffic, driving a bus/truck where the right lane is bus/truck-only, overtaking a slow left-turner, or a \"left lane must turn left\"/left-arrow signal applies and you're not turning left.",
-          "Overtaking long or oversize vehicles needs extra care and time. A \"Do not overtake turning vehicle\" sign means: don't overtake on the left while it's turning left; don't overtake on the right while it's turning right unless clearly safe; overtaking on the left is otherwise banned unless you're on a multi-lane road, or the vehicle is stationary or turning right/U-turning, and it's safe.",
-          "Overtake motorcycles with the same rules and space as a car.",
-          "Overtake bicycles with at least 1m clearance (60km/h or less) or 1.5m (over 60km/h); you may cross the centre, straddle any dividing line, or use painted islands/median strips if needed, safe and with a clear view ahead. Bicycles may overtake a vehicle on the left.",
-          "A \"No overtaking or passing\" sign on a bridge means you must give way to oncoming traffic and must not overtake vehicles travelling the same direction."
+          "Take care and accurately judge the space needed — if in doubt, wait. Check mirrors and blind spots first; motorcycles/bicycles can be hidden behind other vehicles.",
+          "Before overtaking: check the road ahead is clear with enough distance, check side streets/other lanes, check mirrors/blind spots, and indicate.",
+          "While overtaking, stay under the speed limit; before returning, make sure you can see the passed vehicle in your mirror, and indicate.",
+          "Being overtaken: don't speed up — stay in your lane, keep left, give them room to pass and return.",
+          "Overtaking on the left is only allowed when the vehicle ahead is waiting to turn right/U-turn from the centre, is stopped, or you're on a multi-lane road.",
+          "\"Keep left unless overtaking\" applies on roads with that sign or over 80km/h.",
+          "A \"Do not overtake turning vehicle\" sign: don't overtake on the left while it's turning left; don't overtake on the right while it's turning right unless clearly safe.",
+          "A \"No overtaking or passing\" sign on a bridge: give way to oncoming traffic, don't overtake vehicles travelling the same direction."
+        ],
+        "tables": [
+          {
+            "title": "Must not overtake when",
+            "headers": ["Situation"],
+            "rows": [
+              ["Across a continuous dividing line (single or double)"],
+              ["No clear view of approaching traffic (e.g. before a crest/curve, limited visibility)"],
+              ["A vehicle is stopping/stopped at a pedestrian crossing, intersection or railway crossing"],
+              ["The road narrows"]
+            ]
+          },
+          {
+            "title": "Overtaking distances",
+            "headers": ["Passing a...", "Minimum distance / rule"],
+            "rows": [
+              ["Bicycle, 60km/h or less", "1m"],
+              ["Bicycle, more than 60km/h", "1.5m"],
+              ["Motorcycle", "Same rules and space as a car"]
+            ]
+          }
         ]
       },
       {
@@ -1157,11 +1175,19 @@ window.HANDBOOK = [
           { "src": "images-handbook/zipper-merge.jpg", "caption": "A zipper merge: when two lanes reduce to one, the trailing car (B) gives way to the car ahead (A)." }
         ],
         "bullets": [
-          "Always check mirrors and blind spots (watch for motorcycles and bicycles) and indicate before changing or merging lanes; turn the indicator off afterwards.",
-          "Changing lanes: give way to vehicles already in the lane you're moving into.",
-          "When your lane ends and you cross a broken line into another (e.g. joining a motorway), give way to vehicles already in that lane — slow down and find a safe gap; if a vehicle is merging into your lane, leave it room.",
-          "Must give way to a bus displaying \"Give way to buses\" if you're in the left lane and the bus is stopped or moving slowly at the far left, indicating right, and about to pull out in front of you.",
-          "Zipper merge: where lanes reduce with no road markings left, give way to the vehicle ahead of you."
+          "Always check mirrors and blind spots (watch for motorcycles/bicycles) and indicate before changing or merging lanes; turn the indicator off afterwards."
+        ],
+        "tables": [
+          {
+            "title": "Merge scenarios",
+            "headers": ["Scenario", "Rule"],
+            "rows": [
+              ["Changing lanes", "Give way to vehicles already in the lane you're moving into"],
+              ["Lane ending (e.g. joining a motorway)", "Give way to vehicles already in that lane; slow down and find a safe gap"],
+              ["Bus displaying \"Give way to buses\"", "Must give way if you're in the left lane and it's pulling out"],
+              ["Zipper merge (lanes reduce, no markings)", "Give way to the vehicle ahead of you"]
+            ]
+          }
         ]
       },
       {
@@ -1183,16 +1209,35 @@ window.HANDBOOK = [
           { "src": "images-handbook/toll-road-sign.jpg", "caption": "Toll road sign — you can pay the toll by electronic tag or electronic pass." }
         ],
         "bullets": [
-          "A motorway/freeway/expressway is a high-speed road with more than one lane each direction; bicycles may use it unless signed otherwise. Check fuel, oil, water and tyre pressure before a long freeway trip.",
-          "Joining: your lane typically ends and you cross a broken line onto the motorway — give way to traffic already there; slow down, check mirrors/blind spots, and find a safe gap.",
-          "Ramp metering signals are quick-change lights managing motorway entry — green stays on just long enough for one vehicle per lane; stop behind the line on red.",
-          "On a motorway with a limit over 80km/h and 2+ lanes, don't drive in the right lane unless overtaking, avoiding an obstruction, all lanes are congested, or a sign allows it. Never U-turn or reverse on a motorway. Keep a safe stopping distance, and take extra care around vehicles joining, since it changes your crash avoidance space.",
-          "Overhead signals: variable speed limit signs (obey the shown limit); lane-merge signals (white arrow = change lanes that way, hazard ahead); closed-lane signals (red cross = don't drive in that lane); lane-exit signals (arrow pointing up-left/right = road ahead closed, next exit is the detour, change lanes that way).",
-          "Variable message signs show travel times and conditions such as ramp closures and road conditions.",
-          "Must not stop or park on a motorway except in a genuine emergency (crash avoidance, breakdown) — move to the emergency stopping lane if you must stop.",
-          "Leaving: move to the exit lane early, reduce speed, indicate before exiting; if you miss your exit, continue to the next one.",
-          "Route numbering: \"M\" = motorways of national significance (e.g. M2); \"A\" = routes of national significance; \"B\" = routes of state significance.",
+          "A motorway/freeway/expressway is a high-speed road with more than one lane each direction; bicycles may use it unless signed otherwise. Check fuel/oil/water/tyres before a long trip.",
+          "Joining: your lane typically ends and you cross a broken line — give way to traffic already there, slow down, find a safe gap.",
+          "Ramp metering signals manage motorway entry — green stays on just long enough for one vehicle per lane; stop behind the line on red.",
+          "On a motorway with a limit over 80km/h and 2+ lanes, don't drive in the right lane unless overtaking, avoiding an obstruction, all lanes are congested, or a sign allows it. Never U-turn or reverse.",
+          "Variable message signs show travel times and conditions such as ramp closures.",
+          "Must not stop or park except in a genuine emergency — move to the emergency stopping lane if you must stop.",
+          "Leaving: move to the exit lane early, indicate before exiting; if you miss your exit, continue to the next one.",
           "Toll roads are signed — pay via an electronic tag or pass, or you'll be sent a toll notice."
+        ],
+        "tables": [
+          {
+            "title": "Overhead signals",
+            "headers": ["Signal", "Meaning"],
+            "rows": [
+              ["Variable speed limit", "Obey the shown limit"],
+              ["Lane-merge (white arrow)", "Change lanes that way — hazard ahead"],
+              ["Closed-lane (red cross)", "Don't drive in that lane"],
+              ["Lane-exit (arrow up-left/right)", "Road ahead closed, next exit is the detour — change lanes that way"]
+            ]
+          },
+          {
+            "title": "Route numbering",
+            "headers": ["Prefix", "Meaning"],
+            "rows": [
+              ["M", "Motorways of national significance (e.g. M2)"],
+              ["A", "Routes of national significance"],
+              ["B", "Routes of state significance"]
+            ]
+          }
         ]
       }
     ]
@@ -1224,18 +1269,39 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "Keep to the middle of your lane; keep left where there are no lane markings or approaching the top of a hill; watch for lanes dedicated to bicycles, buses, trams and trucks.",
-          "White dividing lines separate opposite-direction traffic — always drive to their left. You may cross one to avoid an obstruction if you have a clear view, it's necessary and reasonable, and it's safe.",
-          "Single broken line: cross to overtake, U-turn, enter/leave the road, or angle-park opposite (without a U-turn). Single continuous line: cross only to enter/leave the road or angle-park opposite — no overtaking or U-turning.",
-          "Double continuous lines: cross only to enter/leave the road by the shortest route. Double line with the broken side nearer you: cross for overtaking, a U-turn, entering/leaving the road, or angle-parking opposite. Double line with the continuous side nearer you: cross only to enter/leave the road or angle-park opposite.",
-          "Wide centrelines (up to 1.5m apart) reduce head-on crash risk but follow the same rules as any other dividing line.",
-          "Edge lines (broken or continuous) mark the road's edge, keeping vehicles off soft shoulders and out of breakdown lanes. Rumble strips vibrate and make noise to warn you're leaving your lane — slow down and ease back on if you hit one.",
-          "Yellow kerb lines show stopping restrictions: broken = clearway (no stopping during the signed hours except emergencies); continuous = no stopping at any time except emergencies.",
-          "Painted islands (striped, bounded by lines): you may drive on one bounded by single lines for up to 50m to enter/leave the road, enter an immediately-following turn lane (giving way to vehicles already in or entering it), or angle-park opposite. Never drive on one bounded by double lines, one separating same-direction lanes, or one separating the road from a slip lane.",
-          "Traffic islands (raised) must not be driven on unless designed for it. Median strips (raised, painted or grassed) must not be stopped or parked on unless signed as a parking area.",
-          "S-lanes create a right-turn lane via an S-shaped merge, divided by a continuous line — don't cross it to turn into the S-lane.",
-          "Painted arrows show a lane's permitted direction(s) — you may go any way shown, but must still indicate, and stay in your lane through marked turn lines.",
-          "\"Keep clear\" markings stop vehicles blocking access points (hospitals, fire stations, car parks) or intersections/side roads — never stop in one.",
-          "Dragon's teeth (painted triangle pairs) mark school zones and flag the 40km/h limit there."
+          "White dividing lines separate opposite-direction traffic — always drive to their left. May cross one to avoid an obstruction if you have a clear view, it's necessary/reasonable, and safe.",
+          "Painted arrows show a lane's permitted direction(s) — go any way shown, but still indicate and stay in your lane through marked turn lines."
+        ],
+        "tables": [
+          {
+            "title": "Dividing lines — where you may cross",
+            "headers": ["Line type", "You may cross to"],
+            "rows": [
+              ["Single broken line", "Overtake, U-turn, enter/leave the road, or angle-park opposite"],
+              ["Single continuous line", "Enter/leave the road, or angle-park opposite (no overtaking or U-turn)"],
+              ["Double continuous lines", "Enter/leave the road by the shortest route only"],
+              ["Double line, broken side nearer you", "Overtake, U-turn, enter/leave the road, or angle-park opposite"],
+              ["Double line, continuous side nearer you", "Enter/leave the road, or angle-park opposite only"]
+            ]
+          },
+          {
+            "title": "Other road markings",
+            "headers": ["Marking", "Meaning"],
+            "rows": [
+              ["Wide centrelines (up to 1.5m apart)", "Same rules as any other dividing line"],
+              ["Edge lines", "Mark the road's edge — keep off shoulders/breakdown lanes"],
+              ["Rumble strips", "Vibrate/noise if you're leaving your lane"],
+              ["Yellow kerb line, broken", "Clearway — no stopping during signed hours (except emergencies)"],
+              ["Yellow kerb line, continuous", "No stopping at any time (except emergencies)"],
+              ["Painted island, single lines", "May drive on for ≤50m to enter/leave the road, enter a turn lane, or angle-park opposite"],
+              ["Painted island, double lines / between lanes / by a slip lane", "Never drive on it"],
+              ["Traffic island (raised)", "Must not drive on unless designed for it"],
+              ["Median strip", "Must not stop/park on unless signed as a parking area"],
+              ["S-lane", "Don't cross the continuous line to turn into it"],
+              ["\"Keep clear\" marking", "Never stop in it"],
+              ["Dragon's teeth", "Mark school zones, flag the 40km/h limit"]
+            ]
+          }
         ]
       },
       {
@@ -1246,8 +1312,18 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "Slip lanes improve flow and safety for left turns, marked by a painted or traffic island — you must use one where it's provided.",
-          "Turning left in a slip lane (with or without a Give way sign), give way to: vehicles on the road you're turning into, oncoming vehicles turning right into that same road, and any other vehicle or pedestrian in the slip lane.",
           "Must not stop in a slip lane unless a parking sign allows it."
+        ],
+        "tables": [
+          {
+            "title": "Turning left in a slip lane — give way to",
+            "headers": ["Give way to"],
+            "rows": [
+              ["Vehicles on the road you're turning into"],
+              ["Oncoming vehicles turning right into that same road"],
+              ["Any other vehicle or pedestrian in the slip lane"]
+            ]
+          }
         ]
       },
       {
@@ -1272,9 +1348,20 @@ window.HANDBOOK = [
           { "src": "images-handbook/bicycle-path-end-sign.jpg", "caption": "'Bicycle path only end' sign." }
         ],
         "bullets": [
-          "Marked by a bicycle symbol plus \"Lane\" sign/markings; riders must use one where provided unless it's impractical. It ends at a \"Lane end\" sign/marking, at most intersections, or a dead end.",
-          "You may drive in a bike lane to avoid an obstruction, or for up to 50m to enter/leave the road, overtake a vehicle turning right or U-turning, or enter a lane from the roadside — take extra care for riders.",
-          "Bicycle paths differ from lanes: optional for riders, run alongside roads or off-road, marked by a \"Bicycle path\" sign; also usable by skateboard/scooter/rollerblade riders, wheelchair or mobility scooter users, and postal motorcyclists. Other vehicles may cross one only when entering/leaving a road or where signed, and must give way to everyone else on it."
+          "Marked by a bicycle symbol plus \"Lane\" sign/markings; riders must use one where provided unless it's impractical. Ends at a \"Lane end\" sign/marking, at most intersections, or a dead end.",
+          "Bicycle paths differ from lanes: optional for riders, run alongside roads or off-road, marked by a \"Bicycle path\" sign; also usable by skateboard/scooter/rollerblade riders, wheelchair/mobility scooter users, and postal motorcyclists. Other vehicles may cross only when entering/leaving a road or where signed, giving way to everyone else on it."
+        ],
+        "tables": [
+          {
+            "title": "You may drive in a bicycle lane to",
+            "headers": ["Reason"],
+            "rows": [
+              ["Avoid an obstruction"],
+              ["Enter/leave the road (up to 50m)"],
+              ["Overtake a vehicle turning right or U-turning"],
+              ["Enter a lane from the roadside"]
+            ]
+          }
         ]
       },
       {
@@ -1286,10 +1373,19 @@ window.HANDBOOK = [
           { "src": "images-handbook/t-way-lane-sign.jpg", "caption": "'T-way lane' sign, for authorised buses and service vehicles only." }
         ],
         "bullets": [
-          "Usable by buses, taxis (not rideshare), HC-plated hire cars, special-purpose emergency-response vehicles, bicycles and motorcycles.",
-          "No stopping in a bus lane except buses at a stop, or taxis/chauffeured hire cars picking up or dropping off passengers.",
-          "Other vehicles may enter to avoid an obstruction, if signed, or for up to 100m to enter/leave the road, overtake a right-turner or U-turner, or enter from the roadside.",
-          "\"Bus only\"/\"Buses only\" lanes are for buses alone. T-way lanes are for authorised buses and service vehicles only — never drive in one."
+          "No stopping in a bus lane except buses at a stop, or taxis/chauffeured hire cars picking up or dropping off passengers."
+        ],
+        "tables": [
+          {
+            "title": "Bus lane access",
+            "headers": ["Who", "Rule"],
+            "rows": [
+              ["Buses, taxis (not rideshare), HC-plated hire cars, emergency/special-purpose vehicles, bicycles, motorcycles", "May use it anytime"],
+              ["Other vehicles", "May enter to avoid an obstruction, if signed, or for up to 100m to enter/leave the road, overtake a right-turner/U-turner, or enter from the roadside"],
+              ["\"Bus only\"/\"Buses only\" lane", "Buses only"],
+              ["T-way lane", "Authorised buses and service vehicles only — never drive in one"]
+            ]
+          }
         ]
       },
       {
@@ -1300,8 +1396,17 @@ window.HANDBOOK = [
           { "src": "images-handbook/tram-lane-sign.jpg", "caption": "'Tram lane' sign." }
         ],
         "bullets": [
-          "Tramways: only trams, tram recovery vehicles, some buses and special-purpose vehicles — marked by a \"Tramway\" sign and double continuous yellow lines, or a physical divider. Others may enter only to avoid an obstruction, and only if it won't put them in the path of an approaching tram or bus.",
-          "Tram lanes: only trams, tram recovery vehicles and some buses — others may enter to avoid an obstruction, if signed, or for up to 50m to enter/leave the road, overtake a right-turner or U-turner, or enter from the roadside. Never move into the path of a moving tram."
+          "Never move into the path of a moving tram."
+        ],
+        "tables": [
+          {
+            "title": "Tramway vs tram lane",
+            "headers": ["", "Who can use it", "Others may enter to"],
+            "rows": [
+              ["Tramway (marked by \"Tramway\" sign + double continuous yellow lines, or a physical divider)", "Trams, tram recovery vehicles, some buses, special-purpose vehicles", "Only avoid an obstruction — and only if it won't block an approaching tram/bus"],
+              ["Tram lane", "Trams, tram recovery vehicles, some buses", "Avoid an obstruction, if signed, or ≤50m to enter/leave the road, overtake a right-turner/U-turner, or enter from the roadside"]
+            ]
+          }
         ]
       },
       {
@@ -1311,11 +1416,19 @@ window.HANDBOOK = [
           { "src": "images-handbook/truck-lane-sign.jpg", "caption": "'Truck lane' sign." },
           { "src": "images-handbook/trucks-use-left-lane-sign.jpg", "caption": "'Trucks must use left lane' sign." }
         ],
-        "bullets": [
-          "For vehicles over 4.5 tonnes GVM, plus bicycles, special-purpose vehicles, and Transport for NSW survey vehicles.",
-          "Other vehicles may enter to avoid an obstruction, if signed, or for up to 100m to enter/leave the road, overtake a right-turner or U-turner, or enter from the roadside.",
-          "\"Trucks must use left lane\" (or \"Buses\"/\"Trucks & buses\") forces trucks into the left lane until told otherwise — any vehicle may still use that lane."
-        ]
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Truck lane access",
+            "headers": ["Who", "Rule"],
+            "rows": [
+              ["Vehicles over 4.5t GVM, bicycles, special-purpose vehicles, Transport for NSW survey vehicles", "May use it"],
+              ["Other vehicles", "May enter to avoid an obstruction, if signed, or for up to 100m to enter/leave the road, overtake a right-turner/U-turner, or enter from the roadside"],
+              ["\"Trucks must use left lane\" (or \"Buses\"/\"Trucks & buses\") sign", "Forces trucks into the left lane until told otherwise — any vehicle may still use that lane"]
+            ]
+          }
+        ],
+        "abbr": [["GVM", "Gross Vehicle Mass"]]
       },
       {
         "title": "Transit lanes",
@@ -1324,10 +1437,17 @@ window.HANDBOOK = [
           { "src": "images-handbook/t2-transit-lane-sign.jpg", "caption": "'T2 transit lane' sign — only vehicles with two or more people during the specified day or time." },
           { "src": "images-handbook/t3-transit-lane-sign.jpg", "caption": "'T3 transit lane' sign — only vehicles with three or more people during the specified day or time." }
         ],
-        "bullets": [
-          "Usable regardless of occupancy by public buses/minibuses, taxis, HC-plated hire cars, motorcycles, bicycles, and emergency/special-purpose/breakdown vehicles.",
-          "Other vehicles may only use it during the signed times/days if they carry the minimum occupancy shown (2+ or 3+ people including the driver).",
-          "Under-occupied vehicles may still enter for up to 100m to enter/leave the road, overtake a right-turner or U-turner, or enter from the roadside — or at any time to avoid an obstruction or where signed."
+        "bullets": [],
+        "tables": [
+          {
+            "title": "Transit lane access",
+            "headers": ["Who", "Rule"],
+            "rows": [
+              ["Public buses/minibuses, taxis, HC-plated hire cars, motorcycles, bicycles, emergency/special-purpose/breakdown vehicles", "May use it regardless of occupancy"],
+              ["Other vehicles meeting the signed occupancy (2+ or 3+ people incl. driver)", "May use it during the signed times/days"],
+              ["Under-occupied vehicles", "May still enter for ≤100m to enter/leave the road, overtake a right-turner/U-turner, or enter from the roadside — or anytime to avoid an obstruction or where signed"]
+            ]
+          }
         ]
       },
       {
