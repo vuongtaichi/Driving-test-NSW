@@ -613,39 +613,95 @@ window.HANDBOOK = [
         "title": "Pedestrians",
         "page": 71,
         "bullets": [
-          "Pedestrians include people walking/running, pushing a bicycle, using a wheelchair or mobility scooter/motorised wheelchair, or on a skateboard, foot scooter or rollerblades — they're vulnerable because they have no protection if a vehicle collides with them.",
-          "Must give way to pedestrians: at pedestrian and children's crossings, when turning at intersections, when doing a U-turn, in shared zones, and when entering or leaving a driveway.",
-          "Always slow down and be ready to stop for any pedestrian in danger, even if they don't have right of way or are jaywalking.",
-          "Extra care for vulnerable groups: children (unpredictable, hard for them to judge speed/distance — watch near play areas, schools and school buses); older people (may be slower and not see you coming — slow down, give extra time); people affected by alcohol or drugs (common in crashes — take care near clubs, hotels, restaurants, festivals and events).",
-          "Slow down and take extra care near shopping centres and transport hubs (inattentive pedestrians, people between parked cars or opening doors) and in poor visibility (over half of pedestrian deaths happen in darkness or dusk — rain, fog, night, dawn, dusk all count).",
-          "Take extra care when reversing, especially in/out of a driveway — children are especially hard to see; only reverse as far as necessary.",
-          "Without a footpath or nature strip, pedestrians may walk on the road facing oncoming traffic, keeping to the far side and not more than 2 abreast unless overtaking — the same applies to mobility scooter/motorised wheelchair users.",
-          "Skateboards, foot scooters and rollerblades can use roads with a 50km/h limit and no dividing line, during daylight only; on footpaths they keep left and give way to pedestrians, and use the bicycle section (out of bikes' way) on shared paths. Motorised versions are private-land only.",
-          "Mobility scooters and motorised wheelchairs follow pedestrian rules and must not exceed 10km/h to share footpaths safely — take particular care for them entering/leaving a driveway."
+          "Pedestrians include people walking/running, pushing a bicycle, using a wheelchair/mobility scooter, or on a skateboard, foot scooter or rollerblades — vulnerable, with no protection in a collision.",
+          "Always slow down and be ready to stop for any pedestrian in danger, even without right of way or if jaywalking.",
+          "Slow down near shopping centres/transport hubs and in poor visibility — over half of pedestrian deaths happen in darkness or dusk.",
+          "Extra care when reversing, especially in/out of a driveway — children are hard to see; only reverse as far as necessary."
+        ],
+        "tables": [
+          {
+            "title": "Must give way to pedestrians",
+            "headers": ["Situation"],
+            "rows": [
+              ["At pedestrian and children's crossings"],
+              ["Turning at intersections"],
+              ["Doing a U-turn"],
+              ["In shared zones"],
+              ["Entering or leaving a driveway"]
+            ]
+          },
+          {
+            "title": "Extra care for vulnerable groups",
+            "headers": ["Group", "Why"],
+            "rows": [
+              ["Children", "Unpredictable, hard for them to judge speed/distance — watch near play areas, schools, school buses"],
+              ["Older people", "May be slower and not see you coming — slow down, give extra time"],
+              ["People affected by alcohol/drugs", "Common in crashes — take care near clubs, hotels, restaurants, festivals"]
+            ]
+          },
+          {
+            "title": "Without a footpath, or on wheels",
+            "headers": ["User", "Rule"],
+            "rows": [
+              ["Pedestrian, no footpath/nature strip", "Walk facing oncoming traffic, far side, ≤2 abreast unless overtaking"],
+              ["Skateboard/foot scooter/rollerblades", "Roads ≤50km/h with no dividing line, daylight only; footpath: keep left, give way; shared path: use the bicycle section"],
+              ["Mobility scooter/motorised wheelchair", "Follows pedestrian rules; must not exceed 10km/h"]
+            ]
+          }
         ]
       },
       {
         "title": "Bicycle riders",
         "page": 75,
         "bullets": [
-          "Bicycle riders mostly follow the same road rules as drivers, plus extra rules (e.g. an approved helmet) — they're vulnerable and unprotected in a crash, so it's your responsibility to help keep them safe.",
-          "Keep a lookout: bikes are harder to see, especially at dawn, dusk and night, and often ride at the far left of the lane — check your blind spots before turning left or changing lanes. Never underestimate their speed; in slow traffic they can match or beat a car.",
-          "Riders may legally overtake on the left of vehicles, ride left of the edge line, use bus/tram/transit/truck lanes (but not bus-only lanes or tramways), and use motorways/freeways unless signed otherwise.",
-          "They must use a bike lane where one exists; otherwise they can ride on the road, including in the middle of a lane (e.g. to avoid rough edges or gravel) — be ready to slow and give them room. They may ride two abreast within 1.5m of each other.",
-          "Overtaking distance: at least 1m if the speed limit is 60km/h or less, 1.5m if it's more. You may cross single or double white lines to pass a bike if you have a clear view of oncoming traffic and it's safe.",
-          "At intersections and roundabouts, watch for riders before turning — they may do a hook turn (using the left lane) to turn right unless signed otherwise, and must give way to vehicles leaving the intersection. Vehicles must not enter a bicycle storage area at a red light.",
-          "Always check your mirrors before opening a door — you must not open it into a bicycle's path."
+          "Bicycle riders mostly follow the same road rules as drivers, plus extra rules (e.g. an approved helmet) — vulnerable and unprotected, so it's your responsibility to help keep them safe.",
+          "Keep a lookout: harder to see at dawn/dusk/night, often ride at the far left — check blind spots before turning left/changing lanes. Never underestimate their speed; in slow traffic they can match or beat a car.",
+          "Must use a bike lane where one exists; otherwise may ride on the road, including mid-lane (e.g. to avoid rough edges/gravel) — be ready to slow and give room.",
+          "At intersections/roundabouts, watch for riders before turning — they may do a hook turn (using the left lane) to turn right unless signed otherwise, and must give way to vehicles leaving the intersection. Never enter a bicycle storage area at a red light.",
+          "Always check mirrors before opening a door — never open it into a bicycle's path."
+        ],
+        "tables": [
+          {
+            "title": "What cyclists may legally do",
+            "headers": ["Allowed"],
+            "rows": [
+              ["Overtake on the left of vehicles"],
+              ["Ride left of the edge line"],
+              ["Use bus/tram/transit/truck lanes (not bus-only lanes or tramways)"],
+              ["Use motorways/freeways unless signed otherwise"],
+              ["Ride two abreast within 1.5m of each other"]
+            ]
+          },
+          {
+            "title": "Overtaking a bicycle — minimum distance",
+            "headers": ["Speed limit", "Minimum distance"],
+            "rows": [
+              ["60km/h or less", "1m"],
+              ["More than 60km/h", "1.5m"]
+            ]
+          }
         ]
       },
       {
         "title": "Motorcycle riders",
         "page": 77,
         "bullets": [
-          "Motorcycle riders mostly follow the same rules as other drivers, plus extra rules (e.g. an approved helmet) — they're about 25 times more likely to be killed per kilometre travelled, being harder to see, less stable and unprotected by a car body. Most at risk on busy city roads (intersections, lane changes) and on country roads (bends).",
-          "Keep a lookout: motorcycles are smaller and can hide behind a truck or car — check mirrors and blind spots (shoulder check) especially before merging, changing lanes or turning at intersections.",
-          "Lane filtering (riding slowly between same-direction traffic) is only legal for a full motorcycle licence holder, under 30km/h, in stopped or slow traffic, when it's safe — never next to kerbs/parked cars or in school zones.",
-          "Overtake a motorcycle with as much space as you'd give a car, and never drive alongside one in the same lane — they're entitled to a full-width lane. They may ride two abreast within 1.5m of each other.",
-          "Keep a safe distance — riders may need to dodge debris, oil or poor road surface, and may need extra time to stop."
+          "Motorcycle riders mostly follow the same rules as other drivers, plus extra rules (e.g. an approved helmet) — ~25x more likely to be killed per km travelled, being harder to see, less stable and unprotected. Most at risk at busy city intersections/lane changes and on country-road bends.",
+          "Keep a lookout: motorcycles can hide behind a truck or car — check mirrors and blind spots especially before merging, changing lanes or turning.",
+          "Overtake with as much space as you'd give a car, and never drive alongside one in the same lane — they're entitled to a full-width lane. May ride two abreast within 1.5m.",
+          "Keep a safe distance — riders may need to dodge debris/oil/poor surface, and need extra time to stop."
+        ],
+        "tables": [
+          {
+            "title": "Lane filtering — only legal when",
+            "headers": ["Condition"],
+            "rows": [
+              ["Rider holds a full motorcycle licence"],
+              ["Under 30km/h"],
+              ["Traffic is stopped or slow-moving"],
+              ["Never next to kerbs/parked cars, or in school zones"]
+            ]
+          }
         ]
       },
       {
@@ -653,8 +709,18 @@ window.HANDBOOK = [
         "page": 79,
         "bullets": [
           "Horse riders and horse-drawn vehicles have the same rights and responsibilities as other road users, plus some special rules.",
-          "Can ride on any road unless signed otherwise, two abreast within 1.5m of each other — more than two abreast only when overtaking or droving stock.",
-          "Horses can be unpredictable: slow down and leave plenty of room passing a ridden/led horse or horse-drawn vehicle, stop if the rider is struggling, and never sound your horn or rev your engine near a horse."
+          "Can ride on any road unless signed otherwise, two abreast within 1.5m — more than two only when overtaking or droving stock."
+        ],
+        "tables": [
+          {
+            "title": "Passing a horse or horse-drawn vehicle",
+            "headers": ["Rule"],
+            "rows": [
+              ["Slow down and leave plenty of room"],
+              ["Stop if the rider is struggling"],
+              ["Never sound your horn or rev your engine near a horse"]
+            ]
+          }
         ]
       },
       {
@@ -665,12 +731,20 @@ window.HANDBOOK = [
           { "src": "images-handbook/truck-turning-left.jpg", "caption": "A long vehicle can use more than one lane to turn left." }
         ],
         "bullets": [
-          "Heavy vehicles cause more serious crashes because of their size, weight and length — everyone needs to take extra care around them.",
-          "They can't stop quickly: don't cut in front of one, and give it room to stop; don't pull in front of a bus or truck that's approaching a light turning red.",
-          "They have large blind spots at the front, sides and rear — the driver may not see your vehicle, or pedestrians, bikes or motorcycles nearby, so take care driving next to or behind them.",
-          "They may need more than one lane to turn — give them room and never put your vehicle in the path of a turning heavy vehicle (crush risk); wait behind until the turn is complete.",
-          "Must not overtake a bus showing \"40 when lights flash\" at more than 40km/h while its lights are flashing (children boarding or alighting).",
-          "Oversize vehicles move slowly and can take more than one lane, sometimes escorted by pilot vehicles (yellow flashing lights, \"Oversize load ahead\" sign) or police. Approaching one: slow down, keep left of the centre line, and be ready to move further left if needed."
+          "Heavy vehicles cause more serious crashes because of their size, weight and length — everyone needs to take extra care around them."
+        ],
+        "tables": [
+          {
+            "title": "Why take extra care around heavy vehicles",
+            "headers": ["Hazard", "What to do"],
+            "rows": [
+              ["Can't stop quickly", "Don't cut in front; give it room to stop; don't pull in front of one approaching a red light"],
+              ["Large blind spots (front/sides/rear)", "Driver may not see your vehicle, pedestrians, bikes or motorcycles — take care nearby"],
+              ["May need more than one lane to turn", "Give room; never enter the path of a turning heavy vehicle (crush risk); wait until the turn is complete"],
+              ["Bus showing \"40 when lights flash\"", "Must not overtake at more than 40km/h while flashing"],
+              ["Oversize vehicles (may have pilot vehicles/police escort)", "Slow down, keep left of the centre line, be ready to move further left"]
+            ]
+          }
         ]
       }
     ]
@@ -688,13 +762,23 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "A \"Stop\" sign is a regulatory sign and must be obeyed by law.",
-          "At a Stop sign and line: come to a complete stop before the line (as close as possible), and stay stopped until it's safe to go.",
-          "At a pedestrian crossing with a Stop sign/line: stop and give way to any pedestrian entering or crossing. At a railway level crossing with a Stop sign/line: stop and give way to a train or tram on, approaching or entering the crossing.",
-          "A Stop sign with no line at an intersection: stop before, and as close as possible to, the intersection; elsewhere, stop before/as close as possible to the sign itself.",
-          "At other places with a Stop sign or line: stop and give way to any vehicle or pedestrian at or near it, including when entering/leaving a road, turning left or right, or making a U-turn.",
-          "Must stop at a Stop sign held by a traffic controller (e.g. roadworks, children's crossing) and stay stopped until they lower it or signal you to go.",
-          "Some traffic-light intersections have a Stop sign with three black dots — if the lights are off or flashing yellow, treat it like an ordinary Stop sign.",
           "A \"Stop sign ahead\" sign warns you to slow down and prepare to stop."
+        ],
+        "tables": [
+          {
+            "title": "Where a Stop sign/line applies",
+            "headers": ["Situation", "Rule"],
+            "rows": [
+              ["Stop sign and line", "Stop completely before the line (as close as possible), stay stopped until safe to go"],
+              ["Pedestrian crossing with Stop sign/line", "Stop, give way to any pedestrian entering or crossing"],
+              ["Railway crossing with Stop sign/line", "Stop, give way to a train/tram on, approaching or entering"],
+              ["Stop sign, no line, at an intersection", "Stop before/as close as possible to the intersection"],
+              ["Stop sign, no line, elsewhere", "Stop before/as close as possible to the sign"],
+              ["Other places with a Stop sign/line", "Give way to any vehicle/pedestrian at or near it (entering/leaving a road, turning, U-turn)"],
+              ["Stop sign held by a traffic controller", "Stop and stay stopped until lowered or waved on"],
+              ["Stop sign with 3 black dots at traffic lights", "If lights are off/flashing yellow, treat as an ordinary Stop sign"]
+            ]
+          }
         ]
       },
       {
@@ -705,9 +789,18 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "A \"Give way\" sign is a regulatory sign and must be obeyed by law.",
-          "At a Give way sign or line (single broken line): slow down and prepare to stop.",
-          "Specific give-way rules apply at intersections, narrow bridges/roads and pedestrian crossings; elsewhere, give way to any vehicle or pedestrian at or near the sign or line.",
           "A \"Give way sign ahead\" sign warns you to slow down and prepare to stop."
+        ],
+        "tables": [
+          {
+            "title": "Give way sign/line rules",
+            "headers": ["Situation", "Rule"],
+            "rows": [
+              ["At a Give way sign or line (single broken line)", "Slow down and prepare to stop"],
+              ["Intersections, narrow bridges/roads, pedestrian crossings", "Specific give-way rules apply (see those sections)"],
+              ["Elsewhere", "Give way to any vehicle or pedestrian at or near it"]
+            ]
+          }
         ]
       },
       {
@@ -725,13 +818,53 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "Must always obey traffic lights, even with no other traffic around or late at night — the same rules apply to temporary lights at roadworks.",
-          "Red = stop as close as possible behind the Stop line. Yellow = stop, unless you can't stop safely before the line (never speed up to beat it, never stop suddenly). Green = go if it's safe.",
-          "Turn arrows: red arrow = must not turn (stop until it turns green or disappears); green arrow = you may turn that way (a red light alongside means stop if going any other direction); yellow arrow = stop unless you can't safely; flashing yellow arrow = you may turn but must give way to pedestrians crossing the road you're turning into.",
           "A \"turn left on red\" sign lets you stop at the red, then turn left when clear, giving way to traffic approaching from the right.",
-          "Turning right on a green light with no arrow: wait for a gap in oncoming traffic; if the light changes while you're in the intersection, complete the turn as soon as it's safe. No U-turns at traffic lights unless a \"U-turn permitted\" sign is shown.",
-          "Special signals: white \"B\" = only buses may go (lights up briefly before the main lights change; red/yellow \"B\" = buses stop); white \"T\" = only trams may go (red/yellow \"T\" = trams stop or prepare to stop); bicycle signals (green = riders go, red = riders stop) — vehicles must never stop in a bicycle storage area.",
-          "Pedestrian signals: red = don't start crossing; flashing red = don't start, but finish crossing; green = can start, walk any direction; countdown timers show seconds left. When turning, give way to any pedestrian still crossing even on a flashing red, and always stop for pedestrians at a pelican crossing.",
-          "Red-light speed cameras catch both red-light running (crossing the line or entering after red) and speeding at any light phase."
+          "Turning right on a green light with no arrow: wait for a gap in oncoming traffic; if the light changes mid-turn, complete it as soon as it's safe. No U-turns at traffic lights unless a \"U-turn permitted\" sign is shown.",
+          "When turning, give way to any pedestrian still crossing even on a flashing red, and always stop for pedestrians at a pelican crossing.",
+          "Red-light speed cameras catch both red-light running and speeding at any light phase."
+        ],
+        "tables": [
+          {
+            "title": "Light colours",
+            "headers": ["Colour", "Meaning"],
+            "rows": [
+              ["Red", "Stop as close as possible behind the Stop line"],
+              ["Yellow", "Stop, unless you can't stop safely before the line (never speed up to beat it)"],
+              ["Green", "Go if it's safe"]
+            ]
+          },
+          {
+            "title": "Turn arrows",
+            "headers": ["Arrow", "Meaning"],
+            "rows": [
+              ["Red arrow", "Must not turn — stop until it turns green or disappears"],
+              ["Green arrow", "May turn that way (a red light alongside means stop for any other direction)"],
+              ["Yellow arrow", "Stop unless you can't safely"],
+              ["Flashing yellow arrow", "May turn but must give way to pedestrians crossing the road you're turning into"]
+            ]
+          },
+          {
+            "title": "Special signals",
+            "headers": ["Signal", "Meaning"],
+            "rows": [
+              ["White \"B\"", "Only buses may go (lights up briefly before the main lights change)"],
+              ["Red/yellow \"B\"", "Buses stop"],
+              ["White \"T\"", "Only trams may go"],
+              ["Red/yellow \"T\"", "Trams stop or prepare to stop"],
+              ["Bicycle signal — green", "Riders go"],
+              ["Bicycle signal — red", "Riders stop; vehicles must never stop in a bicycle storage area"]
+            ]
+          },
+          {
+            "title": "Pedestrian signals",
+            "headers": ["Signal", "Meaning"],
+            "rows": [
+              ["Red", "Don't start crossing"],
+              ["Flashing red", "Don't start, but finish crossing"],
+              ["Green", "Can start, walk any direction"],
+              ["Countdown timer", "Shows seconds left"]
+            ]
+          }
         ]
       },
       {
@@ -748,14 +881,22 @@ window.HANDBOOK = [
         "bullets": [
           "Traffic moves one way around a central island; you can turn left or right, go straight ahead, or make a full U-turn.",
           "On approach, slow or stop to give way to all vehicles already on the roundabout — those on your right, and those who've entered from your left or from directly opposite you.",
-          "Indicate to show your intention, keep indicating through the turn, indicate left on exit if practical, and stop indicating once clear. Follow road arrows/signs on multi-lane roundabouts.",
-          "Turning left: indicate left, use the left lane (unless arrows allow otherwise), give way to vehicles already on the roundabout, keep indicating left through the turn.",
-          "Going straight ahead: use any lane not marked for left/right turns only; give way to vehicles already on the roundabout; indicate left on exit if practical.",
-          "Turning right or making a full U-turn: indicate right, use the right lane (unless arrows allow otherwise), give way to vehicles already on it, keep indicating right through the turn, then indicate left on exit.",
-          "Changing lanes inside a roundabout: plan ahead to avoid it; if you must, indicate and give way to vehicles in the lane you're moving into — only where there's a broken line, never across a continuous one.",
-          "Exiting: indicate left if practical (may not be practical on a small single-lane roundabout going straight through), and stop indicating once you've exited.",
+          "Follow road arrows/signs on multi-lane roundabouts.",
           "Pedestrians: you don't have to give way when turning unless there's a marked crossing, but must always avoid a collision.",
-          "Bicycles are entitled to a full lane and may use the left lane to turn right on a multi-lane roundabout (must give way to vehicles leaving) — watch for riders stopped in the left lane giving way to exiting traffic."
+          "Bicycles are entitled to a full lane and may use the left lane to turn right on a multi-lane roundabout (must give way to vehicles leaving) — watch for riders stopped in the left lane."
+        ],
+        "tables": [
+          {
+            "title": "Roundabout manoeuvres",
+            "headers": ["Manoeuvre", "What to do"],
+            "rows": [
+              ["Turning left", "Indicate left, use the left lane (unless arrows allow otherwise), give way to vehicles already on it, keep indicating left through the turn"],
+              ["Going straight ahead", "Use any lane not marked left/right only; give way to vehicles already on it; indicate left on exit if practical"],
+              ["Turning right / full U-turn", "Indicate right, use the right lane, give way to vehicles already on it, keep indicating right through the turn, then indicate left on exit"],
+              ["Changing lanes inside a roundabout", "Plan ahead to avoid it; if needed, indicate and give way — only where there's a broken line, never a continuous one"],
+              ["Exiting", "Indicate left if practical, stop indicating once exited"]
+            ]
+          }
         ]
       },
       {
@@ -776,13 +917,21 @@ window.HANDBOOK = [
         "bullets": [
           "About half of all NSW crashes happen at intersections — approach at a speed that lets you stop and give way. Over half of motorcycle-vehicle crashes happen there too.",
           "Rules depend on the intersection type: Stop signs, Give way signs, no signs or lines, traffic lights, or a roundabout. Always follow police or traffic controller hand signals over the signs.",
-          "At a Stop sign/line: give way to all vehicles driving in, entering or approaching, except an oncoming vehicle also at a Stop sign/line turning right, an oncoming vehicle at a Give way sign/line turning right, a vehicle turning left via a slip lane, or a vehicle doing a U-turn — plus pedestrians crossing the road you're turning into.",
-          "At a Give way sign/line: the same give-way logic and exceptions apply as at a Stop sign, plus pedestrians when turning.",
-          "No signs, lights or roundabout: give way to any vehicle whose path you cross when turning, and to pedestrians crossing the road you're turning into; don't force a dangerous situation if another driver fails to give way.",
-          "Turning right with no signs: give way to a vehicle approaching from the right, an oncoming vehicle going straight or turning left, and pedestrians. Two vehicles both turning right from opposite sides may turn simultaneously and pass in front of each other.",
-          "Turning left with no signs: give way to vehicles on your right and to pedestrians crossing the road you're turning into.",
-          "T-intersections: traffic on the road that ends must give way to all traffic on the continuing road (unless signed otherwise) — including when turning right, giving way to oncoming through-traffic or left-turners on the continuing road, even where that road curves.",
           "Keeping intersections clear: don't enter unless there's room for your vehicle on the far side (applies to all intersections, level crossings and pedestrian crossings); never stop in a \"Keep clear\" marked area."
+        ],
+        "tables": [
+          {
+            "title": "Give-way rules by intersection type",
+            "headers": ["Intersection type", "Give way to"],
+            "rows": [
+              ["Stop sign/line", "All vehicles driving in/entering/approaching, except an oncoming vehicle at a Stop/Give way sign turning right, a vehicle turning left via a slip lane, or doing a U-turn — plus pedestrians crossing the road you're turning into"],
+              ["Give way sign/line", "Same logic and exceptions as a Stop sign, plus pedestrians when turning"],
+              ["No signs, lights or roundabout", "Any vehicle whose path you cross when turning, and pedestrians crossing the road you're turning into"],
+              ["No signs — turning right", "A vehicle from the right, an oncoming vehicle going straight/turning left, and pedestrians (two vehicles turning right from opposite sides may pass each other simultaneously)"],
+              ["No signs — turning left", "Vehicles on your right, and pedestrians crossing the road you're turning into"],
+              ["T-intersection", "Traffic on the ending road gives way to all traffic on the continuing road (unless signed otherwise), including when turning right"]
+            ]
+          }
         ]
       },
       {
@@ -804,13 +953,26 @@ window.HANDBOOK = [
           { "src": "images-handbook/hook-turn-diagram.jpg", "caption": "A bicycle hook turn: wait at the far left (A), keep left while turning (B), turn when it's safe (C)." }
         ],
         "bullets": [
-          "Always check both directions before turning and give way to pedestrians crossing the road you're turning into; obey turn-restriction regulatory signs.",
-          "Plan turns early to be in the right lane in time to indicate; you may drive on, across or outside edge lines for up to 100m when turning; follow lane lines, or stay in the same lane if there are none.",
-          "Turning left: indicate left, move close to the left side, keep to the left side of the road you're entering, use a slip lane if there is one; on a multi-lane road, turn only from the left lane or one arrowed left. \"No left turn\" = don't; \"Left lane must turn left\" / \"Left only\" = you must, from that lane.",
-          "Turning right: indicate right, follow lane markings/arrows, move close to the centre dividing line on your original road, stay in the same relative lane as you cross; on a multi-lane road, turn only from the right lane or one arrowed right. You may cross any type of dividing line to enter/leave a road, driveway or car park; keep your wheels straight beforehand so you don't block oncoming traffic. \"No right turn\" = no right turn or U-turn; \"Right lane must turn right\" / \"Right only\" = you must, from that lane.",
-          "Long or oversize vehicles with a \"Do not overtake turning vehicle\" sign may use more than one lane to turn — stay behind, never alongside, until they've completed the turn.",
-          "\"No entry\" = don't turn into or enter that road; \"No bicycles\" = riders must not go past that point.",
-          "Bicycles may hook-turn right (from the far left, staying left through the intersection, clear of crossings, giving way to traffic from their right, waiting at the light if there is one) — drivers must take care to avoid them; a hook turn needs no hand signal (an ordinary right turn does)."
+          "Always check both directions before turning and give way to pedestrians crossing the road you're turning into.",
+          "Plan turns early to be in the right lane in time to indicate; may drive on/across/outside edge lines for up to 100m when turning.",
+          "Turning left: indicate left, move close to the left side, keep left in the road you're entering, use a slip lane if there is one.",
+          "Turning right: indicate right, follow lane markings/arrows, move close to the centre dividing line, stay in the same relative lane crossing; may cross any dividing line to enter/leave a road, driveway or car park; keep wheels straight beforehand so you don't block oncoming traffic.",
+          "Long/oversize vehicles with a \"Do not overtake turning vehicle\" sign may use more than one lane to turn — stay behind, never alongside, until complete.",
+          "Bicycles may hook-turn right (from the far left, staying left through the intersection, giving way to traffic from their right) — needs no hand signal (an ordinary right turn does)."
+        ],
+        "tables": [
+          {
+            "title": "Turn-restriction signs",
+            "headers": ["Sign", "Meaning"],
+            "rows": [
+              ["No left turn", "Don't turn left"],
+              ["Left lane must turn left / Left only", "Must turn left, from that lane"],
+              ["No right turn", "No right turn or U-turn"],
+              ["Right lane must turn right / Right only", "Must turn right, from that lane"],
+              ["No entry", "Don't turn into or enter that road"],
+              ["No bicycles", "Riders must not go past that point"]
+            ]
+          }
         ]
       },
       {
@@ -821,10 +983,21 @@ window.HANDBOOK = [
           { "src": "images-handbook/three-point-turn.jpg", "caption": "A three-point turn usually involves at least three turns." }
         ],
         "bullets": [
-          "Take extra care: indicate and check mirrors/blind spots for traffic from every direction before turning, then check again, indicate, and pull out only when clear.",
-          "Must not U-turn: at a no-signal intersection with a \"No U-turn\" sign; at a signalled intersection unless a \"U-turn permitted\" sign is shown; across a single or double continuous dividing line, or where the continuous line of a double line is closer to you; on motorways or freeways.",
-          "When U-turning: have a clear view of approaching traffic, start from the marked lane nearest the centre (or left of centre if unmarked), turn without obstructing traffic, give way to vehicles and pedestrians, and indicate before starting.",
+          "Take extra care: indicate and check mirrors/blind spots for traffic from every direction, check again, indicate, and pull out only when clear.",
+          "When U-turning: have a clear view of approaching traffic, start from the marked lane nearest the centre (or left of centre if unmarked), give way to vehicles and pedestrians, and indicate before starting.",
           "A three-point turn suits a road too narrow for a U-turn (typically 3 manoeuvres) — it takes longer, so on a busy road it's safer to drive around the block or use a roundabout instead."
+        ],
+        "tables": [
+          {
+            "title": "Must not U-turn",
+            "headers": ["Situation"],
+            "rows": [
+              ["No-signal intersection with a \"No U-turn\" sign"],
+              ["Signalled intersection, unless a \"U-turn permitted\" sign is shown"],
+              ["Across a single/double continuous dividing line (or the continuous side of a double line)"],
+              ["On motorways or freeways"]
+            ]
+          }
         ]
       },
       {
@@ -835,9 +1008,23 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "Indicating warns others you intend to move left or right — plan early so you're in the right lane with time to signal, and still check mirrors and blind spots.",
-          "Must indicate before: turning right or left, moving right or left, a U-turn or three-point turn, changing lanes (incl. overtaking), merging, pulling over to stop or park, pulling out from the roadside, turning at a roundabout, going straight at a T-intersection where the continuing road curves, and (if practical) leaving a roundabout.",
-          "Turn the indicator off after each manoeuvre; before pulling out from the roadside or a parking spot, indicate for at least 5 seconds first.",
-          "If your indicators aren't fitted, working or clearly visible (risking a Defect Notice), you must hand-signal instead — arm out with elbow bent for stopping, arm straight out for a right turn. Bicycle riders must hand-signal a right turn (but not for a hook turn)."
+          "Turn the indicator off after each manoeuvre; indicate for at least 5 seconds before pulling out from the roadside or a parking spot.",
+          "If indicators aren't fitted, working or clearly visible (risking a Defect Notice), hand-signal instead — arm out with elbow bent for stopping, arm straight out for a right turn. Bicycle riders must hand-signal a right turn (not for a hook turn)."
+        ],
+        "tables": [
+          {
+            "title": "Must indicate before",
+            "headers": ["Situation"],
+            "rows": [
+              ["Turning or moving right or left"],
+              ["A U-turn or three-point turn"],
+              ["Changing lanes (incl. overtaking) or merging"],
+              ["Pulling over to stop/park, or pulling out from the roadside"],
+              ["Turning at a roundabout"],
+              ["Going straight at a T-intersection where the continuing road curves"],
+              ["Leaving a roundabout (if practical)"]
+            ]
+          }
         ]
       },
       {
@@ -853,12 +1040,21 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "Must give way to pedestrians crossing at any pedestrian crossing; approach at a speed that lets you stop, and give extra time to children or elderly pedestrians.",
-          "Zebra crossings: white parallel stripes, sometimes a yellow \"legs\" sign; zig-zag approach lines improve visibility. At the crossing: give way to crossing pedestrians, don't overtake a vehicle stopped/stopping for them, and don't drive onto it if the far side is blocked. Still stop at a nearby Stop sign even if you've just stopped for the crossing.",
-          "Pelican crossings are pedestrian-triggered traffic lights, usually with the same sequence as ordinary lights; some flash yellow after red, letting you proceed if no pedestrians are crossing.",
-          "Children's crossings are part-time (usually school zone hours), marked by red-orange flags when operating — slow and stop before the stripes/Stop line and remain stopped until every pedestrian has cleared. No flags means it's not currently operating as one.",
-          "School Crossing Supervisors: stop when a supervisor shows a \"Stop – children crossing\" sign, and stay stopped until pedestrians have cleared and the sign is lowered.",
-          "High pedestrian activity areas (shopping strips, near schools/parks/pools) may have a lower limit and warning signs — slow down when you see them.",
-          "Pedestrian refuges (a median island for crossing in two stages) are signed — slow down and watch for pedestrians."
+          "Still stop at a nearby Stop sign even if you've just stopped for a crossing.",
+          "High pedestrian activity areas (shopping strips, near schools/parks/pools) may have a lower limit and warning signs — slow down when you see them."
+        ],
+        "tables": [
+          {
+            "title": "Types of pedestrian crossing",
+            "headers": ["Type", "Rule"],
+            "rows": [
+              ["Zebra crossing", "White parallel stripes, sometimes zig-zag approach lines. Give way to crossing pedestrians, don't overtake a vehicle stopped for them, don't drive onto it if the far side is blocked"],
+              ["Pelican crossing", "Pedestrian-triggered traffic lights; some flash yellow after red, letting you proceed if no pedestrians are crossing"],
+              ["Children's crossing", "Part-time (usually school zone hours), marked by red-orange flags when operating — slow, stop before the stripes/line, wait until everyone's clear"],
+              ["School Crossing Supervisor", "Stop when a \"Stop – children crossing\" sign is shown, stay stopped until cleared and the sign is lowered"],
+              ["Pedestrian refuge", "Median island for crossing in two stages — slow down and watch for pedestrians"]
+            ]
+          }
         ]
       },
       {
@@ -872,10 +1068,22 @@ window.HANDBOOK = [
         ],
         "bullets": [
           "Trains are fast, heavy and can't stop quickly — always slow down, look and listen approaching a crossing; never drive onto one while a train is approaching or if the far side is blocked.",
-          "Never block a crossing — know your vehicle's length and only cross if you can clear the tracks completely. Never stop or park on a crossing or within 20m of either side of it.",
-          "Must stop when: there's a Stop sign, a gate or boom gate is down, red lights are flashing, or a railway employee signals you to stop. At a Give way sign, slow, look both ways, and stop only if a train is coming.",
-          "Don't proceed until the lights stop flashing and gates are fully open — and if you stopped at a Stop or Give way sign, still wait until it's genuinely safe.",
-          "Crossings without signals (common in the country) need extra care: slow down, look and listen both ways on any warning sign, and after one train passes, check for a second before crossing."
+          "Never block a crossing — only cross if you can clear the tracks completely; never stop/park on a crossing or within 20m of either side.",
+          "Don't proceed until lights stop flashing and gates are fully open — and if you stopped at a Stop/Give way sign, still wait until it's genuinely safe.",
+          "Crossings without signals (common in the country) need extra care: slow down, look and listen both ways, and after one train passes, check for a second before crossing."
+        ],
+        "tables": [
+          {
+            "title": "Must stop when",
+            "headers": ["Situation"],
+            "rows": [
+              ["There's a Stop sign"],
+              ["A gate or boom gate is down"],
+              ["Red lights are flashing"],
+              ["A railway employee signals you to stop"],
+              ["Give way sign, and a train is coming (otherwise slow, look both ways)"]
+            ]
+          }
         ]
       },
       {
