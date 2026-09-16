@@ -1030,7 +1030,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/intersection-turnleft.jpg", "caption": "A car turning left (A) must give way to a car crossing straight through from the right (B)." },
           { "src": "images-handbook/t-intersection-1.jpg", "caption": "The car turning right from the road ending at a T-intersection (A) must give way to the car going straight ahead on the continuing road (B)." },
           { "src": "images-handbook/t-intersection-2.jpg", "caption": "Where the continuing road bends, the car leaving it (B) must give way to the oncoming car on the continuing road (A)." },
-          { "src": "images-handbook/t-intersection-sign.jpg", "caption": "A T-intersection warning sign." },
+          { "src": "images-handbook/t-intersection-sign.jpg", "caption": "A T-intersection warning sign.", "newRow": true },
           { "src": "images-handbook/keep-intersection-clear.jpg", "caption": "Keep the intersection clear at all times — don't enter unless there's room on the far side." }
         ],
         "figuresGrid": { "heightScale": 1.4 },
@@ -1064,19 +1064,22 @@ window.HANDBOOK = [
         "page": 106,
         "figures": [
           { "src": "images-handbook/turn-plan-ahead.jpg", "caption": "Turning right then immediately left: turn right from the left lane." },
-          { "src": "images-handbook/no-left-turn-signs.jpg", "caption": "'No left turn' signs (regulatory and electronic): you must not turn left." },
-          { "src": "images-handbook/left-lane-must-turn-left.jpg", "caption": "'Left lane must turn left' sign: if you're in the left lane, you must turn left." },
-          { "src": "images-handbook/left-only-sign.jpg", "caption": "'Left only' sign: you must turn left." },
           { "src": "images-handbook/turning-right-dividing-lines.jpg", "caption": "You can cross a single or double dividing line when entering or leaving a road." },
-          { "src": "images-handbook/no-right-turn-signs.jpg", "caption": "'No right turn' signs (regulatory and electronic): you must not turn right or make a U-turn." },
+          { "src": "images-handbook/long-vehicle-turning.jpg", "caption": "Stay behind heavy vehicles that are turning — don't put your vehicle in their path.", "newRow": true },
+          { "src": "images-handbook/hook-turn-diagram.jpg", "caption": "A bicycle hook turn: wait at the far left (A), keep left while turning (B), turn when it's safe (C)." },
+          { "src": "images-handbook/no-left-turn-regulatory.jpg", "caption": "'No left turn' sign (regulatory): you must not turn left.", "newRow": true },
+          { "src": "images-handbook/no-left-turn-electronic.jpg", "caption": "'No left turn' sign (electronic): you must not turn left." },
+          { "src": "images-handbook/no-right-turn-regulatory.jpg", "caption": "'No right turn' sign (regulatory): you must not turn right or make a U-turn." },
+          { "src": "images-handbook/no-right-turn-electronic.jpg", "caption": "'No right turn' sign (electronic): you must not turn right or make a U-turn." },
+          { "src": "images-handbook/left-lane-must-turn-left.jpg", "caption": "'Left lane must turn left' sign: if you're in the left lane, you must turn left." },
           { "src": "images-handbook/right-lane-must-turn-right.jpg", "caption": "'Right lane must turn right' sign: if you're in the right lane, you must turn right." },
+          { "src": "images-handbook/left-only-sign.jpg", "caption": "'Left only' sign: you must turn left." },
           { "src": "images-handbook/right-only-sign.jpg", "caption": "'Right only' sign: you must turn right." },
-          { "src": "images-handbook/long-vehicle-turning.jpg", "caption": "Stay behind heavy vehicles that are turning — don't put your vehicle in their path." },
           { "src": "images-handbook/no-entry-sign.jpg", "caption": "'No entry' sign: you must not drive beyond the sign." },
           { "src": "images-handbook/no-bicycles-sign.jpg", "caption": "'No bicycles' sign: bicycle riders must not ride beyond the sign." },
-          { "src": "images-handbook/right-turn-from-left-sign.jpg", "caption": "'Right turn from left only' sign, marking a bicycle hook-turn intersection." },
-          { "src": "images-handbook/hook-turn-diagram.jpg", "caption": "A bicycle hook turn: wait at the far left (A), keep left while turning (B), turn when it's safe (C)." }
+          { "src": "images-handbook/right-turn-from-left-sign.jpg", "caption": "'Right turn from left only' sign, marking a bicycle hook-turn intersection." }
         ],
+        "figuresGrid": { "cols": 4 },
         "bullets": [],
         "tables": [
           {
