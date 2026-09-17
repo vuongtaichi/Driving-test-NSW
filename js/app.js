@@ -325,6 +325,7 @@
       btn.setAttribute('aria-selected', active ? 'true' : 'false');
     });
     $('topbar-title').textContent = store.tab === 'handbook' ? 'Road User Handbook' : 'DKT Practice';
+    if (store.tab === 'handbook') centerActiveHandbookNavLink();
   }
 
   /* ---------------- handbook ---------------- */
@@ -615,6 +616,19 @@
   function toggleHandbookNav() {
     var open = $('hbnav').classList.toggle('is-open');
     $('hbnav-toggle').setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) centerActiveHandbookNavLink();
+  }
+
+  // Keeps the active subsection roughly centered in the sidebar's own
+  // scrollbar rather than wherever browsing happened to leave it, whenever
+  // the sidebar becomes visible (page load/reload, switching to the
+  // Handbook tab, opening the mobile chapters overlay).
+  function centerActiveHandbookNavLink() {
+    var nav = $('hbnav');
+    if (!nav.clientHeight) return;
+    var link = nav.querySelector('.hbnav__link.is-active');
+    if (!link) return;
+    nav.scrollTop = Math.max(0, link.offsetTop - nav.clientHeight / 2 + link.offsetHeight / 2);
   }
 
   // Resume on the last topic browsed, if any, otherwise the handbook's first topic.
