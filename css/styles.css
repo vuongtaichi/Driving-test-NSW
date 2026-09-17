@@ -341,8 +341,12 @@ main.app--wide { max-width: 1100px; --content-max: 1100px; }
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
 }
-.hbpage--prev .hbpage__tri { border-right: 12px solid var(--brand-ink); }
-.hbpage--next .hbpage__tri { border-left: 12px solid var(--brand-ink); }
+/* A triangle's visual centroid sits 1/3 of its width from the base, not at
+   its bounding-box center -- so centering the box (via place-items) still
+   looks off-balance. Nudging by border-width/6 pulls the centroid itself
+   onto the button's actual center. */
+.hbpage--prev .hbpage__tri { border-right: 12px solid var(--brand-ink); transform: translateX(-2px); }
+.hbpage--next .hbpage__tri { border-left: 12px solid var(--brand-ink); transform: translateX(2px); }
 @media (max-width: 760px) {
   .hbpage { bottom: 14px; width: 44px; height: 44px; }
   .hbpage--prev { left: 14px; }
