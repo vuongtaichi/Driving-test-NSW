@@ -618,7 +618,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/crash-avoidance-photo.jpg", "caption": "Keep a 3-second gap behind the vehicle in front of you." },
           { "src": "images-handbook/stopping-distance-chart.jpg", "caption": "The distance a car travels to stop at 40/60/80/100km/h, on a dry vs wet road." }
         ],
-        "figuresGrid": { "cols": 1, "heightScale": 1.6 },
+        "figuresGrid": { "cols": 1, "heightScale": 1.6, "mobileCols": 1 },
         "bullets": [],
         "tables": [
           {
