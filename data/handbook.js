@@ -291,7 +291,7 @@ window.HANDBOOK = [
           { "src": "images-handbook/speed-sign-regulatory.png", "caption": "Regulatory sign: white background, red circle — the legal limit." },
           { "src": "images-handbook/speed-sign-local-traffic-area.png", "caption": "Local traffic area — 40km/h residential streets." },
           { "src": "images-handbook/speed-sign-school-zone.png", "caption": "School zone sign — start flag, active times and speed limit.", "wide": true },
-          { "src": "images-handbook/speed-sign-variable.png", "caption": "Variable electronic signs — change with road conditions.", "wide": true },
+          { "src": "images-handbook/speed-sign-variable.png", "caption": "Variable electronic signs — change with road conditions.", "wide": true, "scale": 2 },
           { "src": "images-handbook/speed-sign-high-pedestrian.png", "caption": "High pedestrian activity area — 30 or 40km/h.", "wide": true, "scale": 1.3 },
           { "src": "images-handbook/speed-sign-shared-zone.png", "caption": "Shared zone (10km/h) and its end sign.", "wide": true },
           { "src": "images-handbook/speed-sign-school-zone-end.png", "caption": "End of school zone — limit reverts.", "wide": true }
